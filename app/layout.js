@@ -1,4 +1,5 @@
 import { Inter, Poppins } from 'next/font/google';
+import Script from 'next/script';
 import TawkProvider from '../components/TawkProvider';
 import './globals.css';
 import Navbar from '../components/Navbar';
@@ -149,6 +150,19 @@ export default function RootLayout({ children }) {
       className={`${inter.variable} ${poppins.variable} scroll-smooth`}
     >
       <head>
+        {/* Google Analytics Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-0VLH52T1S7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-0VLH52T1S7');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
