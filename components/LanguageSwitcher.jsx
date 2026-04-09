@@ -1,6 +1,5 @@
 'use client';
 import { useState, useEffect } from 'react';
-import translations from '../i18n/translations.json';
 
 const LANGUAGES = [
   { code: 'en', label: 'English', flag: '🇬🇧', dir: 'ltr' },
@@ -14,23 +13,71 @@ export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
+    // 1. Inject Google Translate script if not exists
+    if (!document.getElementById('google-translate-script')) {
+      const addScript = document.createElement('script');
+      addScript.id = 'google-translate-script';
+      addScript.setAttribute('src', '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit');
+      document.body.appendChild(addScript);
+
+      window.googleTranslateElementInit = () => {
+        new window.google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,es,ar,de',
+          autoDisplay: false
+        }, 'google_translate_element');
+      };
+    }
+
+    // 2. Recover saved language
     const saved = localStorage.getItem('rankston_locale') || 'en';
-    setCurrent(saved);
+    if (saved !== 'en') {
+      // Small delay to allow Google Script to load before triggering
+      setTimeout(() => triggerTranslate(saved), 1200);
+    } else {
+      setCurrent('en');
+    }
   }, []);
 
-  const handleSelect = (code) => {
+  const triggerTranslate = (code) => {
     setCurrent(code);
     localStorage.setItem('rankston_locale', code);
     setOpen(false);
-    // Apply RTL for Arabic
+    
     document.documentElement.dir = code === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.lang = code;
+
+    // Trigger Google Translate Programmatically
+    if (code === 'en') {
+      // Clear google translate cookies to restore original English text cleanly
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + window.location.hostname;
+      window.location.reload();
+      return;
+    }
+
+    const select = document.querySelector('.goog-te-combo');
+    if (select) {
+      select.value = code;
+      select.dispatchEvent(new Event('change'));
+    } else {
+      // If the user clicked before the Google script finished loading, retry
+      setTimeout(() => {
+        const retrySelect = document.querySelector('.goog-te-combo');
+        if (retrySelect) {
+          retrySelect.value = code;
+          retrySelect.dispatchEvent(new Event('change'));
+        }
+      }, 500);
+    }
   };
 
   const active = LANGUAGES.find((l) => l.code === current) || LANGUAGES[0];
 
   return (
     <div className="relative">
+      <div id="google_translate_element" className="hidden" />
+      
       <button
         onClick={() => setOpen((v) => !v)}
         className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-white transition-colors px-2 py-1.5 rounded-lg hover:bg-white/5"
@@ -54,7 +101,7 @@ export default function LanguageSwitcher() {
             {LANGUAGES.map((lang) => (
               <button
                 key={lang.code}
-                onClick={() => handleSelect(lang.code)}
+                onClick={() => triggerTranslate(lang.code)}
                 className={`w-full flex items-center gap-3 px-4 py-3 text-sm transition-colors hover:bg-white/5 text-left ${current === lang.code ? 'text-white' : 'text-gray-400'}`}
               >
                 <span className="text-base">{lang.flag}</span>
