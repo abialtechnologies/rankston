@@ -1,0 +1,577 @@
+{
+  "seo-services": {
+    "on-page-seo": {
+      "title": "On-Page SEO",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#10B981",
+      "badge": "On-Page Optimization",
+      "heroHeadline": "Every Page, Search-Engine Perfect.",
+      "heroSub": "On-page SEO is the foundation everything else is built on. We audit and optimize every signal Google reads — from your title tag to your internal link structure — so each page has the maximum possible chance of ranking.",
+      "whatWeDo": [
+        { "title": "Title Tag & Meta Description", "desc": "Keyword-optimized title tags under 60 chars and compelling meta descriptions that drive click-through from the SERP." },
+        { "title": "Header Tag Structure (H1–H6)", "desc": "Logical heading hierarchy that helps Google understand your content outline and boosts featured snippet eligibility." },
+        { "title": "Keyword Placement & Density", "desc": "Strategic keyword use throughout body copy, intro paragraph, and semantic LSI terms — never over-optimized." },
+        { "title": "URL Structure", "desc": "Clean, short, keyword-rich URLs with proper folder hierarchy and no unnecessary parameters." },
+        { "title": "Internal Linking", "desc": "Strategic internal links that distribute PageRank, improve crawlability, and keep users on-site longer." },
+        { "title": "Image Optimization", "desc": "Descriptive alt text, losslessly compressed images, proper file names, and lazy loading for performance." }
+      ],
+      "process": [
+        { "step": "01", "title": "Full Page Audit", "desc": "We audit every page on your site for on-page SEO gaps using Screaming Frog and manual review." },
+        { "step": "02", "title": "Keyword Mapping", "desc": "Each page gets a primary keyword and 3–5 supporting terms. No two pages compete for the same term." },
+        { "step": "03", "title": "Optimization Sprint", "desc": "We directly update or provide change requests for every element — title tags, meta, headers, copy, images, schema." },
+        { "step": "04", "title": "Monitor & Adjust", "desc": "Monthly ranking checks per page. We react to algorithm updates and refine underperformers." }
+      ],
+      "result": { "metric": "Average Ranking Improvement", "before": "Page 4–6", "after": "Page 1–2", "period": "90 days" },
+      "faqs": [
+        { "q": "What's the difference between on-page and technical SEO?", "a": "On-page SEO covers content and HTML elements visible in the page (titles, headings, copy, images). Technical SEO covers server-side factors like crawlability, site speed, and indexing." },
+        { "q": "How long does on-page SEO take to show results?", "a": "Most pages see meaningful ranking movement within 30–60 days of on-page optimization, assuming the domain has some existing authority." },
+        { "q": "Do you rewrite my content?", "a": "We optimize existing content first. If a page needs a full rewrite to rank, we flag it and either rewrite in-house or provide detailed instructions." },
+        { "q": "How many pages can you optimize per month?", "a": "Typically 10–25 pages per month depending on your package. Priority is given to high-traffic and high-intent pages first." }
+      ]
+    },
+    "technical-seo": {
+      "title": "Technical SEO",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#06B6D4",
+      "badge": "Technical SEO",
+      "heroHeadline": "Fix What Google Can't Ignore.",
+      "heroSub": "If Google can't properly crawl, index, and understand your site — rankings don't happen. We fix every technical flaw standing between your site and search dominance.",
+      "whatWeDo": [
+        { "title": "Core Web Vitals", "desc": "LCP, FID/INP, and CLS optimized to meet Google's page experience thresholds. Lighthouse 90+ target on all pages." },
+        { "title": "Crawl Budget Management", "desc": "Robots.txt, crawl directives, and log file analysis to ensure Google spends its crawl budget on your most important pages." },
+        { "title": "XML Sitemap & Indexing", "desc": "Dynamic XML sitemaps submitted to GSC. Canonical tags, noindex directives, and index bloat removal." },
+        { "title": "Site Architecture", "desc": "Flat URL structure, proper redirect chains (301 cleanup), and silo structure to maximize link equity flow." },
+        { "title": "Schema Markup", "desc": "JSON-LD structured data for LocalBusiness, FAQ, Article, Product, BreadcrumbList, and Review schema." },
+        { "title": "HTTPS & Security", "desc": "SSL validation, mixed content fixes, HSTS headers, and security signal optimization for Google's trust signals." }
+      ],
+      "process": [
+        { "step": "01", "title": "Technical Audit", "desc": "Full crawl with Screaming Frog + manual GSC/GA4 analysis. 150-point technical audit report." },
+        { "step": "02", "title": "Priority Fix List", "desc": "Issues ranked by impact × effort. Critical fixes actioned first — redirect chains, 404s, canonicals, Core Web Vitals." },
+        { "step": "03", "title": "Implementation", "desc": "We implement directly or provide developer-ready tickets. Everything tested in staging before live push." },
+        { "step": "04", "title": "Ongoing Monitoring", "desc": "GSC alerts, crawl monitoring, and monthly technical health checks so new issues are caught immediately." }
+      ],
+      "result": { "metric": "Indexed Pages (Post-Fix)", "before": "43% indexed", "after": "97% indexed", "period": "60 days" },
+      "faqs": [
+        { "q": "What is Core Web Vitals and why does it matter?", "a": "Core Web Vitals (LCP, FID/INP, CLS) measure loading speed, interactivity, and visual stability. Google uses them as a ranking signal. Poor scores hurt your rankings and user experience." },
+        { "q": "My site was penalized by Google — can you help?", "a": "Yes. We diagnose manual actions and algorithmic drops, identify the cause (usually technical issues, thin content, or bad links), and build a recovery plan." },
+        { "q": "Do I need a developer for technical SEO fixes?", "a": "Some fixes require developer access (server config, page speed). We work directly with your dev team or handle implementation ourselves if you give us CMS access." }
+      ]
+    },
+    "local-seo": {
+      "title": "Local SEO",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#22C55E",
+      "badge": "Local SEO",
+      "heroHeadline": "Own Your City. Get Found First.",
+      "heroSub": "When local customers search for what you sell, you need to appear in the top 3. We combine Google Business Profile optimization, local citations, reviews, and location-specific content to dominate the local map pack.",
+      "whatWeDo": [
+        { "title": "Google Business Profile", "desc": "Complete GMB audit and optimization — categories, services, photos, Q&A, posts, and weekly activity signals." },
+        { "title": "Local Keyword Research", "desc": "City + service keyword mapping: 'plumber in Dallas', 'best dental clinic Houston' — every local intent captured." },
+        { "title": "Location Landing Pages", "desc": "Unique, content-rich landing pages for every city and neighborhood you serve — not thin duplicate pages." },
+        { "title": "Citation Building", "desc": "NAP submitted consistently to 60+ directories. Existing incorrect citations corrected with an audit-first approach." },
+        { "title": "Review Strategy", "desc": "Automated review generation sequences for Google and industry-specific platforms to build trust and ranking signals." },
+        { "title": "Local Link Building", "desc": "Links from local chambers of commerce, local news sites, community organizations, and niche local directories." }
+      ],
+      "process": [
+        { "step": "01", "title": "Local Audit", "desc": "GMB audit, citation consistency check, competitor Map Pack analysis, and keyword gap review." },
+        { "step": "02", "title": "Foundation Fix", "desc": "Profile optimized, citations submitted, location pages created or improved." },
+        { "step": "03", "title": "Authority Build", "desc": "Review strategy launched, local links acquired, weekly GMB posts begin." },
+        { "step": "04", "title": "Dominate & Report", "desc": "Monthly rank tracking for local keywords + Map Pack position. We optimize until you're top 3." }
+      ],
+      "result": { "metric": "Map Pack Position", "before": "#8–12", "after": "Top 3", "period": "90 days" },
+      "faqs": [
+        { "q": "What's the difference between local SEO and regular SEO?", "a": "Local SEO focuses on ranking for location-based searches (service + city) and appearing in Google's Map Pack. Regular SEO targets national or global organic rankings." },
+        { "q": "I have multiple locations — do you handle all of them?", "a": "Yes. We manage each location as a separate GBP and create individual location landing pages. Pricing scales per location." },
+        { "q": "How important are Google reviews for local SEO?", "a": "Very important. Review quantity, recency, and rating all directly influence Map Pack rankings. We build a systematic approach to generate reviews ethically." }
+      ]
+    },
+    "link-building": {
+      "title": "Link Building",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#8B5CF6",
+      "badge": "Link Building",
+      "heroHeadline": "Authority Links That Actually Move Rankings.",
+      "heroSub": "Not all backlinks are created equal. We build editorial-quality links from DR 50+ domains in your niche — through digital PR, guest posting, and strategic outreach. No PBNs. No spam. Just real authority.",
+      "whatWeDo": [
+        { "title": "DR 50+ Editorial Links", "desc": "We target only relevant, high-authority publications. Every link is manually vetted for niche relevance and traffic." },
+        { "title": "Guest Posting", "desc": "Expertly written guest posts placed on industry publications — real content that earns links and sends referral traffic." },
+        { "title": "Digital PR", "desc": "Linkable assets (studies, infographics, tools) pitched to journalists and bloggers who cover your industry." },
+        { "title": "HARO Outreach", "desc": "We respond to journalist queries on your behalf, earning authoritative media links from publications like Forbes and Entrepreneur." },
+        { "title": "Broken Link Building", "desc": "Find broken links on high-authority sites and offer your content as the replacement — fast, white-hat link acquisition." },
+        { "title": "Competitor Link Analysis", "desc": "We reverse-engineer your top competitors' backlink profiles and systematically replicate their best link sources." }
+      ],
+      "process": [
+        { "step": "01", "title": "Backlink Audit", "desc": "Current profile analysis — toxic links disavowed, opportunity gaps identified, competitor analysis completed." },
+        { "step": "02", "title": "Target Identification", "desc": "Build a prospect list of 100+ relevant, high-quality link opportunities sorted by DR and relevance." },
+        { "step": "03", "title": "Outreach & Placement", "desc": "Personalized outreach at scale. Content written and placed. Links delivered with full reporting." },
+        { "step": "04", "title": "Monthly Reporting", "desc": "Every link delivered with DR, URL, anchor text, and traffic data. Full transparency always." }
+      ],
+      "result": { "metric": "Domain Rating Growth", "before": "DR 18", "after": "DR 47", "period": "6 months" },
+      "faqs": [
+        { "q": "How many links do I get per month?", "a": "Typically 4–12 high-quality links per month depending on your package. We prioritize quality over quantity." },
+        { "q": "Are PBN links safe?", "a": "No. Private Blog Networks violate Google's guidelines and risk a manual penalty. We never use them." },
+        { "q": "What anchor text do you use?", "a": "A natural mix: branded, partial match, and generic anchors. We never over-optimize anchor ratios." }
+      ]
+    },
+    "ai-seo": {
+      "title": "AI SEO / AIO Optimization",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#F59E0B",
+      "badge": "AI Overviews Optimization",
+      "heroHeadline": "Appear in Google's AI Answers.",
+      "heroSub": "Google's AI Overviews now appear in 20%+ of searches, sitting above all organic results. We optimize your content to be selected as the AI source — earning visibility no traditional SEO gets you.",
+      "whatWeDo": [
+        { "title": "E-E-A-T Signal Building", "desc": "Experience, Expertise, Authoritativeness, Trust signals built into your content — author bios, citations, credentials." },
+        { "title": "FAQ & Concise Answer Blocks", "desc": "Structured concise answer blocks that match Google's AI Overview format — direct answers to direct questions." },
+        { "title": "FAQ Schema Markup", "desc": "JSON-LD FAQ schema on every eligible page so Google's AI can extract and display your answers." },
+        { "title": "Content Depth & Accuracy", "desc": "Long-form, factually accurate content with sources cited — the profile Google selects for AI answers." },
+        { "title": "Query Clustering", "desc": "Map every question your audience asks and ensure your content answers it authoritatively in AIO-friendly format." },
+        { "title": "Featured Snippet Optimization", "desc": "Position 0 optimization that overlaps with AIO selection — concise definitions, numbered lists, comparison tables." }
+      ],
+      "process": [
+        { "step": "01", "title": "AIO Opportunity Audit", "desc": "Identify which keyword clusters trigger AI Overviews and which ones your content is eligible for." },
+        { "step": "02", "title": "Content Restructure", "desc": "Restructure existing pages with concise answer blocks, proper headings, and authoritative sourcing." },
+        { "step": "03", "title": "Schema & Signals", "desc": "Add FAQ schema, author schema, and E-E-A-T signals throughout your site." },
+        { "step": "04", "title": "Monitor & Optimize", "desc": "Track AIO appearances via GSC and manual SERP monitoring. Adjust content format as Google evolves." }
+      ],
+      "result": { "metric": "AI Overview Appearances", "before": "0", "after": "47 keywords", "period": "3 months" },
+      "faqs": [
+        { "q": "What are Google AI Overviews?", "a": "AI Overviews (formerly Search Generative Experience) are AI-generated answer blocks that appear at the top of Google results for many queries, above all organic links." },
+        { "q": "Can I rank in AI Overviews even if I'm not #1?", "a": "Yes. Google selects AIO sources based on content quality, E-E-A-T, and format — not just ranking position. You can appear in AIO even from position 5–10." },
+        { "q": "Does AIO optimization affect regular SEO?", "a": "Positively. The content quality that gets selected for AI Overviews also tends to rank better in traditional search." }
+      ]
+    },
+    "geo-optimization": {
+      "title": "GEO — Generative Engine Optimization",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#EC4899",
+      "badge": "Generative Engine Optimization",
+      "heroHeadline": "Get Recommended by ChatGPT, Perplexity & Gemini.",
+      "heroSub": "Millions of people now ask AI chatbots for business recommendations. If your brand isn't mentioned, you don't exist to them. GEO is the strategy that puts your business in the AI's answer.",
+      "whatWeDo": [
+        { "title": "Brand Mention Optimization", "desc": "Build your brand's presence across authoritative sources that AI models train on — Wikipedia, press, .edu, .gov, and high-DR publications." },
+        { "title": "Structured Knowledge Graph", "desc": "Schema markup and structured data that helps AI engines understand exactly who you are, what you do, and where you operate." },
+        { "title": "Citation & Reference Building", "desc": "Get your brand cited in authoritative content that feeds into AI training data — so AI models know and trust your brand." },
+        { "title": "AI-Friendly Content Creation", "desc": "Content written in the format AI models prefer: factual, structured, concise, and authoritative with clear attribution." },
+        { "title": "Perplexity & ChatGPT Monitoring", "desc": "We track how ChatGPT, Perplexity, Gemini, and Claude currently describe and recommend your brand — and optimize the gap." },
+        { "title": "Brand Entity Optimization", "desc": "Establish your business as a recognized entity across the web — consistent NAP, social profiles, and knowledge panel optimization." }
+      ],
+      "process": [
+        { "step": "01", "title": "AI Audit", "desc": "Test 50+ relevant queries across ChatGPT, Perplexity, and Gemini — document where your brand appears or doesn't." },
+        { "step": "02", "title": "Gap Analysis", "desc": "Identify why competitors are recommended and you aren't. Map the authority signals they have that you lack." },
+        { "step": "03", "title": "Authority Build", "desc": "Build the citation profile, structured data, and content assets needed for AI mention inclusion." },
+        { "step": "04", "title": "Monitor & Report", "desc": "Monthly AI query testing — tracking brand mentions across all major generative engines." }
+      ],
+      "result": { "metric": "AI Engine Brand Mentions", "before": "0 / 50 queries", "after": "31 / 50 queries", "period": "4 months" },
+      "faqs": [
+        { "q": "Is GEO just about ChatGPT?", "a": "No. GEO covers all generative AI engines: ChatGPT, Perplexity, Gemini, Claude, Copilot, and any future AI search engines." },
+        { "q": "Can I measure GEO results?", "a": "Yes — we test a defined set of queries monthly across each AI engine and track brand mention frequency, position within the answer, and context of recommendation." },
+        { "q": "How long does GEO take?", "a": "First mentions typically appear within 2–4 months of authority building. AI models update their outputs continuously as the web changes." }
+      ]
+    },
+    "off-page-seo": {
+      "title": "Off-Page SEO",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#6366F1",
+      "badge": "Off-Page SEO",
+      "heroHeadline": "Build the Authority Google Demands.",
+      "heroSub": "Rankings are a vote of confidence. Off-page SEO is how you earn that vote — through authoritative backlinks, brand mentions, digital PR, and signals that tell Google your site deserves to rank.",
+      "whatWeDo": [
+        { "title": "High-DA Backlink Acquisition", "desc": "Strategic acquisition of backlinks from DA 40–90+ publications through editorial outreach and content-driven campaigns." },
+        { "title": "Digital PR Campaigns", "desc": "We create newsworthy assets — original research, infographics, industry reports — and pitch them to get featured in major publications." },
+        { "title": "Brand Mention Monitoring", "desc": "Unlinked brand mentions converted into backlinks through outreach — turning existing reputation into ranking power." },
+        { "title": "Social Signals & Distribution", "desc": "Content amplified across social channels to drive shares, engagement, and natural backlink attraction." },
+        { "title": "Podcast & Media Appearances", "desc": "Secure podcast interviews and expert features in industry publications that build E-E-A-T and authority simultaneously." },
+        { "title": "Competitor Backlink Replication", "desc": "Systematic reverse-engineering of competitor link profiles to replicate their highest-value link sources." }
+      ],
+      "process": [
+        { "step": "01", "title": "Authority Audit", "desc": "Current Domain Rating, referring domains, anchor text distribution, and toxic link analysis." },
+        { "step": "02", "title": "Strategy Design", "desc": "Link acquisition plan matched to your industry — which tactics, which sources, what volume." },
+        { "step": "03", "title": "Execution", "desc": "Outreach campaigns run, content created, links secured. Full delivery with proof-of-placement." },
+        { "step": "04", "title": "Growth Tracking", "desc": "Monthly DR tracking, referring domain growth, and correlation with ranking improvements." }
+      ],
+      "result": { "metric": "Referring Domains", "before": "12 domains", "after": "94 domains", "period": "6 months" },
+      "faqs": [
+        { "q": "How is off-page SEO different from link building?", "a": "Link building is one component of off-page SEO. Off-page also includes brand mentions, social signals, digital PR, and E-E-A-T signals like author expertise." },
+        { "q": "Can you remove bad backlinks?", "a": "Yes. We identify toxic or low-quality links, attempt manual removal, and use the Google Disavow tool for any that can't be removed." }
+      ]
+    },
+    "ecommerce-seo": {
+      "title": "eCommerce SEO",
+      "parentSlug": "seo-services",
+      "parentTitle": "SEO / AIO / GEO",
+      "accentColor": "#F97316",
+      "badge": "eCommerce SEO",
+      "heroHeadline": "Turn Organic Traffic into Online Revenue.",
+      "heroSub": "eCommerce SEO is different. You have thousands of pages, duplicate content at scale, and a customer who's ready to buy. We build the strategy that gets your products found — and purchased.",
+      "whatWeDo": [
+        { "title": "Product Page Optimization", "desc": "Unique, keyword-rich product descriptions, optimized title tags, schema markup, and image optimization at scale." },
+        { "title": "Category Page SEO", "desc": "Category pages are your biggest ranking opportunity. We optimize them as standalone content hubs — not just filter pages." },
+        { "title": "Faceted Navigation Fix", "desc": "Filter and facet URLs managed correctly to prevent crawl budget waste and duplicate content penalties." },
+        { "title": "Product Schema Markup", "desc": "Product schema with price, availability, reviews, and ratings — eligible for rich result display in Google Shopping." },
+        { "title": "Seasonal SEO Strategy", "desc": "Content and landing pages planned around peak seasons — Black Friday, holiday shopping, and industry-specific peak periods." },
+        { "title": "Internal Linking at Scale", "desc": "Systematic internal link structure from blog content to products — driving PageRank to your money pages." }
+      ],
+      "process": [
+        { "step": "01", "title": "eCommerce Audit", "desc": "Full crawl with Screaming Frog, duplicate content analysis, category structure review, and revenue opportunity mapping." },
+        { "step": "02", "title": "Priority Products", "desc": "Identify your top 20% of products by revenue and optimize their pages first for immediate ROI." },
+        { "step": "03", "title": "Scale & Structure", "desc": "Category pages, faceted nav fix, internal linking, and product schema implemented across the catalog." },
+        { "step": "04", "title": "Content & Links", "desc": "Blog strategy targeting commercial intent queries. Link building to category and product pages." }
+      ],
+      "result": { "metric": "Organic Revenue", "before": "$12k/mo", "after": "$89k/mo", "period": "8 months" },
+      "faqs": [
+        { "q": "We have 10,000+ products — can you handle that scale?", "a": "Yes. We use templates, programmatic optimization, and automation to optimize large catalogs efficiently." },
+        { "q": "Should we optimize product pages or category pages first?", "a": "Category pages first — they have the most ranking power and internal link equity. Product pages benefit from category page authority." }
+      ]
+    }
+  },
+  "web-development": {
+    "wordpress": {
+      "title": "WordPress Web Design",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#3B82F6",
+      "badge": "WordPress Development",
+      "heroHeadline": "WordPress Done Right. Fast, Beautiful, and Built to Rank.",
+      "heroSub": "Not all WordPress sites are created equal. Ours are custom-built with zero bloat — fast, mobile-first, conversion-optimized, and SEO-ready from day one. No Elementor nightmares. No performance drag.",
+      "whatWeDo": [
+        { "title": "Custom WordPress Theme", "desc": "100% custom theme development — no premium themes, no page builders. Clean, fast, fully branded." },
+        { "title": "SEO-Ready Architecture", "desc": "Proper heading structure, schema markup, XML sitemap, canonical tags, and robots.txt configured from day one." },
+        { "title": "WooCommerce Integration", "desc": "Full e-commerce capability with product pages, cart, secure checkout, and payment gateway integration." },
+        { "title": "Plugin Audit & Optimization", "desc": "We audit your plugin stack, remove bloat, and keep only what's needed — resulting in faster load times." },
+        { "title": "Page Speed Optimization", "desc": "Caching, CDN setup, image optimization, code minification. Every site targets under 2 seconds load time." },
+        { "title": "CMS Training", "desc": "We train you and your team to manage content, add pages, and update products without needing a developer." }
+      ],
+      "process": [
+        { "step": "01", "title": "Wireframe & Design", "desc": "Full Figma mockups for desktop and mobile, approved before any code is written." },
+        { "step": "02", "title": "WordPress Setup", "desc": "Hosting configured, WordPress installed, custom theme development begins in staging environment." },
+        { "step": "03", "title": "Build & Test", "desc": "Theme built, content added, all functionality tested across browsers and devices." },
+        { "step": "04", "title": "Launch & Train", "desc": "DNS transfer, SSL, GA4/GSC setup, CMS training, and a 30-day post-launch support window." }
+      ],
+      "result": { "metric": "Page Load Speed", "before": "7.2 seconds", "after": "1.4 seconds", "period": "Post-launch" },
+      "faqs": [
+        { "q": "Do you use Elementor or Divi?", "a": "No. We avoid page builders for performance sites. We develop custom themes using PHP, HTML, CSS, and Alpine.js or Vanilla JS for interactivity." },
+        { "q": "Can you fix or redesign my existing WordPress site?", "a": "Yes. We can audit your existing site, fix performance issues, or rebuild it completely in a staging environment while your live site stays online." },
+        { "q": "Will I be able to add new content myself?", "a": "Absolutely. WordPress is designed for non-technical content management. We set up custom post types and fields that make updates easy." }
+      ]
+    },
+    "ecommerce": {
+      "title": "eCommerce Web Design",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#10B981",
+      "badge": "eCommerce Development",
+      "heroHeadline": "An Online Store That Actually Sells.",
+      "heroSub": "Beautiful products deserve a store that converts visitors into buyers. We design and build high-performance eCommerce websites — WooCommerce, Shopify, or custom — optimized for the checkout experience that makes customers complete their purchase.",
+      "whatWeDo": [
+        { "title": "Conversion-First Design", "desc": "Every layout decision made with conversion in mind — product imagery, social proof placement, CTA positioning, and checkout flow reduction." },
+        { "title": "Mobile-First Shopping", "desc": "60%+ of shopping is mobile. Our stores are designed mobile-first — thumb-friendly product grids, fast checkout, Apple Pay / Google Pay." },
+        { "title": "Product Page Optimization", "desc": "High-converting product pages with zoom-capable images, size guides, review display, trust badges, and scarcity triggers." },
+        { "title": "Secure Checkout Integration", "desc": "Stripe, PayPal, Klarna, Afterpay integrations. PCI-compliant checkout. Abandoned cart recovery emails configured." },
+        { "title": "Inventory Management", "desc": "Full inventory systems — stock management, variants, categories, bulk import tools, and low-stock notifications." },
+        { "title": "Analytics & Conversion Tracking", "desc": "GA4 eCommerce tracking, Meta Pixel, Google Ads conversion tags, and a revenue dashboard from day one." }
+      ],
+      "process": [
+        { "step": "01", "title": "Store Strategy", "desc": "Product catalog audit, checkout flow planning, platform selection (WooCommerce vs Shopify), and competitor UX audit." },
+        { "step": "02", "title": "Design", "desc": "Full store design in Figma — homepage, category, product, cart, and checkout pages." },
+        { "step": "03", "title": "Build & Integrate", "desc": "Development, payment gateway integration, email sequences (welcome, abandoned cart, post-purchase), and product import." },
+        { "step": "04", "title": "Launch & Optimize", "desc": "Go live, analytics verified, first A/B tests configured, and 30-day support included." }
+      ],
+      "result": { "metric": "Conversion Rate", "before": "0.8%", "after": "4.1%", "period": "Post-launch" },
+      "faqs": [
+        { "q": "WooCommerce or Shopify — which is better?", "a": "WooCommerce gives more flexibility and is better for SEO customization. Shopify is faster to launch and easier to manage. We recommend WooCommerce for businesses needing custom functionality and Shopify for simplicity." },
+        { "q": "Can you migrate our existing store?", "a": "Yes. We handle full migrations — products, customers, orders, SEO URLs, and reviews — with zero downtime." }
+      ]
+    },
+    "shopify": {
+      "title": "Shopify Development",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#95BF47",
+      "badge": "Shopify Development",
+      "heroHeadline": "Shopify, Engineered for Maximum Revenue.",
+      "heroSub": "We build custom Shopify stores that go far beyond stock themes — unique designs, custom functionality, and optimization strategies that turn Shopify's powerful platform into your highest-performing sales channel.",
+      "whatWeDo": [
+        { "title": "Custom Shopify Theme Dev", "desc": "Hand-coded Liquid themes built to your brand — no stock templates, no Dawn modifications. Genuinely unique." },
+        { "title": "Shopify App Integration", "desc": "Strategic app selection to add only needed functionality — reviews (Judge.me), subscriptions (ReCharge), upsells (CartHook), email (Klaviyo)." },
+        { "title": "Shopify Speed Optimization", "desc": "Shopify stores often load slowly due to apps. We audit, minimize, and optimize for sub-2-second load times." },
+        { "title": "Shopify SEO", "desc": "Canonical tags, meta optimization, collection structure, blog setup, and sitemap — Shopify SEO done properly." },
+        { "title": "International & Multi-Currency", "desc": "Shopify Markets setup for international sales — multi-currency, local payment methods, and translated storefronts." },
+        { "title": "Shopify Plus Migration", "desc": "Migrate from standard Shopify to Plus with custom checkout scripting, B2B functionality, and automation flows." }
+      ],
+      "process": [
+        { "step": "01", "title": "Store Audit", "desc": "If migrating: current performance, theme, apps, and revenue analysis. If new: business requirements and competitor audit." },
+        { "step": "02", "title": "Custom Design", "desc": "Figma mockups for every key template: home, collection, product, cart, and checkout." },
+        { "step": "03", "title": "Build & Configure", "desc": "Liquid theme developed, apps installed and configured, products imported, payment and shipping configured." },
+        { "step": "04", "title": "Launch & Grow", "desc": "Store goes live. Marketing pixels, Klaviyo flows, and analytics verified on launch day." }
+      ],
+      "result": { "metric": "Monthly Online Revenue", "before": "$8,400", "after": "$61,000", "period": "5 months post-launch" },
+      "faqs": [
+        { "q": "Can you work with our existing Shopify store?", "a": "Yes — redesign, speed optimization, new functionality, or app management. We work on existing stores without disrupting your operations." },
+        { "q": "Is Shopify good for SEO?", "a": "It's decent out of the box but has limitations (canonical URL issues, URL structure). We fix all Shopify SEO issues and maximize its ranking potential." }
+      ]
+    },
+    "woocommerce": {
+      "title": "WooCommerce Development",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#7F54B3",
+      "badge": "WooCommerce Development",
+      "heroHeadline": "WooCommerce, Without the Headaches.",
+      "heroSub": "WooCommerce built right is the most powerful eCommerce platform on the web. We design, build, and optimize WooCommerce stores that load fast, rank well, and convert at industry-leading rates.",
+      "whatWeDo": [
+        { "title": "Custom WooCommerce Theme", "desc": "Pixel-perfect custom themes that leave Storefront and premade options behind — built for your brand and products." },
+        { "title": "Performance Optimization", "desc": "WooCommerce can be slow. We optimize database queries, implement caching, and configure CDN to keep load times under 2 seconds." },
+        { "title": "Payment & Shipping Config", "desc": "Stripe, PayPal, and local payment gateways. Real-time shipping rates with USPS, UPS, FedEx, and DHL integration." },
+        { "title": "Product Variations & Bundles", "desc": "Complex variable products, product bundles, subscriptions, and digital downloads all configured correctly." },
+        { "title": "B2B Functionality", "desc": "Wholesale pricing tiers, user roles, minimum order quantities, and quote forms for B2B WooCommerce stores." },
+        { "title": "SEO & Analytics", "desc": "Full WooCommerce eCommerce tracking in GA4, Google Ads conversion tracking, and SEO optimization of all product and category pages." }
+      ],
+      "process": [
+        { "step": "01", "title": "Requirements", "desc": "Define product catalog, variations, shipping zones, payment needs, and integrations required." },
+        { "step": "02", "title": "Design", "desc": "Custom mockups for all key pages — verified before development." },
+        { "step": "03", "title": "Development", "desc": "Custom theme, WooCommerce configuration, plugin setup, and content population." },
+        { "step": "04", "title": "Launch", "desc": "Testing across all checkout flows, payment processing verified, and go-live support included." }
+      ],
+      "result": { "metric": "Checkout Conversion", "before": "1.2%", "after": "4.8%", "period": "Post-launch" },
+      "faqs": [
+        { "q": "Is WooCommerce or Shopify better?", "a": "WooCommerce offers more flexibility, better SEO control, and no transaction fees. Shopify is easier to manage. For businesses that want control and scalability, WooCommerce wins." },
+        { "q": "Can you add subscriptions to our WooCommerce store?", "a": "Yes — using WooCommerce Subscriptions. We set up subscription products, billing cycles, proration, and cancellation flows." }
+      ]
+    },
+    "b2b-web-design": {
+      "title": "B2B Web Design",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#0EA5E9",
+      "badge": "B2B Web Design",
+      "heroHeadline": "A Website That Closes Enterprise Deals.",
+      "heroSub": "B2B buyers spend on average 27% of their research time on your website before ever speaking to sales. Your site has to build instant credibility and capture leads from the first visit.",
+      "whatWeDo": [
+        { "title": "Trust & Authority Design", "desc": "Social proof architecture — client logos, case studies, certifications, and team credentials placed strategically." },
+        { "title": "Lead Generation Funnels", "desc": "Gated content downloads, demo request forms, contact funnels, and live chat — all with CRM integration." },
+        { "title": "Service & Solution Pages", "desc": "Industry-specific solution pages targeting the exact verticals you serve — resonating with each buyer persona." },
+        { "title": "Case Study Templates", "desc": "Professionally designed case study pages with results visualization — your strongest sales tool online." },
+        { "title": "LinkedIn Pixel & ABM Ready", "desc": "LinkedIn Insight Tag, retargeting audiences, and Account-Based Marketing infrastructure built in." },
+        { "title": "SEO for B2B Keywords", "desc": "Targeting industry-specific intent: 'enterprise software vendor', 'B2B fulfillment partner', 'wholesale supplier Dallas'." }
+      ],
+      "process": [
+        { "step": "01", "title": "ICP & Persona Mapping", "desc": "Define ideal customer profile, buying committee roles, and the content each persona needs at each stage." },
+        { "step": "02", "title": "Architecture & Design", "desc": "Sitemap designed around the buyer journey. Mockups created for all key pages." },
+        { "step": "03", "title": "Development", "desc": "Custom build with CMS, CRM integration, and tracking stack configured." },
+        { "step": "04", "title": "Launch & ABM Setup", "desc": "LinkedIn Insight Tag, GA4, HubSpot/Salesforce integration, and content marketing strategy." }
+      ],
+      "result": { "metric": "Monthly Qualified Leads", "before": "4/month", "after": "31/month", "period": "6 months" },
+      "faqs": [
+        { "q": "What CRM do you integrate with?", "a": "HubSpot, Salesforce, Pipedrive, Zoho, and GoHighLevel. We build bidirectional integrations so form submissions go directly into your pipeline." },
+        { "q": "Do you write the content too?", "a": "Yes — we have B2B copywriters who understand technical industries and can write solution pages, case studies, and thought leadership content." }
+      ]
+    },
+    "landing-pages": {
+      "title": "Landing Page Design",
+      "parentSlug": "web-development",
+      "parentTitle": "Website Development",
+      "accentColor": "#EF4444",
+      "badge": "High-Converting Landing Pages",
+      "heroHeadline": "Landing Pages That Convert at 8%+.",
+      "heroSub": "The average landing page converts at 2.4%. Ours average 8–12%. Every element — headline, hero image, social proof placement, CTA — is engineered with one goal: turn ad clicks into leads.",
+      "whatWeDo": [
+        { "title": "Conversion Copy", "desc": "Headlines, subheadlines, body copy, and CTAs written using proven persuasion frameworks — AIDA, PAS, and social proof structure." },
+        { "title": "Hero Section Optimization", "desc": "Above-the-fold designed to communicate value in 5 seconds — headline, subheadline, hero image, and primary CTA." },
+        { "title": "Social Proof Integration", "desc": "Reviews, trust badges, client logos, media mentions, and case study numbers placed at highest-impact positions." },
+        { "title": "Form Optimization", "desc": "Short-form vs long-form tested. Field reduction where possible. Two-step form optin for higher completion rates." },
+        { "title": "A/B Testing Framework", "desc": "Multiple headline, CTA, image, and layout variants built and tested via Google Optimize or VWO." },
+        { "title": "Tracking Stack", "desc": "Google Ads, Meta Pixel, GA4, and CRM form integration configured so every lead is tracked to the campaign." }
+      ],
+      "process": [
+        { "step": "01", "title": "Brief & Offer Audit", "desc": "Review your ad creative, offer, audience, and current conversion data or benchmarks." },
+        { "step": "02", "title": "Copy & Design", "desc": "Conversion copy written first, then design mockup created around the copy structure." },
+        { "step": "03", "title": "Build & Track", "desc": "Page built, tracking verified end-to-end, and A/B test variants configured." },
+        { "step": "04", "title": "Test & Optimize", "desc": "Traffic sent, data collected, winner identified, and optimization continues." }
+      ],
+      "result": { "metric": "Lead Form Conversion Rate", "before": "2.1%", "after": "9.4%", "period": "30 days A/B test" },
+      "faqs": [
+        { "q": "How long does it take to build a landing page?", "a": "Typically 5–7 business days for design + development. Rush delivery in 2–3 days is available for active campaigns." },
+        { "q": "Do I need a new landing page for each ad campaign?", "a": "Ideally yes — message matching between ad and landing page significantly increases conversion rates. We can build multiple variants efficiently." }
+      ]
+    }
+  },
+  "ppc-advertising": {
+    "google-ads": {
+      "title": "Google Ads Management",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#3B82F6",
+      "badge": "Google Ads Management",
+      "heroHeadline": "Google Ads That Generate Profit, Not Just Clicks.",
+      "heroSub": "Most Google Ads accounts waste 60%+ of their budget on broad match terms, poor quality scores, and bad account structure. We fix that — and build campaigns that deliver a measurable return on every dollar.",
+      "whatWeDo": [
+        { "title": "Search Campaign Strategy", "desc": "Exact and phrase match campaigns targeting high-intent commercial keywords. Zero broad match waste." },
+        { "title": "Quality Score Optimization", "desc": "We improve Quality Scores by aligning keywords, ad copy, and landing pages — reducing your cost per click by 20–50%." },
+        { "title": "Conversion Tracking Setup", "desc": "Phone calls, form fills, purchases, and chat events tracked accurately via Google Tag Manager — no missing conversions." },
+        { "title": "Negative Keyword Management", "desc": "Weekly negative keyword additions to prevent spend waste on irrelevant searches — often saves 20–30% of budget." },
+        { "title": "Ad Copy Testing", "desc": "Responsive Search Ads with 5+ headlines and 4+ descriptions tested continuously. Only top performers serve." },
+        { "title": "Bid Strategy Optimization", "desc": "Smart bidding calibrated to your actual conversion data — Target CPA or Target ROAS bidding with warm campaigns." }
+      ],
+      "process": [
+        { "step": "01", "title": "Account Audit", "desc": "If you have existing campaigns: full waste analysis, Quality Score audit, conversion tracking verification, and structure review." },
+        { "step": "02", "title": "Strategy & Restructure", "desc": "Campaign rebuilt with correct structure: tightly themed ad groups, match type strategy, and negative keyword lists." },
+        { "step": "03", "title": "Launch & Stabilize", "desc": "Campaigns go live. Daily monitoring for first 2 weeks. Budget pacing, Quality Score, and CPA tracked." },
+        { "step": "04", "title": "Optimize & Scale", "desc": "Monthly bid adjustments, negative keyword adds, ad copy rotation, and budget reallocation to top performers." }
+      ],
+      "result": { "metric": "Cost Per Lead", "before": "$187/lead", "after": "$41/lead", "period": "90 days" },
+      "faqs": [
+        { "q": "How much should I budget for Google Ads?", "a": "We recommend minimum $1,000–$1,500/month in ad spend for local businesses. Competitive industries need $3,000–$10,000+/month for meaningful volume." },
+        { "q": "My previous Google Ads didn't work — what was wrong?", "a": "Usually: broad match keywords wasting budget, poor Quality Scores, no negative keywords, or sending traffic to a homepage instead of a dedicated landing page." },
+        { "q": "How long until I see results?", "a": "Leads from day one. It takes 60–90 days of optimization data to reach peak ROAS performance." }
+      ]
+    },
+    "google-shopping": {
+      "title": "Google Shopping Ads",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#10B981",
+      "badge": "Google Shopping",
+      "heroHeadline": "Get Your Products in Front of Ready-to-Buy Shoppers.",
+      "heroSub": "Google Shopping Ads appear above all search results with product image, price, and brand — capturing buyers at the exact moment they're searching to purchase. We manage your Merchant Center and Shopping campaigns for maximum ROAS.",
+      "whatWeDo": [
+        { "title": "Google Merchant Center Setup", "desc": "Full GMC account setup, product feed creation, feed health monitoring, and disapproval resolution." },
+        { "title": "Product Feed Optimization", "desc": "Optimized product titles, descriptions, GTINs, custom labels, and attributes that improve auction eligibility and impressions." },
+        { "title": "Standard vs Performance Max", "desc": "We select the right campaign type per product category and audience maturity — not blindly using Performance Max." },
+        { "title": "ROAS Bidding", "desc": "Target ROAS bidding configured with accurate conversion values — calibrated to your actual margins per product." },
+        { "title": "Competitive Price Intelligence", "desc": "Monitor competitor pricing in your product categories — alerts when you're losing impression share due to price." },
+        { "title": "Seasonal Bid Adjustments", "desc": "Budget and bid increases pre-planned for peak seasons — Black Friday, Christmas, Valentine's Day — to capture surge demand." }
+      ],
+      "process": [
+        { "step": "01", "title": "Feed Audit", "desc": "Review current feed health, disapprovals, competitive impression share, and ROAS baseline." },
+        { "step": "02", "title": "Feed Optimization", "desc": "Product titles rewritten, attributes completed, custom labels configured for bid segmentation." },
+        { "step": "03", "title": "Campaign Build", "desc": "Shopping campaigns structured by product category with ROAS targets set per category margin." },
+        { "step": "04", "title": "Scale", "desc": "Weekly performance review. Budget shifted to highest ROAS categories. Underperforming SKUs excluded." }
+      ],
+      "result": { "metric": "Google Shopping ROAS", "before": "1.8x", "after": "6.4x", "period": "4 months" },
+      "faqs": [
+        { "q": "What is Google Merchant Center?", "a": "Google Merchant Center is where your product catalog lives. Google pulls product data from here to show Shopping Ads. Feed quality directly determines Shopping Ad performance." },
+        { "q": "Should we use Performance Max or Standard Shopping?", "a": "It depends on your data maturity. Standard Shopping gives more control. Performance Max uses AI — it works well with a lot of conversion data. We assess this for your catalog." }
+      ]
+    },
+    "meta-ads": {
+      "title": "Facebook & Meta Ads",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#1877F2",
+      "badge": "Meta Ads Management",
+      "heroHeadline": "Meta Ads That Fill Your Pipeline — Not Just Your Reach.",
+      "heroSub": "Facebook and Instagram advertising is still the most powerful targeting platform on earth — when used correctly. We build data-driven Meta campaigns that generate qualified leads and eCommerce revenue at scale.",
+      "whatWeDo": [
+        { "title": "Audience Architecture", "desc": "Custom audiences (website visitors, email list, video viewers), lookalike audiences, and interest-based cold audiences structured in a full-funnel approach." },
+        { "title": "Creative Testing Framework", "desc": "Multiple ad formats tested — static images, video, carousels, collections — with systematic creative iteration every 2 weeks." },
+        { "title": "Meta Pixel & Events API", "desc": "Full pixel setup with Conversions API (server-side) to maintain tracking accuracy after iOS 14+ changes." },
+        { "title": "Full-Funnel Structure", "desc": "Awareness, consideration, and conversion campaigns — moving prospects through the funnel with retargeting at each stage." },
+        { "title": "Lead Generation Ads", "desc": "Instant lead forms or click-to-website campaigns — optimized for cost per lead with real-time CRM sync." },
+        { "title": "eCommerce Catalog Ads", "desc": "Dynamic product ads showing the exact products a user viewed on your site — highest ROAS for eCommerce." }
+      ],
+      "process": [
+        { "step": "01", "title": "Pixel & Audience Audit", "desc": "Verify pixel events, existing audiences, and campaign structure. Identify what's working and what's wasting budget." },
+        { "step": "02", "title": "Strategy & Creative Brief", "desc": "Define full-funnel strategy, ad formats, copy angles, and creative direction before any spend." },
+        { "step": "03", "title": "Launch & Test", "desc": "Campaigns launched with A/B testing across audiences and creatives. Daily monitoring week one." },
+        { "step": "04", "title": "Scale Winners", "desc": "Winning audiences and creatives scaled. New creative refresh every 2 weeks to combat ad fatigue." }
+      ],
+      "result": { "metric": "Cost Per Lead (Meta)", "before": "$68/lead", "after": "$14/lead", "period": "60 days" },
+      "faqs": [
+        { "q": "Does Facebook Ads still work after iOS 14?", "a": "Yes — but tracking requires Conversions API (server-side) implementation and 7-day attribution windows. We set this up correctly from day one." },
+        { "q": "What industries work best on Meta Ads?", "a": "Almost all B2C industries: real estate, beauty, fitness, restaurants, retail, education, events, and local services. B2B works on LinkedIn better." }
+      ]
+    },
+    "ecommerce-ppc": {
+      "title": "eCommerce PPC Management",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#F97316",
+      "badge": "eCommerce PPC",
+      "heroHeadline": "Scale Your Online Store with Profitable Paid Ads.",
+      "heroSub": "eCommerce PPC is a full-channel game — Google Shopping, Search, Meta Dynamic Ads, YouTube, and retargeting all working together. We manage the complete paid advertising ecosystem for your store with one obsessive focus: ROAS.",
+      "whatWeDo": [
+        { "title": "Full-Channel Strategy", "desc": "Google Shopping + Search + Meta Dynamic + YouTube Ads all managed under one strategy with unified attribution." },
+        { "title": "Product-Level ROAS Bidding", "desc": "Bid optimization per product SKU based on margin — highest bid on most profitable products, suppressed on low-margin items." },
+        { "title": "Dynamic Remarketing", "desc": "Show exact products each visitor viewed but didn't buy — the highest ROAS campaign type in eCommerce." },
+        { "title": "Funnel-Based Budgeting", "desc": "Budget allocated across awareness (YouTube), consideration (Meta), and conversion (Shopping/Search) based on customer LTV." },
+        { "title": "Revenue Attribution", "desc": "Multi-touch attribution showing which channels actually drove the sale — not just last-click." },
+        { "title": "Seasonal Campaign Planning", "desc": "Black Friday, holiday, and peak season campaigns planned 6 weeks ahead with pre-built audiences and creative." }
+      ],
+      "process": [
+        { "step": "01", "title": "Store & Data Audit", "desc": "Revenue per channel, ROAS by product category, conversion funnel drop-off, and tracking accuracy audit." },
+        { "step": "02", "title": "Channel Strategy", "desc": "Define budget allocation across channels, product segmentation strategy, and audience architecture." },
+        { "step": "03", "title": "Build & Launch", "desc": "All campaigns built, tracking verified, and launched with close monitoring." },
+        { "step": "04", "title": "Optimize & Scale", "desc": "Weekly optimization across all channels. Scale budget into highest ROAS campaigns and products." }
+      ],
+      "result": { "metric": "Blended ROAS", "before": "1.6x", "after": "5.8x", "period": "90 days" },
+      "faqs": [
+        { "q": "What ROAS should we target?", "a": "Target ROAS depends on your margins. For a 50% margin, 2x ROAS is breakeven. We typically target 3–6x depending on margin and business model." },
+        { "q": "How do we know which channel is driving sales?", "a": "We set up multi-touch attribution — giving credit to every touchpoint that contributed to the sale, not just the last ad clicked." }
+      ]
+    },
+    "lead-gen-ppc": {
+      "title": "Lead Gen PPC",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#8B5CF6",
+      "badge": "Lead Generation PPC",
+      "heroHeadline": "Pay Per Click. Get Paid Per Lead.",
+      "heroSub": "Lead generation PPC requires a completely different approach from eCommerce. We build campaigns that attract high-intent prospects, qualify them before click, and deliver them to high-converting landing pages — at the lowest possible cost per lead.",
+      "whatWeDo": [
+        { "title": "High-Intent Keyword Targeting", "desc": "Commercial and transactional keywords only — 'hire', 'near me', 'cost', 'best', 'affordable'. Zero informational waste." },
+        { "title": "Lead Qualification in Ad Copy", "desc": "Price signals, location specifics, and qualification criteria in ad headlines — so only serious prospects click." },
+        { "title": "Call Extension Campaigns", "desc": "Click-to-call ads for service businesses — phone leads often convert at 30%+ vs 5% for form fills." },
+        { "title": "Landing Page Integration", "desc": "Dedicated landing pages per service and location, matched exactly to ad copy for maximum Quality Score and conversion." },
+        { "title": "CRM Lead Routing", "desc": "Every lead instant-routed to your CRM with campaign, keyword, and ad source data for full attribution." },
+        { "title": "Lead Scoring & Feedback Loop", "desc": "We track which leads become customers and optimize campaigns for lead quality — not just lead volume." }
+      ],
+      "process": [
+        { "step": "01", "title": "ICP Definition", "desc": "Define your ideal customer profile, budget threshold, and lead quality criteria." },
+        { "step": "02", "title": "Keyword & Copy Strategy", "desc": "High-intent keyword research, ad copy written with built-in qualification, and landing page brief." },
+        { "step": "03", "title": "Launch", "desc": "Campaigns live with conversion tracking end-to-end — from click to CRM entry." },
+        { "step": "04", "title": "CPL Optimization", "desc": "Continuous reduction in cost per qualified lead via bid optimization, negative keywords, and landing page testing." }
+      ],
+      "result": { "metric": "Cost Per Qualified Lead", "before": "$214/lead", "after": "$38/lead", "period": "3 months" },
+      "faqs": [
+        { "q": "How do you measure lead quality, not just quantity?", "a": "We integrate with your CRM or sales team to track which leads convert to customers. We then feed this data back into Google Ads to optimize for quality leads." },
+        { "q": "Should we use Google Ads or Meta Ads for lead gen?", "a": "Google for in-market demand (people actively searching). Meta for interest-based targeting and creating demand. Ideally both, with different messaging." }
+      ]
+    },
+    "youtube-ads": {
+      "title": "YouTube Ads Management",
+      "parentSlug": "ppc-advertising",
+      "parentTitle": "PPC Advertising",
+      "accentColor": "#EF4444",
+      "badge": "YouTube Advertising",
+      "heroHeadline": "Video Ads That Build Brands and Drive Revenue.",
+      "heroSub": "YouTube reaches 2.7 billion users monthly. Your competitors aren't using it — which means your cost per impression is cheaper, your audience less fatigued, and your brand can own entire categories at a fraction of the cost.",
+      "whatWeDo": [
+        { "title": "In-Stream Ad Campaigns", "desc": "Skippable and non-skippable in-stream ads targeting your ideal audience — you only pay when someone watches 30+ seconds." },
+        { "title": "Video Creative Consulting", "desc": "We advise on or script the first 5 seconds (the hook) — the only part that matters before viewers skip." },
+        { "title": "Custom Intent Audiences", "desc": "Target people who recently searched specific keywords on Google — combining Google's search intent with YouTube's reach." },
+        { "title": "YouTube Remarketing", "desc": "Re-engage your website visitors and existing YouTube channel viewers with tailored video sequences." },
+        { "title": "Awareness to Conversion Funnels", "desc": "Multi-video funnel: brand awareness video → product demo → testimonial → offer — moving cold audiences to buyers." },
+        { "title": "View-Through Attribution", "desc": "Track how YouTube video views influence later conversions on search and shopping — full contribution visibility." }
+      ],
+      "process": [
+        { "step": "01", "title": "Audience & Creative Brief", "desc": "Define target audience, campaign goal (awareness vs conversion), and video creative requirements." },
+        { "step": "02", "title": "Campaign Build", "desc": "YouTube campaigns structured by audience temperature with view-through tracking configured." },
+        { "step": "03", "title": "Launch & Monitor", "desc": "Video ads go live. First-5-second hook tracked for view rate. Audience targeting refined." },
+        { "step": "04", "title": "Scale & Sequence", "desc": "High-performing videos scaled. Sequential ad delivery configured to move viewers through the funnel." }
+      ],
+      "result": { "metric": "Brand Search Lift", "before": "Baseline", "after": "+34% searches", "period": "60 days" },
+      "faqs": [
+        { "q": "Do I need a professional video for YouTube Ads?", "a": "Not necessarily. Well-lit, direct-to-camera videos filmed on a modern phone often outperform expensive produced ads because they feel authentic." },
+        { "q": "How much does YouTube advertising cost?", "a": "CPVs (cost per view) typically range $0.05–$0.15, making YouTube one of the cheapest awareness channels available. Minimum recommended budget is $1,000/month." }
+      ]
+    }
+  }
+}

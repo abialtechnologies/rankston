@@ -1,0 +1,195 @@
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import services from '../../../data/services.json';
+import locations from '../../../data/locations.json';
+import subServices from '../../../data/sub-services.js';
+import SubServicePage from '../../../components/SubServicePage';
+import StateHubPage from '../../../components/state-pages/StateHubPage';
+import LeadForm from '../../../components/LeadForm';
+import { buildStateContent } from '../../../data/state-content-generator.js';
+
+/* ------------------------------------------------------------------ */
+/*  generateStaticParams – emit BOTH state slugs AND sub-service slugs */
+/* ------------------------------------------------------------------ */
+export async function generateStaticParams() {
+  const params = [];
+
+  // State pages: /[service]/[stateSlug]
+  services.forEach((svc) => {
+    locations.forEach((stateData) => {
+      params.push({ service: svc.slug, slug: stateData.stateSlug });
+    });
+  });
+
+  // Sub-service pages: /[service]/[subSlug]
+  for (const [serviceSlug, subs] of Object.entries(subServices)) {
+    for (const sub of subs) {
+      params.push({ service: serviceSlug, slug: sub.slug });
+    }
+  }
+
+  return params;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Helpers to determine the slug type                                */
+/* ------------------------------------------------------------------ */
+function findState(slug) {
+  return locations.find((s) => s.stateSlug === slug);
+}
+
+function findSubService(serviceSlug, slug) {
+  const subs = subServices[serviceSlug];
+  if (!subs) return null;
+  return subs.find((s) => s.slug === slug) || null;
+}
+
+/* ------------------------------------------------------------------ */
+/*  generateMetadata                                                  */
+/* ------------------------------------------------------------------ */
+export async function generateMetadata({ params }) {
+  const { service, slug } = await params;
+  const svc = services.find((s) => s.slug === service);
+  if (!svc) return { title: 'Not Found' };
+
+  // Try state page first
+  const stateData = findState(slug);
+  if (stateData) {
+    const title = `${svc.title} in ${stateData.state} | Rankston`;
+    const desc  = `Looking for ${svc.title.toLowerCase()} in ${stateData.state}? Rankston helps businesses in ${stateData.cities.slice(0,3).map(c=>c.city).join(', ')} grow with proven ${svc.title.toLowerCase()} strategies. Get a free audit today.`;
+    const url   = `https://rankston.com/${svc.slug}/${stateData.stateSlug}`;
+    return {
+      title,
+      description: desc,
+      alternates: { canonical: url },
+      openGraph: {
+        title,
+        description: desc,
+        url,
+        siteName: 'Rankston',
+        type: 'website',
+        images: [{ url: `https://rankston.com/og/${svc.slug}-${stateData.stateSlug}.jpg`, width: 1200, height: 630, alt: title }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description: desc,
+      },
+    };
+  }
+
+
+  // Try sub-service page
+  const sub = findSubService(service, slug);
+  if (sub) {
+    return {
+      title: `${sub.label} | ${svc.title} | Rankston`,
+      description: sub.desc,
+      alternates: { canonical: `https://rankston.com/${service}/${slug}` },
+      openGraph: {
+        title: `${sub.label} | Rankston`,
+        description: sub.desc,
+        url: `https://rankston.com/${service}/${slug}`,
+      },
+    };
+  }
+
+  return { title: 'Not Found' };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Page component                                                    */
+/* ------------------------------------------------------------------ */
+export default async function ServiceSlugPage({ params }) {
+  const { service, slug } = await params;
+  const svc = services.find((s) => s.slug === service);
+  if (!svc) notFound();
+
+  const AC = svc.accentColor || '#10B981';
+
+  // ── State page ────────────────────────────────────────────────────
+  const stateData = findState(slug);
+  if (stateData) {
+    const content = buildStateContent(service, stateData);
+
+    /* ── Breadcrumb schema ── */
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home',      item: 'https://rankston.com' },
+        { '@type': 'ListItem', position: 2, name: svc.title,   item: `https://rankston.com/${svc.slug}` },
+        { '@type': 'ListItem', position: 3, name: stateData.state, item: `https://rankston.com/${svc.slug}/${stateData.stateSlug}` },
+      ],
+    };
+
+    /* ── Service schema ── */
+    const serviceSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: `${svc.title} in ${stateData.state}`,
+      description: content?.heroSub || `Professional ${svc.title.toLowerCase()} services for businesses in ${stateData.state}.`,
+      provider: {
+        '@type': 'Organization',
+        name: 'Rankston',
+        url: 'https://rankston.com',
+        logo: 'https://rankston.com/logo.png',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'sales',
+          availableLanguage: 'English',
+        },
+      },
+      areaServed: {
+        '@type': 'State',
+        name: stateData.state,
+        containsPlace: (stateData.cities || []).slice(0, 5).map(c => ({
+          '@type': 'City',
+          name: c.city,
+        })),
+      },
+      serviceType: svc.title,
+      url: `https://rankston.com/${svc.slug}/${stateData.stateSlug}`,
+    };
+
+    /* ── FAQ schema (feeds AI Overview & GEO directly) ── */
+    const faqItems = (content?.faqs || []).map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    }));
+    const faqSchema = faqItems.length > 0 ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems,
+    } : null;
+
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+        {faqSchema && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        )}
+        <StateHubPage svc={svc} stateData={stateData} content={content} />
+      </>
+    );
+  }
+
+
+  // ── Sub-service page ──────────────────────────────────────────────
+  const subs = subServices[service];
+  if (!subs) notFound();
+  const sub = subs.find((s) => s.slug === slug);
+  if (!sub) notFound();
+  const related = subs.filter((s) => s.slug !== slug).slice(0, 4);
+
+  return (
+    <>
+      <SubServicePage sub={sub} service={svc} related={related} />
+      <div id="contact">
+        <LeadForm />
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,475 @@
+{
+  "seo-services": {
+    "badge": "Search Engine Optimization",
+    "heroTitle": "Rank Higher. Get Found. Grow Faster.",
+    "heroSubtitle": "We don't just optimize pages — we engineer search dominance across Google, AI Overviews, and every generative engine your customers are already using.",
+    "stats": [
+      { "value": "876%", "label": "Avg Organic Traffic Growth" },
+      { "value": "Top 3", "label": "Map Pack Rankings" },
+      { "value": "5 mo", "label": "Avg Time to #1" },
+      { "value": "$2.4M", "label": "Revenue from SEO (1 client)" }
+    ],
+    "subServices": [
+      { "title": "On-Page SEO", "desc": "We optimize every element Google reads: title tags, meta descriptions, H1-H6 structure, internal linking, image alt tags, schema markup, and URL structure. Your pages become technically perfect.", "icon": "📄" },
+      { "title": "Off-Page SEO", "desc": "We build your domain authority through strategic link acquisition — editorial backlinks from DR 50+ domains, guest posts, digital PR campaigns, and HARO outreach that signals trust to Google.", "icon": "🔗" },
+      { "title": "Link Building", "desc": "Our link building goes beyond quantity. Every link we acquire is relevant, authoritative, and manually vetted. We target niche-specific publications that send real referral traffic alongside ranking power.", "icon": "⛓️" },
+      { "title": "Technical SEO", "desc": "Core Web Vitals optimization, crawl budget management, canonical tags, XML sitemaps, robots.txt, hreflang for multi-language sites, structured data, and page speed optimization to Lighthouse 90+.", "icon": "⚙️" },
+      { "title": "AIO Optimization", "desc": "AI Overviews (AIO) are appearing in 20%+ of searches. We optimize your content to be selected as the AI Overview source — using E-E-A-T signals, FAQ schema, and concise authoritative answers.", "icon": "🤖" },
+      { "title": "GEO (Generative Engine)", "desc": "ChatGPT, Perplexity, Gemini, and Claude are sending real traffic. We optimize your brand's presence across all generative engines using structured content, brand mentions, and citation building.", "icon": "🌐" }
+    ],
+    "process": [
+      { "step": "01", "title": "Discovery & Audit", "desc": "Full technical audit, competitor analysis, keyword gap analysis, and baseline ranking report. We map your exact path to dominance.", "duration": "Week 1" },
+      { "step": "02", "title": "Technical Foundation", "desc": "Fix all crawl errors, Core Web Vitals issues, duplicate content, and site architecture problems. Build the perfect technical foundation.", "duration": "Weeks 2–3" },
+      { "step": "03", "title": "Content Strategy", "desc": "Keyword-mapped content calendar, pillar page strategy, and optimization of existing high-potential pages for maximum ranking velocity.", "duration": "Weeks 3–4" },
+      { "step": "04", "title": "Link Building", "desc": "Systematic acquisition of high-authority backlinks through editorial outreach, digital PR, and strategic partnerships.", "duration": "Month 2+" },
+      { "step": "05", "title": "AIO & GEO", "desc": "Optimize for AI search engines — restructure content for featured snippets, AI Overviews, and generative engine citations.", "duration": "Month 2+" },
+      { "step": "06", "title": "Report & Scale", "desc": "Monthly ranking reports with keyword movement, traffic growth, and ROI attribution. We scale what works.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "2–4 weeks", "results": "60–90 days", "dominant": "4–6 months", "note": "SEO is a long-term investment. Our clients see consistent growth for years after engagement." },
+    "comparison": [
+      { "feature": "Full AIO & GEO Optimization", "us": true, "them": false },
+      { "feature": "Link Building (DR 50+ only)", "us": true, "them": false },
+      { "feature": "Weekly Rank Tracking Reports", "us": true, "them": false },
+      { "feature": "Dedicated SEO Strategist", "us": true, "them": false },
+      { "feature": "Core Web Vitals Optimization", "us": true, "them": "Sometimes" },
+      { "feature": "Schema Markup Implementation", "us": true, "them": "Sometimes" },
+      { "feature": "Content + SEO Integration", "us": true, "them": false },
+      { "feature": "Transparent Monthly ROI Report", "us": true, "them": false }
+    ],
+    "testimonials": [
+      { "name": "James Harlow", "role": "Owner, Gulf Coast Auto Group", "avatar": "JH", "color": "#10B981", "text": "We went from page 4 to position 1 in 5 months. Rankston's SEO team is the real deal — not theory, actual results. $2.4M in additional revenue tracked back to organic search.", "rating": 5 },
+      { "name": "Lisa Chen", "role": "Marketing Director, MedSpa Collective", "avatar": "LC", "color": "#3B82F6", "text": "They got us into the AI Overviews for our top 3 search terms within 3 months. Our competitors can't figure out how we're appearing in Google's AI answers. Worth every penny.", "rating": 5 },
+      { "name": "Mike Torres", "role": "CEO, Torres Legal Group", "avatar": "MT", "color": "#8B5CF6", "text": "Our organic leads tripled in 6 months. The monthly reporting is crystal clear — I always know exactly what I'm getting for my investment.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "How long does SEO take to see results?", "a": "You'll typically see measurable improvements in rankings within 60–90 days. Significant traffic growth usually happens between months 4–6. This depends on your industry competition, domain authority, and how aggressively we can execute." },
+      { "q": "What is AIO optimization and why does it matter?", "a": "AI Overviews (AIO) appear at the top of Google results for millions of searches, showing an AI-generated answer. If your content is selected as the source, you get massive visibility even if you're not ranking #1. We optimize specifically for this." },
+      { "q": "Do you guarantee first page rankings?", "a": "We don't make ranking guarantees — anyone who does is lying to you. What we guarantee is a proven, transparent process executed by senior SEO specialists, monthly reporting, and a track record of 876% average traffic growth." },
+      { "q": "What's the difference between on-page and off-page SEO?", "a": "On-page SEO covers everything on your website — content, title tags, structure, speed. Off-page SEO is everything outside your site — backlinks, brand mentions, authority signals. Both are required for competitive rankings." },
+      { "q": "How do you build backlinks for my site?", "a": "We use editorial outreach (earning links from relevant publications naturally), digital PR (creating linkable assets like studies and infographics), HARO responses, and guest posting on high-DA sites. We never buy links or use private blog networks." },
+      { "q": "Will you optimize for ChatGPT and Perplexity as well?", "a": "Yes — this is our GEO service. We build your brand's authority signals so that AI systems like ChatGPT, Perplexity, Gemini, and Claude recommend and cite your business when users ask relevant questions." }
+    ]
+  },
+  "web-development": {
+    "badge": "Website Development",
+    "heroTitle": "Websites That Work While You Sleep.",
+    "heroSubtitle": "We build fast, beautiful, conversion-optimized websites — WordPress for local businesses, enterprise platforms for growing brands. Every site is built to rank and sell.",
+    "stats": [
+      { "value": "4.8%", "label": "Avg Conversion Rate (our sites)" },
+      { "value": "91+", "label": "Lighthouse Score" },
+      { "value": "2.1s", "label": "Avg Page Load Time" },
+      { "value": "300%", "label": "Avg Lead Increase Post-Launch" }
+    ],
+    "subServices": [
+      { "title": "WordPress Development", "desc": "Clean, fast, SEO-ready WordPress sites for local businesses. Custom themes, essential plugins, CMS training, and ongoing support. No page-builder bloat.", "icon": "🔷" },
+      { "title": "Enterprise Web Solutions", "desc": "Custom full-stack web applications for larger businesses — complex functionality, API integrations, user portals, dashboards, and e-commerce at scale.", "icon": "🏢" },
+      { "title": "Landing Page Design", "desc": "High-converting landing pages for paid ads and campaigns. A/B tested layouts, persuasive copy structure, and conversion tracking built in from day one.", "icon": "🎯" },
+      { "title": "E-Commerce Development", "desc": "WooCommerce and custom e-commerce solutions — product catalog, payment gateway integration, inventory management, and mobile-first checkout flows.", "icon": "🛒" },
+      { "title": "Core Web Vitals Optimisation", "desc": "LCP, FID, CLS optimized. Image compression, code splitting, lazy loading, CDN configuration. We hit Lighthouse 90+ on every project.", "icon": "⚡" },
+      { "title": "Maintenance & Support", "desc": "Monthly plugin updates, security monitoring, uptime alerts, performance reviews, and content updates. Your site stays fast and secure long after launch.", "icon": "🛡️" }
+    ],
+    "process": [
+      { "step": "01", "title": "Discovery & Sitemap", "desc": "We map your goals, audience, and required functionality. Define page hierarchy, user flows, and technical stack.", "duration": "Week 1" },
+      { "step": "02", "title": "Design Mockups", "desc": "Full design mockups in Figma. We present desktop + mobile views and iterate until you're 100% happy before writing a line of code.", "duration": "Weeks 1–2" },
+      { "step": "03", "title": "Development", "desc": "We build the approved design — pixel-perfect, mobile-first, with clean semantic code and SEO structure baked in from the start.", "duration": "Weeks 2–4" },
+      { "step": "04", "title": "Speed & SEO QA", "desc": "Lighthouse audit, Core Web Vitals fixes, schema markup, meta tags, XML sitemap, and cross-browser testing before launch.", "duration": "Week 4–5" },
+      { "step": "05", "title": "Launch", "desc": "DNS migration, SSL configuration, Analytics setup (GA4, Search Console), and a full post-launch check.", "duration": "Week 5" },
+      { "step": "06", "title": "Ongoing Support", "desc": "Monthly maintenance plans available. We monitor, update, and improve your site continuously.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "WordPress: 2–3 weeks", "results": "Enterprise: 6–12 weeks", "dominant": "E-commerce: 4–8 weeks", "note": "Timeline depends on project complexity and feedback speed. We always deliver on schedule." },
+    "comparison": [
+      { "feature": "SEO-Ready from Day 1", "us": true, "them": false },
+      { "feature": "Lighthouse 90+ Score", "us": true, "them": "Rarely" },
+      { "feature": "Custom Design (no templates)", "us": true, "them": false },
+      { "feature": "Dedicated Project Manager", "us": true, "them": false },
+      { "feature": "Mobile-First Development", "us": true, "them": "Sometimes" },
+      { "feature": "Conversion Rate Optimized", "us": true, "them": false },
+      { "feature": "Post-Launch Training", "us": true, "them": false },
+      { "feature": "Ongoing Maintenance Option", "us": true, "them": "Extra Cost" }
+    ],
+    "testimonials": [
+      { "name": "Ryan Patel", "role": "Owner, Patel Dental Group", "avatar": "RP", "color": "#3B82F6", "text": "Our old site took 8 seconds to load. Rankston rebuilt it and now it loads in 1.8 seconds and converts 4x more visitors into appointment bookings. Incredible ROI.", "rating": 5 },
+      { "name": "Sandra O.", "role": "Founder, Bloom Skincare", "avatar": "SO", "color": "#EC4899", "text": "They built our e-commerce site in 3 weeks and it's beautiful. More importantly, it sells. Our online revenue went up 280% in the first quarter after launch.", "rating": 5 },
+      { "name": "Chris V.", "role": "CEO, V-Tech Solutions", "avatar": "CV", "color": "#8B5CF6", "text": "Enterprise-grade work. Complex API integrations, a client portal, and a CMS — all delivered on time and exactly as spec'd. These guys know what they're doing.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "How long does it take to build a website?", "a": "A standard WordPress site takes 2–3 weeks. Landing pages take 1 week. Custom enterprise sites typically take 6–12 weeks depending on complexity." },
+      { "q": "Do you build on WordPress or custom code?", "a": "Both. For local businesses and content sites, WordPress with custom theme development is the right choice. For complex applications, portals, and enterprise needs, we use React/Next.js or custom backend solutions." },
+      { "q": "Will my website be mobile-friendly?", "a": "100% yes. Every site we build is mobile-first — we design and test on mobile before desktop. Over 60% of web traffic is mobile and Google indexes mobile-first." },
+      { "q": "Do you handle hosting?", "a": "We can recommend and set up hosting (we prefer Cloudflare + Vercel or WP Engine for WordPress) or work with your existing host. Hosting costs are separate from development." },
+      { "q": "Will I be able to update the content myself?", "a": "Yes. We deliver CMS training and documentation so you can update pages, blog posts, images, and products yourself without needing a developer." }
+    ]
+  },
+  "social-media-marketing": {
+    "badge": "Social Media Marketing",
+    "heroTitle": "Build an Audience That Buys.",
+    "heroSubtitle": "Strategic social media management that grows your following, builds your brand, and converts followers into customers — across Instagram, Facebook, LinkedIn, and TikTok.",
+    "stats": [
+      { "value": "18.5K", "label": "Avg Follower Growth (6 mo)" },
+      { "value": "6.4%", "label": "Avg Engagement Rate" },
+      { "value": "312%", "label": "Reach Growth" },
+      { "value": "4.2x", "label": "Avg ROAS on Paid Social" }
+    ],
+    "subServices": [
+      { "title": "Content Strategy & Calendars", "desc": "Monthly content calendars with post copy, creative direction, hashtag research, and optimal posting schedules tailored to your audience and platform algorithms.", "icon": "📅" },
+      { "title": "Content Creation", "desc": "We create scroll-stopping graphics, reels, carousels, and stories. Every piece of content is on-brand, platform-optimized, and designed to drive engagement.", "icon": "✨" },
+      { "title": "Community Management", "desc": "We respond to comments, DMs, and mentions — keeping your audience engaged and your brand reputation protected 7 days a week.", "icon": "💬" },
+      { "title": "Paid Social Campaigns", "desc": "Meta Ads, LinkedIn Ads, and TikTok Ads campaigns managed for maximum ROI. We handle targeting, creative testing, budget allocation, and optimization.", "icon": "📣" },
+      { "title": "Influencer Collaborations", "desc": "We identify and manage partnerships with relevant micro and macro influencers in your niche — handles outreach, contracts, briefing, and performance tracking.", "icon": "🤝" },
+      { "title": "Analytics & Reporting", "desc": "Monthly performance reports with reach, engagement, click-through rates, lead attribution, and actionable insights. You always know your ROI.", "icon": "📊" }
+    ],
+    "process": [
+      { "step": "01", "title": "Brand Audit", "desc": "Review existing profiles, competitor analysis, audience research, and brand voice definition.", "duration": "Week 1" },
+      { "step": "02", "title": "Strategy Build", "desc": "Platform selection, content pillars, posting frequency, hashtag strategy, and paid campaign structure.", "duration": "Week 1–2" },
+      { "step": "03", "title": "Content Production", "desc": "First month of content created, approved, and scheduled. Creative assets produced to brand guidelines.", "duration": "Week 2–3" },
+      { "step": "04", "title": "Launch & Manage", "desc": "Profiles go live. Community management begins. Paid campaigns launch with A/B testing.", "duration": "Month 1" },
+      { "step": "05", "title": "Optimize & Scale", "desc": "We analyze what's working and double down. Underperforming content is cut. Top performers are boosted.", "duration": "Month 2+" },
+      { "step": "06", "title": "Monthly Reporting", "desc": "Full performance report with growth metrics, engagement analysis, and next month strategy adjustments.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "Content live in 2 weeks", "results": "Follower growth in 30 days", "dominant": "Strong brand presence in 90 days", "note": "Paid social campaigns can generate leads from day one of launch." },
+    "comparison": [
+      { "feature": "Custom Content Creation", "us": true, "them": "Stock images" },
+      { "feature": "Community Management (7 days)", "us": true, "them": false },
+      { "feature": "Paid + Organic Strategy", "us": true, "them": "One or other" },
+      { "feature": "Monthly ROI Reports", "us": true, "them": false },
+      { "feature": "Influencer Management", "us": true, "them": false },
+      { "feature": "Platform Algorithm Updates", "us": true, "them": "Rarely" },
+      { "feature": "Brand Voice Development", "us": true, "them": false },
+      { "feature": "Dedicated Social Strategist", "us": true, "them": false }
+    ],
+    "testimonials": [
+      { "name": "Priya Nair", "role": "Founder, Priya Beauty Studio", "avatar": "PN", "color": "#EC4899", "text": "My Instagram went from 1,200 to 22,000 followers in 6 months and I'm now fully booked 3 months in advance. The content they create is stunning.", "rating": 5 },
+      { "name": "David Kim", "role": "Director, Kim Financial Advisors", "avatar": "DK", "color": "#3B82F6", "text": "LinkedIn is now our #1 lead source. Rankston's strategy turned our company page into a content machine that generates 4–6 qualified leads per week.", "rating": 5 },
+      { "name": "Sophie B.", "role": "Owner, Fresh Batch Bakery", "avatar": "SB", "color": "#F59E0B", "text": "Our TikTok videos went viral twice in the first month. The team just gets social media. Our foot traffic doubled after 90 days.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "Which social media platforms do you manage?", "a": "We manage Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, and X (Twitter). We recommend 2–3 platforms based on where your target audience actually is." },
+      { "q": "Do you create the content or do I need to provide it?", "a": "We create everything — copy, graphics, reels scripts, carousels. You approve content before it goes live. We can also repurpose your existing photos/videos." },
+      { "q": "How do you measure success?", "a": "Beyond vanity metrics (likes, followers), we track click-throughs to your website, lead form submissions from social traffic, and revenue attributed via UTM parameters and GA4." },
+      { "q": "How is your paid social different from just boosting posts?", "a": "Boosting is the least effective way to spend ad budget. We build structured campaigns with audience segmentation, creative A/B testing, conversion pixel tracking, and algorithmic bid optimization." }
+    ]
+  },
+  "graphic-designing": {
+    "badge": "Graphic Design",
+    "heroTitle": "Design That Stops Scrolls and Starts Sales.",
+    "heroSubtitle": "Premium visual identity, advertising creatives, and brand design for businesses worldwide. First impressions happen in 0.05 seconds — we make yours unforgettable.",
+    "stats": [
+      { "value": "6.4%", "label": "Avg Engagement Rate (our creatives)" },
+      { "value": "0.05s", "label": "Time for first impression" },
+      { "value": "80%", "label": "Brand recall with consistent design" },
+      { "value": "2.5x", "label": "Better CTR vs stock designs" }
+    ],
+    "subServices": [
+      { "title": "Logo & Brand Identity", "desc": "Custom logo design with full brand identity: color palette, typography system, usage guidelines, and brand style guide delivered as a complete brand kit.", "icon": "✦" },
+      { "title": "Social Media Graphics", "desc": "Posts, stories, reels covers, carousels, and profile aesthetics optimized for each platform. Templates you can reuse and resize.", "icon": "📱" },
+      { "title": "Ad Creatives", "desc": "Static and animated ad creatives for Google Display, Meta Ads, LinkedIn, and TikTok. Designed for CTR and conversions, not just aesthetics.", "icon": "🎯" },
+      { "title": "Flyers & Print Materials", "desc": "Business cards, brochures, flyers, banners, posters, and packaging design. Print-ready files in all required formats.", "icon": "🖨️" },
+      { "title": "Presentation Design", "desc": "Pitch decks, investor presentations, and sales decks that tell a compelling visual story and close deals.", "icon": "📊" },
+      { "title": "Brand Style Guides", "desc": "A comprehensive document defining your logo usage, colors, fonts, photography style, and tone of voice — so every piece of content looks consistently premium.", "icon": "📋" }
+    ],
+    "process": [
+      { "step": "01", "title": "Brief & Discovery", "desc": "We learn your brand, audience, competitors, and design preferences. Mood board creation.", "duration": "Day 1–2" },
+      { "step": "02", "title": "Concept Development", "desc": "3 initial concepts presented. We explore different directions before narrowing down.", "duration": "Day 3–5" },
+      { "step": "03", "title": "Refinement", "desc": "You choose your preferred direction. We refine based on your feedback — unlimited revisions.", "duration": "Day 5–8" },
+      { "step": "04", "title": "Final Delivery", "desc": "All files delivered in every format: PNG, JPG, SVG, PDF, AI, and PSD. Print-ready and web-ready.", "duration": "Day 8–10" }
+    ],
+    "timeline": { "first": "Logo: 5–7 days", "results": "Brand kit: 10–14 days", "dominant": "Full campaign assets: 2–3 weeks", "note": "Rush delivery available. Social media graphic packages delivered in 48–72 hours." },
+    "comparison": [
+      { "feature": "Custom Design (no templates)", "us": true, "them": "Canva templates" },
+      { "feature": "Unlimited Revisions", "us": true, "them": false },
+      { "feature": "Brand Strategy Included", "us": true, "them": false },
+      { "feature": "All File Formats Delivered", "us": true, "them": "Limited formats" },
+      { "feature": "Conversion-Optimized Creatives", "us": true, "them": false },
+      { "feature": "Print-Ready Files", "us": true, "them": "Sometimes" },
+      { "feature": "Brand Style Guide", "us": true, "them": false },
+      { "feature": "Dedicated Senior Designer", "us": true, "them": "Freelance lottery" }
+    ],
+    "testimonials": [
+      { "name": "Ahmad S.", "role": "Founder, Ahmad's Restaurant Chain", "avatar": "AS", "color": "#F59E0B", "text": "Our rebrand was incredible. New logo, new brand system, new menu designs. We look like a Michelin-star restaurant now. Customers literally comment on how premium we look.", "rating": 5 },
+      { "name": "Tanya R.", "role": "CMO, TechStart Inc.", "avatar": "TR", "color": "#8B5CF6", "text": "The pitch deck they designed helped us close our Series A. Investors commented on how professional our materials were. Great work.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "Do I own the final design files?", "a": "Yes. Upon final payment, you receive full ownership of all source files (AI, PSD, Figma) and the final assets." },
+      { "q": "How many revisions are included?", "a": "Unlimited revisions within the scope of your project brief. We iterate until you're 100% happy." },
+      { "q": "Can you match my existing brand style?", "a": "Absolutely. Send us your brand guidelines and existing assets — we'll work within your established identity or evolve it." }
+    ]
+  },
+  "video-editing": {
+    "badge": "Video Editing",
+    "heroTitle": "Video Content That Sells Your Business.",
+    "heroSubtitle": "Professional video editing for local businesses and commercial brands — reels, YouTube videos, ads, and brand films that capture attention and drive action.",
+    "stats": [
+      { "value": "11.8%", "label": "Avg Video Engagement Rate" },
+      { "value": "4x", "label": "More shares vs text content" },
+      { "value": "80%", "label": "Viewers remember video vs 20% text" },
+      { "value": "48h", "label": "Standard Turnaround" }
+    ],
+    "subServices": [
+      { "title": "Short-Form Reels & TikToks", "desc": "15–90 second vertical videos edited for Instagram Reels and TikTok — punchy cuts, caption animations, trending audio, and strong hooks that stop the scroll.", "icon": "📱" },
+      { "title": "YouTube Video Production", "desc": "Long-form YouTube video editing with intro/outro graphics, chapter markers, jump cut editing, B-roll integration, color grading, and custom thumbnails.", "icon": "▶️" },
+      { "title": "Commercial & TV Ads", "desc": "Professional commercial video editing for TV, YouTube pre-roll, and social media advertising campaigns. Includes motion graphics and voiceover integration.", "icon": "🎬" },
+      { "title": "Local Business Promo Videos", "desc": "2–5 minute promotional videos for restaurants, service businesses, and retail stores. Testimonial compilations, service showcases, and event highlights.", "icon": "🏪" },
+      { "title": "Motion Graphics & Animation", "desc": "Animated logos, lower thirds, transitions, infographics, and explainer animations to enhance any video content.", "icon": "✨" },
+      { "title": "Color Grading & Sound", "desc": "Professional color correction, cinematic grading, background music licensing, SFX, and audio cleanup for polished final output.", "icon": "🎨" }
+    ],
+    "process": [
+      { "step": "01", "title": "Footage Review", "desc": "We review your raw footage and brief. If you don't have footage, we provide a shot list.", "duration": "Day 1" },
+      { "step": "02", "title": "First Cut", "desc": "Rough cut delivered for review — structure, pacing, and content flow established.", "duration": "Day 2–3" },
+      { "step": "03", "title": "Polish", "desc": "Graphics, color grading, audio, captions, and animations added.", "duration": "Day 3–4" },
+      { "step": "04", "title": "Delivery", "desc": "Final files delivered in all required formats and aspect ratios (16:9, 9:16, 1:1).", "duration": "Day 4–5" }
+    ],
+    "timeline": { "first": "Reels: 24–48 hours", "results": "YouTube videos: 3–5 days", "dominant": "Commercials: 1–2 weeks", "note": "Rush delivery available for urgent projects." },
+    "comparison": [
+      { "feature": "Platform-Optimized Formats", "us": true, "them": "One size fits all" },
+      { "feature": "48-Hour Standard Delivery", "us": true, "them": false },
+      { "feature": "Motion Graphics Included", "us": true, "them": "Extra cost" },
+      { "feature": "Licensed Background Music", "us": true, "them": false },
+      { "feature": "Captions & Subtitles", "us": true, "them": "Extra cost" },
+      { "feature": "Unlimited Revisions", "us": true, "them": false },
+      { "feature": "Thumbnail Design", "us": true, "them": false },
+      { "feature": "Color Grading", "us": true, "them": "Sometimes" }
+    ],
+    "testimonials": [
+      { "name": "Marco D.", "role": "Owner, Marco's Italian Kitchen", "avatar": "MD", "color": "#F97316", "text": "Our restaurant reel hit 180,000 views on Instagram and we were fully booked for two weeks straight. These guys know how to make food look insanely good on camera.", "rating": 5 },
+      { "name": "Keisha W.", "role": "Founder, Keisha Wellness", "avatar": "KW", "color": "#10B981", "text": "My YouTube channel went from 400 to 12,000 subscribers in 4 months with their editing. The quality is on another level compared to what I was doing myself.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "Do I need to provide my own footage?", "a": "Yes, you provide raw footage. If you need filming, we can recommend videographers in your area or guide you on self-shooting with your phone." },
+      { "q": "What format should I send my footage in?", "a": "Any format works — MP4, MOV, even phone footage. Higher resolution is better but we work with what you have." },
+      { "q": "How many revisions do I get?", "a": "Unlimited revisions are included until you're completely satisfied." }
+    ]
+  },
+  "content-marketing": {
+    "badge": "Content Marketing",
+    "heroTitle": "Content That Ranks, Converts, and Compounds.",
+    "heroSubtitle": "Strategic content marketing that attracts your ideal customers at every stage of the buying journey — from awareness to decision. No filler. Only content that works.",
+    "stats": [
+      { "value": "280", "label": "Avg Leads/Month (after 5 months)" },
+      { "value": "6x", "label": "More leads vs outbound marketing" },
+      { "value": "62%", "label": "Less cost than traditional ads" },
+      { "value": "3.5x", "label": "Higher conversion rate" }
+    ],
+    "subServices": [
+      { "title": "SEO Blog Writing", "desc": "Keyword-researched, expert-written blog posts (1,500–4,000+ words) designed to rank for high-intent search terms and convert organic readers into leads.", "icon": "✍️" },
+      { "title": "Pillar Page Strategy", "desc": "Comprehensive topic cluster strategy with pillar pages and supporting content — builds topical authority that dominates an entire subject area in Google.", "icon": "🏛️" },
+      { "title": "Email Marketing Sequences", "desc": "Welcome sequences, nurture campaigns, re-engagement emails, and promotional flows that convert leads into customers and customers into repeat buyers.", "icon": "📧" },
+      { "title": "Video Script Writing", "desc": "YouTube scripts, short-form video hooks, podcast outlines, and webinar content. We write for the spoken word and optimized viewing behavior.", "icon": "🎬" },
+      { "title": "Case Studies & White Papers", "desc": "Long-form content assets that establish authority, support sales teams, and generate high-quality B2B leads through gated download campaigns.", "icon": "📑" },
+      { "title": "Content Repurposing", "desc": "Turn one piece of long-form content into 10+ assets — social posts, shorts, infographics, email snippets, and quote cards. Maximum ROI per piece.", "icon": "♻️" }
+    ],
+    "process": [
+      { "step": "01", "title": "Content Audit", "desc": "Review existing content performance, identify gaps, map competitor content strategy.", "duration": "Week 1" },
+      { "step": "02", "title": "Keyword & Topic Research", "desc": "Deep keyword research, search intent mapping, and content calendar creation for 3 months.", "duration": "Week 1–2" },
+      { "step": "03", "title": "Content Production", "desc": "Expert-written content produced, reviewed internally, SEO-optimized, and submitted for your approval.", "duration": "Ongoing" },
+      { "step": "04", "title": "Publish & Optimize", "desc": "Published with perfect on-page SEO, internal linking, schema markup, and social distribution.", "duration": "Ongoing" },
+      { "step": "05", "title": "Promote & Distribute", "desc": "Content distributed via email, social, backlink outreach, and repurposing across all channels.", "duration": "Ongoing" },
+      { "step": "06", "title": "Measure & Iterate", "desc": "Monthly performance review — traffic, leads, rankings, and adjustments to strategy.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "First content published week 2", "results": "Organic traffic growth months 3–4", "dominant": "Compounding growth months 6+", "note": "Content marketing compounds — articles written today continue generating leads for years." },
+    "comparison": [
+      { "feature": "Expert Industry Writers", "us": true, "them": "Generic writers" },
+      { "feature": "SEO-Optimized Every Piece", "us": true, "them": "Rarely" },
+      { "feature": "Pillar Page Strategy", "us": true, "them": false },
+      { "feature": "Content Distribution", "us": true, "them": false },
+      { "feature": "Repurposing Included", "us": true, "them": "Extra cost" },
+      { "feature": "Lead Attribution Tracking", "us": true, "them": false },
+      { "feature": "Email Sequences", "us": true, "them": "Separate service" },
+      { "feature": "Monthly Strategy Review", "us": true, "them": false }
+    ],
+    "testimonials": [
+      { "name": "Brian C.", "role": "CEO, Coastal Insurance Group", "avatar": "BC", "color": "#F59E0B", "text": "Our blog now generates 45 organic leads per month on autopilot. Articles we published 8 months ago are still ranking and converting. Best long-term investment we've made.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "Do you write the content or do I?", "a": "We write everything. You provide a brief review and approval. Our writers are industry-specialist humans, not AI-generated copy." },
+      { "q": "How long before I see results from content marketing?", "a": "Initial traffic improvements happen around month 3. Significant lead generation typically starts months 5–6. Content marketing is a long-term strategy that compounds dramatically." },
+      { "q": "What topics do you write about?", "a": "Anything your customers search for — educational content, how-to guides, comparison articles, case studies, product reviews, and industry insights." }
+    ]
+  },
+  "gmb-optimization": {
+    "badge": "Google Business Profile Optimization",
+    "heroTitle": "Own the #1 Spot on Google Maps.",
+    "heroSubtitle": "The Map Pack gets 44% of all local search clicks. We get your business into the top 3 — and keep you there — with expert GMB optimization and local authority building.",
+    "stats": [
+      { "value": "Top 3", "label": "Map Pack in 90 days avg" },
+      { "value": "44%", "label": "Of local clicks go to Map Pack" },
+      { "value": "5x", "label": "More calls from Map Pack vs organic" },
+      { "value": "312%", "label": "Avg profile view increase" }
+    ],
+    "subServices": [
+      { "title": "Profile Setup & Optimization", "desc": "Complete GBP audit and optimization — correct categories, service areas, business description, Q&A, products/services, attributes. Every field maximized.", "icon": "📍" },
+      { "title": "Review Generation Strategy", "desc": "Systematic approach to generating genuine 5-star reviews — automated follow-up sequences, SMS/email templates, and customer journey mapping.", "icon": "⭐" },
+      { "title": "Review Management", "desc": "We respond to every review (positive and negative) with professional, brand-aligned responses that demonstrate trustworthiness and engagement.", "icon": "💬" },
+      { "title": "Local Citation Building", "desc": "Your business NAP (Name, Address, Phone) submitted consistently to 50+ directories — Yelp, Apple Maps, Bing Places, Yellow Pages, and niche directories.", "icon": "📋" },
+      { "title": "GMB Posts & Photos", "desc": "3 weekly GMB posts (offers, updates, events) and regular fresh photos uploaded to signal activity to Google's algorithm.", "icon": "📸" },
+      { "title": "Multi-Location Management", "desc": "For businesses with multiple locations, we optimize each GBP profile individually with location-specific content, keywords, and reviews.", "icon": "🗺️" }
+    ],
+    "process": [
+      { "step": "01", "title": "Audit", "desc": "Full GBP audit, competitor Map Pack analysis, citation audit, and review baseline review.", "duration": "Week 1" },
+      { "step": "02", "title": "Profile Overhaul", "desc": "Complete profile optimization — every field, category, photo, and attribute updated to best-practice standard.", "duration": "Week 1–2" },
+      { "step": "03", "title": "Citation Building", "desc": "NAP submitted to 50+ directories with consistent formatting. Incorrect citations corrected.", "duration": "Week 2–4" },
+      { "step": "04", "title": "Review Strategy", "desc": "Automated review generation system launched. Customers start getting follow-up requests.", "duration": "Week 2+" },
+      { "step": "05", "title": "GMB Post Cadence", "desc": "3x weekly posts begin, driving engagement signals. Regular photo uploads scheduled.", "duration": "Ongoing" },
+      { "step": "06", "title": "Rank Tracking", "desc": "Weekly rank tracking for your target keywords in your service area. Monthly report.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "Profile live & optimized: 1 week", "results": "Ranking movement: 30–45 days", "dominant": "Top 3 Map Pack: 60–90 days", "note": "Results vary by competition level. High-competition cities may take 3–4 months." },
+    "comparison": [
+      { "feature": "Full Profile Optimization", "us": true, "them": "Partial" },
+      { "feature": "50+ Citation Submissions", "us": true, "them": false },
+      { "feature": "Review Response Service", "us": true, "them": false },
+      { "feature": "3x Weekly GMB Posts", "us": true, "them": false },
+      { "feature": "Weekly Rank Tracking", "us": true, "them": "Monthly only" },
+      { "feature": "Multi-Location Support", "us": true, "them": "Extra cost" },
+      { "feature": "NAP Consistency Audit", "us": true, "them": false },
+      { "feature": "Competitor Monitoring", "us": true, "them": false }
+    ],
+    "testimonials": [
+      { "name": "Linda H.", "role": "Owner, Hillside Physio", "avatar": "LH", "color": "#22C55E", "text": "We went from position 8 in the map pack to position 2 in 11 weeks. Phone calls from Google Maps tripled. Rankston's GMB service is the best money I've spent.", "rating": 5 },
+      { "name": "Tony P.", "role": "Owner, Platinum Plumbing", "avatar": "TP", "color": "#06B6D4", "text": "Before Rankston, nobody could find us on Google Maps. Now we get 25+ calls per week from the Map Pack alone. Revenue up 180% in 4 months.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "What is the Google Map Pack?", "a": "The Map Pack is the block of 3 local business listings that appears below the Google Maps widget when someone searches for a local service. It receives 44% of all clicks for local searches." },
+      { "q": "How long to rank in the Map Pack?", "a": "Most clients see ranking movement within 30–45 days and reach the top 3 within 60–90 days. High-competition markets may take 3–4 months." },
+      { "q": "Do I need a physical address to rank in the Map Pack?", "a": "Yes, you need a verified Google Business Profile with a legitimate business address. Service-area businesses (like plumbers) can hide their address while still ranking in target service areas." }
+    ]
+  },
+  "ppc-advertising": {
+    "badge": "Pay-Per-Click Advertising",
+    "heroTitle": "Pay Less. Convert More. Grow Faster.",
+    "heroSubtitle": "ROI-obsessed Google Ads and Meta Ads management. We stop the budget bleeding, fix your campaigns, and build paid advertising systems that generate consistent, scalable revenue.",
+    "stats": [
+      { "value": "480%", "label": "Avg ROI on Ad Spend" },
+      { "value": "62%", "label": "Avg Wasted Budget Eliminated" },
+      { "value": "4x", "label": "Avg ROAS Improvement" },
+      { "value": "38%", "label": "Avg Cost Per Lead Reduction" }
+    ],
+    "subServices": [
+      { "title": "Google Search Ads", "desc": "Exact-match keyword campaigns targeting high-intent buyers. Smart bidding, negative keyword management, ad copy testing, and Quality Score optimization.", "icon": "🔍" },
+      { "title": "Google Shopping Ads", "desc": "Product listing ads for e-commerce. Feed optimization, Smart Shopping campaigns, and ROAS-target bidding to maximize product visibility and purchases.", "icon": "🛒" },
+      { "title": "Meta / Facebook Ads", "desc": "Facebook and Instagram ad campaigns with laser-targeted audience segmentation, creative A/B testing, retargeting pixel setup, and conversion optimization.", "icon": "📘" },
+      { "title": "YouTube & Display Ads", "desc": "Awareness and retargeting campaigns on YouTube and Google Display Network — reach your audience across millions of websites and apps.", "icon": "▶️" },
+      { "title": "Remarketing Campaigns", "desc": "Re-engage people who visited your site but didn't convert. Dynamic remarketing showing the exact products/services they viewed.", "icon": "🔄" },
+      { "title": "Landing Page Optimization", "desc": "Your ads are only as good as your landing page. We optimize or build dedicated landing pages that convert PPC traffic at maximum efficiency.", "icon": "🎯" }
+    ],
+    "process": [
+      { "step": "01", "title": "Account Audit", "desc": "Full audit of existing campaigns — identifying wasted spend, quality score issues, and missed opportunities.", "duration": "Week 1" },
+      { "step": "02", "title": "Strategy & Setup", "desc": "Campaign structure, keyword research, audience building, ad copy, and conversion tracking setup.", "duration": "Week 1–2" },
+      { "step": "03", "title": "Launch & Test", "desc": "Campaigns go live with A/B testing across multiple ad copies, audiences, and bidding strategies.", "duration": "Week 2" },
+      { "step": "04", "title": "Optimize", "desc": "Daily monitoring, bid adjustments, negative keyword additions, and poor performer pausing.", "duration": "Ongoing" },
+      { "step": "05", "title": "Scale", "desc": "Winning campaign elements identified and budget shifted to highest ROAS campaigns.", "duration": "Month 2+" },
+      { "step": "06", "title": "Report", "desc": "Monthly performance report — spend, clicks, conversions, cost per conversion, ROAS, and next month strategy.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "Campaigns live in 5–7 days", "results": "Optimization visible in 30 days", "dominant": "Full ROAS optimization: 60–90 days", "note": "PPC generates leads from day 1. It takes 2–3 months of data to fully optimize for peak performance." },
+    "comparison": [
+      { "feature": "Certified Google Ads Specialists", "us": true, "them": "Sometimes" },
+      { "feature": "Daily Campaign Monitoring", "us": true, "them": "Weekly" },
+      { "feature": "Landing Page Optimization", "us": true, "them": "Extra cost" },
+      { "feature": "A/B Ad Copy Testing", "us": true, "them": false },
+      { "feature": "Conversion Tracking Setup", "us": true, "them": "Basic only" },
+      { "feature": "Negative Keyword Management", "us": true, "them": "Rarely" },
+      { "feature": "Remarketing Campaigns", "us": true, "them": "Extra cost" },
+      { "feature": "Transparent Spend Reports", "us": true, "them": "Hidden fees" }
+    ],
+    "testimonials": [
+      { "name": "Greg F.", "role": "Owner, Fusion HVAC", "avatar": "GF", "color": "#06B6D4", "text": "We were spending $8,000/month on Google Ads with zero idea where the money was going. Rankston cut our waste by 60% and tripled our leads on the same budget.", "rating": 5 },
+      { "name": "Maria S.", "role": "Director, Sparkle Clean", "avatar": "MS", "color": "#EC4899", "text": "Our Meta Ads were a disaster before Rankston. Now we get 40–60 cleaning service leads per month at $12 per lead. Life-changing for our business.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "How much should I budget for Google Ads?", "a": "We typically recommend a minimum of $1,000–$1,500/month in ad spend for local businesses. E-commerce and competitive industries often need $3,000–$10,000/month to see meaningful volume." },
+      { "q": "What is ROAS and what should I expect?", "a": "ROAS (Return on Ad Spend) measures revenue generated per dollar spent on ads. A 4x ROAS means $4 revenue for every $1 spent. Our clients average 4.8x ROAS after 90 days of optimization." },
+      { "q": "How is your fee structured?", "a": "We charge a management fee (not a percentage of ad spend) so our incentives are always aligned with performance, not with spending more of your budget." }
+    ]
+  },
+  "ai-automation": {
+    "badge": "AI Automation",
+    "heroTitle": "Automate Your Business. Scale Without Limits.",
+    "heroSubtitle": "AI-powered workflows that capture more leads, follow up instantly, and handle repetitive tasks — so your team focuses on high-value work while automation handles the rest.",
+    "stats": [
+      { "value": "< 2min", "label": "Avg Lead Response Time" },
+      { "value": "3x", "label": "Revenue Growth (avg client)" },
+      { "value": "70%", "label": "Reduction in Manual Tasks" },
+      { "value": "58%", "label": "Avg Lead Capture Rate Increase" }
+    ],
+    "subServices": [
+      { "title": "Lead Capture Automation", "desc": "Multi-channel lead capture from website forms, Facebook Ads, Google Ads, and social media — all automatically routed, tagged, and entered into your CRM.", "icon": "🎯" },
+      { "title": "Automated Follow-Up Sequences", "desc": "Multi-step email and SMS follow-up sequences that nurture leads automatically — based on their behavior, timing, and stage in the buyer journey.", "icon": "📧" },
+      { "title": "CRM & Pipeline Automation", "desc": "HubSpot, Salesforce, GoHighLevel, or your existing CRM — we build automation rules that move deals through your pipeline without manual input.", "icon": "📊" },
+      { "title": "Appointment Booking", "desc": "Automated scheduling workflows — leads choose a time, booking is confirmed, reminders sent, and your calendar stays full without admin work.", "icon": "📅" },
+      { "title": "AI Content Generation", "desc": "Automated content workflows that generate first drafts of emails, social posts, and product descriptions — reviewed and published without the heavy lifting.", "icon": "✍️" },
+      { "title": "Reporting & Analytics Automation", "desc": "Automated dashboards and weekly reports sent to your inbox — always knowing your key metrics without spending hours in spreadsheets.", "icon": "📈" }
+    ],
+    "process": [
+      { "step": "01", "title": "Process Mapping", "desc": "We map your current workflows — where leads come from, how they're handled, what's manual, what's repetitive.", "duration": "Week 1" },
+      { "step": "02", "title": "Automation Blueprint", "desc": "We design the automation architecture — tools, triggers, sequences, and integrations.", "duration": "Week 1–2" },
+      { "step": "03", "title": "Build & Test", "desc": "Automations built, tested in sandbox environment, and refined before going live.", "duration": "Week 2–4" },
+      { "step": "04", "title": "Go Live", "desc": "Automation systems launched. Your team trained on the new workflows.", "duration": "Week 4" },
+      { "step": "05", "title": "Monitor & Optimize", "desc": "We monitor performance and fix any issues. Automations refined as your business grows.", "duration": "Ongoing" }
+    ],
+    "timeline": { "first": "Blueprint ready: 1 week", "results": "First automations live: 2–4 weeks", "dominant": "Full system operational: 4–6 weeks", "note": "Simple automations can go live in days. Complex multi-system integrations take 4–8 weeks." },
+    "comparison": [
+      { "feature": "Custom Workflow Design", "us": true, "them": "Off-the-shelf templates" },
+      { "feature": "CRM Integration", "us": true, "them": "Limited" },
+      { "feature": "Multi-Channel Automation", "us": true, "them": "Single channel" },
+      { "feature": "Staff Training", "us": true, "them": false },
+      { "feature": "AI-Powered Personalization", "us": true, "them": false },
+      { "feature": "Ongoing Optimization", "us": true, "them": false },
+      { "feature": "ROI Tracking", "us": true, "them": false },
+      { "feature": "Dedicated Automation Expert", "us": true, "them": "Support tickets" }
+    ],
+    "testimonials": [
+      { "name": "Marcus J.", "role": "Owner, Cool Breeze HVAC", "avatar": "MJ", "color": "#6366F1", "text": "Our revenue tripled in 6 months. We went from 4-hour response times to 90 seconds. We never missed a lead again. The automation system Rankston built is the backbone of our business.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "What tools do you use for automation?", "a": "We work with GoHighLevel, HubSpot, Zapier, Make (formerly Integromat), ActiveCampaign, and custom API integrations depending on your existing stack." },
+      { "q": "Do I need to replace my existing software?", "a": "Usually not. We build automation layers that connect your existing tools — CRM, email platform, calendar, and website — rather than replacing them." },
+      { "q": "How technical do I need to be to use the automations?", "a": "Not technical at all. We build dashboards and simplified interfaces. We train your team and provide documentation. Most clients manage everything without any technical knowledge." }
+    ]
+  },
+  "chatbot-development": {
+    "badge": "Chatbot Development",
+    "heroTitle": "Your 24/7 AI Sales & Support Agent.",
+    "heroSubtitle": "Custom AI chatbots deployed on your website, WhatsApp, Instagram, and Facebook — qualifying leads, booking appointments, and serving customers around the clock without human effort.",
+    "stats": [
+      { "value": "58%", "label": "Avg Lead Capture Rate" },
+      { "value": "90sec", "label": "Avg Response Time" },
+      { "value": "24/7", "label": "Always On" },
+      { "value": "71%", "label": "Avg Close Rate (with bot)" }
+    ],
+    "subServices": [
+      { "title": "Website Live Chat Bot", "desc": "AI chatbot embedded on your website — greets visitors, qualifies leads, answers top questions, and captures contact info. Works while you sleep.", "icon": "💻" },
+      { "title": "WhatsApp Business Bot", "desc": "Automated WhatsApp responses trained on your business — pricing, availability, services, FAQs. Responds instantly to every WhatsApp inquiry 24/7.", "icon": "📱" },
+      { "title": "Instagram DM Automation", "desc": "Automated Instagram DM responses to comments and messages — qualifies leads, sends price lists, books consultations, and nurtures followers.", "icon": "📸" },
+      { "title": "Facebook Messenger Bot", "desc": "Messenger chatbot for your Facebook Business Page — handles inquiries, runs lead gen campaigns, and books appointments from your Facebook audience.", "icon": "📘" },
+      { "title": "Lead Qualification Bot", "desc": "Intelligent qualification flows that ask the right questions, score leads based on budget/timeline/need, and only send hot leads to your sales team.", "icon": "🎯" },
+      { "title": "Appointment Booking Bot", "desc": "Bot that shows available slots, books directly into your calendar (Calendly, Google Calendar, etc.), sends confirmations, and handles rescheduling.", "icon": "📅" }
+    ],
+    "process": [
+      { "step": "01", "title": "Bot Brief", "desc": "We define the bot's purpose, key questions it must answer, and desired user flows.", "duration": "Day 1–2" },
+      { "step": "02", "title": "Knowledge Training", "desc": "Bot trained on your business — services, pricing, FAQs, policies, and objection handling.", "duration": "Day 3–5" },
+      { "step": "03", "title": "Flow Design", "desc": "Conversation flows built and tested. Multiple paths for different user intents.", "duration": "Day 5–7" },
+      { "step": "04", "title": "Integration", "desc": "Bot connected to your website, WhatsApp, CRM, and calendar.", "duration": "Day 7–10" },
+      { "step": "05", "title": "Testing", "desc": "Real conversation testing across all scenarios. Edge cases handled.", "duration": "Day 10–12" },
+      { "step": "06", "title": "Launch & Train", "desc": "Bot goes live. Your team trained to manage conversations it escalates.", "duration": "Day 12–14" }
+    ],
+    "timeline": { "first": "Simple bot: 1 week", "results": "Multi-platform bot: 2 weeks", "dominant": "Complex AI bot: 3–4 weeks", "note": "Leads start coming in from day 1 of launch." },
+    "comparison": [
+      { "feature": "Multi-Platform Deployment", "us": true, "them": "Website only" },
+      { "feature": "Custom AI Training", "us": true, "them": "Generic templates" },
+      { "feature": "CRM Integration", "us": true, "them": false },
+      { "feature": "Appointment Booking", "us": true, "them": "Extra cost" },
+      { "feature": "Multi-Language Support", "us": true, "them": false },
+      { "feature": "Lead Scoring", "us": true, "them": false },
+      { "feature": "Ongoing Bot Training", "us": true, "them": false },
+      { "feature": "Analytics Dashboard", "us": true, "them": false }
+    ],
+    "testimonials": [
+      { "name": "Sarah T.", "role": "Owner, The Lash Lounge", "avatar": "ST", "color": "#14B8A6", "text": "Our WhatsApp bot books 30+ appointments per week without us lifting a finger. Customers love the instant reply. Revenue up 140% since we launched it.", "rating": 5 },
+      { "name": "Omar K.", "role": "Director, K-Real Estate", "avatar": "OK", "color": "#6366F1", "text": "The website chat bot qualifies 200+ leads per month. We only talk to serious buyers now. Our close rate went from 18% to 64% because we're only talking to hot leads.", "rating": 5 }
+    ],
+    "faqs": [
+      { "q": "Will the chatbot sound robotic?", "a": "No. Our bots are trained with natural conversational language specific to your brand voice. Most users don't realize they're talking to a bot." },
+      { "q": "What happens when the bot can't answer a question?", "a": "The bot escalates to a human — sending an alert to your team via email, SMS, or your CRM. You only get involved for complex conversations." },
+      { "q": "Can the bot handle multiple languages?", "a": "Yes. We can deploy multilingual bots that detect the user's language and respond accordingly." },
+      { "q": "What platforms can the bot be deployed on?", "a": "Website (live chat widget), WhatsApp Business, Instagram DMs, Facebook Messenger, Telegram, and SMS." }
+    ]
+  }
+}

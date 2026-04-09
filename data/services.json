@@ -1,0 +1,282 @@
+[
+  {
+    "id": "seo-aio-geo",
+    "slug": "seo-services",
+    "title": "SEO Evolved — AIO & GEO",
+    "shortTitle": "SEO",
+    "icon": "MagnifyingGlass",
+    "tagline": "SEO was just Google. Now it's AI too. We rank you on both.",
+    "description": "Search has evolved. SEO used to mean just Google — now your customers also get answers from AI Overviews (AIO) and AI tools like ChatGPT & Perplexity (GEO). We make sure your business is visible on all three.",
+    "longDescription": "Search is evolving fast. We future-proof your business with traditional Google SEO, AI Overviews (AIO) optimization so you appear in Google's AI-generated answers, and Generative Engine Optimization (GEO) targeting ChatGPT, Perplexity, and Gemini. From technical audits to high-authority link building, we cover every angle so you rank everywhere your customers search — today and tomorrow.",
+    "features": [
+      "Traditional Google SEO",
+      "AI Overviews (AIO) Optimization",
+      "Generative Engine Optimization (GEO)",
+      "Technical SEO Audits",
+      "Local & National SEO",
+      "High-Authority Link Building",
+      "Keyword Research & Strategy",
+      "Monthly Rank Tracking Reports"
+    ],
+    "results": {
+      "metric": "Average Organic Traffic Growth",
+      "before": "2,100/mo",
+      "after": "14,800/mo",
+      "period": "6 months"
+    },
+    "color": "from-emerald-500 to-teal-600",
+    "accentColor": "#10B981"
+  },
+  {
+    "id": "web-development",
+    "slug": "web-development",
+    "title": "Website Development",
+    "shortTitle": "Web Dev",
+    "icon": "CodeBracket",
+    "tagline": "From Local Sites to Enterprise Platforms.",
+    "description": "WordPress sites for local businesses and large-scale web solutions for enterprise brands — all built for speed, SEO, and maximum conversions.",
+    "longDescription": "Whether you're a local business needing a clean WordPress site or a growing brand needing a custom enterprise-grade platform, we build it right. Every project is mobile-first, Core Web Vitals optimized, and SEO-ready from day one. We handle design, development, CMS setup, and ongoing maintenance so you can focus on your business.",
+    "features": [
+      "WordPress Sites for Local Businesses",
+      "Large-Scale Enterprise Web Solutions",
+      "Custom Design & Development",
+      "E-Commerce Development",
+      "Landing Page Optimization",
+      "Core Web Vitals Optimization",
+      "Mobile-First Responsive Design",
+      "Ongoing Maintenance & Support"
+    ],
+    "results": {
+      "metric": "Average Conversion Rate",
+      "before": "1.2%",
+      "after": "4.8%",
+      "period": "3 months"
+    },
+    "color": "from-blue-500 to-indigo-600",
+    "accentColor": "#3B82F6"
+  },
+  {
+    "id": "social-media-marketing",
+    "slug": "social-media-marketing",
+    "title": "Social Media Marketing",
+    "shortTitle": "SMM",
+    "icon": "CursorArrowRays",
+    "tagline": "Build a Brand. Grow a Following.",
+    "description": "Strategic social media management and paid campaigns that build your brand presence, grow engaged audiences, and drive real business results.",
+    "longDescription": "We manage your social presence across Instagram, Facebook, LinkedIn, TikTok, and more — from content strategy and daily posting to paid social campaigns and influencer collaborations. Every post, reel, and campaign is designed to grow your audience and convert followers into customers.",
+    "features": [
+      "Instagram & Facebook Management",
+      "LinkedIn & TikTok Strategy",
+      "Content Creation & Scheduling",
+      "Paid Social Ad Campaigns",
+      "Audience Growth & Engagement",
+      "Influencer Collaborations",
+      "Monthly Analytics Reports",
+      "Brand Voice Development"
+    ],
+    "results": {
+      "metric": "Average Follower Growth",
+      "before": "1,200 followers",
+      "after": "18,500 followers",
+      "period": "6 months"
+    },
+    "color": "from-pink-500 to-rose-600",
+    "accentColor": "#EC4899"
+  },
+  {
+    "id": "graphic-designing",
+    "slug": "graphic-designing",
+    "title": "Graphic Designing",
+    "shortTitle": "Design",
+    "icon": "PencilSquare",
+    "tagline": "Visuals That Stop the Scroll.",
+    "description": "Professional graphic design for brands, businesses, and campaigns — logos, social graphics, ad creatives, and complete brand identity systems.",
+    "longDescription": "Great design builds trust instantly. Our design team creates scroll-stopping visuals for every touchpoint — from your brand identity and logo to social media graphics, advertising creatives, flyers, banners, and pitch decks. We combine strategic thinking with premium aesthetics to make your brand impossible to ignore.",
+    "features": [
+      "Logo & Brand Identity Design",
+      "Social Media Graphics",
+      "Ad Creatives (Static & Animated)",
+      "Flyers & Promotional Materials",
+      "Presentation & Pitch Decks",
+      "Infographic Design",
+      "Banner & Outdoor Advertising",
+      "Brand Style Guide Creation"
+    ],
+    "results": {
+      "metric": "Brand Engagement Rate",
+      "before": "1.8%",
+      "after": "6.4%",
+      "period": "3 months"
+    },
+    "color": "from-violet-500 to-purple-600",
+    "accentColor": "#8B5CF6"
+  },
+  {
+    "id": "video-editing",
+    "slug": "video-editing",
+    "title": "Video Editing",
+    "shortTitle": "Video",
+    "icon": "SparklesIcon",
+    "tagline": "Videos That Sell Your Business.",
+    "description": "Commercial and promotional video editing for local and large businesses — short-form reels, YouTube videos, ads, and full brand films.",
+    "longDescription": "Video is the #1 content format driving engagement and conversions today. Our video editing team transforms your raw footage into polished, professional content — from 15-second Instagram reels and TikTok clips to full YouTube videos, TV commercials, and brand documentaries. Perfect for local businesses promoting their services and large companies running commercial campaigns.",
+    "features": [
+      "Short-Form Reels & TikTok Editing",
+      "YouTube Video Production",
+      "Commercial & TV Ad Editing",
+      "Local Business Promo Videos",
+      "Subtitles & Captions",
+      "Motion Graphics & Animations",
+      "Color Grading & Sound Design",
+      "Thumbnail Design"
+    ],
+    "results": {
+      "metric": "Average Video Engagement",
+      "before": "3.2%",
+      "after": "11.8%",
+      "period": "4 months"
+    },
+    "color": "from-orange-500 to-red-600",
+    "accentColor": "#F97316"
+  },
+  {
+    "id": "content-marketing",
+    "slug": "content-marketing",
+    "title": "Content Marketing",
+    "shortTitle": "Content",
+    "icon": "PencilSquare",
+    "tagline": "Content That Converts.",
+    "description": "Strategic content that attracts your ideal customers, builds authority, and drives organic growth at scale across every channel.",
+    "longDescription": "From SEO blog posts and long-form pillar pages to email sequences and video scripts, our content team creates expert-level assets that rank and resonate. Every piece is strategically mapped to your buyer's journey to accelerate pipeline growth and build lasting brand authority.",
+    "features": [
+      "SEO Blog Writing",
+      "Pillar Page Strategy",
+      "Email Marketing Sequences",
+      "Social Media Content Writing",
+      "Video Script Writing",
+      "Case Studies & White Papers",
+      "Content Calendars",
+      "Brand Voice & Tone Guides"
+    ],
+    "results": {
+      "metric": "Average Lead Generation",
+      "before": "45 leads/mo",
+      "after": "280 leads/mo",
+      "period": "5 months"
+    },
+    "color": "from-amber-500 to-yellow-600",
+    "accentColor": "#F59E0B"
+  },
+  {
+    "id": "gmb-optimization",
+    "slug": "gmb-optimization",
+    "title": "GMB Optimization",
+    "shortTitle": "GMB",
+    "icon": "MagnifyingGlass",
+    "tagline": "Own the Google Map Pack.",
+    "description": "Dominate local search with expert Google Business Profile (GMB) optimization that puts your business in the top 3 map results.",
+    "longDescription": "For local businesses, the Google Map Pack is the most valuable piece of real estate online. We fully optimize your Google Business Profile — categories, photos, posts, Q&A, reviews, citations — and build local authority signals that push you into the top 3 results across your service areas. We cover 25+ US cities and expand globally.",
+    "features": [
+      "Google Business Profile Setup & Optimization",
+      "Category & Attribute Optimization",
+      "Review Generation Strategy",
+      "Local Citation Building",
+      "GMB Posts & Photo Management",
+      "Map Pack Ranking Campaigns",
+      "Multi-Location GMB Management",
+      "Competitor Analysis"
+    ],
+    "results": {
+      "metric": "Google Map Pack Ranking",
+      "before": "Position 8–12",
+      "after": "Top 3",
+      "period": "90 days"
+    },
+    "color": "from-green-500 to-emerald-600",
+    "accentColor": "#22C55E"
+  },
+  {
+    "id": "ppc-advertising",
+    "slug": "ppc-advertising",
+    "title": "PPC Advertising",
+    "shortTitle": "PPC",
+    "icon": "CursorArrowRays",
+    "tagline": "Pay Less. Earn More.",
+    "description": "ROI-focused Google Ads and Meta Ads management that turns ad spend into predictable, scalable revenue streams.",
+    "longDescription": "Our certified PPC specialists manage campaigns with surgical precision — optimizing every keyword, bid, and creative to maximize return. We combine advanced audience targeting, continuous A/B testing, and real-time bid management to ensure every dollar works harder than the last.",
+    "features": [
+      "Google Search & Shopping Ads",
+      "Meta / Facebook & Instagram Ads",
+      "Remarketing Campaigns",
+      "Display & YouTube Ads",
+      "Landing Page A/B Testing",
+      "Conversion Tracking Setup",
+      "Monthly Performance Reports",
+      "Budget Optimization"
+    ],
+    "results": {
+      "metric": "Average ROI on Ad Spend",
+      "before": "120%",
+      "after": "480%",
+      "period": "4 months"
+    },
+    "color": "from-cyan-500 to-blue-600",
+    "accentColor": "#06B6D4"
+  },
+  {
+    "id": "ai-automation",
+    "slug": "ai-automation",
+    "title": "AI Automation",
+    "shortTitle": "AI Auto",
+    "icon": "SparklesIcon",
+    "tagline": "Automate. Scale. Dominate.",
+    "description": "Leverage AI-powered automation to capture more leads, follow up instantly, and scale your business worldwide without scaling headcount.",
+    "longDescription": "We implement cutting-edge AI tools — from automated outreach and lead nurturing to predictive analytics and workflow automation — allowing your business to operate at 10x capacity. Our AI solutions integrate seamlessly with your existing CRM and marketing stack, available to businesses worldwide.",
+    "features": [
+      "Marketing Workflow Automation",
+      "Automated Lead Nurturing Sequences",
+      "CRM & Pipeline Automation",
+      "AI-Powered Ad Creative Testing",
+      "Predictive Analytics & Reporting",
+      "Email & SMS Automation",
+      "AI Content Generation",
+      "Custom AI Tool Integration"
+    ],
+    "results": {
+      "metric": "Average Response Time",
+      "before": "4 hours",
+      "after": "< 2 minutes",
+      "period": "Immediate"
+    },
+    "color": "from-indigo-500 to-violet-600",
+    "accentColor": "#6366F1"
+  },
+  {
+    "id": "chatbot-development",
+    "slug": "chatbot-development",
+    "title": "Chatbot Development",
+    "shortTitle": "Chatbots",
+    "icon": "SparklesIcon",
+    "tagline": "Your 24/7 Sales & Support Agent.",
+    "description": "Custom AI-powered chatbots for websites, WhatsApp, Instagram, and Facebook — capturing leads and serving customers around the clock.",
+    "longDescription": "We build intelligent chatbots that work 24/7 to qualify leads, answer customer questions, book appointments, and drive sales — all without human intervention. Deployed across your website, WhatsApp, Instagram DMs, and Facebook Messenger, our bots are trained on your business to deliver personalized, accurate responses that convert.",
+    "features": [
+      "Custom AI Chatbot Development",
+      "Website Live Chat Integration",
+      "WhatsApp Business Automation",
+      "Instagram & Facebook Messenger Bots",
+      "Lead Qualification & Capture",
+      "Appointment Booking Automation",
+      "Multi-Language Support",
+      "CRM Integration"
+    ],
+    "results": {
+      "metric": "Average Lead Capture Rate",
+      "before": "12%",
+      "after": "58%",
+      "period": "Immediate"
+    },
+    "color": "from-teal-500 to-cyan-600",
+    "accentColor": "#14B8A6"
+  }
+]

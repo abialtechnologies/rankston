@@ -1,65 +1,106 @@
-import Image from "next/image";
+import dynamic from 'next/dynamic';
+import Hero from '../components/Hero';
+import SectionReveal from '../components/SectionReveal';
 
-export default function Home() {
+const WhyRankston  = dynamic(() => import('../components/WhyRankston'));
+const Services     = dynamic(() => import('../components/Services'));
+const ROICalculator = dynamic(() => import('../components/ROICalculator'));
+const CaseStudies  = dynamic(() => import('../components/CaseStudies'));
+const Process      = dynamic(() => import('../components/Process'));
+const Blog         = dynamic(() => import('../components/Blog'));
+const LeadForm     = dynamic(() => import('../components/LeadForm'));
+
+
+/**
+ * Homepage metadata — concise, keyword-rich for USA businesses
+ */
+export const metadata = {
+  title: 'Rankston — #1 Digital Marketing Agency Worldwide | SEO, PPC, AI',
+  description:
+    'Rankston is a worldwide digital marketing agency helping businesses grow with SEO, AIO, GEO, PPC, web development, content marketing, AI automation, and chatbot development. Get your free audit today.',
+  alternates: {
+    canonical: 'https://rankston.com',
+    languages: {
+      'en': 'https://rankston.com',
+      'es': 'https://rankston.com/es',
+      'ar': 'https://rankston.com/ar',
+      'de': 'https://rankston.com/de',
+      'x-default': 'https://rankston.com',
+    },
+  },
+  openGraph: {
+    title: 'Rankston — #1 Digital Marketing Agency Worldwide',
+    description: 'Dominate Google, AI search engines, and convert more. Get your free marketing audit today.',
+    url: 'https://rankston.com',
+  },
+};
+
+/**
+ * LocalBusiness JSON-LD schema for the homepage
+ */
+const homepageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'Rankston',
+  url: 'https://rankston.com',
+  logo: 'https://rankston.com/logo.png',
+  description: 'USA digital marketing agency specializing in SEO, PPC, web development, content marketing, and AI automation.',
+  telephone: '+1-800-555-1234',
+  email: 'support@rankston.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'US',
+  },
+  areaServed: 'US',
+  priceRange: '$$',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '312',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  sameAs: [
+    'https://linkedin.com/company/rankston',
+    'https://twitter.com/rankston',
+    'https://facebook.com/rankston',
+  ],
+};
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      {/* Page sections with scroll-reveal */}
+      <Hero />
+
+      <SectionReveal step={2} totalSteps={7}>
+        <WhyRankston />
+      </SectionReveal>
+
+      <SectionReveal step={3} totalSteps={7}>
+        <Services />
+      </SectionReveal>
+
+      {/* ROI Calculator — interactive lead-gen section */}
+      <SectionReveal step={4} totalSteps={7}>
+        <ROICalculator />
+      </SectionReveal>
+
+      <SectionReveal step={5} totalSteps={7}>
+        <CaseStudies />
+      </SectionReveal>
+
+      <SectionReveal step={6} totalSteps={7}>
+        <Process />
+      </SectionReveal>
+
+      <SectionReveal step={7} totalSteps={8} showStep={false}>
+        <Blog />
+      </SectionReveal>
+
+      <SectionReveal step={8} totalSteps={8} showStep={false}>
+        <LeadForm />
+      </SectionReveal>
+    </>
   );
 }

@@ -1,0 +1,126 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact",
+      "getAudit": "Get Free Audit"
+    },
+    "hero": {
+      "badge": "Worldwide Digital Marketing Agency",
+      "headline": "Rank First. Convert More. Grow Faster.",
+      "sub": "SEO, AIO, GEO, PPC, Web Development, Social Media, AI Automation — all under one roof. Worldwide."
+    },
+    "cta": {
+      "freeAudit": "Get Free Audit",
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us",
+      "viewServices": "View All Services",
+      "whatsapp": "Chat on WhatsApp"
+    },
+    "footer": {
+      "tagline": "Helping businesses worldwide rank higher, convert better, and grow faster.",
+      "rights": "All rights reserved."
+    },
+    "languageBanner": {
+      "message": "Would you like to view this site in",
+      "switch": "Switch Language",
+      "dismiss": "No thanks"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "blog": "Blog",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "getAudit": "Auditoría Gratuita"
+    },
+    "hero": {
+      "badge": "Agencia de Marketing Digital Mundial",
+      "headline": "Posiciona Primero. Convierte Más. Crece Más Rápido.",
+      "sub": "SEO, AIO, GEO, PPC, Desarrollo Web, Redes Sociales, Automatización con IA — todo en un solo lugar. En todo el mundo."
+    },
+    "cta": {
+      "freeAudit": "Auditoría Gratuita",
+      "learnMore": "Ver Más",
+      "contactUs": "Contáctanos",
+      "viewServices": "Ver Todos los Servicios",
+      "whatsapp": "Chatear en WhatsApp"
+    },
+    "footer": {
+      "tagline": "Ayudamos a empresas de todo el mundo a posicionarse mejor, convertir más y crecer más rápido.",
+      "rights": "Todos los derechos reservados."
+    },
+    "languageBanner": {
+      "message": "¿Le gustaría ver este sitio en",
+      "switch": "Cambiar idioma",
+      "dismiss": "No, gracias"
+    }
+  },
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "services": "الخدمات",
+      "blog": "المدونة",
+      "about": "من نحن",
+      "contact": "تواصل معنا",
+      "getAudit": "تدقيق مجاني"
+    },
+    "hero": {
+      "badge": "وكالة تسويق رقمي عالمية",
+      "headline": "تصدّر النتائج. حوّل الزوار. انمُ أسرع.",
+      "sub": "تهيئة محركات البحث، الإعلانات المدفوعة، تطوير المواقع، التسويق بالذكاء الاصطناعي — كل شيء تحت سقف واحد."
+    },
+    "cta": {
+      "freeAudit": "تدقيق مجاني",
+      "learnMore": "اعرف أكثر",
+      "contactUs": "تواصل معنا",
+      "viewServices": "عرض جميع الخدمات",
+      "whatsapp": "تحدث عبر واتساب"
+    },
+    "footer": {
+      "tagline": "نساعد الشركات حول العالم على التصدر، التحويل الأفضل، والنمو الأسرع.",
+      "rights": "جميع الحقوق محفوظة."
+    },
+    "languageBanner": {
+      "message": "هل تريد مشاهدة هذا الموقع باللغة",
+      "switch": "تغيير اللغة",
+      "dismiss": "لا، شكراً"
+    }
+  },
+  "de": {
+    "nav": {
+      "home": "Startseite",
+      "services": "Leistungen",
+      "blog": "Blog",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "getAudit": "Kostenloser Audit"
+    },
+    "hero": {
+      "badge": "Weltweite Digitalagentur",
+      "headline": "Zuerst ranken. Mehr konvertieren. Schneller wachsen.",
+      "sub": "SEO, AIO, GEO, PPC, Webentwicklung, Social Media, KI-Automatisierung — alles unter einem Dach. Weltweit."
+    },
+    "cta": {
+      "freeAudit": "Kostenloser Audit",
+      "learnMore": "Mehr erfahren",
+      "contactUs": "Kontakt aufnehmen",
+      "viewServices": "Alle Leistungen ansehen",
+      "whatsapp": "Per WhatsApp chatten"
+    },
+    "footer": {
+      "tagline": "Wir helfen Unternehmen weltweit, besser zu ranken, mehr zu konvertieren und schneller zu wachsen.",
+      "rights": "Alle Rechte vorbehalten."
+    },
+    "languageBanner": {
+      "message": "Möchten Sie diese Website auf",
+      "switch": "Sprache wechseln",
+      "dismiss": "Nein, danke"
+    }
+  }
+}

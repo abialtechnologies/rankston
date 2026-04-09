@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Rivera",
+    "company": "Rivera Auto Group",
+    "location": "Houston, TX",
+    "service": "SEO Services",
+    "avatar": "/avatars/avatar1.jpg",
+    "quote": "Rankston transformed our online presence. We went from page 4 to position 1 for \"used cars Houston\" in just 5 months. Revenue is up 312%.",
+    "rating": 5,
+    "results": {
+      "metric": "Organic Traffic",
+      "before": "1,200/mo",
+      "after": "18,400/mo",
+      "growth": "+1433%"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "company": "Bright Smile Dental",
+    "location": "Austin, TX",
+    "service": "Web Development + SEO",
+    "avatar": "/avatars/avatar2.jpg",
+    "quote": "Our new website loads in under 1.5 seconds and our appointment bookings doubled in 3 months. Best investment we've made for the practice.",
+    "rating": 5,
+    "results": {
+      "metric": "Monthly Appointments",
+      "before": "84",
+      "after": "210",
+      "growth": "+150%"
+    }
+  },
+  {
+    "id": 3,
+    "name": "James O'Brien",
+    "company": "OBrien Plumbing Co.",
+    "location": "Chicago, IL",
+    "service": "PPC + SEO",
+    "avatar": "/avatars/avatar3.jpg",
+    "quote": "We were spending $5k/mo on ads and getting 8 leads. Rankston optimized everything — now we get 65+ qualified leads at half the spend.",
+    "rating": 5,
+    "results": {
+      "metric": "Cost Per Lead",
+      "before": "$625",
+      "after": "$38",
+      "growth": "-94%"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sarah Chen",
+    "company": "Chen Financial Advisors",
+    "location": "Los Angeles, CA",
+    "service": "Content Marketing + SEO",
+    "avatar": "/avatars/avatar4.jpg",
+    "quote": "The content strategy they built for us positions our team as thought leaders. We now close 30% of inbound leads — up from 8%.",
+    "rating": 5,
+    "results": {
+      "metric": "Inbound Close Rate",
+      "before": "8%",
+      "after": "30%",
+      "growth": "+275%"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Derek Williams",
+    "company": "Williams HVAC Services",
+    "location": "Miami, FL",
+    "service": "AI Automation + PPC",
+    "avatar": "/avatars/avatar5.jpg",
+    "quote": "The AI chatbot they built captures leads 24/7. I wake up to 15-20 qualified inquiries every morning. Our revenue tripled in one season.",
+    "rating": 5,
+    "results": {
+      "metric": "Monthly Revenue",
+      "before": "$48,000",
+      "after": "$148,000",
+      "growth": "+208%"
+    }
+  }
+]

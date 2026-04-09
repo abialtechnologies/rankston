@@ -1,0 +1,4059 @@
+[
+  {
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "stateAbbr": "AL",
+    "cities": [
+      {
+        "city": "Birmingham",
+        "citySlug": "birmingham",
+        "zipcodes": [
+          "35201",
+          "35203",
+          "35205"
+        ]
+      },
+      {
+        "city": "Montgomery",
+        "citySlug": "montgomery",
+        "zipcodes": [
+          "36101",
+          "36104",
+          "36106"
+        ]
+      },
+      {
+        "city": "Huntsville",
+        "citySlug": "huntsville",
+        "zipcodes": [
+          "35801",
+          "35802",
+          "35803"
+        ]
+      },
+      {
+        "city": "Mobile",
+        "citySlug": "mobile",
+        "zipcodes": [
+          "36601"
+        ]
+      },
+      {
+        "city": "Tuscaloosa",
+        "citySlug": "tuscaloosa",
+        "zipcodes": [
+          "35401"
+        ]
+      },
+      {
+        "city": "Hoover",
+        "citySlug": "hoover",
+        "zipcodes": [
+          "35216"
+        ]
+      },
+      {
+        "city": "Dothan",
+        "citySlug": "dothan",
+        "zipcodes": [
+          "36301"
+        ]
+      },
+      {
+        "city": "Auburn",
+        "citySlug": "auburn",
+        "zipcodes": [
+          "36830"
+        ]
+      },
+      {
+        "city": "Decatur",
+        "citySlug": "decatur",
+        "zipcodes": [
+          "35601"
+        ]
+      },
+      {
+        "city": "Madison",
+        "citySlug": "madison",
+        "zipcodes": [
+          "35756"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Alaska",
+    "stateSlug": "alaska",
+    "stateAbbr": "AK",
+    "cities": [
+      {
+        "city": "Anchorage",
+        "citySlug": "anchorage",
+        "zipcodes": [
+          "99501",
+          "99502",
+          "99503"
+        ]
+      },
+      {
+        "city": "Fairbanks",
+        "citySlug": "fairbanks",
+        "zipcodes": [
+          "99701",
+          "99702",
+          "99703"
+        ]
+      },
+      {
+        "city": "Juneau",
+        "citySlug": "juneau",
+        "zipcodes": [
+          "99801"
+        ]
+      },
+      {
+        "city": "Sitka",
+        "citySlug": "sitka",
+        "zipcodes": [
+          "99835"
+        ]
+      },
+      {
+        "city": "Ketchikan",
+        "citySlug": "ketchikan",
+        "zipcodes": [
+          "99901"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "stateAbbr": "AZ",
+    "cities": [
+      {
+        "city": "Phoenix",
+        "citySlug": "phoenix",
+        "zipcodes": [
+          "85001",
+          "85002",
+          "85003"
+        ]
+      },
+      {
+        "city": "Scottsdale",
+        "citySlug": "scottsdale",
+        "zipcodes": [
+          "85250",
+          "85251",
+          "85254"
+        ]
+      },
+      {
+        "city": "Tucson",
+        "citySlug": "tucson",
+        "zipcodes": [
+          "85701",
+          "85702",
+          "85703"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "citySlug": "mesa",
+        "zipcodes": [
+          "85201",
+          "85202",
+          "85203"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "citySlug": "tempe",
+        "zipcodes": [
+          "85281",
+          "85282",
+          "85283"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "citySlug": "chandler",
+        "zipcodes": [
+          "85224"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "citySlug": "gilbert",
+        "zipcodes": [
+          "85233"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "citySlug": "glendale",
+        "zipcodes": [
+          "85301"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "citySlug": "peoria",
+        "zipcodes": [
+          "85345"
+        ]
+      },
+      {
+        "city": "Surprise",
+        "citySlug": "surprise",
+        "zipcodes": [
+          "85374"
+        ]
+      },
+      {
+        "city": "Goodyear",
+        "citySlug": "goodyear",
+        "zipcodes": [
+          "85338"
+        ]
+      },
+      {
+        "city": "Yuma",
+        "citySlug": "yuma",
+        "zipcodes": [
+          "85364"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Arkansas",
+    "stateSlug": "arkansas",
+    "stateAbbr": "AR",
+    "cities": [
+      {
+        "city": "Little Rock",
+        "citySlug": "little-rock",
+        "zipcodes": [
+          "72201",
+          "72202",
+          "72204"
+        ]
+      },
+      {
+        "city": "Fayetteville",
+        "citySlug": "fayetteville",
+        "zipcodes": [
+          "72701",
+          "72703",
+          "72704"
+        ]
+      },
+      {
+        "city": "Fort Smith",
+        "citySlug": "fort-smith",
+        "zipcodes": [
+          "72901"
+        ]
+      },
+      {
+        "city": "Springdale",
+        "citySlug": "springdale",
+        "zipcodes": [
+          "72762"
+        ]
+      },
+      {
+        "city": "Jonesboro",
+        "citySlug": "jonesboro",
+        "zipcodes": [
+          "72401"
+        ]
+      },
+      {
+        "city": "Conway",
+        "citySlug": "conway",
+        "zipcodes": [
+          "72032"
+        ]
+      },
+      {
+        "city": "Rogers",
+        "citySlug": "rogers",
+        "zipcodes": [
+          "72756"
+        ]
+      },
+      {
+        "city": "North Little Rock",
+        "citySlug": "north-little-rock",
+        "zipcodes": [
+          "72114"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "California",
+    "stateSlug": "california",
+    "stateAbbr": "CA",
+    "cities": [
+      {
+        "city": "Los Angeles",
+        "citySlug": "los-angeles",
+        "zipcodes": [
+          "90001",
+          "90002",
+          "90024"
+        ]
+      },
+      {
+        "city": "San Francisco",
+        "citySlug": "san-francisco",
+        "zipcodes": [
+          "94102",
+          "94103",
+          "94107"
+        ]
+      },
+      {
+        "city": "San Diego",
+        "citySlug": "san-diego",
+        "zipcodes": [
+          "92101",
+          "92103",
+          "92115"
+        ]
+      },
+      {
+        "city": "Sacramento",
+        "citySlug": "sacramento",
+        "zipcodes": [
+          "95814",
+          "95816",
+          "95818"
+        ]
+      },
+      {
+        "city": "San Jose",
+        "citySlug": "san-jose",
+        "zipcodes": [
+          "95101",
+          "95112",
+          "95126"
+        ]
+      },
+      {
+        "city": "Oakland",
+        "citySlug": "oakland",
+        "zipcodes": [
+          "94601",
+          "94607",
+          "94612"
+        ]
+      },
+      {
+        "city": "Fresno",
+        "citySlug": "fresno",
+        "zipcodes": [
+          "93701",
+          "93702",
+          "93710"
+        ]
+      },
+      {
+        "city": "Long Beach",
+        "citySlug": "long-beach",
+        "zipcodes": [
+          "90801",
+          "90802",
+          "90804"
+        ]
+      },
+      {
+        "city": "Anaheim",
+        "citySlug": "anaheim",
+        "zipcodes": [
+          "92801",
+          "92802",
+          "92805"
+        ]
+      },
+      {
+        "city": "Riverside",
+        "citySlug": "riverside",
+        "zipcodes": [
+          "92501",
+          "92503",
+          "92505"
+        ]
+      },
+      {
+        "city": "Bakersfield",
+        "citySlug": "bakersfield",
+        "zipcodes": [
+          "93301"
+        ]
+      },
+      {
+        "city": "Santa Ana",
+        "citySlug": "santa-ana",
+        "zipcodes": [
+          "92701"
+        ]
+      },
+      {
+        "city": "Stockton",
+        "citySlug": "stockton",
+        "zipcodes": [
+          "95201"
+        ]
+      },
+      {
+        "city": "Irvine",
+        "citySlug": "irvine",
+        "zipcodes": [
+          "92602"
+        ]
+      },
+      {
+        "city": "Chula Vista",
+        "citySlug": "chula-vista",
+        "zipcodes": [
+          "91910"
+        ]
+      },
+      {
+        "city": "Santa Clarita",
+        "citySlug": "santa-clarita",
+        "zipcodes": [
+          "91321"
+        ]
+      },
+      {
+        "city": "Fontana",
+        "citySlug": "fontana",
+        "zipcodes": [
+          "92335"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "stateAbbr": "CO",
+    "cities": [
+      {
+        "city": "Denver",
+        "citySlug": "denver",
+        "zipcodes": [
+          "80201",
+          "80202",
+          "80203"
+        ]
+      },
+      {
+        "city": "Colorado Springs",
+        "citySlug": "colorado-springs",
+        "zipcodes": [
+          "80901",
+          "80903",
+          "80905"
+        ]
+      },
+      {
+        "city": "Boulder",
+        "citySlug": "boulder",
+        "zipcodes": [
+          "80301",
+          "80302",
+          "80303"
+        ]
+      },
+      {
+        "city": "Aurora",
+        "citySlug": "aurora",
+        "zipcodes": [
+          "80010",
+          "80011",
+          "80012"
+        ]
+      },
+      {
+        "city": "Fort Collins",
+        "citySlug": "fort-collins",
+        "zipcodes": [
+          "80521"
+        ]
+      },
+      {
+        "city": "Lakewood",
+        "citySlug": "lakewood",
+        "zipcodes": [
+          "80215"
+        ]
+      },
+      {
+        "city": "Thornton",
+        "citySlug": "thornton",
+        "zipcodes": [
+          "80229"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "citySlug": "arvada",
+        "zipcodes": [
+          "80001"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "citySlug": "westminster",
+        "zipcodes": [
+          "80021"
+        ]
+      },
+      {
+        "city": "Pueblo",
+        "citySlug": "pueblo",
+        "zipcodes": [
+          "81001"
+        ]
+      },
+      {
+        "city": "Centennial",
+        "citySlug": "centennial",
+        "zipcodes": [
+          "80112"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "stateAbbr": "CT",
+    "cities": [
+      {
+        "city": "Hartford",
+        "citySlug": "hartford",
+        "zipcodes": [
+          "06101",
+          "06103",
+          "06105"
+        ]
+      },
+      {
+        "city": "New Haven",
+        "citySlug": "new-haven",
+        "zipcodes": [
+          "06501",
+          "06510",
+          "06511"
+        ]
+      },
+      {
+        "city": "Stamford",
+        "citySlug": "stamford",
+        "zipcodes": [
+          "06901",
+          "06902",
+          "06905"
+        ]
+      },
+      {
+        "city": "Bridgeport",
+        "citySlug": "bridgeport",
+        "zipcodes": [
+          "06601"
+        ]
+      },
+      {
+        "city": "Waterbury",
+        "citySlug": "waterbury",
+        "zipcodes": [
+          "06701"
+        ]
+      },
+      {
+        "city": "Norwalk",
+        "citySlug": "norwalk",
+        "zipcodes": [
+          "06850"
+        ]
+      },
+      {
+        "city": "Danbury",
+        "citySlug": "danbury",
+        "zipcodes": [
+          "06810"
+        ]
+      },
+      {
+        "city": "New Britain",
+        "citySlug": "new-britain",
+        "zipcodes": [
+          "06050"
+        ]
+      },
+      {
+        "city": "West Haven",
+        "citySlug": "west-haven",
+        "zipcodes": [
+          "06516"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "stateAbbr": "DE",
+    "cities": [
+      {
+        "city": "Wilmington",
+        "citySlug": "wilmington",
+        "zipcodes": [
+          "19801",
+          "19802",
+          "19805"
+        ]
+      },
+      {
+        "city": "Dover",
+        "citySlug": "dover",
+        "zipcodes": [
+          "19901",
+          "19904"
+        ]
+      },
+      {
+        "city": "Newark",
+        "citySlug": "newark",
+        "zipcodes": [
+          "19702"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "citySlug": "middletown",
+        "zipcodes": [
+          "19709"
+        ]
+      },
+      {
+        "city": "Smyrna",
+        "citySlug": "smyrna",
+        "zipcodes": [
+          "19977"
+        ]
+      },
+      {
+        "city": "Milford",
+        "citySlug": "milford",
+        "zipcodes": [
+          "19963"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Florida",
+    "stateSlug": "florida",
+    "stateAbbr": "FL",
+    "cities": [
+      {
+        "city": "Miami",
+        "citySlug": "miami",
+        "zipcodes": [
+          "33101",
+          "33109",
+          "33125"
+        ]
+      },
+      {
+        "city": "Orlando",
+        "citySlug": "orlando",
+        "zipcodes": [
+          "32801",
+          "32803",
+          "32805"
+        ]
+      },
+      {
+        "city": "Tampa",
+        "citySlug": "tampa",
+        "zipcodes": [
+          "33601",
+          "33602",
+          "33605"
+        ]
+      },
+      {
+        "city": "Jacksonville",
+        "citySlug": "jacksonville",
+        "zipcodes": [
+          "32201",
+          "32202",
+          "32207"
+        ]
+      },
+      {
+        "city": "Fort Lauderdale",
+        "citySlug": "fort-lauderdale",
+        "zipcodes": [
+          "33301",
+          "33304",
+          "33308"
+        ]
+      },
+      {
+        "city": "St. Petersburg",
+        "citySlug": "st-petersburg",
+        "zipcodes": [
+          "33701",
+          "33705",
+          "33710"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "citySlug": "boca-raton",
+        "zipcodes": [
+          "33427",
+          "33428",
+          "33431"
+        ]
+      },
+      {
+        "city": "Hialeah",
+        "citySlug": "hialeah",
+        "zipcodes": [
+          "33010"
+        ]
+      },
+      {
+        "city": "Tallahassee",
+        "citySlug": "tallahassee",
+        "zipcodes": [
+          "32301"
+        ]
+      },
+      {
+        "city": "Port St. Lucie",
+        "citySlug": "port-st-lucie",
+        "zipcodes": [
+          "34952"
+        ]
+      },
+      {
+        "city": "Cape Coral",
+        "citySlug": "cape-coral",
+        "zipcodes": [
+          "33904"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "citySlug": "pembroke-pines",
+        "zipcodes": [
+          "33023"
+        ]
+      },
+      {
+        "city": "Clearwater",
+        "citySlug": "clearwater",
+        "zipcodes": [
+          "33755"
+        ]
+      },
+      {
+        "city": "Gainesville",
+        "citySlug": "gainesville",
+        "zipcodes": [
+          "32601"
+        ]
+      },
+      {
+        "city": "Miramar",
+        "citySlug": "miramar",
+        "zipcodes": [
+          "33023"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "citySlug": "west-palm-beach",
+        "zipcodes": [
+          "33401"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "stateAbbr": "GA",
+    "cities": [
+      {
+        "city": "Atlanta",
+        "citySlug": "atlanta",
+        "zipcodes": [
+          "30301",
+          "30303",
+          "30308"
+        ]
+      },
+      {
+        "city": "Savannah",
+        "citySlug": "savannah",
+        "zipcodes": [
+          "31401",
+          "31404",
+          "31405"
+        ]
+      },
+      {
+        "city": "Augusta",
+        "citySlug": "augusta",
+        "zipcodes": [
+          "30901",
+          "30904",
+          "30909"
+        ]
+      },
+      {
+        "city": "Columbus",
+        "citySlug": "columbus",
+        "zipcodes": [
+          "31901",
+          "31904",
+          "31907"
+        ]
+      },
+      {
+        "city": "Macon",
+        "citySlug": "macon",
+        "zipcodes": [
+          "31201"
+        ]
+      },
+      {
+        "city": "Athens",
+        "citySlug": "athens",
+        "zipcodes": [
+          "30601"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "citySlug": "sandy-springs",
+        "zipcodes": [
+          "30328"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "citySlug": "roswell",
+        "zipcodes": [
+          "30075"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "citySlug": "alpharetta",
+        "zipcodes": [
+          "30004"
+        ]
+      },
+      {
+        "city": "Warner Robins",
+        "citySlug": "warner-robins",
+        "zipcodes": [
+          "31088"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "citySlug": "johns-creek",
+        "zipcodes": [
+          "30022"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Hawaii",
+    "stateSlug": "hawaii",
+    "stateAbbr": "HI",
+    "cities": [
+      {
+        "city": "Honolulu",
+        "citySlug": "honolulu",
+        "zipcodes": [
+          "96801",
+          "96813",
+          "96815"
+        ]
+      },
+      {
+        "city": "Hilo",
+        "citySlug": "hilo",
+        "zipcodes": [
+          "96720",
+          "96721"
+        ]
+      },
+      {
+        "city": "Pearl City",
+        "citySlug": "pearl-city",
+        "zipcodes": [
+          "96782"
+        ]
+      },
+      {
+        "city": "Kailua",
+        "citySlug": "kailua",
+        "zipcodes": [
+          "96734"
+        ]
+      },
+      {
+        "city": "Kapolei",
+        "citySlug": "kapolei",
+        "zipcodes": [
+          "96707"
+        ]
+      },
+      {
+        "city": "Kaneohe",
+        "citySlug": "kaneohe",
+        "zipcodes": [
+          "96744"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "stateAbbr": "ID",
+    "cities": [
+      {
+        "city": "Boise",
+        "citySlug": "boise",
+        "zipcodes": [
+          "83701",
+          "83702",
+          "83705"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "citySlug": "nampa",
+        "zipcodes": [
+          "83651",
+          "83653"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "citySlug": "meridian",
+        "zipcodes": [
+          "83642"
+        ]
+      },
+      {
+        "city": "Idaho Falls",
+        "citySlug": "idaho-falls",
+        "zipcodes": [
+          "83401"
+        ]
+      },
+      {
+        "city": "Pocatello",
+        "citySlug": "pocatello",
+        "zipcodes": [
+          "83201"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "citySlug": "caldwell",
+        "zipcodes": [
+          "83605"
+        ]
+      },
+      {
+        "city": "Twin Falls",
+        "citySlug": "twin-falls",
+        "zipcodes": [
+          "83301"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "stateAbbr": "IL",
+    "cities": [
+      {
+        "city": "Chicago",
+        "citySlug": "chicago",
+        "zipcodes": [
+          "60601",
+          "60602",
+          "60614"
+        ]
+      },
+      {
+        "city": "Aurora",
+        "citySlug": "aurora",
+        "zipcodes": [
+          "60502",
+          "60503",
+          "60505"
+        ]
+      },
+      {
+        "city": "Naperville",
+        "citySlug": "naperville",
+        "zipcodes": [
+          "60540",
+          "60563",
+          "60565"
+        ]
+      },
+      {
+        "city": "Rockford",
+        "citySlug": "rockford",
+        "zipcodes": [
+          "61101",
+          "61103",
+          "61107"
+        ]
+      },
+      {
+        "city": "Joliet",
+        "citySlug": "joliet",
+        "zipcodes": [
+          "60431"
+        ]
+      },
+      {
+        "city": "Elgin",
+        "citySlug": "elgin",
+        "zipcodes": [
+          "60120"
+        ]
+      },
+      {
+        "city": "Springfield",
+        "citySlug": "springfield",
+        "zipcodes": [
+          "62701"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "citySlug": "peoria",
+        "zipcodes": [
+          "61601"
+        ]
+      },
+      {
+        "city": "Waukegan",
+        "citySlug": "waukegan",
+        "zipcodes": [
+          "60085"
+        ]
+      },
+      {
+        "city": "Champaign",
+        "citySlug": "champaign",
+        "zipcodes": [
+          "61820"
+        ]
+      },
+      {
+        "city": "Cicero",
+        "citySlug": "cicero",
+        "zipcodes": [
+          "60804"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "stateAbbr": "IN",
+    "cities": [
+      {
+        "city": "Indianapolis",
+        "citySlug": "indianapolis",
+        "zipcodes": [
+          "46201",
+          "46202",
+          "46204"
+        ]
+      },
+      {
+        "city": "Fort Wayne",
+        "citySlug": "fort-wayne",
+        "zipcodes": [
+          "46801",
+          "46802",
+          "46805"
+        ]
+      },
+      {
+        "city": "Evansville",
+        "citySlug": "evansville",
+        "zipcodes": [
+          "47708",
+          "47710",
+          "47711"
+        ]
+      },
+      {
+        "city": "South Bend",
+        "citySlug": "south-bend",
+        "zipcodes": [
+          "46601"
+        ]
+      },
+      {
+        "city": "Carmel",
+        "citySlug": "carmel",
+        "zipcodes": [
+          "46032"
+        ]
+      },
+      {
+        "city": "Fishers",
+        "citySlug": "fishers",
+        "zipcodes": [
+          "46037"
+        ]
+      },
+      {
+        "city": "Bloomington",
+        "citySlug": "bloomington",
+        "zipcodes": [
+          "47401"
+        ]
+      },
+      {
+        "city": "Hammond",
+        "citySlug": "hammond",
+        "zipcodes": [
+          "46320"
+        ]
+      },
+      {
+        "city": "Muncie",
+        "citySlug": "muncie",
+        "zipcodes": [
+          "47302"
+        ]
+      },
+      {
+        "city": "Lafayette",
+        "citySlug": "lafayette",
+        "zipcodes": [
+          "47901"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "stateAbbr": "IA",
+    "cities": [
+      {
+        "city": "Des Moines",
+        "citySlug": "des-moines",
+        "zipcodes": [
+          "50301",
+          "50309",
+          "50310"
+        ]
+      },
+      {
+        "city": "Cedar Rapids",
+        "citySlug": "cedar-rapids",
+        "zipcodes": [
+          "52401",
+          "52402",
+          "52404"
+        ]
+      },
+      {
+        "city": "Davenport",
+        "citySlug": "davenport",
+        "zipcodes": [
+          "52801"
+        ]
+      },
+      {
+        "city": "Sioux City",
+        "citySlug": "sioux-city",
+        "zipcodes": [
+          "51101"
+        ]
+      },
+      {
+        "city": "Iowa City",
+        "citySlug": "iowa-city",
+        "zipcodes": [
+          "52240"
+        ]
+      },
+      {
+        "city": "Waterloo",
+        "citySlug": "waterloo",
+        "zipcodes": [
+          "50701"
+        ]
+      },
+      {
+        "city": "Ames",
+        "citySlug": "ames",
+        "zipcodes": [
+          "50010"
+        ]
+      },
+      {
+        "city": "Council Bluffs",
+        "citySlug": "council-bluffs",
+        "zipcodes": [
+          "51501"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "stateAbbr": "KS",
+    "cities": [
+      {
+        "city": "Wichita",
+        "citySlug": "wichita",
+        "zipcodes": [
+          "67201",
+          "67202",
+          "67204"
+        ]
+      },
+      {
+        "city": "Overland Park",
+        "citySlug": "overland-park",
+        "zipcodes": [
+          "66204",
+          "66210",
+          "66212"
+        ]
+      },
+      {
+        "city": "Kansas City",
+        "citySlug": "kansas-city",
+        "zipcodes": [
+          "66101"
+        ]
+      },
+      {
+        "city": "Olathe",
+        "citySlug": "olathe",
+        "zipcodes": [
+          "66061"
+        ]
+      },
+      {
+        "city": "Topeka",
+        "citySlug": "topeka",
+        "zipcodes": [
+          "66601"
+        ]
+      },
+      {
+        "city": "Lawrence",
+        "citySlug": "lawrence",
+        "zipcodes": [
+          "66044"
+        ]
+      },
+      {
+        "city": "Shawnee",
+        "citySlug": "shawnee",
+        "zipcodes": [
+          "66203"
+        ]
+      },
+      {
+        "city": "Manhattan",
+        "citySlug": "manhattan",
+        "zipcodes": [
+          "66502"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Kentucky",
+    "stateSlug": "kentucky",
+    "stateAbbr": "KY",
+    "cities": [
+      {
+        "city": "Louisville",
+        "citySlug": "louisville",
+        "zipcodes": [
+          "40201",
+          "40202",
+          "40203"
+        ]
+      },
+      {
+        "city": "Lexington",
+        "citySlug": "lexington",
+        "zipcodes": [
+          "40502",
+          "40503",
+          "40504"
+        ]
+      },
+      {
+        "city": "Bowling Green",
+        "citySlug": "bowling-green",
+        "zipcodes": [
+          "42101"
+        ]
+      },
+      {
+        "city": "Owensboro",
+        "citySlug": "owensboro",
+        "zipcodes": [
+          "42301"
+        ]
+      },
+      {
+        "city": "Covington",
+        "citySlug": "covington",
+        "zipcodes": [
+          "41011"
+        ]
+      },
+      {
+        "city": "Frankfort",
+        "citySlug": "frankfort",
+        "zipcodes": [
+          "40601"
+        ]
+      },
+      {
+        "city": "Henderson",
+        "citySlug": "henderson",
+        "zipcodes": [
+          "42420"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Louisiana",
+    "stateSlug": "louisiana",
+    "stateAbbr": "LA",
+    "cities": [
+      {
+        "city": "New Orleans",
+        "citySlug": "new-orleans",
+        "zipcodes": [
+          "70112",
+          "70113",
+          "70115"
+        ]
+      },
+      {
+        "city": "Baton Rouge",
+        "citySlug": "baton-rouge",
+        "zipcodes": [
+          "70801",
+          "70802",
+          "70806"
+        ]
+      },
+      {
+        "city": "Shreveport",
+        "citySlug": "shreveport",
+        "zipcodes": [
+          "71101",
+          "71103",
+          "71104"
+        ]
+      },
+      {
+        "city": "Metairie",
+        "citySlug": "metairie",
+        "zipcodes": [
+          "70001"
+        ]
+      },
+      {
+        "city": "Lafayette",
+        "citySlug": "lafayette",
+        "zipcodes": [
+          "70501"
+        ]
+      },
+      {
+        "city": "Lake Charles",
+        "citySlug": "lake-charles",
+        "zipcodes": [
+          "70601"
+        ]
+      },
+      {
+        "city": "Kenner",
+        "citySlug": "kenner",
+        "zipcodes": [
+          "70062"
+        ]
+      },
+      {
+        "city": "Alexandria",
+        "citySlug": "alexandria",
+        "zipcodes": [
+          "71301"
+        ]
+      },
+      {
+        "city": "Bossier City",
+        "citySlug": "bossier-city",
+        "zipcodes": [
+          "71111"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Maine",
+    "stateSlug": "maine",
+    "stateAbbr": "ME",
+    "cities": [
+      {
+        "city": "Portland",
+        "citySlug": "portland",
+        "zipcodes": [
+          "04101",
+          "04102",
+          "04103"
+        ]
+      },
+      {
+        "city": "Bangor",
+        "citySlug": "bangor",
+        "zipcodes": [
+          "04401",
+          "04402"
+        ]
+      },
+      {
+        "city": "Lewiston",
+        "citySlug": "lewiston",
+        "zipcodes": [
+          "04240"
+        ]
+      },
+      {
+        "city": "South Portland",
+        "citySlug": "south-portland",
+        "zipcodes": [
+          "04106"
+        ]
+      },
+      {
+        "city": "Auburn",
+        "citySlug": "auburn",
+        "zipcodes": [
+          "04210"
+        ]
+      },
+      {
+        "city": "Biddeford",
+        "citySlug": "biddeford",
+        "zipcodes": [
+          "04005"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "stateAbbr": "MD",
+    "cities": [
+      {
+        "city": "Baltimore",
+        "citySlug": "baltimore",
+        "zipcodes": [
+          "21201",
+          "21202",
+          "21218"
+        ]
+      },
+      {
+        "city": "Annapolis",
+        "citySlug": "annapolis",
+        "zipcodes": [
+          "21401",
+          "21403"
+        ]
+      },
+      {
+        "city": "Frederick",
+        "citySlug": "frederick",
+        "zipcodes": [
+          "21701",
+          "21702"
+        ]
+      },
+      {
+        "city": "Rockville",
+        "citySlug": "rockville",
+        "zipcodes": [
+          "20850"
+        ]
+      },
+      {
+        "city": "Gaithersburg",
+        "citySlug": "gaithersburg",
+        "zipcodes": [
+          "20877"
+        ]
+      },
+      {
+        "city": "Bowie",
+        "citySlug": "bowie",
+        "zipcodes": [
+          "20715"
+        ]
+      },
+      {
+        "city": "Hagerstown",
+        "citySlug": "hagerstown",
+        "zipcodes": [
+          "21740"
+        ]
+      },
+      {
+        "city": "Salisbury",
+        "citySlug": "salisbury",
+        "zipcodes": [
+          "21801"
+        ]
+      },
+      {
+        "city": "Columbia",
+        "citySlug": "columbia",
+        "zipcodes": [
+          "21044"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "citySlug": "germantown",
+        "zipcodes": [
+          "20874"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "stateAbbr": "MA",
+    "cities": [
+      {
+        "city": "Boston",
+        "citySlug": "boston",
+        "zipcodes": [
+          "02101",
+          "02108",
+          "02115"
+        ]
+      },
+      {
+        "city": "Worcester",
+        "citySlug": "worcester",
+        "zipcodes": [
+          "01601",
+          "01602",
+          "01603"
+        ]
+      },
+      {
+        "city": "Springfield",
+        "citySlug": "springfield",
+        "zipcodes": [
+          "01101",
+          "01103",
+          "01105"
+        ]
+      },
+      {
+        "city": "Cambridge",
+        "citySlug": "cambridge",
+        "zipcodes": [
+          "02138",
+          "02139",
+          "02141"
+        ]
+      },
+      {
+        "city": "Lowell",
+        "citySlug": "lowell",
+        "zipcodes": [
+          "01850"
+        ]
+      },
+      {
+        "city": "New Bedford",
+        "citySlug": "new-bedford",
+        "zipcodes": [
+          "02740"
+        ]
+      },
+      {
+        "city": "Brockton",
+        "citySlug": "brockton",
+        "zipcodes": [
+          "02301"
+        ]
+      },
+      {
+        "city": "Quincy",
+        "citySlug": "quincy",
+        "zipcodes": [
+          "02169"
+        ]
+      },
+      {
+        "city": "Lynn",
+        "citySlug": "lynn",
+        "zipcodes": [
+          "01901"
+        ]
+      },
+      {
+        "city": "Fall River",
+        "citySlug": "fall-river",
+        "zipcodes": [
+          "02720"
+        ]
+      },
+      {
+        "city": "Newton",
+        "citySlug": "newton",
+        "zipcodes": [
+          "02458"
+        ]
+      },
+      {
+        "city": "Somerville",
+        "citySlug": "somerville",
+        "zipcodes": [
+          "02143"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "stateAbbr": "MI",
+    "cities": [
+      {
+        "city": "Detroit",
+        "citySlug": "detroit",
+        "zipcodes": [
+          "48201",
+          "48202",
+          "48215"
+        ]
+      },
+      {
+        "city": "Grand Rapids",
+        "citySlug": "grand-rapids",
+        "zipcodes": [
+          "49501",
+          "49503",
+          "49504"
+        ]
+      },
+      {
+        "city": "Ann Arbor",
+        "citySlug": "ann-arbor",
+        "zipcodes": [
+          "48103",
+          "48104",
+          "48105"
+        ]
+      },
+      {
+        "city": "Warren",
+        "citySlug": "warren",
+        "zipcodes": [
+          "48088"
+        ]
+      },
+      {
+        "city": "Sterling Heights",
+        "citySlug": "sterling-heights",
+        "zipcodes": [
+          "48310"
+        ]
+      },
+      {
+        "city": "Lansing",
+        "citySlug": "lansing",
+        "zipcodes": [
+          "48906"
+        ]
+      },
+      {
+        "city": "Flint",
+        "citySlug": "flint",
+        "zipcodes": [
+          "48501"
+        ]
+      },
+      {
+        "city": "Dearborn",
+        "citySlug": "dearborn",
+        "zipcodes": [
+          "48120"
+        ]
+      },
+      {
+        "city": "Livonia",
+        "citySlug": "livonia",
+        "zipcodes": [
+          "48150"
+        ]
+      },
+      {
+        "city": "Troy",
+        "citySlug": "troy",
+        "zipcodes": [
+          "48083"
+        ]
+      },
+      {
+        "city": "Kalamazoo",
+        "citySlug": "kalamazoo",
+        "zipcodes": [
+          "49001"
+        ]
+      },
+      {
+        "city": "Westland",
+        "citySlug": "westland",
+        "zipcodes": [
+          "48185"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "stateAbbr": "MN",
+    "cities": [
+      {
+        "city": "Minneapolis",
+        "citySlug": "minneapolis",
+        "zipcodes": [
+          "55401",
+          "55403",
+          "55408"
+        ]
+      },
+      {
+        "city": "St. Paul",
+        "citySlug": "st-paul",
+        "zipcodes": [
+          "55101",
+          "55102",
+          "55104"
+        ]
+      },
+      {
+        "city": "Rochester",
+        "citySlug": "rochester",
+        "zipcodes": [
+          "55901",
+          "55902",
+          "55904"
+        ]
+      },
+      {
+        "city": "Duluth",
+        "citySlug": "duluth",
+        "zipcodes": [
+          "55801"
+        ]
+      },
+      {
+        "city": "Bloomington",
+        "citySlug": "bloomington",
+        "zipcodes": [
+          "55420"
+        ]
+      },
+      {
+        "city": "Brooklyn Park",
+        "citySlug": "brooklyn-park",
+        "zipcodes": [
+          "55443"
+        ]
+      },
+      {
+        "city": "Plymouth",
+        "citySlug": "plymouth",
+        "zipcodes": [
+          "55441"
+        ]
+      },
+      {
+        "city": "St. Cloud",
+        "citySlug": "st-cloud",
+        "zipcodes": [
+          "56301"
+        ]
+      },
+      {
+        "city": "Eagan",
+        "citySlug": "eagan",
+        "zipcodes": [
+          "55121"
+        ]
+      },
+      {
+        "city": "Woodbury",
+        "citySlug": "woodbury",
+        "zipcodes": [
+          "55125"
+        ]
+      },
+      {
+        "city": "Maple Grove",
+        "citySlug": "maple-grove",
+        "zipcodes": [
+          "55311"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Mississippi",
+    "stateSlug": "mississippi",
+    "stateAbbr": "MS",
+    "cities": [
+      {
+        "city": "Jackson",
+        "citySlug": "jackson",
+        "zipcodes": [
+          "39201",
+          "39202",
+          "39204"
+        ]
+      },
+      {
+        "city": "Gulfport",
+        "citySlug": "gulfport",
+        "zipcodes": [
+          "39501",
+          "39503"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "citySlug": "southaven",
+        "zipcodes": [
+          "38671"
+        ]
+      },
+      {
+        "city": "Hattiesburg",
+        "citySlug": "hattiesburg",
+        "zipcodes": [
+          "39401"
+        ]
+      },
+      {
+        "city": "Biloxi",
+        "citySlug": "biloxi",
+        "zipcodes": [
+          "39530"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "citySlug": "meridian",
+        "zipcodes": [
+          "39301"
+        ]
+      },
+      {
+        "city": "Tupelo",
+        "citySlug": "tupelo",
+        "zipcodes": [
+          "38801"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "citySlug": "olive-branch",
+        "zipcodes": [
+          "38654"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "stateAbbr": "MO",
+    "cities": [
+      {
+        "city": "Kansas City",
+        "citySlug": "kansas-city",
+        "zipcodes": [
+          "64101",
+          "64108",
+          "64111"
+        ]
+      },
+      {
+        "city": "St. Louis",
+        "citySlug": "st-louis",
+        "zipcodes": [
+          "63101",
+          "63103",
+          "63105"
+        ]
+      },
+      {
+        "city": "Springfield",
+        "citySlug": "springfield",
+        "zipcodes": [
+          "65801",
+          "65803",
+          "65804"
+        ]
+      },
+      {
+        "city": "Columbia",
+        "citySlug": "columbia",
+        "zipcodes": [
+          "65201"
+        ]
+      },
+      {
+        "city": "Independence",
+        "citySlug": "independence",
+        "zipcodes": [
+          "64050"
+        ]
+      },
+      {
+        "city": "Lees Summit",
+        "citySlug": "lees-summit",
+        "zipcodes": [
+          "64063"
+        ]
+      },
+      {
+        "city": "OFallon",
+        "citySlug": "ofallon",
+        "zipcodes": [
+          "63366"
+        ]
+      },
+      {
+        "city": "St. Joseph",
+        "citySlug": "st-joseph",
+        "zipcodes": [
+          "64501"
+        ]
+      },
+      {
+        "city": "St. Charles",
+        "citySlug": "st-charles",
+        "zipcodes": [
+          "63301"
+        ]
+      },
+      {
+        "city": "Blue Springs",
+        "citySlug": "blue-springs",
+        "zipcodes": [
+          "64014"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Montana",
+    "stateSlug": "montana",
+    "stateAbbr": "MT",
+    "cities": [
+      {
+        "city": "Billings",
+        "citySlug": "billings",
+        "zipcodes": [
+          "59101",
+          "59102",
+          "59105"
+        ]
+      },
+      {
+        "city": "Missoula",
+        "citySlug": "missoula",
+        "zipcodes": [
+          "59801",
+          "59802",
+          "59804"
+        ]
+      },
+      {
+        "city": "Great Falls",
+        "citySlug": "great-falls",
+        "zipcodes": [
+          "59401"
+        ]
+      },
+      {
+        "city": "Bozeman",
+        "citySlug": "bozeman",
+        "zipcodes": [
+          "59715"
+        ]
+      },
+      {
+        "city": "Helena",
+        "citySlug": "helena",
+        "zipcodes": [
+          "59601"
+        ]
+      },
+      {
+        "city": "Kalispell",
+        "citySlug": "kalispell",
+        "zipcodes": [
+          "59901"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "stateAbbr": "NE",
+    "cities": [
+      {
+        "city": "Omaha",
+        "citySlug": "omaha",
+        "zipcodes": [
+          "68101",
+          "68102",
+          "68105"
+        ]
+      },
+      {
+        "city": "Lincoln",
+        "citySlug": "lincoln",
+        "zipcodes": [
+          "68501",
+          "68502",
+          "68503"
+        ]
+      },
+      {
+        "city": "Bellevue",
+        "citySlug": "bellevue",
+        "zipcodes": [
+          "68005"
+        ]
+      },
+      {
+        "city": "Grand Island",
+        "citySlug": "grand-island",
+        "zipcodes": [
+          "68801"
+        ]
+      },
+      {
+        "city": "Kearney",
+        "citySlug": "kearney",
+        "zipcodes": [
+          "68845"
+        ]
+      },
+      {
+        "city": "Fremont",
+        "citySlug": "fremont",
+        "zipcodes": [
+          "68025"
+        ]
+      },
+      {
+        "city": "Hastings",
+        "citySlug": "hastings",
+        "zipcodes": [
+          "68901"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Nevada",
+    "stateSlug": "nevada",
+    "stateAbbr": "NV",
+    "cities": [
+      {
+        "city": "Las Vegas",
+        "citySlug": "las-vegas",
+        "zipcodes": [
+          "89101",
+          "89102",
+          "89109"
+        ]
+      },
+      {
+        "city": "Reno",
+        "citySlug": "reno",
+        "zipcodes": [
+          "89501",
+          "89502",
+          "89503"
+        ]
+      },
+      {
+        "city": "Henderson",
+        "citySlug": "henderson",
+        "zipcodes": [
+          "89002",
+          "89014",
+          "89015"
+        ]
+      },
+      {
+        "city": "North Las Vegas",
+        "citySlug": "north-las-vegas",
+        "zipcodes": [
+          "89030"
+        ]
+      },
+      {
+        "city": "Sparks",
+        "citySlug": "sparks",
+        "zipcodes": [
+          "89431"
+        ]
+      },
+      {
+        "city": "Carson City",
+        "citySlug": "carson-city",
+        "zipcodes": [
+          "89701"
+        ]
+      },
+      {
+        "city": "Summerlin",
+        "citySlug": "summerlin",
+        "zipcodes": [
+          "89135"
+        ]
+      },
+      {
+        "city": "Enterprise",
+        "citySlug": "enterprise",
+        "zipcodes": [
+          "89141"
+        ]
+      },
+      {
+        "city": "Spring Valley",
+        "citySlug": "spring-valley",
+        "zipcodes": [
+          "89148"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "stateAbbr": "NH",
+    "cities": [
+      {
+        "city": "Manchester",
+        "citySlug": "manchester",
+        "zipcodes": [
+          "03101",
+          "03102",
+          "03103"
+        ]
+      },
+      {
+        "city": "Nashua",
+        "citySlug": "nashua",
+        "zipcodes": [
+          "03060",
+          "03062",
+          "03063"
+        ]
+      },
+      {
+        "city": "Concord",
+        "citySlug": "concord",
+        "zipcodes": [
+          "03301"
+        ]
+      },
+      {
+        "city": "Derry",
+        "citySlug": "derry",
+        "zipcodes": [
+          "03038"
+        ]
+      },
+      {
+        "city": "Dover",
+        "citySlug": "dover",
+        "zipcodes": [
+          "03820"
+        ]
+      },
+      {
+        "city": "Rochester",
+        "citySlug": "rochester",
+        "zipcodes": [
+          "03867"
+        ]
+      },
+      {
+        "city": "Londonderry",
+        "citySlug": "londonderry",
+        "zipcodes": [
+          "03053"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "stateAbbr": "NJ",
+    "cities": [
+      {
+        "city": "Newark",
+        "citySlug": "newark",
+        "zipcodes": [
+          "07101",
+          "07102",
+          "07104"
+        ]
+      },
+      {
+        "city": "Jersey City",
+        "citySlug": "jersey-city",
+        "zipcodes": [
+          "07302",
+          "07304",
+          "07306"
+        ]
+      },
+      {
+        "city": "Trenton",
+        "citySlug": "trenton",
+        "zipcodes": [
+          "08601",
+          "08608",
+          "08610"
+        ]
+      },
+      {
+        "city": "Atlantic City",
+        "citySlug": "atlantic-city",
+        "zipcodes": [
+          "08401",
+          "08402"
+        ]
+      },
+      {
+        "city": "Paterson",
+        "citySlug": "paterson",
+        "zipcodes": [
+          "07501"
+        ]
+      },
+      {
+        "city": "Elizabeth",
+        "citySlug": "elizabeth",
+        "zipcodes": [
+          "07201"
+        ]
+      },
+      {
+        "city": "Camden",
+        "citySlug": "camden",
+        "zipcodes": [
+          "08101"
+        ]
+      },
+      {
+        "city": "Clifton",
+        "citySlug": "clifton",
+        "zipcodes": [
+          "07011"
+        ]
+      },
+      {
+        "city": "Edison",
+        "citySlug": "edison",
+        "zipcodes": [
+          "08817"
+        ]
+      },
+      {
+        "city": "Toms River",
+        "citySlug": "toms-river",
+        "zipcodes": [
+          "08753"
+        ]
+      },
+      {
+        "city": "Woodbridge",
+        "citySlug": "woodbridge",
+        "zipcodes": [
+          "07095"
+        ]
+      },
+      {
+        "city": "Hamilton",
+        "citySlug": "hamilton",
+        "zipcodes": [
+          "08609"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "stateAbbr": "NM",
+    "cities": [
+      {
+        "city": "Albuquerque",
+        "citySlug": "albuquerque",
+        "zipcodes": [
+          "87101",
+          "87102",
+          "87104"
+        ]
+      },
+      {
+        "city": "Santa Fe",
+        "citySlug": "santa-fe",
+        "zipcodes": [
+          "87501",
+          "87504",
+          "87505"
+        ]
+      },
+      {
+        "city": "Las Cruces",
+        "citySlug": "las-cruces",
+        "zipcodes": [
+          "88001"
+        ]
+      },
+      {
+        "city": "Rio Rancho",
+        "citySlug": "rio-rancho",
+        "zipcodes": [
+          "87124"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "citySlug": "roswell",
+        "zipcodes": [
+          "88201"
+        ]
+      },
+      {
+        "city": "Farmington",
+        "citySlug": "farmington",
+        "zipcodes": [
+          "87401"
+        ]
+      },
+      {
+        "city": "Clovis",
+        "citySlug": "clovis",
+        "zipcodes": [
+          "88101"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "New York",
+    "stateSlug": "new-york",
+    "stateAbbr": "NY",
+    "cities": [
+      {
+        "city": "New York City",
+        "citySlug": "new-york-city",
+        "zipcodes": [
+          "10001",
+          "10011",
+          "10019"
+        ]
+      },
+      {
+        "city": "Buffalo",
+        "citySlug": "buffalo",
+        "zipcodes": [
+          "14201",
+          "14202",
+          "14209"
+        ]
+      },
+      {
+        "city": "Rochester",
+        "citySlug": "rochester",
+        "zipcodes": [
+          "14601",
+          "14604",
+          "14607"
+        ]
+      },
+      {
+        "city": "Albany",
+        "citySlug": "albany",
+        "zipcodes": [
+          "12201",
+          "12204",
+          "12207"
+        ]
+      },
+      {
+        "city": "Brooklyn",
+        "citySlug": "brooklyn",
+        "zipcodes": [
+          "11201",
+          "11208",
+          "11220"
+        ]
+      },
+      {
+        "city": "Queens",
+        "citySlug": "queens",
+        "zipcodes": [
+          "11354",
+          "11373",
+          "11385"
+        ]
+      },
+      {
+        "city": "Yonkers",
+        "citySlug": "yonkers",
+        "zipcodes": [
+          "10701"
+        ]
+      },
+      {
+        "city": "Syracuse",
+        "citySlug": "syracuse",
+        "zipcodes": [
+          "13201"
+        ]
+      },
+      {
+        "city": "Bronx",
+        "citySlug": "bronx",
+        "zipcodes": [
+          "10451"
+        ]
+      },
+      {
+        "city": "Staten Island",
+        "citySlug": "staten-island",
+        "zipcodes": [
+          "10301"
+        ]
+      },
+      {
+        "city": "Long Island City",
+        "citySlug": "long-island-city",
+        "zipcodes": [
+          "11101"
+        ]
+      },
+      {
+        "city": "White Plains",
+        "citySlug": "white-plains",
+        "zipcodes": [
+          "10601"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "stateAbbr": "NC",
+    "cities": [
+      {
+        "city": "Charlotte",
+        "citySlug": "charlotte",
+        "zipcodes": [
+          "28201",
+          "28202",
+          "28205"
+        ]
+      },
+      {
+        "city": "Raleigh",
+        "citySlug": "raleigh",
+        "zipcodes": [
+          "27601",
+          "27603",
+          "27604"
+        ]
+      },
+      {
+        "city": "Durham",
+        "citySlug": "durham",
+        "zipcodes": [
+          "27701",
+          "27703",
+          "27705"
+        ]
+      },
+      {
+        "city": "Greensboro",
+        "citySlug": "greensboro",
+        "zipcodes": [
+          "27401",
+          "27403",
+          "27405"
+        ]
+      },
+      {
+        "city": "Winston-Salem",
+        "citySlug": "winston-salem",
+        "zipcodes": [
+          "27101"
+        ]
+      },
+      {
+        "city": "Fayetteville",
+        "citySlug": "fayetteville",
+        "zipcodes": [
+          "28301"
+        ]
+      },
+      {
+        "city": "Cary",
+        "citySlug": "cary",
+        "zipcodes": [
+          "27511"
+        ]
+      },
+      {
+        "city": "Wilmington",
+        "citySlug": "wilmington",
+        "zipcodes": [
+          "28401"
+        ]
+      },
+      {
+        "city": "High Point",
+        "citySlug": "high-point",
+        "zipcodes": [
+          "27260"
+        ]
+      },
+      {
+        "city": "Concord",
+        "citySlug": "concord",
+        "zipcodes": [
+          "28025"
+        ]
+      },
+      {
+        "city": "Asheville",
+        "citySlug": "asheville",
+        "zipcodes": [
+          "28801"
+        ]
+      },
+      {
+        "city": "Gastonia",
+        "citySlug": "gastonia",
+        "zipcodes": [
+          "28052"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "stateAbbr": "ND",
+    "cities": [
+      {
+        "city": "Fargo",
+        "citySlug": "fargo",
+        "zipcodes": [
+          "58102",
+          "58103",
+          "58104"
+        ]
+      },
+      {
+        "city": "Bismarck",
+        "citySlug": "bismarck",
+        "zipcodes": [
+          "58501",
+          "58503",
+          "58504"
+        ]
+      },
+      {
+        "city": "Grand Forks",
+        "citySlug": "grand-forks",
+        "zipcodes": [
+          "58201"
+        ]
+      },
+      {
+        "city": "Minot",
+        "citySlug": "minot",
+        "zipcodes": [
+          "58701"
+        ]
+      },
+      {
+        "city": "West Fargo",
+        "citySlug": "west-fargo",
+        "zipcodes": [
+          "58078"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "stateAbbr": "OH",
+    "cities": [
+      {
+        "city": "Columbus",
+        "citySlug": "columbus",
+        "zipcodes": [
+          "43201",
+          "43203",
+          "43215"
+        ]
+      },
+      {
+        "city": "Cleveland",
+        "citySlug": "cleveland",
+        "zipcodes": [
+          "44101",
+          "44102",
+          "44115"
+        ]
+      },
+      {
+        "city": "Cincinnati",
+        "citySlug": "cincinnati",
+        "zipcodes": [
+          "45201",
+          "45202",
+          "45206"
+        ]
+      },
+      {
+        "city": "Toledo",
+        "citySlug": "toledo",
+        "zipcodes": [
+          "43601",
+          "43604",
+          "43606"
+        ]
+      },
+      {
+        "city": "Akron",
+        "citySlug": "akron",
+        "zipcodes": [
+          "44301",
+          "44302",
+          "44303"
+        ]
+      },
+      {
+        "city": "Dayton",
+        "citySlug": "dayton",
+        "zipcodes": [
+          "45401"
+        ]
+      },
+      {
+        "city": "Parma",
+        "citySlug": "parma",
+        "zipcodes": [
+          "44129"
+        ]
+      },
+      {
+        "city": "Canton",
+        "citySlug": "canton",
+        "zipcodes": [
+          "44701"
+        ]
+      },
+      {
+        "city": "Youngstown",
+        "citySlug": "youngstown",
+        "zipcodes": [
+          "44501"
+        ]
+      },
+      {
+        "city": "Lorain",
+        "citySlug": "lorain",
+        "zipcodes": [
+          "44052"
+        ]
+      },
+      {
+        "city": "Hamilton",
+        "citySlug": "hamilton",
+        "zipcodes": [
+          "45011"
+        ]
+      },
+      {
+        "city": "Springfield",
+        "citySlug": "springfield",
+        "zipcodes": [
+          "45501"
+        ]
+      },
+      {
+        "city": "Kettering",
+        "citySlug": "kettering",
+        "zipcodes": [
+          "45429"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Oklahoma",
+    "stateSlug": "oklahoma",
+    "stateAbbr": "OK",
+    "cities": [
+      {
+        "city": "Oklahoma City",
+        "citySlug": "oklahoma-city",
+        "zipcodes": [
+          "73101",
+          "73102",
+          "73106"
+        ]
+      },
+      {
+        "city": "Tulsa",
+        "citySlug": "tulsa",
+        "zipcodes": [
+          "74101",
+          "74103",
+          "74104"
+        ]
+      },
+      {
+        "city": "Norman",
+        "citySlug": "norman",
+        "zipcodes": [
+          "73019"
+        ]
+      },
+      {
+        "city": "Broken Arrow",
+        "citySlug": "broken-arrow",
+        "zipcodes": [
+          "74011"
+        ]
+      },
+      {
+        "city": "Lawton",
+        "citySlug": "lawton",
+        "zipcodes": [
+          "73501"
+        ]
+      },
+      {
+        "city": "Edmond",
+        "citySlug": "edmond",
+        "zipcodes": [
+          "73003"
+        ]
+      },
+      {
+        "city": "Moore",
+        "citySlug": "moore",
+        "zipcodes": [
+          "73160"
+        ]
+      },
+      {
+        "city": "Midwest City",
+        "citySlug": "midwest-city",
+        "zipcodes": [
+          "73110"
+        ]
+      },
+      {
+        "city": "Stillwater",
+        "citySlug": "stillwater",
+        "zipcodes": [
+          "74074"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "stateAbbr": "OR",
+    "cities": [
+      {
+        "city": "Portland",
+        "citySlug": "portland",
+        "zipcodes": [
+          "97201",
+          "97202",
+          "97204"
+        ]
+      },
+      {
+        "city": "Eugene",
+        "citySlug": "eugene",
+        "zipcodes": [
+          "97401",
+          "97402",
+          "97403"
+        ]
+      },
+      {
+        "city": "Salem",
+        "citySlug": "salem",
+        "zipcodes": [
+          "97301",
+          "97302",
+          "97303"
+        ]
+      },
+      {
+        "city": "Gresham",
+        "citySlug": "gresham",
+        "zipcodes": [
+          "97030"
+        ]
+      },
+      {
+        "city": "Hillsboro",
+        "citySlug": "hillsboro",
+        "zipcodes": [
+          "97123"
+        ]
+      },
+      {
+        "city": "Beaverton",
+        "citySlug": "beaverton",
+        "zipcodes": [
+          "97005"
+        ]
+      },
+      {
+        "city": "Bend",
+        "citySlug": "bend",
+        "zipcodes": [
+          "97701"
+        ]
+      },
+      {
+        "city": "Medford",
+        "citySlug": "medford",
+        "zipcodes": [
+          "97501"
+        ]
+      },
+      {
+        "city": "Corvallis",
+        "citySlug": "corvallis",
+        "zipcodes": [
+          "97330"
+        ]
+      },
+      {
+        "city": "Springfield",
+        "citySlug": "springfield",
+        "zipcodes": [
+          "97477"
+        ]
+      },
+      {
+        "city": "Tigard",
+        "citySlug": "tigard",
+        "zipcodes": [
+          "97223"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "stateAbbr": "PA",
+    "cities": [
+      {
+        "city": "Philadelphia",
+        "citySlug": "philadelphia",
+        "zipcodes": [
+          "19101",
+          "19102",
+          "19103"
+        ]
+      },
+      {
+        "city": "Pittsburgh",
+        "citySlug": "pittsburgh",
+        "zipcodes": [
+          "15201",
+          "15203",
+          "15212"
+        ]
+      },
+      {
+        "city": "Allentown",
+        "citySlug": "allentown",
+        "zipcodes": [
+          "18101",
+          "18102",
+          "18103"
+        ]
+      },
+      {
+        "city": "Erie",
+        "citySlug": "erie",
+        "zipcodes": [
+          "16501",
+          "16502",
+          "16503"
+        ]
+      },
+      {
+        "city": "Reading",
+        "citySlug": "reading",
+        "zipcodes": [
+          "19601"
+        ]
+      },
+      {
+        "city": "Scranton",
+        "citySlug": "scranton",
+        "zipcodes": [
+          "18501"
+        ]
+      },
+      {
+        "city": "Bethlehem",
+        "citySlug": "bethlehem",
+        "zipcodes": [
+          "18015"
+        ]
+      },
+      {
+        "city": "Lancaster",
+        "citySlug": "lancaster",
+        "zipcodes": [
+          "17601"
+        ]
+      },
+      {
+        "city": "Harrisburg",
+        "citySlug": "harrisburg",
+        "zipcodes": [
+          "17101"
+        ]
+      },
+      {
+        "city": "York",
+        "citySlug": "york",
+        "zipcodes": [
+          "17401"
+        ]
+      },
+      {
+        "city": "Altoona",
+        "citySlug": "altoona",
+        "zipcodes": [
+          "16601"
+        ]
+      },
+      {
+        "city": "Wilmington",
+        "citySlug": "wilmington",
+        "zipcodes": [
+          "19801"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Rhode Island",
+    "stateSlug": "rhode-island",
+    "stateAbbr": "RI",
+    "cities": [
+      {
+        "city": "Providence",
+        "citySlug": "providence",
+        "zipcodes": [
+          "02901",
+          "02903",
+          "02906"
+        ]
+      },
+      {
+        "city": "Newport",
+        "citySlug": "newport",
+        "zipcodes": [
+          "02840",
+          "02841"
+        ]
+      },
+      {
+        "city": "Cranston",
+        "citySlug": "cranston",
+        "zipcodes": [
+          "02910"
+        ]
+      },
+      {
+        "city": "Warwick",
+        "citySlug": "warwick",
+        "zipcodes": [
+          "02886"
+        ]
+      },
+      {
+        "city": "Pawtucket",
+        "citySlug": "pawtucket",
+        "zipcodes": [
+          "02860"
+        ]
+      },
+      {
+        "city": "Woonsocket",
+        "citySlug": "woonsocket",
+        "zipcodes": [
+          "02895"
+        ]
+      },
+      {
+        "city": "Cumberland",
+        "citySlug": "cumberland",
+        "zipcodes": [
+          "02864"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "stateAbbr": "SC",
+    "cities": [
+      {
+        "city": "Columbia",
+        "citySlug": "columbia",
+        "zipcodes": [
+          "29201",
+          "29203",
+          "29205"
+        ]
+      },
+      {
+        "city": "Charleston",
+        "citySlug": "charleston",
+        "zipcodes": [
+          "29401",
+          "29403",
+          "29405"
+        ]
+      },
+      {
+        "city": "Greenville",
+        "citySlug": "greenville",
+        "zipcodes": [
+          "29601",
+          "29605",
+          "29607"
+        ]
+      },
+      {
+        "city": "North Charleston",
+        "citySlug": "north-charleston",
+        "zipcodes": [
+          "29405"
+        ]
+      },
+      {
+        "city": "Mount Pleasant",
+        "citySlug": "mount-pleasant",
+        "zipcodes": [
+          "29464"
+        ]
+      },
+      {
+        "city": "Rock Hill",
+        "citySlug": "rock-hill",
+        "zipcodes": [
+          "29730"
+        ]
+      },
+      {
+        "city": "Summerville",
+        "citySlug": "summerville",
+        "zipcodes": [
+          "29483"
+        ]
+      },
+      {
+        "city": "Hilton Head",
+        "citySlug": "hilton-head",
+        "zipcodes": [
+          "29925"
+        ]
+      },
+      {
+        "city": "Spartanburg",
+        "citySlug": "spartanburg",
+        "zipcodes": [
+          "29301"
+        ]
+      },
+      {
+        "city": "Myrtle Beach",
+        "citySlug": "myrtle-beach",
+        "zipcodes": [
+          "29572"
+        ]
+      },
+      {
+        "city": "Anderson",
+        "citySlug": "anderson",
+        "zipcodes": [
+          "29621"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "South Dakota",
+    "stateSlug": "south-dakota",
+    "stateAbbr": "SD",
+    "cities": [
+      {
+        "city": "Sioux Falls",
+        "citySlug": "sioux-falls",
+        "zipcodes": [
+          "57101",
+          "57103",
+          "57104"
+        ]
+      },
+      {
+        "city": "Rapid City",
+        "citySlug": "rapid-city",
+        "zipcodes": [
+          "57701",
+          "57702",
+          "57703"
+        ]
+      },
+      {
+        "city": "Aberdeen",
+        "citySlug": "aberdeen",
+        "zipcodes": [
+          "57401"
+        ]
+      },
+      {
+        "city": "Brookings",
+        "citySlug": "brookings",
+        "zipcodes": [
+          "57006"
+        ]
+      },
+      {
+        "city": "Watertown",
+        "citySlug": "watertown",
+        "zipcodes": [
+          "57201"
+        ]
+      },
+      {
+        "city": "Mitchell",
+        "citySlug": "mitchell",
+        "zipcodes": [
+          "57301"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "stateAbbr": "TN",
+    "cities": [
+      {
+        "city": "Nashville",
+        "citySlug": "nashville",
+        "zipcodes": [
+          "37201",
+          "37203",
+          "37206"
+        ]
+      },
+      {
+        "city": "Memphis",
+        "citySlug": "memphis",
+        "zipcodes": [
+          "38101",
+          "38103",
+          "38104"
+        ]
+      },
+      {
+        "city": "Knoxville",
+        "citySlug": "knoxville",
+        "zipcodes": [
+          "37901",
+          "37902",
+          "37914"
+        ]
+      },
+      {
+        "city": "Chattanooga",
+        "citySlug": "chattanooga",
+        "zipcodes": [
+          "37401",
+          "37402",
+          "37403"
+        ]
+      },
+      {
+        "city": "Clarksville",
+        "citySlug": "clarksville",
+        "zipcodes": [
+          "37040"
+        ]
+      },
+      {
+        "city": "Murfreesboro",
+        "citySlug": "murfreesboro",
+        "zipcodes": [
+          "37127"
+        ]
+      },
+      {
+        "city": "Franklin",
+        "citySlug": "franklin",
+        "zipcodes": [
+          "37064"
+        ]
+      },
+      {
+        "city": "Jackson",
+        "citySlug": "jackson",
+        "zipcodes": [
+          "38301"
+        ]
+      },
+      {
+        "city": "Johnson City",
+        "citySlug": "johnson-city",
+        "zipcodes": [
+          "37601"
+        ]
+      },
+      {
+        "city": "Hendersonville",
+        "citySlug": "hendersonville",
+        "zipcodes": [
+          "37075"
+        ]
+      },
+      {
+        "city": "Kingsport",
+        "citySlug": "kingsport",
+        "zipcodes": [
+          "37660"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Texas",
+    "stateSlug": "texas",
+    "stateAbbr": "TX",
+    "cities": [
+      {
+        "city": "Houston",
+        "citySlug": "houston",
+        "zipcodes": [
+          "77001",
+          "77002",
+          "77019"
+        ]
+      },
+      {
+        "city": "Dallas",
+        "citySlug": "dallas",
+        "zipcodes": [
+          "75201",
+          "75202",
+          "75215"
+        ]
+      },
+      {
+        "city": "Austin",
+        "citySlug": "austin",
+        "zipcodes": [
+          "78701",
+          "78702",
+          "78704"
+        ]
+      },
+      {
+        "city": "San Antonio",
+        "citySlug": "san-antonio",
+        "zipcodes": [
+          "78201",
+          "78202",
+          "78205"
+        ]
+      },
+      {
+        "city": "Fort Worth",
+        "citySlug": "fort-worth",
+        "zipcodes": [
+          "76101",
+          "76102",
+          "76104"
+        ]
+      },
+      {
+        "city": "El Paso",
+        "citySlug": "el-paso",
+        "zipcodes": [
+          "79901",
+          "79902",
+          "79903"
+        ]
+      },
+      {
+        "city": "Plano",
+        "citySlug": "plano",
+        "zipcodes": [
+          "75023",
+          "75024",
+          "75025"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "citySlug": "arlington",
+        "zipcodes": [
+          "76001"
+        ]
+      },
+      {
+        "city": "Corpus Christi",
+        "citySlug": "corpus-christi",
+        "zipcodes": [
+          "78401"
+        ]
+      },
+      {
+        "city": "Laredo",
+        "citySlug": "laredo",
+        "zipcodes": [
+          "78040"
+        ]
+      },
+      {
+        "city": "Lubbock",
+        "citySlug": "lubbock",
+        "zipcodes": [
+          "79401"
+        ]
+      },
+      {
+        "city": "Garland",
+        "citySlug": "garland",
+        "zipcodes": [
+          "75040"
+        ]
+      },
+      {
+        "city": "Irving",
+        "citySlug": "irving",
+        "zipcodes": [
+          "75038"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "citySlug": "frisco",
+        "zipcodes": [
+          "75033"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "citySlug": "mckinney",
+        "zipcodes": [
+          "75069"
+        ]
+      },
+      {
+        "city": "Amarillo",
+        "citySlug": "amarillo",
+        "zipcodes": [
+          "79101"
+        ]
+      },
+      {
+        "city": "Grand Prairie",
+        "citySlug": "grand-prairie",
+        "zipcodes": [
+          "75050"
+        ]
+      },
+      {
+        "city": "Killeen",
+        "citySlug": "killeen",
+        "zipcodes": [
+          "76541"
+        ]
+      },
+      {
+        "city": "Denton",
+        "citySlug": "denton",
+        "zipcodes": [
+          "76201"
+        ]
+      },
+      {
+        "city": "Midland",
+        "citySlug": "midland",
+        "zipcodes": [
+          "79701"
+        ]
+      },
+      {
+        "city": "Waco",
+        "citySlug": "waco",
+        "zipcodes": [
+          "76701"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Utah",
+    "stateSlug": "utah",
+    "stateAbbr": "UT",
+    "cities": [
+      {
+        "city": "Salt Lake City",
+        "citySlug": "salt-lake-city",
+        "zipcodes": [
+          "84101",
+          "84102",
+          "84103"
+        ]
+      },
+      {
+        "city": "Provo",
+        "citySlug": "provo",
+        "zipcodes": [
+          "84601",
+          "84604",
+          "84606"
+        ]
+      },
+      {
+        "city": "Ogden",
+        "citySlug": "ogden",
+        "zipcodes": [
+          "84401",
+          "84403",
+          "84404"
+        ]
+      },
+      {
+        "city": "West Valley City",
+        "citySlug": "west-valley-city",
+        "zipcodes": [
+          "84119"
+        ]
+      },
+      {
+        "city": "West Jordan",
+        "citySlug": "west-jordan",
+        "zipcodes": [
+          "84081"
+        ]
+      },
+      {
+        "city": "Orem",
+        "citySlug": "orem",
+        "zipcodes": [
+          "84057"
+        ]
+      },
+      {
+        "city": "Sandy",
+        "citySlug": "sandy",
+        "zipcodes": [
+          "84070"
+        ]
+      },
+      {
+        "city": "St. George",
+        "citySlug": "st-george",
+        "zipcodes": [
+          "84770"
+        ]
+      },
+      {
+        "city": "Layton",
+        "citySlug": "layton",
+        "zipcodes": [
+          "84040"
+        ]
+      },
+      {
+        "city": "Taylorsville",
+        "citySlug": "taylorsville",
+        "zipcodes": [
+          "84123"
+        ]
+      },
+      {
+        "city": "South Jordan",
+        "citySlug": "south-jordan",
+        "zipcodes": [
+          "84009"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Vermont",
+    "stateSlug": "vermont",
+    "stateAbbr": "VT",
+    "cities": [
+      {
+        "city": "Burlington",
+        "citySlug": "burlington",
+        "zipcodes": [
+          "05401",
+          "05402",
+          "05403"
+        ]
+      },
+      {
+        "city": "Montpelier",
+        "citySlug": "montpelier",
+        "zipcodes": [
+          "05601",
+          "05602"
+        ]
+      },
+      {
+        "city": "South Burlington",
+        "citySlug": "south-burlington",
+        "zipcodes": [
+          "05403"
+        ]
+      },
+      {
+        "city": "Rutland",
+        "citySlug": "rutland",
+        "zipcodes": [
+          "05701"
+        ]
+      },
+      {
+        "city": "Barre",
+        "citySlug": "barre",
+        "zipcodes": [
+          "05641"
+        ]
+      },
+      {
+        "city": "Essex Junction",
+        "citySlug": "essex-junction",
+        "zipcodes": [
+          "05452"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "stateAbbr": "VA",
+    "cities": [
+      {
+        "city": "Virginia Beach",
+        "citySlug": "virginia-beach",
+        "zipcodes": [
+          "23451",
+          "23452",
+          "23453"
+        ]
+      },
+      {
+        "city": "Richmond",
+        "citySlug": "richmond",
+        "zipcodes": [
+          "23219",
+          "23220",
+          "23223"
+        ]
+      },
+      {
+        "city": "Norfolk",
+        "citySlug": "norfolk",
+        "zipcodes": [
+          "23501",
+          "23502",
+          "23503"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "citySlug": "arlington",
+        "zipcodes": [
+          "22201",
+          "22202",
+          "22203"
+        ]
+      },
+      {
+        "city": "Chesapeake",
+        "citySlug": "chesapeake",
+        "zipcodes": [
+          "23320"
+        ]
+      },
+      {
+        "city": "Newport News",
+        "citySlug": "newport-news",
+        "zipcodes": [
+          "23601"
+        ]
+      },
+      {
+        "city": "Alexandria",
+        "citySlug": "alexandria",
+        "zipcodes": [
+          "22301"
+        ]
+      },
+      {
+        "city": "Hampton",
+        "citySlug": "hampton",
+        "zipcodes": [
+          "23661"
+        ]
+      },
+      {
+        "city": "Roanoke",
+        "citySlug": "roanoke",
+        "zipcodes": [
+          "24011"
+        ]
+      },
+      {
+        "city": "Portsmouth",
+        "citySlug": "portsmouth",
+        "zipcodes": [
+          "23701"
+        ]
+      },
+      {
+        "city": "Charlottesville",
+        "citySlug": "charlottesville",
+        "zipcodes": [
+          "22901"
+        ]
+      },
+      {
+        "city": "Lynchburg",
+        "citySlug": "lynchburg",
+        "zipcodes": [
+          "24501"
+        ]
+      },
+      {
+        "city": "Harrisonburg",
+        "citySlug": "harrisonburg",
+        "zipcodes": [
+          "22801"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Washington",
+    "stateSlug": "washington",
+    "stateAbbr": "WA",
+    "cities": [
+      {
+        "city": "Seattle",
+        "citySlug": "seattle",
+        "zipcodes": [
+          "98101",
+          "98102",
+          "98109"
+        ]
+      },
+      {
+        "city": "Spokane",
+        "citySlug": "spokane",
+        "zipcodes": [
+          "99201",
+          "99202",
+          "99204"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "citySlug": "tacoma",
+        "zipcodes": [
+          "98401",
+          "98402",
+          "98404"
+        ]
+      },
+      {
+        "city": "Bellevue",
+        "citySlug": "bellevue",
+        "zipcodes": [
+          "98004",
+          "98005",
+          "98007"
+        ]
+      },
+      {
+        "city": "Vancouver",
+        "citySlug": "vancouver",
+        "zipcodes": [
+          "98660"
+        ]
+      },
+      {
+        "city": "Kent",
+        "citySlug": "kent",
+        "zipcodes": [
+          "98030"
+        ]
+      },
+      {
+        "city": "Everett",
+        "citySlug": "everett",
+        "zipcodes": [
+          "98201"
+        ]
+      },
+      {
+        "city": "Renton",
+        "citySlug": "renton",
+        "zipcodes": [
+          "98055"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "citySlug": "kirkland",
+        "zipcodes": [
+          "98033"
+        ]
+      },
+      {
+        "city": "Federal Way",
+        "citySlug": "federal-way",
+        "zipcodes": [
+          "98001"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "citySlug": "redmond",
+        "zipcodes": [
+          "98052"
+        ]
+      },
+      {
+        "city": "Bellingham",
+        "citySlug": "bellingham",
+        "zipcodes": [
+          "98225"
+        ]
+      },
+      {
+        "city": "Kennewick",
+        "citySlug": "kennewick",
+        "zipcodes": [
+          "99336"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "stateAbbr": "WV",
+    "cities": [
+      {
+        "city": "Charleston",
+        "citySlug": "charleston",
+        "zipcodes": [
+          "25301",
+          "25302",
+          "25304"
+        ]
+      },
+      {
+        "city": "Huntington",
+        "citySlug": "huntington",
+        "zipcodes": [
+          "25701",
+          "25702",
+          "25703"
+        ]
+      },
+      {
+        "city": "Morgantown",
+        "citySlug": "morgantown",
+        "zipcodes": [
+          "26501"
+        ]
+      },
+      {
+        "city": "Parkersburg",
+        "citySlug": "parkersburg",
+        "zipcodes": [
+          "26101"
+        ]
+      },
+      {
+        "city": "Wheeling",
+        "citySlug": "wheeling",
+        "zipcodes": [
+          "26003"
+        ]
+      },
+      {
+        "city": "Beckley",
+        "citySlug": "beckley",
+        "zipcodes": [
+          "25801"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Wisconsin",
+    "stateSlug": "wisconsin",
+    "stateAbbr": "WI",
+    "cities": [
+      {
+        "city": "Milwaukee",
+        "citySlug": "milwaukee",
+        "zipcodes": [
+          "53201",
+          "53202",
+          "53204"
+        ]
+      },
+      {
+        "city": "Madison",
+        "citySlug": "madison",
+        "zipcodes": [
+          "53701",
+          "53703",
+          "53711"
+        ]
+      },
+      {
+        "city": "Green Bay",
+        "citySlug": "green-bay",
+        "zipcodes": [
+          "54301",
+          "54302",
+          "54303"
+        ]
+      },
+      {
+        "city": "Kenosha",
+        "citySlug": "kenosha",
+        "zipcodes": [
+          "53140"
+        ]
+      },
+      {
+        "city": "Racine",
+        "citySlug": "racine",
+        "zipcodes": [
+          "53401"
+        ]
+      },
+      {
+        "city": "Appleton",
+        "citySlug": "appleton",
+        "zipcodes": [
+          "54911"
+        ]
+      },
+      {
+        "city": "Waukesha",
+        "citySlug": "waukesha",
+        "zipcodes": [
+          "53186"
+        ]
+      },
+      {
+        "city": "Oshkosh",
+        "citySlug": "oshkosh",
+        "zipcodes": [
+          "54901"
+        ]
+      },
+      {
+        "city": "Eau Claire",
+        "citySlug": "eau-claire",
+        "zipcodes": [
+          "54701"
+        ]
+      },
+      {
+        "city": "Janesville",
+        "citySlug": "janesville",
+        "zipcodes": [
+          "53545"
+        ]
+      },
+      {
+        "city": "West Allis",
+        "citySlug": "west-allis",
+        "zipcodes": [
+          "53214"
+        ]
+      },
+      {
+        "city": "La Crosse",
+        "citySlug": "la-crosse",
+        "zipcodes": [
+          "54601"
+        ]
+      }
+    ]
+  },
+  {
+    "state": "Wyoming",
+    "stateSlug": "wyoming",
+    "stateAbbr": "WY",
+    "cities": [
+      {
+        "city": "Cheyenne",
+        "citySlug": "cheyenne",
+        "zipcodes": [
+          "82001",
+          "82003",
+          "82007"
+        ]
+      },
+      {
+        "city": "Casper",
+        "citySlug": "casper",
+        "zipcodes": [
+          "82601",
+          "82602",
+          "82604"
+        ]
+      },
+      {
+        "city": "Laramie",
+        "citySlug": "laramie",
+        "zipcodes": [
+          "82070"
+        ]
+      },
+      {
+        "city": "Gillette",
+        "citySlug": "gillette",
+        "zipcodes": [
+          "82716"
+        ]
+      },
+      {
+        "city": "Rock Springs",
+        "citySlug": "rock-springs",
+        "zipcodes": [
+          "82901"
+        ]
+      },
+      {
+        "city": "Sheridan",
+        "citySlug": "sheridan",
+        "zipcodes": [
+          "82801"
+        ]
+      }
+    ]
+  }
+]
