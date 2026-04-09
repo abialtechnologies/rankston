@@ -168,20 +168,13 @@ export default function Footer() {
           {/* Brand Column — spans 4 cols */}
           <div className="lg:col-span-4">
             {/* Logo */}
-            <Link href="/" className="inline-flex items-center gap-3 mb-6 group" aria-label="Rankston Home">
-              <div className="relative w-9 h-9 shrink-0">
-                <Image
-                  src="/logo-icon.png"
-                  alt="Rankston logo"
-                  fill
-                  className="object-contain"
-                  sizes="36px"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
-              </div>
-              <span className="text-xl font-extrabold font-poppins text-white tracking-tight">
-                RANKSTON
-              </span>
+            <Link href="/" className="inline-flex items-center mb-6 group" aria-label="Rankston Home">
+              <img
+                src="/logo-icon.png"
+                alt="Rankston"
+                className="h-8 sm:h-9 w-auto object-contain transition-opacity group-hover:opacity-85"
+                style={{ maxWidth: 160 }}
+              />
             </Link>
 
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
