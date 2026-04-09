@@ -231,9 +231,8 @@ function MobileDrawer({ open, onClose }) {
 
   const mainNavItems = [
     { label: 'Home',     href: '/',        icon: NavIcons.home, isLink: true },
+    { label: 'About',    href: '/about',   icon: NavIcons.chart, isLink: true },
     { label: 'Services', href: '#services', icon: NavIcons.grid, isServices: true },
-    { label: 'Results',  href: '#results',  icon: NavIcons.chart },
-    { label: 'Process',  href: '#process',  icon: NavIcons.bolt },
     { label: 'Blog',     href: '/blog',     icon: NavIcons.book, isLink: true },
     { label: 'Contact',  href: '/contact',  icon: NavIcons.mail, isLink: true },
   ];
@@ -530,9 +529,9 @@ export default function Navbar() {
 
   const navLinks = [
     { label: 'Home',     href: '/',        icon: NavIcons.home,  isLink: true },
+    { label: 'About',    href: '/about',   icon: NavIcons.chart, isLink: true },
     { label: 'Services', href: '/services', icon: NavIcons.grid,  isLink: true, isServices: true },
     { label: 'Blog',     href: '/blog',     icon: NavIcons.book,  isLink: true },
-    { label: 'About',    href: '/about',    icon: NavIcons.chart, isLink: true },
     { label: 'Contact',  href: '/contact',  icon: NavIcons.mail, isLink: true },
   ];
 
@@ -561,48 +560,39 @@ export default function Navbar() {
 
             {/* Desktop nav */}
             <ul className="hidden md:flex items-center gap-0.5 flex-1 justify-center">
-              {/* Home */}
-              <li>
-                <Link href="/" className="group flex items-center gap-1.5 px-3 py-1.5 rounded-full text-gray-300 hover:text-white hover:bg-white/8 transition-all text-sm font-medium">
-                  <span className="w-5 h-5 rounded-md bg-white/8 group-hover:bg-emerald-500/20 flex items-center justify-center transition-colors text-gray-400 group-hover:text-emerald-400">{NavIcons.home}</span>
-                  Home
-                </Link>
-              </li>
-
-              {/* Services with mega menu */}
-              <li
-                className="relative"
-                onMouseEnter={() => setMegaOpen(true)}
-                onMouseLeave={() => setMegaOpen(false)}
-              >
-                <button
-                  className={`group flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-all text-sm font-medium ${megaOpen ? 'text-white bg-white/8' : 'text-gray-300 hover:text-white hover:bg-white/8'}`}
-                  aria-expanded={megaOpen}
-                  aria-haspopup="true"
+              {navLinks.map((link) => (
+                <li
+                  key={link.label}
+                  className={link.isServices ? "relative" : ""}
+                  onMouseEnter={link.isServices ? () => setMegaOpen(true) : undefined}
+                  onMouseLeave={link.isServices ? () => setMegaOpen(false) : undefined}
                 >
-                  <span className={`w-5 h-5 rounded-md flex items-center justify-center transition-colors ${megaOpen ? 'bg-emerald-500/20 text-emerald-400' : 'bg-white/8 group-hover:bg-emerald-500/20 text-gray-400 group-hover:text-emerald-400'}`}>
-                    {NavIcons.grid}
-                  </span>
-                  Services
-                  <motion.svg
-                    className="w-3 h-3 text-gray-500"
-                    animate={{ rotate: megaOpen ? 180 : 0 }}
-                    transition={{ duration: 0.2 }}
-                    fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </motion.svg>
-                </button>
+                  {link.isServices ? (
+                    <>
+                      <button
+                        className={`group flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-all text-sm font-medium ${megaOpen ? 'text-white bg-white/8' : 'text-gray-300 hover:text-white hover:bg-white/8'}`}
+                        aria-expanded={megaOpen}
+                        aria-haspopup="true"
+                      >
+                        <span className={`w-5 h-5 rounded-md flex items-center justify-center transition-colors ${megaOpen ? 'bg-emerald-500/20 text-emerald-400' : 'bg-white/8 group-hover:bg-emerald-500/20 text-gray-400 group-hover:text-emerald-400'}`}>
+                          {link.icon}
+                        </span>
+                        {link.label}
+                        <motion.svg
+                          className="w-3 h-3 text-gray-500"
+                          animate={{ rotate: megaOpen ? 180 : 0 }}
+                          transition={{ duration: 0.2 }}
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </motion.svg>
+                      </button>
 
-                <AnimatePresence>
-                  {megaOpen && <MegaMenu onClose={() => setMegaOpen(false)} />}
-                </AnimatePresence>
-              </li>
-
-              {/* Other nav links: Blog / About / Contact */}
-              {navLinks.slice(2).map((link) => (
-                <li key={link.label}>
-                  {link.isLink ? (
+                      <AnimatePresence>
+                        {megaOpen && <MegaMenu onClose={() => setMegaOpen(false)} />}
+                      </AnimatePresence>
+                    </>
+                  ) : link.isLink ? (
                     <Link
                       href={link.href}
                       className="group flex items-center gap-1.5 px-3 py-1.5 rounded-full text-gray-300 hover:text-white hover:bg-white/8 transition-all text-sm font-medium"
