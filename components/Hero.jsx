@@ -199,7 +199,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="none"
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         style={{ zIndex: 0 }}
       >
@@ -250,15 +250,12 @@ export default function Hero() {
         </motion.div>
 
         {/* ── H1 ── */}
-        <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.75, delay: 0.1 }}
+        <h1
           className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-poppins text-white leading-[1.08] tracking-tight mb-6"
         >
           We grow businesses online.{' '}
           <span className="gradient-text">That&apos;s all we do.</span>
-        </motion.h1>
+        </h1>
 
         {/* ── Subtitle ── */}
         <motion.p
