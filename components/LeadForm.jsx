@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { parsePhoneNumberWithError } from 'libphonenumber-js';
 import {
   EnvelopeIcon, UserIcon, GlobeAltIcon, CheckCircleIcon,
   PhoneIcon, ArrowRightIcon, ChatBubbleLeftRightIcon
@@ -238,7 +239,6 @@ export default function LeadForm() {
                                 validate: (val) => {
                                   if (!val) return true;
                                   try {
-                                    const { parsePhoneNumberWithError } = require('libphonenumber-js');
                                     const pn = parsePhoneNumberWithError(val);
                                     if (!pn.isValid()) return 'Invalid phone number format';
                                     return true;

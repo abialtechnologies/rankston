@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { parsePhoneNumberWithError } from 'libphonenumber-js';
 import { ArrowRightIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
@@ -84,7 +85,6 @@ export default function ContactForm() {
               validate: (val) => {
                 if (!val) return true;
                 try {
-                  const { parsePhoneNumberWithError } = require('libphonenumber-js');
                   const pn = parsePhoneNumberWithError(val);
                   if (!pn.isValid()) return 'Invalid WhatsApp number format';
                   return true;
