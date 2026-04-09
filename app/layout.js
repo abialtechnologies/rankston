@@ -3,7 +3,6 @@ import TawkProvider from '../components/TawkProvider';
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import LanguageSwitcher from '../components/LanguageSwitcher';
 import LanguageSuggestionBanner from '../components/LanguageSuggestionBanner';
 
 /**

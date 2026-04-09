@@ -563,7 +563,7 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <li
                   key={link.label}
-                  className={link.isServices ? "relative" : ""}
+                  className={link.isServices ? "relative" : undefined}
                   onMouseEnter={link.isServices ? () => setMegaOpen(true) : undefined}
                   onMouseLeave={link.isServices ? () => setMegaOpen(false) : undefined}
                 >

@@ -64,10 +64,11 @@ const STATS = [
 ];
 
 /* ── Component ─────────────────────────────────────────────── */
+const CURRENT_YEAR = new Date().getFullYear();
+
 export default function Footer() {
   const [subscribed, setSubscribed] = useState(false);
   const [email, setEmail] = useState('');
-  const [year] = useState(new Date().getFullYear());
 
   return (
     <footer
@@ -304,7 +305,7 @@ export default function Footer() {
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-700 text-center sm:text-left">
-            © {year} Rankston. All rights reserved. Worldwide Digital Marketing Agency.
+            © {CURRENT_YEAR} Rankston. All rights reserved. Worldwide Digital Marketing Agency.
           </p>
           <div className="flex items-center gap-4">
             {LEGAL.map((l) => (
