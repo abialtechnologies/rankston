@@ -171,7 +171,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center gap-3 mb-6 group" aria-label="Rankston Home">
               <div className="relative w-9 h-9 shrink-0">
                 <Image
-                  src="/rankston-logo.png"
+                  src="/logo-icon.png"
                   alt="Rankston logo"
                   fill
                   className="object-contain"
