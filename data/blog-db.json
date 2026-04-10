@@ -20,7 +20,7 @@
       "readTime": "6 min read",
       "publishDate": "2025-12-22",
       "createdAt": "2025-12-22T00:00:00.000Z",
-      "updatedAt": "2026-04-10T05:05:00.543Z"
+      "updatedAt": "2026-04-10T07:13:42.795Z"
     },
     {
       "id": 2,
@@ -2449,25 +2449,6 @@
       "publishDate": "2025-04-15",
       "createdAt": "2025-04-15T00:00:00.000Z",
       "updatedAt": "2026-04-09T16:23:35.170Z"
-    },
-    {
-      "id": 110,
-      "title": "Test DELETE",
-      "slug": "test-delete",
-      "excerpt": "Test",
-      "content": "<p>Test</p>",
-      "featuredImage": "",
-      "featuredImageAlt": "",
-      "author": "Rankston SEO Team",
-      "category": "SEO",
-      "tags": [],
-      "status": "draft",
-      "metaTitle": "Test DELETE",
-      "metaDescription": "Test",
-      "readTime": "1 min read",
-      "publishDate": null,
-      "createdAt": "2026-04-10T04:57:15.913Z",
-      "updatedAt": "2026-04-10T04:57:15.913Z"
     }
   ],
   "categories": [
