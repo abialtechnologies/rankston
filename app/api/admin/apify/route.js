@@ -104,16 +104,22 @@ export async function GET(request) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           queries: [
-            'site:searchenginejournal.com latest SEO tips 2026',
-            'site:moz.com/blog latest SEO guide 2026',
-            'site:searchengineland.com latest digital marketing news 2026',
-            'site:semrush.com/blog SEO strategy 2026',
-            'site:ahrefs.com/blog link building content marketing 2026',
-            'site:hubspot.com/marketing blog marketing strategy 2026',
-            'site:neilpatel.com/blog SEO traffic 2026',
-            'site:wordstream.com/blog PPC Google Ads 2026',
-            'site:backlinko.com blog SEO guide 2026',
-            'site:contentmarketinginstitute.com blog content strategy 2026',
+            // ── Local Business Marketing (target audience: plumber, HVAC, contractor etc.)
+            'how plumbers can get more customers digital marketing 2026',
+            'HVAC contractor local SEO marketing tips 2026',
+            'local business marketing guide electrician plumber roofer 2026',
+            'Google Business Profile tips for local service businesses 2026',
+            'how contractors get leads online local SEO 2026',
+
+            // ── Top Marketing Agency Blogs
+            'site:searchenginejournal.com local SEO small business 2026',
+            'site:moz.com/blog local SEO guide 2026',
+            'site:semrush.com/blog local business marketing 2026',
+            'site:ahrefs.com/blog digital marketing strategy 2026',
+
+            // ── Medium: Marketing Agency Articles
+            'site:medium.com marketing agency SEO strategy 2026',
+            'site:medium.com local business digital marketing tips 2026',
           ].join('\n'),
           maxPagesPerQuery: 1,
           resultsPerPage: 10,
