@@ -5,11 +5,17 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 
-/* ── Intent badge colors ── */
+/* ── Badge colors ── */
 const intentColors = {
   transactional: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
   commercial: 'text-blue-400 bg-blue-400/10 border-blue-400/20',
   informational: 'text-yellow-400 bg-yellow-400/10 border-yellow-400/20',
+};
+
+const tierColors = {
+  A: 'text-emerald-300 bg-emerald-500/20 border-emerald-500/30',
+  B: 'text-blue-300 bg-blue-500/20 border-blue-500/30',
+  C: 'text-gray-500 bg-gray-500/10 border-gray-500/20',
 };
 
 const pageTypeColors = {
@@ -38,25 +44,19 @@ export default function SEODashboard() {
   const [keywords, setKeywords] = useState([]);
   const [stats, setStats] = useState({ total: 0, avgVolume: 0, avgDifficulty: 0, intents: {} });
   const [loading, setLoading] = useState(true);
-  const [fetching, setFetching] = useState(false);
-  const [analyzing, setAnalyzing] = useState(false);
-  const [runningPipeline, setRunningPipeline] = useState(false);
+  const [processing, setProcessing] = useState(false);
   const [message, setMessage] = useState('');
 
   // Filters
   const [service, setService] = useState('');
   const [intent, setIntent] = useState('');
+  const [tier, setTier] = useState('');
   const [search, setSearch] = useState('');
-  const [sortBy, setSortBy] = useState('opportunity_score');
+  const [sortBy, setSortBy] = useState('lead_score');
   const [sortOrder, setSortOrder] = useState('desc');
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [total, setTotal] = useState(0);
-
-  // Fetch trigger
-  const [fetchService, setFetchService] = useState('SEO');
-  const [fetchLocation, setFetchLocation] = useState('United States');
-  const [showFetchModal, setShowFetchModal] = useState(false);
 
   const getToken = useCallback(() => {
     const t = localStorage.getItem('admin_token');
@@ -78,6 +78,7 @@ export default function SEODashboard() {
 
     if (service) params.set('service', service);
     if (intent) params.set('intent', intent);
+    if (tier) params.set('tier', tier);
     if (search) params.set('search', search);
 
     const res = await fetch(`/api/admin/seo/keywords?${params}`, {
@@ -92,7 +93,7 @@ export default function SEODashboard() {
     setTotal(data.total || 0);
     setTotalPages(data.totalPages || 1);
     setLoading(false);
-  }, [token, page, sortBy, sortOrder, service, intent, search, router]);
+  }, [token, page, sortBy, sortOrder, service, intent, tier, search, router]);
 
   useEffect(() => {
     const t = getToken();
@@ -101,66 +102,28 @@ export default function SEODashboard() {
     loadKeywords(t);
   }, [getToken, loadKeywords]);
 
-  /* ── Fetch new keywords from DataForSEO ── */
-  const handleFetch = async () => {
-    if (!confirm(`Fetch keywords for "${fetchService}" in "${fetchLocation}"?\nThis will cost ~$0.15-0.20 in DataForSEO credits.`)) return;
-    setFetching(true);
-    setMessage('');
+  /* ── Process: cleanup + score + tier ── */
+  const handleProcess = async () => {
+    if (!confirm('Run Quality Control Pipeline?\n\n• Remove junk/low-value keywords\n• Score for lead potential\n• Assign Tiers (A/B/C)\n• Smart clustering\n\nCost: $0.00 (local processing)')) return;
+    setProcessing(true);
+    setMessage('⚙️ Processing 75k+ keywords...');
 
     try {
-      const res = await fetch('/api/admin/seo/fetch', {
+      const res = await fetch('/api/admin/seo/process', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        body: JSON.stringify({ service: fetchService, location: fetchLocation }),
       });
       const data = await res.json();
-      setMessage(data.message || data.error || 'Done');
-      setShowFetchModal(false);
+      if (data.error) {
+        setMessage(`❌ ${data.error}`);
+      } else {
+        setMessage(`✅ Processed: Tier A: ${data.tiers?.A || 0} | Tier B: ${data.tiers?.B || 0} | Tier C: ${data.tiers?.C || 0} | Clusters: ${data.clusters || 0} | ${data.recommendation}`);
+      }
       loadKeywords();
     } catch {
-      setMessage('Fetch error');
+      setMessage('❌ Processing error');
     } finally {
-      setFetching(false);
-    }
-  };
-
-  /* ── Re-analyze keywords (FREE) ── */
-  const handleAnalyze = async () => {
-    setAnalyzing(true);
-    try {
-      const res = await fetch('/api/admin/seo/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        body: JSON.stringify({ service: service || undefined }),
-      });
-      const data = await res.json();
-      setMessage(`${data.message}: ${data.keywordsUpdated} updated, ${data.clustersCreated} clusters`);
-      loadKeywords();
-    } catch {
-      setMessage('Analysis error');
-    } finally {
-      setAnalyzing(false);
-    }
-  };
-
-  /* ── Run full automated pipeline ── */
-  const handleRunPipeline = async () => {
-    if (!confirm('Run full SEO pipeline for ALL services?\n\nThis will:\n1. Fetch base keywords (~$0.50)\n2. Expand with 50 states + cities (FREE)\n3. Score & classify all keywords\n\nEstimated cost: ~$0.50')) return;
-    setRunningPipeline(true);
-    setMessage('🚀 Running pipeline... this may take 2-3 minutes');
-    try {
-      const res = await fetch('/api/admin/seo/run', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        body: JSON.stringify({}),
-      });
-      const data = await res.json();
-      setMessage(`✅ ${data.message} | Cost: ${data.totalCost}`);
-      loadKeywords();
-    } catch {
-      setMessage('❌ Pipeline error');
-    } finally {
-      setRunningPipeline(false);
+      setProcessing(false);
     }
   };
 
@@ -169,11 +132,12 @@ export default function SEODashboard() {
     const params = new URLSearchParams({ export: 'csv', sort: sortBy, order: sortOrder });
     if (service) params.set('service', service);
     if (intent) params.set('intent', intent);
+    if (tier) params.set('tier', tier);
     if (search) params.set('search', search);
-    window.open(`/api/admin/seo/keywords?${params}&token=${token}`, '_blank');
+    window.open(`/api/admin/seo/keywords?${params}`, '_blank');
   };
 
-  /* ── Sort handler ── */
+  /* ── Sort ── */
   const handleSort = (col) => {
     if (sortBy === col) {
       setSortOrder(sortOrder === 'desc' ? 'asc' : 'desc');
@@ -203,33 +167,34 @@ export default function SEODashboard() {
               ← Dashboard
             </Link>
             <button
-              onClick={handleRunPipeline}
-              disabled={runningPipeline}
+              onClick={handleProcess}
+              disabled={processing}
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-semibold hover:opacity-90 transition-opacity disabled:opacity-50"
             >
-              {runningPipeline ? '⏳ Running...' : '🚀 Run Pipeline'}
+              {processing ? '⏳ Processing...' : '⚡ Process & Score'}
             </button>
           </div>
         </div>
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        {/* ── Message ── */}
+        {/* Message */}
         {message && (
-          <div className="mb-4 p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm">
+          <div className="mb-4 p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm whitespace-pre-wrap">
             {message}
           </div>
         )}
 
         {/* ── Stats Cards ── */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
           {[
-            { label: 'Total Keywords', value: total.toLocaleString(), color: 'blue' },
-            { label: 'Avg Volume', value: stats.avgVolume?.toLocaleString() || '0', color: 'emerald' },
-            { label: 'Avg KD', value: stats.avgDifficulty?.toFixed(1) || '0', color: 'yellow' },
-            { label: 'Transactional', value: stats.intents?.transactional || 0, color: 'purple' },
+            { label: 'Total Keywords', value: total.toLocaleString(), bg: 'border-white/10' },
+            { label: '🅰️ Tier A', value: keywords.filter((k) => k.tier === 'A').length || '—', bg: 'border-emerald-500/30' },
+            { label: '🅱️ Tier B', value: keywords.filter((k) => k.tier === 'B').length || '—', bg: 'border-blue-500/30' },
+            { label: 'Avg Lead Score', value: keywords.length ? (keywords.reduce((s, k) => s + (k.lead_score || 0), 0) / keywords.length).toFixed(1) : '0', bg: 'border-purple-500/30' },
+            { label: 'Transactional', value: stats.intents?.transactional || 0, bg: 'border-yellow-500/30' },
           ].map((s) => (
-            <div key={s.label} className={`rounded-xl border border-${s.color}-500/20 p-4`} style={{ background: 'rgba(17,24,39,0.6)' }}>
+            <div key={s.label} className={`rounded-xl border ${s.bg} p-4`} style={{ background: 'rgba(17,24,39,0.6)' }}>
               <p className="text-gray-500 text-xs font-medium mb-1">{s.label}</p>
               <p className="text-xl font-bold text-white font-poppins">{s.value}</p>
             </div>
@@ -244,6 +209,14 @@ export default function SEODashboard() {
             {SERVICES.map((s) => <option key={s.slug} value={s.slug}>{s.label}</option>)}
           </select>
 
+          <select value={tier} onChange={(e) => { setTier(e.target.value); setPage(1); }}
+            className="px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-emerald-500/40">
+            <option value="">All Tiers</option>
+            <option value="A">🅰️ Tier A (Immediate)</option>
+            <option value="B">🅱️ Tier B (Future)</option>
+            <option value="C">🅲 Tier C (Archive)</option>
+          </select>
+
           <select value={intent} onChange={(e) => { setIntent(e.target.value); setPage(1); }}
             className="px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-emerald-500/40">
             <option value="">All Intents</option>
@@ -255,18 +228,24 @@ export default function SEODashboard() {
           <input
             type="text" placeholder="Search keywords..." value={search}
             onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-            className="px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-emerald-500/40 flex-1 min-w-[200px]"
+            className="px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-emerald-500/40 flex-1 min-w-[180px]"
           />
-
-          <button onClick={handleAnalyze} disabled={analyzing}
-            className="px-3 py-2 rounded-lg border border-white/10 text-gray-300 text-sm hover:bg-white/5 disabled:opacity-50">
-            {analyzing ? 'Analyzing...' : '⚡ Re-Analyze'}
-          </button>
 
           <button onClick={handleExport}
             className="px-3 py-2 rounded-lg border border-white/10 text-gray-300 text-sm hover:bg-white/5">
-            📥 Export CSV
+            📥 CSV
           </button>
+        </div>
+
+        {/* ── Tier Quick Filters ── */}
+        <div className="flex gap-2 mb-4">
+          {['', 'A', 'B', 'C'].map((t) => (
+            <button key={t} onClick={() => { setTier(t); setPage(1); }}
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${tier === t ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-white/5 text-gray-500 border border-white/5 hover:text-gray-300'}`}>
+              {t === '' ? 'All' : `Tier ${t}`}
+              {t === 'A' && ' ⭐'}
+            </button>
+          ))}
         </div>
 
         {/* ── Keywords Table ── */}
@@ -277,11 +256,12 @@ export default function SEODashboard() {
                 <tr className="border-b border-white/6">
                   {[
                     { key: 'keyword', label: 'Keyword' },
+                    { key: 'tier', label: 'Tier' },
+                    { key: 'lead_score', label: 'Lead Score' },
                     { key: 'search_volume', label: 'Volume' },
                     { key: 'keyword_difficulty', label: 'KD' },
                     { key: 'cpc', label: 'CPC' },
                     { key: 'intent', label: 'Intent' },
-                    { key: 'opportunity_score', label: 'Score' },
                     { key: 'page_type', label: 'Page Type' },
                   ].map((col) => (
                     <th key={col.key}
@@ -294,14 +274,24 @@ export default function SEODashboard() {
               </thead>
               <tbody>
                 {loading ? (
-                  <tr><td colSpan={7} className="px-4 py-12 text-center text-gray-600">Loading...</td></tr>
+                  <tr><td colSpan={8} className="px-4 py-12 text-center text-gray-600">Loading...</td></tr>
                 ) : keywords.length === 0 ? (
-                  <tr><td colSpan={7} className="px-4 py-12 text-center text-gray-600">
-                    No keywords yet. Click &quot;+ Fetch Keywords&quot; to start.
+                  <tr><td colSpan={8} className="px-4 py-12 text-center text-gray-600">
+                    No keywords found. Run the pipeline first.
                   </td></tr>
                 ) : keywords.map((kw) => (
-                  <tr key={kw.id} className="border-b border-white/4 hover:bg-white/3 transition-colors">
-                    <td className="px-4 py-3 text-white font-medium max-w-[300px] truncate">{kw.keyword}</td>
+                  <tr key={kw.id} className={`border-b border-white/4 hover:bg-white/3 transition-colors ${kw.tier === 'A' ? 'bg-emerald-500/[0.03]' : ''}`}>
+                    <td className="px-4 py-3 text-white font-medium max-w-[280px] truncate">{kw.keyword}</td>
+                    <td className="px-4 py-3">
+                      <span className={`text-xs font-bold px-2 py-0.5 rounded-full border ${tierColors[kw.tier] || tierColors.C}`}>
+                        {kw.tier || 'C'}
+                      </span>
+                    </td>
+                    <td className="px-4 py-3 text-right">
+                      <span className={`font-bold font-mono ${(kw.lead_score || 0) >= 50 ? 'text-emerald-400' : (kw.lead_score || 0) >= 25 ? 'text-blue-400' : 'text-gray-500'}`}>
+                        {(kw.lead_score || 0).toFixed(0)}
+                      </span>
+                    </td>
                     <td className="px-4 py-3 text-gray-300 text-right font-mono">{kw.search_volume?.toLocaleString()}</td>
                     <td className="px-4 py-3 text-right">
                       <span className={`font-mono ${kw.keyword_difficulty > 70 ? 'text-red-400' : kw.keyword_difficulty > 40 ? 'text-yellow-400' : 'text-emerald-400'}`}>
@@ -312,11 +302,6 @@ export default function SEODashboard() {
                     <td className="px-4 py-3">
                       <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${intentColors[kw.intent] || 'text-gray-400'}`}>
                         {kw.intent}
-                      </span>
-                    </td>
-                    <td className="px-4 py-3 text-right">
-                      <span className={`font-bold font-mono ${kw.opportunity_score > 100 ? 'text-emerald-400' : kw.opportunity_score > 30 ? 'text-blue-400' : 'text-gray-400'}`}>
-                        {kw.opportunity_score?.toFixed(0)}
                       </span>
                     </td>
                     <td className="px-4 py-3">
@@ -330,7 +315,7 @@ export default function SEODashboard() {
             </table>
           </div>
 
-          {/* ── Pagination ── */}
+          {/* Pagination */}
           {totalPages > 1 && (
             <div className="flex items-center justify-between px-4 py-3 border-t border-white/6">
               <span className="text-xs text-gray-500">
@@ -338,64 +323,14 @@ export default function SEODashboard() {
               </span>
               <div className="flex gap-1">
                 <button onClick={() => setPage(Math.max(1, page - 1))} disabled={page === 1}
-                  className="px-3 py-1 rounded text-xs text-gray-400 hover:text-white disabled:opacity-30">
-                  ← Prev
-                </button>
+                  className="px-3 py-1 rounded text-xs text-gray-400 hover:text-white disabled:opacity-30">← Prev</button>
                 <button onClick={() => setPage(Math.min(totalPages, page + 1))} disabled={page === totalPages}
-                  className="px-3 py-1 rounded text-xs text-gray-400 hover:text-white disabled:opacity-30">
-                  Next →
-                </button>
+                  className="px-3 py-1 rounded text-xs text-gray-400 hover:text-white disabled:opacity-30">Next →</button>
               </div>
             </div>
           )}
         </div>
       </main>
-
-      {/* ── Fetch Modal ── */}
-      {showFetchModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60" onClick={() => setShowFetchModal(false)}>
-          <div
-            className="w-full max-w-md rounded-2xl border border-white/10 p-6"
-            style={{ background: 'linear-gradient(145deg, rgba(17,24,39,0.98), rgba(10,15,26,0.99))' }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h2 className="text-lg font-bold text-white mb-4 font-poppins">Fetch Keywords from DataForSEO</h2>
-
-            <div className="mb-4">
-              <label className="block text-sm text-gray-400 mb-1">Service</label>
-              <select value={fetchService} onChange={(e) => setFetchService(e.target.value)}
-                className="w-full px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm">
-                {SERVICES.map((s) => <option key={s.slug} value={s.slug}>{s.label}</option>)}
-              </select>
-            </div>
-
-            <div className="mb-4">
-              <label className="block text-sm text-gray-400 mb-1">Location</label>
-              <select value={fetchLocation} onChange={(e) => setFetchLocation(e.target.value)}
-                className="w-full px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm">
-                {['United States', 'New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Dallas', 'Austin', 'Columbus', 'San Diego', 'San Antonio'].map((l) => (
-                  <option key={l} value={l}>{l}</option>
-                ))}
-              </select>
-            </div>
-
-            <div className="mb-4 p-3 rounded-lg bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-xs">
-              ⚠️ This will cost approximately <strong>$0.15-0.20</strong> in DataForSEO credits.
-            </div>
-
-            <div className="flex gap-2">
-              <button onClick={() => setShowFetchModal(false)}
-                className="flex-1 px-4 py-2.5 rounded-lg border border-white/10 text-gray-300 text-sm hover:bg-white/5">
-                Cancel
-              </button>
-              <button onClick={handleFetch} disabled={fetching}
-                className="flex-1 px-4 py-2.5 rounded-lg bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-semibold hover:opacity-90 disabled:opacity-50">
-                {fetching ? 'Fetching...' : 'Fetch Keywords'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

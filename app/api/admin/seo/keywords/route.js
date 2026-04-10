@@ -27,8 +27,9 @@ export async function GET(request) {
   const pageType = searchParams.get('page_type');
   const minVol = parseInt(searchParams.get('min_vol') || '0', 10);
   const maxKd = parseFloat(searchParams.get('max_kd') || '100');
+  const tierFilter = searchParams.get('tier');
   const search = searchParams.get('search') || '';
-  const sortBy = searchParams.get('sort') || 'opportunity_score';
+  const sortBy = searchParams.get('sort') || 'lead_score';
   const order = searchParams.get('order') || 'desc';
   const page = parseInt(searchParams.get('page') || '1', 10);
   const limit = parseInt(searchParams.get('limit') || '50', 10);
@@ -43,6 +44,7 @@ export async function GET(request) {
   if (location) query = query.eq('location', location);
   if (intent) query = query.eq('intent', intent);
   if (pageType) query = query.eq('page_type', pageType);
+  if (tierFilter) query = query.eq('tier', tierFilter);
   if (minVol > 0) query = query.gte('search_volume', minVol);
   if (maxKd < 100) query = query.lte('keyword_difficulty', maxKd);
   if (search) query = query.ilike('keyword', `%${search}%`);
@@ -67,7 +69,7 @@ export async function GET(request) {
 
   // CSV Export
   if (isExport && data) {
-    const headers = ['keyword', 'service', 'location', 'search_volume', 'keyword_difficulty', 'cpc', 'intent', 'opportunity_score', 'page_type'];
+    const headers = ['keyword', 'service', 'location', 'tier', 'lead_score', 'search_volume', 'keyword_difficulty', 'cpc', 'intent', 'page_type'];
     const csv = [
       headers.join(','),
       ...data.map((row) => headers.map((h) => `"${String(row[h] || '').replace(/"/g, '""')}"`).join(',')),
