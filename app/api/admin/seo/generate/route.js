@@ -53,8 +53,19 @@ export async function POST(request) {
     }
 
     // 3. Generate AI Content
-    console.log(`Sending to Gemini: ${kw.keyword} in ${kw.location} for ${kw.service}`);
-    const generatedData = await generateSeoPageContent(kw.keyword, kw.location || 'United States', kw.service, kw.intent);
+    let generatedData;
+    try {
+      console.log(`Sending to Gemini: ${kw.keyword} in ${kw.location} for ${kw.service}`);
+      generatedData = await generateSeoPageContent(kw.keyword, kw.location || 'United States', kw.service, kw.intent);
+    } catch (aiError) {
+      // Option A: Drop & Log
+      await supabase.from('seo_logs').insert({
+        keyword_id: kw.id,
+        action: 'GENERATED_FAILED',
+        details: aiError.message
+      });
+      return NextResponse.json({ error: aiError.message }, { status: 422 });
+    }
 
     // 4. Save to Database
     const { error: insertErr, data: insertedPage } = await supabase
@@ -81,12 +92,29 @@ export async function POST(request) {
 
     if (insertErr) throw new Error(insertErr.message);
 
+    // 5. Log Success
+    await supabase.from('seo_logs').insert({
+      keyword_id: kw.id,
+      action: 'GENERATED_SUCCESS',
+      details: `Generated slug: /solutions/${slug}`
+    });
+
     return NextResponse.json({
       message: 'Page successfully generated and published.',
       slug,
       page_id: insertedPage.id
     });
   } catch (err) {
+    if (request.json) {
+       const body = await request.clone().json().catch(()=>({}));
+       if (body.keyword_id) {
+         await getSupabaseServerClient().from('seo_logs').insert({
+            keyword_id: body.keyword_id,
+            action: 'GENERATED_FAILED',
+            details: err.message
+         });
+       }
+    }
     console.error('Generation Error:', err);
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

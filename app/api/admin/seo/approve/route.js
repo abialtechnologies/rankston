@@ -26,6 +26,13 @@ export async function POST(request) {
 
     if (error) throw new Error(error.message);
 
+    // Log action
+    await supabase.from('seo_logs').insert({
+      keyword_id: id,
+      action: approved ? 'APPROVED' : 'UNAPPROVED',
+      details: `Manual approval toggle via API`
+    });
+
     return NextResponse.json({ success: true, approved });
   } catch (err) {
     return NextResponse.json({ error: err.message }, { status: 500 });

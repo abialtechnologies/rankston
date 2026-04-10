@@ -130,6 +130,51 @@ export default function SEODashboard() {
     }
   };
 
+  /* ── Toggle Approve ── */
+  const handleToggleApprove = async (id, currentVal) => {
+    try {
+      // Optimistic update
+      setKeywords(keywords.map(kw => kw.id === id ? { ...kw, approved: !currentVal } : kw));
+      await fetch('/api/admin/seo/approve', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ id, approved: !currentVal }),
+      });
+    } catch {
+      setMessage('❌ Failed to update approval status');
+      loadKeywords(token); // revert on fail
+    }
+  };
+
+  /* ── Generate Page ── */
+  const handleGenerate = async (kw) => {
+    if (!kw.approved) return alert('Keyword must be approved first.');
+    if (generatingIds.size >= 5) {
+      return alert('Rate limit active: Please wait for current batch (max 5) to finish before queuing more.');
+    }
+    
+    setGeneratingIds(prev => new Set([...prev, kw.id]));
+    setMessage(`🤖 AI is writing landing page for "${kw.keyword}"...`);
+    try {
+      const res = await fetch('/api/admin/seo/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ keyword_id: kw.id }),
+      });
+      const data = await res.json();
+      if (data.error) setMessage(`❌ ${data.error}`);
+      else setMessage(`✅ Generated and Published! Slug: /solutions/${data.slug}`);
+    } catch {
+      setMessage('❌ Generation failed');
+    } finally {
+      setGeneratingIds(prev => {
+        const next = new Set(prev);
+        next.delete(kw.id);
+        return next;
+      });
+    }
+  };
+
   /* ── Export CSV ── */
   const handleExport = () => {
     const params = new URLSearchParams({ export: 'csv', sort: sortBy, order: sortOrder });

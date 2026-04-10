@@ -12,15 +12,22 @@ export async function generateMetadata({ params }) {
 
   const { data: pageData } = await supabase
     .from('seo_pages')
-    .select('meta_title, meta_description, keyword')
+    .select('meta_title, meta_description, keyword, published, phase')
     .eq('slug', slug)
     .single();
 
-  if (!pageData) return { title: 'Not Found' };
+  if (!pageData) return { title: 'Not Found', robots: { index: false, follow: false } };
+
+  // Safety Indexing Rule
+  const shouldIndex = pageData.published === true && pageData.phase === 1;
 
   return {
     title: pageData.meta_title || `${pageData.keyword} | Rankston Solutions`,
     description: pageData.meta_description,
+    robots: {
+      index: shouldIndex,
+      follow: shouldIndex,
+    },
     openGraph: {
       title: pageData.meta_title || `${pageData.keyword} | Rankston Solutions`,
       description: pageData.meta_description,
