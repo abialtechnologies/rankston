@@ -10,6 +10,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@tiptap/extension-image": "^3.22.3",
+    "@tiptap/extension-link": "^3.22.3",
+    "@tiptap/extension-placeholder": "^3.22.3",
+    "@tiptap/pm": "^3.22.3",
+    "@tiptap/react": "^3.22.3",
+    "@tiptap/starter-kit": "^3.22.3",
     "framer-motion": "^12.38.0",
     "libphonenumber-js": "^1.12.41",
     "next": "16.2.1",

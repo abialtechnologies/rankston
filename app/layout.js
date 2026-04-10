@@ -2,8 +2,7 @@ import { Inter, Poppins } from 'next/font/google';
 import Script from 'next/script';
 import TawkProvider from '../components/TawkProvider';
 import './globals.css';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import LayoutShell from '../components/LayoutShell';
 import LanguageSuggestionBanner from '../components/LanguageSuggestionBanner';
 
 /**
@@ -182,13 +181,7 @@ export default function RootLayout({ children }) {
         </a>
 
         <LanguageSuggestionBanner />
-        <Navbar />
-
-        <main id="main-content" role="main">
-          {children}
-        </main>
-
-        <Footer />
+        <LayoutShell>{children}</LayoutShell>
         
         {/* Tawk.to Live Chat & AI integration */}
         <TawkProvider />

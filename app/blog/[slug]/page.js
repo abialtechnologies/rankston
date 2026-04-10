@@ -1,25 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import originals from '../../../data/blog-posts.json';
-import { getAllBlogPosts } from '../../../data/blog-generator.js';
-import ArticleInteractions from '../../../components/ArticleInteractions';
+import { getPostBySlug, getAllPublishedSlugs } from '../../../lib/db.js';
 
-const blogPosts = getAllBlogPosts(originals);
-
-export async function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPostBySlug(slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Rankston Blog`,
-    description: post.excerpt,
+    title: post.metaTitle || `${post.title} | Rankston Blog`,
+    description: post.metaDescription || post.excerpt,
     alternates: { canonical: `https://rankston.com/blog/${post.slug}` },
-    openGraph: { title: post.title, description: post.excerpt, images: [post.thumbnail] },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: post.featuredImage ? [post.featuredImage] : [],
+    },
   };
 }
 
@@ -28,203 +26,137 @@ const categoryStyle = {
   'AI Automation': 'text-cyan-400 bg-cyan-400/10 border-cyan-400/20',
   PPC:             'text-violet-400 bg-violet-400/10 border-violet-400/20',
   'Social Media':  'text-pink-400 bg-pink-400/10 border-pink-400/20',
+  'Web Development': 'text-blue-400 bg-blue-400/10 border-blue-400/20',
+  'Content Marketing': 'text-orange-400 bg-orange-400/10 border-orange-400/20',
+  'GMB Optimization': 'text-yellow-400 bg-yellow-400/10 border-yellow-400/20',
+  'Digital Marketing': 'text-indigo-400 bg-indigo-400/10 border-indigo-400/20',
 };
 
-function renderBlock(block, i) {
-  switch (block.type) {
-    case 'intro':
-      return (
-        <p key={i} className="text-lg text-gray-300 leading-relaxed font-medium border-l-2 border-emerald-500/60 pl-4 italic">
-          {block.text}
-        </p>
-      );
-    case 'h2':
-      return (
-        <h2 key={i} className="text-2xl font-bold text-white font-poppins mt-10 mb-4">
-          {block.text}
-        </h2>
-      );
-    case 'paragraph':
-      return (
-        <p key={i} className="text-gray-400 leading-relaxed text-base">
-          {block.text}
-        </p>
-      );
-    case 'image':
-      return (
-        <figure key={i} className="my-8">
-          <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden">
-            <Image
-              src={block.src}
-              alt={block.alt}
-              fill
-              className="object-cover"
-              sizes="(max-width:768px) 100vw, 760px"
-            />
-          </div>
-          {block.caption && (
-            <figcaption className="text-center text-sm text-gray-600 mt-3 italic">
-              {block.caption}
-            </figcaption>
-          )}
-        </figure>
-      );
-    default:
-      return null;
-  }
-}
-
-export default async function ArticlePage({ params }) {
+export default async function BlogPostPage({ params }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = getPostBySlug(slug);
+
   if (!post) notFound();
 
-  const related = blogPosts
-    .filter((p) => p.id !== post.id && (p.serviceSlug === post.serviceSlug || p.category === post.category))
-    .slice(0, 3);
-
+  // Article JSON-LD schema
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
+    '@type': 'Article',
     headline: post.title,
-    description: post.excerpt,
-    image: post.thumbnail,
-    datePublished: post.publishedAt,
-    dateModified: post.publishedAt,
-    author: { '@type': 'Organization', name: 'Rankston', url: 'https://rankston.com' },
-    publisher: { '@type': 'Organization', name: 'Rankston', url: 'https://rankston.com', logo: { '@type': 'ImageObject', url: 'https://rankston.com/logo.png' } },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://rankston.com/blog/${slug}` },
-  };
-
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://rankston.com' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://rankston.com/blog' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `https://rankston.com/blog/${slug}` },
-    ],
+    description: post.excerpt || post.metaDescription,
+    image: post.featuredImage || undefined,
+    author: { '@type': 'Organization', name: post.author || 'Rankston' },
+    publisher: { '@type': 'Organization', name: 'Rankston', logo: { '@type': 'ImageObject', url: 'https://rankston.com/logo.png' } },
+    datePublished: post.publishDate || post.createdAt,
+    dateModified: post.updatedAt || post.publishDate,
+    mainEntityOfPage: `https://rankston.com/blog/${post.slug}`,
   };
 
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <div className="min-h-screen pt-24">
-      <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12" itemScope itemType="https://schema.org/BlogPosting">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
 
+      <article className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
         {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-600 mb-8">
           <Link href="/" className="hover:text-white transition-colors">Home</Link>
           <span>/</span>
           <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
           <span>/</span>
-          <span className="text-emerald-400 truncate max-w-xs">{post.title}</span>
+          <span className="text-emerald-400 truncate max-w-[200px]">{post.title}</span>
         </nav>
 
-        {/* Category + meta */}
-        <div className="flex flex-wrap items-center gap-3 mb-5">
+        {/* Category + read time */}
+        <div className="flex items-center gap-3 mb-6">
           <span className={`text-xs font-semibold px-3 py-1 rounded-full border ${categoryStyle[post.category] || 'text-gray-400 bg-gray-400/10 border-gray-400/20'}`}>
             {post.category}
           </span>
           <span className="text-xs text-gray-600">{post.readTime}</span>
-          <span className="text-xs text-gray-600">·</span>
-          <time className="text-xs text-gray-600" dateTime={post.publishedAt} itemProp="datePublished">
-            {new Date(post.publishedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-          </time>
-          <span className="text-xs text-gray-600">·</span>
-          <span className="text-xs text-gray-600" itemProp="author">{post.author}</span>
         </div>
 
         {/* Title */}
-        <h1
-          className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-poppins text-white leading-tight mb-6"
-          itemProp="headline"
-        >
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white font-poppins leading-tight mb-6">
           {post.title}
         </h1>
 
-        {/* Hero thumbnail */}
-        <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden mb-10">
-          <Image
-            src={post.thumbnail}
-            alt={post.title}
-            fill
-            priority
-            className="object-cover"
-            sizes="(max-width:768px) 100vw, 760px"
-            itemProp="image"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/40 to-transparent" />
-        </div>
-
-        {/* Article content */}
-        <div className="space-y-5 prose-custom" itemProp="articleBody">
-          {post.content.map((block, i) => renderBlock(block, i))}
-        </div>
-
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2 mt-10">
-          {post.tags.map((tag) => (
-            <span key={tag} className="text-xs text-gray-500 bg-white/4 border border-white/8 rounded-full px-3 py-1">
-              #{tag}
-            </span>
-          ))}
-        </div>
-
-        {/* Reactions + Share + Comments */}
-        <ArticleInteractions title={post.title} slug={post.slug} />
-      </article>
-
-      {/* Related posts */}
-      {related.length > 0 && (
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
-          <div className="h-px bg-white/6 mb-10" />
-          <h3 className="text-lg font-bold text-white font-poppins mb-6">More Articles</h3>
-          <div className="grid sm:grid-cols-3 gap-4">
-            {related.map((p) => (
-              <Link key={p.id} href={`/blog/${p.slug}`} className="group block">
-                <div className="rounded-2xl overflow-hidden border border-white/6 hover:border-emerald-500/20 transition-all" style={{ background: 'rgba(17,24,39,0.8)' }}>
-                  <div className="relative h-32 overflow-hidden">
-                    <Image src={p.thumbnail} alt={p.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="300px" />
-                  </div>
-                  <div className="p-4">
-                    <p className="text-sm font-medium text-gray-300 group-hover:text-emerald-400 transition-colors leading-snug line-clamp-2">{p.title}</p>
-                    <p className="text-xs text-gray-600 mt-1">{p.readTime}</p>
-                  </div>
-                </div>
-              </Link>
-            ))}
+        {/* Author + date */}
+        <div className="flex items-center gap-4 text-sm text-gray-500 mb-8 pb-8 border-b border-white/6">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center flex-shrink-0">
+            <span className="text-white font-bold text-sm">{(post.author || 'R')[0]}</span>
+          </div>
+          <div>
+            <p className="text-gray-300 font-medium">{post.author}</p>
+            <p className="text-gray-600 text-xs">
+              {new Date(post.publishDate || post.createdAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </p>
           </div>
         </div>
-      )}\n\n      {/* ── RELATED SERVICES — blog post → service page internal links ── */}
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
-        <div className="h-px bg-white/6 mb-8" />
-        <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-4">Related Services</p>
-        <div className="flex flex-wrap gap-2">
-          {[
-            { href: '/seo-services',           label: '🔍 SEO Services' },
-            { href: '/ppc-advertising',         label: '💰 PPC & Google Ads' },
-            { href: '/web-development',         label: '💻 Web Development' },
-            { href: '/social-media-marketing',  label: '📱 Social Media Marketing' },
-            { href: '/content-marketing',       label: '✍️ Content Marketing' },
-            { href: '/gmb-optimization',        label: '📍 Google My Business' },
-            { href: '/ai-automation',           label: '🤖 AI Automation' },
-            { href: '/chatbot-development',     label: '💬 Chatbot Development' },
-          ].map((s) => (
-            <Link
-              key={s.href}
-              href={s.href}
-              className="px-3 py-1.5 text-xs font-medium rounded-full border border-white/8 text-gray-500 hover:text-emerald-400 hover:border-emerald-500/25 transition-all"
-              style={{ background: 'rgba(17,24,39,0.85)' }}
-            >
-              {s.label}
-            </Link>
-          ))}
+
+        {/* Featured image */}
+        {post.featuredImage && (
+          <div className="relative w-full h-64 sm:h-96 rounded-2xl overflow-hidden mb-10">
+            <Image
+              src={post.featuredImage}
+              alt={post.featuredImageAlt || post.title}
+              fill
+              className="object-cover"
+              sizes="(max-width:768px) 100vw, 800px"
+              priority
+            />
+          </div>
+        )}
+
+        {/* Content — HTML from TipTap */}
+        <div
+          className="prose prose-invert prose-lg max-w-none
+            prose-headings:font-poppins prose-headings:font-bold
+            prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
+            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+            prose-p:text-gray-400 prose-p:leading-relaxed
+            prose-a:text-emerald-400 prose-a:no-underline hover:prose-a:underline
+            prose-img:rounded-2xl prose-img:my-8
+            prose-blockquote:border-l-emerald-500/60 prose-blockquote:text-gray-400 prose-blockquote:italic
+            prose-strong:text-white
+            prose-li:text-gray-400"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
+
+        {/* Tags */}
+        {post.tags && post.tags.length > 0 && (
+          <div className="mt-12 pt-8 border-t border-white/6">
+            <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-3">Tags</p>
+            <div className="flex flex-wrap gap-2">
+              {post.tags.map((tag) => (
+                <span key={tag} className="px-3 py-1 rounded-full bg-white/5 border border-white/8 text-gray-400 text-xs">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* CTA */}
+        <div className="mt-12 p-8 rounded-2xl border border-emerald-500/20" style={{ background: 'linear-gradient(135deg, rgba(16,185,129,0.08), rgba(59,130,246,0.05))' }}>
+          <h3 className="text-xl font-bold text-white font-poppins mb-2">Ready to grow your business?</h3>
+          <p className="text-gray-400 text-sm mb-4">Get a free digital marketing audit from the Rankston team.</p>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 font-semibold rounded-xl hover:bg-gray-100 transition-colors text-sm"
+          >
+            Get Free Audit →
+          </Link>
         </div>
-      </div>
+
+        {/* Back to blog */}
+        <div className="mt-8 text-center">
+          <Link href="/blog" className="text-sm text-gray-500 hover:text-emerald-400 transition-colors">
+            ← Back to all articles
+          </Link>
+        </div>
+      </article>
     </div>
-    </>
   );
 }
-
