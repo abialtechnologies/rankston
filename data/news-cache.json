@@ -1,5 +1,216 @@
 {
-  "articles": [],
-  "fetchedAt": "2026-04-10T05:18:05.871Z",
+  "articles": [
+    {
+      "title": "All incidents reported for Ranking",
+      "source": "https://status.search.google.com › products › history",
+      "date": "2026-04-10",
+      "url": "https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history",
+      "snippet": "This page provides status information on the services that are part of Google Search. Check back here to view the current status of the services listed below.Read more"
+    },
+    {
+      "title": "Google Search's Core Updates",
+      "source": "https://developers.google.com › ... › Documentation",
+      "date": "2026-04-10",
+      "url": "https://developers.google.com/search/docs/appearance/core-updates",
+      "snippet": "We're continually making updates to our search algorithms, including smaller core updates. These updates are not announced because they aren't widely noticeable ...Read more"
+    },
+    {
+      "title": "Google Algorithm Updates & Changes: A Complete History",
+      "source": "https://www.searchenginejournal.com › google-algorith...",
+      "date": "2026-04-10",
+      "url": "https://www.searchenginejournal.com/google-algorithm-history/",
+      "snippet": "Google announced an algorithm update targeting review content on a page-level basis. It began on April 12 and finished rolling out on April 25.Read more"
+    },
+    {
+      "title": "Google Search Algorithm Updates",
+      "source": "https://www.seroundtable.com › category › google-upd...",
+      "date": "2026-04-10",
+      "url": "https://www.seroundtable.com/category/google-updates",
+      "snippet": "The most comprehensive and detailed list of Google search ranking algorithm updates ever. See all the confirmed and unconfirmed Google algorithm updates ..."
+    },
+    {
+      "title": "Google's March 2026 Core Update Is Brutal - What SEOs Are ...",
+      "source": "YouTube › Edward Sturm",
+      "date": "2026-04-10",
+      "url": "https://www.youtube.com/watch?v=VnxNDXR8DuA",
+      "snippet": "E998: Google's March 2026 Core Update is rolling out, and early data shows significant volatility across search results."
+    },
+    {
+      "title": "Google algorithm updates: The complete history",
+      "source": "https://searchengineland.com › Platforms › Google",
+      "date": "2026-04-10",
+      "url": "https://searchengineland.com/library/platforms/google/google-algorithm-updates",
+      "snippet": "A complete history of all the major Google Search algorithm changes, updates and refreshes that have impacted SEO."
+    },
+    {
+      "title": "Google Algorithm Updates & History (2000–Present)",
+      "source": "https://moz.com › google-algorithm-change",
+      "date": "2026-04-10",
+      "url": "https://moz.com/google-algorithm-change",
+      "snippet": "Google confirmed a Core Update, beginning on March 15th and officially lasting for 13 days. On the first day of the roll-out, MozCast peaked at 108.7°F, and six ...Read more"
+    },
+    {
+      "title": "[Guide] How to Navigate Google Algorithm Updates | Conductor",
+      "source": "https://www.conductor.com › ... › SEO Fundamentals",
+      "date": "2026-04-10",
+      "url": "https://www.conductor.com/academy/google-algorithm-updates/",
+      "snippet": "Google algorithm updates usually take at least two weeks to roll out and very often take longer than that. For example, the rollout of the ...Read more"
+    },
+    {
+      "title": "Google algorithm updates | SEO blog",
+      "source": "https://pi-datametrics.com › blogs › google-algorithm-u...",
+      "date": "2026-04-10",
+      "url": "https://pi-datametrics.com/blogs/google-algorithm-updates/",
+      "snippet": "Google's algorithm is constantly changing. Below, we have compiled a list of the most recent Google algorithm updates.Read more"
+    },
+    {
+      "title": "Local Search Marketing & Local SEO Strategy, Tips & Guides",
+      "source": "https://www.searchenginejournal.com › category › local...",
+      "date": "2026-04-10",
+      "url": "https://www.searchenginejournal.com/category/seo/local-search/",
+      "snippet": "Learn the latest trends and tips that will help your local business grow using local search optimization, local marketing, and local advertising."
+    },
+    {
+      "title": "Local SEO news analysis and trends from ...",
+      "source": "https://searchengineland.com › library › seo › local",
+      "date": "2026-04-10",
+      "url": "https://searchengineland.com/library/seo/local",
+      "snippet": "Explore strategies to maximize visibility in local search results, optimize your presence in Google Maps, and take advantage of advanced tools like local ...Read more"
+    },
+    {
+      "title": "Local SEO News",
+      "source": "https://www.brightlocal.com › Learning Hub",
+      "date": "2026-04-10",
+      "url": "https://www.brightlocal.com/blog/",
+      "snippet": "Stay ahead of changes in local search with expert analysis, product updates, and industry insights, so you can adapt your strategy effectively. All topics.Read more"
+    },
+    {
+      "title": "PinMeTo Blog | Local SEO News, Tips & Expert Opinions",
+      "source": "https://www.pinmeto.com › blog",
+      "date": "2026-04-10",
+      "url": "https://www.pinmeto.com/blog",
+      "snippet": "The PinMeTo Blog: Expand your local SEO and marketing knowledge with our how-tos, insights, tips, and industry news.Read more"
+    },
+    {
+      "title": "Local Search Forum: Local SEO Forum from Sterling Sky ...",
+      "source": "https://localsearchforum.com",
+      "date": "2026-04-10",
+      "url": "https://localsearchforum.com/",
+      "snippet": "Local SEO forum for local search professionals and business owners to learn everything that's going on currently in local SEO & Google Business Profiles."
+    },
+    {
+      "title": "Local SEO In 2026: Building Content For AI Search",
+      "source": "https://www.forbes.com › Small Business",
+      "date": "2026-04-10",
+      "url": "https://www.forbes.com/councils/forbesbusinesscouncil/2026/01/30/is-your-content-strategy-built-for-ai-search-the-future-of-local-seo-in-2026/",
+      "snippet": "While most SEO articles debate minor ranking factors, Google is fundamentally rebuilding how local search works."
+    },
+    {
+      "title": "r/localseo",
+      "source": "Reddit › r/localseo",
+      "date": "2026-04-10",
+      "url": "https://www.reddit.com/r/localseo/",
+      "snippet": "r/localseo: Your community for Local SEO news, tips, help & case studies."
+    },
+    {
+      "title": "Breaking News & Updates About SEO, PPC ...",
+      "source": "https://www.searchenginejournal.com › category › news",
+      "date": "2026-04-10",
+      "url": "https://www.searchenginejournal.com/category/news/",
+      "snippet": "Breaking news, updates, trends, and the latest info you need to know about SEO, Google and other search engines, PPC marketing, and social media networks."
+    },
+    {
+      "title": "Search Engine Land | SEO, PPC & AI Search News for ...",
+      "source": "https://searchengineland.com",
+      "date": "2026-04-10",
+      "url": "https://searchengineland.com/",
+      "snippet": "Latest news · Inside Google Discover: 20 pipelines, 42 million cards, and what they mean for · How to use AI prompts to generate better ad campaigns.Read more"
+    },
+    {
+      "title": "Search Engine Roundtable ::: The Pulse Of The Search ...",
+      "source": "https://www.seroundtable.com",
+      "date": "2026-04-10",
+      "url": "https://www.seroundtable.com/",
+      "snippet": "A well-rounded view on search engines and search engine marketing from five segments of the Web population represented by senior members of the major SEO/SEM"
+    },
+    {
+      "title": "Search Engine Optimization: The Latest SEO News",
+      "source": "Reddit › r/SEO",
+      "date": "2026-04-10",
+      "url": "https://www.reddit.com/r/SEO/",
+      "snippet": "r/SEO: The Premier Forum for all things SEO - including AI SEO, GEO, LLM SEO, Technical SEO, Content SEO and SEO Architecture. Bring your ideas…"
+    },
+    {
+      "title": "What's new on Google Search Central",
+      "source": "https://developers.google.com › search › news",
+      "date": "2026-04-10",
+      "url": "https://developers.google.com/search/news",
+      "snippet": "Check out the latest news on SEO and Google Search, including recent announcements on our blog, changes to documentation, upcoming Search events, YouTube ...Read more"
+    },
+    {
+      "title": "SE Ranking's SEO Blog",
+      "source": "https://seranking.com › blog",
+      "date": "2026-04-10",
+      "url": "https://seranking.com/blog/",
+      "snippet": "In SE Ranking SEO blog we talk about search engine optimization, digital marketing, and business processes: tutorials, case studies, and trends by SEO ..."
+    },
+    {
+      "title": "SEO News",
+      "source": "https://upriseup.co.uk › digital-media-news › seo-news",
+      "date": "2026-04-10",
+      "url": "https://upriseup.co.uk/digital-media-news/seo-news/",
+      "snippet": "Google launches new AI Mode (and yes, it'll have ads) · Google has introduced a new search channel, AI Mode, designed to generate interactive search responses ...Read more"
+    },
+    {
+      "title": "Industry News - SEO",
+      "source": "https://www.lumar.io › blog › industry-news",
+      "date": "2026-04-10",
+      "url": "https://www.lumar.io/blog/industry-news/",
+      "snippet": "Stay up to date with the latest news from the SEO industry, including regular recaps of Google Search Central events, search algorithm headlines, & more."
+    },
+    {
+      "title": "SEO: news, trends & guides",
+      "source": "https://searchengineland.com › library › seo",
+      "date": "2026-04-10",
+      "url": "https://searchengineland.com/library/seo",
+      "snippet": "Search Engine Land is your ultimate source for the latest SEO news, strategies, and content. Keep on top of breaking SEO news and Google updates."
+    },
+    {
+      "title": "The Most Important Digital Marketing Trends You Need to ...",
+      "source": "https://digitalmarketinginstitute.com › blog › digital-mar...",
+      "date": "2026-04-10",
+      "url": "https://digitalmarketinginstitute.com/blog/digital-marketing-trends-2026",
+      "snippet": "What are the key social media trends in 2026? · The growth of community-first platforms · Social media fatigue and the need for authentic content.Read more"
+    },
+    {
+      "title": "Discover our Marketing Trends of 2026",
+      "source": "https://www.deloittedigital.com › insights › perspective",
+      "date": "2026-04-10",
+      "url": "https://www.deloittedigital.com/nl/en/insights/perspective/marketing-trends-2026.html",
+      "snippet": "Typically this involves new digital and marketing strategies, technology (customer data, marketing automation, ecommerce tooling), content ( ...Read more"
+    },
+    {
+      "title": "2026 Marketing Statistics, Trends, & Data",
+      "source": "https://www.hubspot.com › marketing-statistics",
+      "date": "2026-04-10",
+      "url": "https://www.hubspot.com/marketing-statistics",
+      "snippet": "26% of marketers plan to explore selling products directly on social media in 2026, including Instagram shops (HubSpot State of Marketing Report, 2026).Read more"
+    },
+    {
+      "title": "What digital marketing trends do you expect to be big in ...",
+      "source": "Reddit › r/AskMarketing",
+      "date": "2026-04-10",
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1q1w5zf/what_digital_marketing_trends_do_you_expect_to_be/",
+      "snippet": "By 2026, digital marketing will shift more toward personalized and interactive experiences rather than mass messaging. AI-driven personalization ...Read more"
+    },
+    {
+      "title": "Kantar Marketing Trends 2026",
+      "source": "https://www.kantar.com › Campaigns",
+      "date": "2026-04-10",
+      "url": "https://www.kantar.com/campaigns/marketing-trends",
+      "snippet": "Discover Kantar's top 10 marketing trends shaping 2026, from generative AI and synthetic data to micro-communities and retail media—insights to drive brand ..."
+    }
+  ],
+  "fetchedAt": "2026-04-10T05:23:56.483Z",
   "fetchDate": "2026-04-10"
 }

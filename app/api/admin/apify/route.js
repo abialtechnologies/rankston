@@ -115,22 +115,36 @@ export async function GET(request) {
     }
 
     const data = await res.json();
-    const articles = (data || [])
-      .filter((item) => item.title && item.url)
-      .slice(0, 25)
-      .map((item) => ({
-        title: item.title || 'Untitled',
-        source: item.displayedUrl || new URL(item.url).hostname || '',
-        date: new Date().toISOString().split('T')[0],
-        url: item.url || '#',
-        snippet: item.description || '',
-      }));
+
+    // Each item in data = one query result, articles are in item.organicResults
+    const articles = [];
+    for (const item of data || []) {
+      const results = item.organicResults || item.results || [];
+      for (const r of results) {
+        if (!r.title || !r.url) continue;
+        articles.push({
+          title: r.title,
+          source: r.displayedUrl || r.url || '',
+          date: new Date().toISOString().split('T')[0],
+          url: r.url,
+          snippet: r.description || '',
+        });
+      }
+    }
+
+    // Deduplicate by URL and limit to 30
+    const seen = new Set();
+    const unique = articles.filter((a) => {
+      if (seen.has(a.url)) return false;
+      seen.add(a.url);
+      return true;
+    }).slice(0, 30);
 
     // Save to cache
-    const cached = writeCache(articles);
+    const cached = writeCache(unique);
 
     return NextResponse.json({
-      articles,
+      articles: unique,
       source: 'apify',
       message: `Fresh news fetched at ${new Date().toLocaleString('en-PK', { timeZone: 'Asia/Karachi' })}. Next fetch: tomorrow 6:00 AM PKT.`,
       lastFetched: cached.fetchedAt,
