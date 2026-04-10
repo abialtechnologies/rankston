@@ -19,7 +19,18 @@ const pageTypeColors = {
   unassigned: 'text-gray-500 bg-gray-500/10',
 };
 
-const SERVICES = ['SEO', 'PPC', 'GMB', 'Social Media', 'Web Development', 'AI Automation', 'Content Marketing', 'Local SEO'];
+const SERVICES = [
+  { slug: 'seo-services', label: 'SEO' },
+  { slug: 'ppc-advertising', label: 'PPC' },
+  { slug: 'gmb-optimization', label: 'GMB' },
+  { slug: 'social-media-marketing', label: 'Social Media' },
+  { slug: 'web-development', label: 'Web Dev' },
+  { slug: 'ai-automation', label: 'AI Automation' },
+  { slug: 'content-marketing', label: 'Content' },
+  { slug: 'graphic-designing', label: 'Design' },
+  { slug: 'video-editing', label: 'Video' },
+  { slug: 'chatbot-development', label: 'Chatbots' },
+];
 
 export default function SEODashboard() {
   const router = useRouter();
@@ -29,6 +40,7 @@ export default function SEODashboard() {
   const [loading, setLoading] = useState(true);
   const [fetching, setFetching] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
+  const [runningPipeline, setRunningPipeline] = useState(false);
   const [message, setMessage] = useState('');
 
   // Filters
@@ -131,6 +143,27 @@ export default function SEODashboard() {
     }
   };
 
+  /* ── Run full automated pipeline ── */
+  const handleRunPipeline = async () => {
+    if (!confirm('Run full SEO pipeline for ALL services?\n\nThis will:\n1. Fetch base keywords (~$0.50)\n2. Expand with 50 states + cities (FREE)\n3. Score & classify all keywords\n\nEstimated cost: ~$0.50')) return;
+    setRunningPipeline(true);
+    setMessage('🚀 Running pipeline... this may take 2-3 minutes');
+    try {
+      const res = await fetch('/api/admin/seo/run', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({}),
+      });
+      const data = await res.json();
+      setMessage(`✅ ${data.message} | Cost: ${data.totalCost}`);
+      loadKeywords();
+    } catch {
+      setMessage('❌ Pipeline error');
+    } finally {
+      setRunningPipeline(false);
+    }
+  };
+
   /* ── Export CSV ── */
   const handleExport = () => {
     const params = new URLSearchParams({ export: 'csv', sort: sortBy, order: sortOrder });
@@ -170,10 +203,11 @@ export default function SEODashboard() {
               ← Dashboard
             </Link>
             <button
-              onClick={() => setShowFetchModal(true)}
-              className="px-4 py-2 rounded-lg bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-semibold hover:opacity-90 transition-opacity"
+              onClick={handleRunPipeline}
+              disabled={runningPipeline}
+              className="px-4 py-2 rounded-lg bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-semibold hover:opacity-90 transition-opacity disabled:opacity-50"
             >
-              + Fetch Keywords
+              {runningPipeline ? '⏳ Running...' : '🚀 Run Pipeline'}
             </button>
           </div>
         </div>
@@ -207,7 +241,7 @@ export default function SEODashboard() {
           <select value={service} onChange={(e) => { setService(e.target.value); setPage(1); }}
             className="px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm focus:outline-none focus:border-emerald-500/40">
             <option value="">All Services</option>
-            {SERVICES.map((s) => <option key={s} value={s}>{s}</option>)}
+            {SERVICES.map((s) => <option key={s.slug} value={s.slug}>{s.label}</option>)}
           </select>
 
           <select value={intent} onChange={(e) => { setIntent(e.target.value); setPage(1); }}
@@ -331,7 +365,7 @@ export default function SEODashboard() {
               <label className="block text-sm text-gray-400 mb-1">Service</label>
               <select value={fetchService} onChange={(e) => setFetchService(e.target.value)}
                 className="w-full px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-white text-sm">
-                {SERVICES.map((s) => <option key={s} value={s}>{s}</option>)}
+                {SERVICES.map((s) => <option key={s.slug} value={s.slug}>{s.label}</option>)}
               </select>
             </div>
 
