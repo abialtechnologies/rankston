@@ -5,7 +5,7 @@ import StarterKit from '@tiptap/starter-kit';
 import ImageExtension from '@tiptap/extension-image';
 import LinkExtension from '@tiptap/extension-link';
 import Placeholder from '@tiptap/extension-placeholder';
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef, useEffect } from 'react';
 
 /* ─── Toolbar Button ─── */
 function ToolbarBtn({ onClick, active, children, title }) {
@@ -23,9 +23,74 @@ function ToolbarBtn({ onClick, active, children, title }) {
   );
 }
 
+/* ─── Editor CSS injected once ─── */
+const EDITOR_CSS = `
+  .ProseMirror {
+    min-height: 400px;
+    color: #e5e7eb;
+    font-size: 16px;
+    line-height: 1.75;
+    outline: none;
+  }
+  .ProseMirror p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: #4b5563;
+    pointer-events: none;
+    height: 0;
+  }
+  .ProseMirror h1 { font-size: 2em; font-weight: 800; margin: 1em 0 0.5em; color: #fff; }
+  .ProseMirror h2 { font-size: 1.5em; font-weight: 700; margin: 1em 0 0.4em; color: #fff; }
+  .ProseMirror h3 { font-size: 1.25em; font-weight: 600; margin: 0.8em 0 0.3em; color: #fff; }
+  .ProseMirror ul, .ProseMirror ol { padding-left: 1.5em; margin: 0.5em 0; }
+  .ProseMirror li { margin: 0.25em 0; }
+  .ProseMirror blockquote {
+    border-left: 3px solid rgba(16,185,129,0.5);
+    padding-left: 1em;
+    margin: 1em 0;
+    color: #9ca3af;
+    font-style: italic;
+  }
+  .ProseMirror pre {
+    background: rgba(0,0,0,0.3);
+    padding: 1em;
+    border-radius: 0.5em;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 0.9em;
+    margin: 1em 0;
+  }
+  .ProseMirror img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.75em;
+    margin: 1em 0;
+  }
+  .ProseMirror hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin: 2em 0;
+  }
+  .ProseMirror a {
+    color: #34d399;
+    text-decoration: underline;
+  }
+`;
+
 /* ─── Main Editor ─── */
 export default function RichEditor({ content, onChange, token }) {
   const fileInput = useRef(null);
+
+  /* Inject styles once on mount */
+  useEffect(() => {
+    const id = 'tiptap-editor-styles';
+    if (!document.getElementById(id)) {
+      const style = document.createElement('style');
+      style.id = id;
+      style.textContent = EDITOR_CSS;
+      document.head.appendChild(style);
+    }
+  }, []);
 
   const editor = useEditor({
     immediatelyRender: false,
@@ -184,58 +249,7 @@ export default function RichEditor({ content, onChange, token }) {
       {/* ── Editor content ── */}
       <EditorContent editor={editor} />
 
-      {/* ── Editor styles ── */}
-      <style jsx global>{`
-        .ProseMirror {
-          min-height: 400px;
-          color: #e5e7eb;
-          font-size: 16px;
-          line-height: 1.75;
-        }
-        .ProseMirror p.is-editor-empty:first-child::before {
-          content: attr(data-placeholder);
-          float: left;
-          color: #4b5563;
-          pointer-events: none;
-          height: 0;
-        }
-        .ProseMirror h1 { font-size: 2em; font-weight: 800; margin: 1em 0 0.5em; color: #fff; }
-        .ProseMirror h2 { font-size: 1.5em; font-weight: 700; margin: 1em 0 0.4em; color: #fff; }
-        .ProseMirror h3 { font-size: 1.25em; font-weight: 600; margin: 0.8em 0 0.3em; color: #fff; }
-        .ProseMirror ul, .ProseMirror ol { padding-left: 1.5em; margin: 0.5em 0; }
-        .ProseMirror li { margin: 0.25em 0; }
-        .ProseMirror blockquote {
-          border-left: 3px solid rgba(16,185,129,0.5);
-          padding-left: 1em;
-          margin: 1em 0;
-          color: #9ca3af;
-          font-style: italic;
-        }
-        .ProseMirror pre {
-          background: rgba(0,0,0,0.3);
-          padding: 1em;
-          border-radius: 0.5em;
-          overflow-x: auto;
-          font-family: monospace;
-          font-size: 0.9em;
-          margin: 1em 0;
-        }
-        .ProseMirror img {
-          max-width: 100%;
-          height: auto;
-          border-radius: 0.75em;
-          margin: 1em 0;
-        }
-        .ProseMirror hr {
-          border: none;
-          border-top: 1px solid rgba(255,255,255,0.1);
-          margin: 2em 0;
-        }
-        .ProseMirror a {
-          color: #34d399;
-          text-decoration: underline;
-        }
-      `}</style>
+
     </div>
   );
 }

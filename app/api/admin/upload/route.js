@@ -8,13 +8,15 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { verifyToken } from '../auth/route.js';
 
 const UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads', 'blog');
 const MAX_SIZE = 5 * 1024 * 1024; // 5MB
 
 function checkAuth(request) {
   const auth = request.headers.get('authorization');
-  return auth?.startsWith('Bearer ') && auth.length > 20;
+  const token = auth?.replace('Bearer ', '');
+  return token ? verifyToken(token) : false;
 }
 
 export async function POST(request) {

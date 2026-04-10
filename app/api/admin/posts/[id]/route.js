@@ -8,10 +8,12 @@
 
 import { NextResponse } from 'next/server';
 import { getPostById, updatePost, deletePost } from '../../../../../lib/db.js';
+import { verifyToken } from '../../auth/route.js';
 
 function checkAuth(request) {
   const auth = request.headers.get('authorization');
-  return auth?.startsWith('Bearer ') && auth.length > 20;
+  const token = auth?.replace('Bearer ', '');
+  return token ? verifyToken(token) : false;
 }
 
 /** GET — Get single post */

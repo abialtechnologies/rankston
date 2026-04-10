@@ -7,11 +7,12 @@
 
 import { NextResponse } from 'next/server';
 import { getAllPosts, createPost, getCategories, getAuthors } from '../../../../lib/db.js';
+import { verifyToken } from '../auth/route.js';
 
-// Simple auth middleware
 function checkAuth(request) {
   const auth = request.headers.get('authorization');
-  return auth?.startsWith('Bearer ') && auth.length > 20;
+  const token = auth?.replace('Bearer ', '');
+  return token ? verifyToken(token) : false;
 }
 
 /** GET — List posts */

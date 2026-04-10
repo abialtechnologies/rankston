@@ -1,56 +1,109 @@
 /**
- * /api/admin/apify — Fetch trending SEO/marketing news
+ * /api/admin/apify — Daily News Fetcher (1 credit/day)
  *
- * GET: Returns latest news articles from Apify API
- * Falls back to sample data if API key not set
+ * GET: Returns cached news articles
+ * - Fetches from Apify ONLY once per day at 6:00 AM PKT (01:00 UTC)
+ * - Caches results in data/news-cache.json
+ * - All other requests serve cached data (zero credits)
  *
  * Set APIFY_API_KEY in .env.local
  */
 
 import { NextResponse } from 'next/server';
+import { verifyToken } from '../auth/route.js';
+import fs from 'fs';
+import path from 'path';
 
+const CACHE_PATH = path.join(process.cwd(), 'data', 'news-cache.json');
+
+/* ── Auth ── */
 function checkAuth(request) {
   const auth = request.headers.get('authorization');
-  return auth?.startsWith('Bearer ') && auth.length > 20;
+  const token = auth?.replace('Bearer ', '');
+  return token ? verifyToken(token) : false;
 }
 
-// Fallback sample data when Apify is not configured
-const SAMPLE_NEWS = [
-  { title: 'Google March 2026 Core Update Rolling Out', source: 'Search Engine Journal', date: '2026-04-08', url: 'https://searchenginejournal.com' },
-  { title: 'How AI Overview Is Changing SEO Strategy', source: 'Moz Blog', date: '2026-04-07', url: 'https://moz.com/blog' },
-  { title: 'Top PPC Strategies for Local Businesses in 2026', source: 'WordStream', date: '2026-04-06', url: 'https://wordstream.com' },
-  { title: 'Social Media Marketing Trends Q2 2026', source: 'HubSpot', date: '2026-04-05', url: 'https://hubspot.com/blog' },
-  { title: 'Web Core Vitals: New Metrics Coming in 2026', source: 'Google Developers', date: '2026-04-04', url: 'https://developers.google.com' },
-  { title: 'Content Marketing ROI: What the Data Says', source: 'Content Marketing Institute', date: '2026-04-03', url: 'https://contentmarketinginstitute.com' },
-  { title: 'Local SEO: Google Business Profile 2026 Updates', source: 'BrightLocal', date: '2026-04-02', url: 'https://brightlocal.com' },
-  { title: 'ChatGPT Search vs Google: Impact on SEO', source: 'Search Engine Land', date: '2026-04-01', url: 'https://searchengineland.com' },
-];
+/* ── Cache helpers ── */
+function readCache() {
+  try {
+    if (fs.existsSync(CACHE_PATH)) {
+      return JSON.parse(fs.readFileSync(CACHE_PATH, 'utf-8'));
+    }
+  } catch { /* ignore */ }
+  return null;
+}
 
+function writeCache(articles) {
+  const data = {
+    articles,
+    fetchedAt: new Date().toISOString(),
+    fetchDate: new Date().toISOString().split('T')[0], // YYYY-MM-DD
+  };
+  const dir = path.dirname(CACHE_PATH);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2), 'utf-8');
+  return data;
+}
+
+/**
+ * Check if we should fetch fresh news.
+ * Only fetch if:
+ * 1. No cache exists, OR
+ * 2. Cache is from a previous day AND current hour >= 1 UTC (6 AM PKT)
+ */
+function shouldFetchToday(cache) {
+  if (!cache || !cache.fetchDate) return true;
+
+  const now = new Date();
+  const todayUTC = now.toISOString().split('T')[0];
+  const currentHourUTC = now.getUTCHours();
+
+  // Already fetched today? Don't fetch again
+  if (cache.fetchDate === todayUTC) return false;
+
+  // It's a new day — only fetch if it's past 1:00 UTC (6:00 AM PKT)
+  return currentHourUTC >= 1;
+}
+
+/* ── API Route ── */
 export async function GET(request) {
   if (!checkAuth(request)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const apiKey = process.env.APIFY_API_KEY;
+  const cache = readCache();
 
-  // If no API key, return sample data
+  // No API key configured
   if (!apiKey) {
     return NextResponse.json({
-      articles: SAMPLE_NEWS,
-      source: 'sample',
-      message: 'Using sample data. Set APIFY_API_KEY in .env.local for live news.',
+      articles: cache?.articles || [],
+      source: 'cache',
+      message: 'APIFY_API_KEY not set. Add it to .env.local for live news.',
+      lastFetched: cache?.fetchedAt || null,
     });
   }
 
+  // Check if we need a fresh fetch today
+  if (!shouldFetchToday(cache)) {
+    // Serve cached data — zero credits used
+    return NextResponse.json({
+      articles: cache.articles,
+      source: 'cache',
+      message: `Cached from ${new Date(cache.fetchedAt).toLocaleString('en-PK', { timeZone: 'Asia/Karachi' })}. Next fetch: tomorrow 6:00 AM PKT.`,
+      lastFetched: cache.fetchedAt,
+    });
+  }
+
+  // Time to fetch! (1 credit)
   try {
-    // Call Apify API
     const res = await fetch(
       `https://api.apify.com/v2/acts/apify~google-search-scraper/run-sync-get-dataset-items?token=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          queries: 'latest SEO news\ndigital marketing trends 2026\nGoogle algorithm update',
+          queries: 'latest SEO news today\ndigital marketing trends 2026\nGoogle algorithm update\nlocal SEO news\nPPC advertising updates',
           maxPagesPerQuery: 1,
           resultsPerPage: 10,
         }),
@@ -63,21 +116,40 @@ export async function GET(request) {
 
     const data = await res.json();
     const articles = (data || [])
-      .slice(0, 20)
+      .filter((item) => item.title && item.url)
+      .slice(0, 25)
       .map((item) => ({
         title: item.title || 'Untitled',
-        source: item.displayedUrl || item.url || '',
+        source: item.displayedUrl || new URL(item.url).hostname || '',
         date: new Date().toISOString().split('T')[0],
         url: item.url || '#',
+        snippet: item.description || '',
       }));
 
-    return NextResponse.json({ articles, source: 'apify' });
-  } catch (err) {
-    // Fallback to sample on error
+    // Save to cache
+    const cached = writeCache(articles);
+
     return NextResponse.json({
-      articles: SAMPLE_NEWS,
-      source: 'sample',
-      message: `Apify error: ${err.message}. Showing sample data.`,
+      articles,
+      source: 'apify',
+      message: `Fresh news fetched at ${new Date().toLocaleString('en-PK', { timeZone: 'Asia/Karachi' })}. Next fetch: tomorrow 6:00 AM PKT.`,
+      lastFetched: cached.fetchedAt,
+    });
+  } catch (err) {
+    // On error, serve stale cache if available
+    if (cache?.articles?.length) {
+      return NextResponse.json({
+        articles: cache.articles,
+        source: 'cache',
+        message: `Apify error: ${err.message}. Showing cached data from ${cache.fetchedAt}.`,
+        lastFetched: cache.fetchedAt,
+      });
+    }
+
+    return NextResponse.json({
+      articles: [],
+      source: 'error',
+      message: `Apify error: ${err.message}. No cached data available.`,
     });
   }
 }
