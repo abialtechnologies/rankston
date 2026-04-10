@@ -28,6 +28,7 @@ export default function RichEditor({ content, onChange, token }) {
   const fileInput = useRef(null);
 
   const editor = useEditor({
+    immediatelyRender: false,
     extensions: [
       StarterKit.configure({
         heading: { levels: [1, 2, 3] },

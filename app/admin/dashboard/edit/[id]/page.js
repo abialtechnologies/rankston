@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 
-const RichEditor = dynamic(() => import('../../../../../../components/admin/RichEditor'), { ssr: false });
+const RichEditor = dynamic(() => import('../../../../../components/admin/RichEditor'), { ssr: false });
 
 export default function EditBlogPage({ params }) {
   const { id } = use(params);
