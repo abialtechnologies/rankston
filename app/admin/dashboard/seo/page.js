@@ -43,6 +43,9 @@ export default function SEODashboard() {
   const [token, setToken] = useState('');
   const [keywords, setKeywords] = useState([]);
   const [stats, setStats] = useState({ total: 0, avgVolume: 0, avgDifficulty: 0, intents: {} });
+  const [analyzing, setAnalyzing] = useState(false);
+  const [runningPipeline, setRunningPipeline] = useState(false);
+  const [generatingIds, setGeneratingIds] = useState(new Set());
   const [loading, setLoading] = useState(true);
   const [processing, setProcessing] = useState(false);
   const [message, setMessage] = useState('');
@@ -263,6 +266,7 @@ export default function SEODashboard() {
                     { key: 'cpc', label: 'CPC' },
                     { key: 'intent', label: 'Intent' },
                     { key: 'page_type', label: 'Page Type' },
+                    { key: 'actions', label: 'Actions' },
                   ].map((col) => (
                     <th key={col.key}
                       onClick={() => handleSort(col.key)}
@@ -308,6 +312,36 @@ export default function SEODashboard() {
                       <span className={`text-xs px-2 py-0.5 rounded-full ${pageTypeColors[kw.page_type] || 'text-gray-400'}`}>
                         {kw.page_type?.replace('_', ' ')}
                       </span>
+                    </td>
+                    <td className="px-4 py-3 text-right">
+                      <div className="flex items-center gap-2 justify-end">
+                        <button
+                          onClick={() => handleToggleApprove(kw.id, kw.approved)}
+                          className={`px-2 py-1 rounded text-xs font-semibold border transition-colors ${
+                            kw.approved 
+                              ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' 
+                              : 'bg-white/5 text-gray-500 border-white/10 hover:text-gray-300'
+                          }`}
+                        >
+                          {kw.approved ? 'Approved' : 'Approve'}
+                        </button>
+                        
+                        {kw.tier === 'A' && (
+                          <button
+                            onClick={() => handleGenerate(kw)}
+                            disabled={!kw.approved || generatingIds.has(kw.id)}
+                            className={`px-2 py-1 rounded text-xs font-semibold transition-colors ${
+                              !kw.approved 
+                                ? 'opacity-30 cursor-not-allowed hidden' 
+                                : generatingIds.has(kw.id)
+                                  ? 'bg-blue-500/20 text-blue-400 cursor-wait'
+                                  : 'bg-emerald-500 text-white hover:opacity-90'
+                            }`}
+                          >
+                            {generatingIds.has(kw.id) ? 'Writing...' : 'Generate Page'}
+                          </button>
+                        )}
+                      </div>
                     </td>
                   </tr>
                 ))}
