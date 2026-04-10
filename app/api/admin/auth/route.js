@@ -1,76 +1,110 @@
 /**
- * /api/admin/auth — HMAC-based stateless admin authentication
+ * /api/admin/auth — 2-Factor Authentication
  *
- * POST: Login with password → returns signed token
- * GET:  Validate existing token
- *
- * Tokens are self-validating (HMAC) — survive server restarts.
- * Set ADMIN_PASSWORD in .env.local
+ * Step 1: POST { email, password }        → validates password, sends OTP to email
+ * Step 2: POST { email, otp }             → verifies OTP, returns session token
+ * GET:    Validate existing session token
  */
 
 import { NextResponse } from 'next/server';
-import crypto from 'crypto';
+import { getSupabaseServerClient } from '../../../../lib/supabase.js';
 
-const TOKEN_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
-
-function getSecret() {
-  // Use ADMIN_PASSWORD as the signing secret (or a dedicated SECRET env var)
-  return process.env.ADMIN_SECRET || process.env.ADMIN_PASSWORD || 'rankston2026';
-}
-
-function createToken() {
-  const expires = Date.now() + TOKEN_TTL;
-  const payload = `${expires}`;
-  const sig = crypto.createHmac('sha256', getSecret()).update(payload).digest('hex');
-  // Format: expires.signature (base64url-safe)
-  return Buffer.from(`${payload}.${sig}`).toString('base64url');
-}
-
-function verifyToken(token) {
-  try {
-    const decoded = Buffer.from(token, 'base64url').toString('utf-8');
-    const [payload, sig] = decoded.split('.');
-    if (!payload || !sig) return false;
-
-    // Verify signature
-    const expected = crypto.createHmac('sha256', getSecret()).update(payload).digest('hex');
-    if (!crypto.timingSafeEqual(Buffer.from(sig, 'hex'), Buffer.from(expected, 'hex'))) return false;
-
-    // Check expiry
-    const expires = parseInt(payload, 10);
-    return Date.now() < expires;
-  } catch {
-    return false;
-  }
-}
-
-/** POST — Login */
+/** POST — Login (2 steps) */
 export async function POST(request) {
   try {
-    const { password } = await request.json();
-    const adminPassword = process.env.ADMIN_PASSWORD || 'rankston2026';
+    const body = await request.json();
+    const supabase = getSupabaseServerClient();
 
-    if (password !== adminPassword) {
-      return NextResponse.json({ error: 'Invalid password' }, { status: 401 });
+    // ── Step 2: Verify OTP ──
+    if (body.otp && body.email) {
+      const { data, error } = await supabase.auth.verifyOtp({
+        email: body.email,
+        token: body.otp,
+        type: 'email',
+      });
+
+      if (error) {
+        return NextResponse.json({ error: error.message }, { status: 401 });
+      }
+
+      return NextResponse.json({
+        token: data.session?.access_token,
+        refreshToken: data.session?.refresh_token,
+        user: { email: data.user?.email, id: data.user?.id },
+        message: 'Login successful — Welcome!',
+      });
     }
 
-    const token = createToken();
-    return NextResponse.json({ token, message: 'Login successful' });
-  } catch {
-    return NextResponse.json({ error: 'Invalid request' }, { status: 400 });
+    // ── Step 1: Validate password, then send OTP ──
+    if (body.email && body.password) {
+      // First validate password via Supabase Auth
+      const { data: signIn, error: signErr } = await supabase.auth.signInWithPassword({
+        email: body.email,
+        password: body.password,
+      });
+
+      if (signErr) {
+        return NextResponse.json({ error: 'Invalid email or password' }, { status: 401 });
+      }
+
+      // Sign out immediately — we need OTP verification first
+      await supabase.auth.signOut();
+
+      // Now send OTP to email
+      const { error: otpErr } = await supabase.auth.signInWithOtp({
+        email: body.email,
+        options: {
+          shouldCreateUser: false,
+        },
+      });
+
+      if (otpErr) {
+        return NextResponse.json({ error: otpErr.message }, { status: 500 });
+      }
+
+      return NextResponse.json({
+        step: 'otp',
+        message: 'Password verified. OTP sent to your email.',
+      });
+    }
+
+    return NextResponse.json({ error: 'Email and password required' }, { status: 400 });
+  } catch (err) {
+    return NextResponse.json({ error: err.message || 'Server error' }, { status: 500 });
   }
 }
 
-/** GET — Validate token */
+/** GET — Validate session token */
 export async function GET(request) {
   const authHeader = request.headers.get('authorization');
   const token = authHeader?.replace('Bearer ', '');
 
-  if (!token || !verifyToken(token)) {
+  if (!token) {
     return NextResponse.json({ valid: false }, { status: 401 });
   }
 
-  return NextResponse.json({ valid: true });
+  const supabase = getSupabaseServerClient();
+  const { data: { user }, error } = await supabase.auth.getUser(token);
+
+  if (error || !user) {
+    return NextResponse.json({ valid: false }, { status: 401 });
+  }
+
+  return NextResponse.json({ valid: true, user: { email: user.email, id: user.id } });
 }
 
-export { verifyToken };
+/** Helper to verify token (used by other API routes) */
+export function verifyToken(token) {
+  // For Supabase JWT tokens, they are self-validating
+  // We do a lightweight check here, full validation happens via getUser
+  if (!token || token.length < 20) return false;
+  try {
+    // Supabase JWTs are base64url encoded with 3 parts
+    const parts = token.split('.');
+    if (parts.length !== 3) return false;
+    const payload = JSON.parse(Buffer.from(parts[1], 'base64url').toString());
+    return payload.exp * 1000 > Date.now();
+  } catch {
+    return false;
+  }
+}

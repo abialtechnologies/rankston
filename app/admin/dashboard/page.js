@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 /* ─── Status badge colors ─── */
 const statusColors = {
@@ -100,10 +101,8 @@ export default function AdminDashboard() {
       {/* ── Top bar ── */}
       <header className="sticky top-0 z-50 border-b border-white/6" style={{ background: 'rgba(10,15,26,0.95)', backdropFilter: 'blur(12px)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">R</span>
-            </div>
+          <div className="flex items-center gap-2.5">
+            <Image src="/logo-icon.png" alt="Rankston" width={32} height={32} className="rounded-lg" />
             <span className="text-white font-bold font-poppins">Rankston CMS</span>
           </div>
           <div className="flex items-center gap-3">

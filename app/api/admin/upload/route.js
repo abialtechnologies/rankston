@@ -1,16 +1,14 @@
 /**
- * /api/admin/upload — Image Upload Handler
+ * /api/admin/upload — Image Upload via Supabase Storage
  *
- * POST: Upload image file → saves to /public/uploads/blog/
+ * POST: Upload image → saves to Supabase 'blog-images' bucket
  * Returns the public URL for embedding in editor
  */
 
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { getSupabaseServerClient } from '../../../../lib/supabase.js';
 import { verifyToken } from '../auth/route.js';
 
-const UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads', 'blog');
 const MAX_SIZE = 5 * 1024 * 1024; // 5MB
 
 function checkAuth(request) {
@@ -43,11 +41,6 @@ export async function POST(request) {
       return NextResponse.json({ error: 'Invalid image type' }, { status: 400 });
     }
 
-    // Create upload directory
-    if (!fs.existsSync(UPLOAD_DIR)) {
-      fs.mkdirSync(UPLOAD_DIR, { recursive: true });
-    }
-
     // Generate unique filename
     const ext = file.name.split('.').pop();
     const timestamp = Date.now();
@@ -56,17 +49,33 @@ export async function POST(request) {
       .replace(/[^a-z0-9]/gi, '-')
       .toLowerCase()
       .substring(0, 40);
-    const filename = `${timestamp}-${safeName}.${ext}`;
+    const filePath = `blog/${timestamp}-${safeName}.${ext}`;
 
-    // Write file
+    // Upload to Supabase Storage
+    const supabase = getSupabaseServerClient();
     const buffer = Buffer.from(await file.arrayBuffer());
-    const filePath = path.join(UPLOAD_DIR, filename);
-    fs.writeFileSync(filePath, buffer);
 
-    // Return public URL
-    const url = `/uploads/blog/${filename}`;
+    const { data, error } = await supabase.storage
+      .from('blog-images')
+      .upload(filePath, buffer, {
+        contentType: file.type,
+        upsert: false,
+      });
 
-    return NextResponse.json({ url, filename, size: file.size });
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    // Get public URL
+    const { data: urlData } = supabase.storage
+      .from('blog-images')
+      .getPublicUrl(data.path);
+
+    return NextResponse.json({
+      url: urlData.publicUrl,
+      filename: data.path,
+      size: file.size,
+    });
   } catch (err) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }
