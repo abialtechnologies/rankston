@@ -1,0 +1,894 @@
+{
+  "service": "social-media-marketing",
+  "serviceSlug": "social-media-marketing",
+  "serviceTitle": "Social Media Marketing",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "fetchedAt": "2026-04-11T14:37:45.198Z",
+  "totalFetched": 100,
+  "totalHighIntent": 98,
+  "keywords": [
+    {
+      "keyword": "social media agency",
+      "searchVolume": 2400,
+      "cpc": 10.64,
+      "competition": "MEDIUM",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency london",
+      "searchVolume": 1300,
+      "cpc": 13.71,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency in london",
+      "searchVolume": 1300,
+      "cpc": 13.71,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency services",
+      "searchVolume": 1000,
+      "cpc": 8.61,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services",
+      "searchVolume": 1000,
+      "cpc": 8.61,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency uk",
+      "searchVolume": 590,
+      "cpc": 13.12,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk social media agency",
+      "searchVolume": 590,
+      "cpc": 13.12,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency manchester",
+      "searchVolume": 590,
+      "cpc": 6.18,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency in manchester",
+      "searchVolume": 590,
+      "cpc": 6.18,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency birmingham",
+      "searchVolume": 480,
+      "cpc": 4.76,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency in birmingham",
+      "searchVolume": 480,
+      "cpc": 4.76,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency near me",
+      "searchVolume": 320,
+      "cpc": 8.1,
+      "competition": "MEDIUM",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services london",
+      "searchVolume": 320,
+      "cpc": 7.14,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services uk",
+      "searchVolume": 140,
+      "cpc": 2.97,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "best social media agency",
+      "searchVolume": 90,
+      "cpc": 7.1,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency best",
+      "searchVolume": 90,
+      "cpc": 7.1,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "top social media agency",
+      "searchVolume": 50,
+      "cpc": 14.3,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency pricing",
+      "searchVolume": 50,
+      "cpc": 6.35,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services agency",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable social media agency",
+      "searchVolume": 40,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services company",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable social media marketing services",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "best social media marketing services",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "best social media management",
+      "searchVolume": 20,
+      "cpc": 27.79,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional social media agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "top social media marketing services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services near me",
+      "searchVolume": 10,
+      "cpc": 15.81,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing social media marketing services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services pricing",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional social media marketing services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services in london",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "MEDIUM",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services manchester",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "best smm agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "top smm agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "HIGH",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency near me",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "MEDIUM",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency pricing",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency london",
+      "searchVolume": 10,
+      "cpc": 10.35,
+      "competition": "MEDIUM",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency in london",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "top social media management",
+      "searchVolume": 10,
+      "cpc": 21.5,
+      "competition": "HIGH",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire social media management",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "services social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "company social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert social media agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media agency affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "services social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "company social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk social media marketing services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media marketing services in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "services smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "company smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk smm agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "smm agency in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media management best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    },
+    {
+      "keyword": "social media management top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "country": "uk"
+    }
+  ]
+}

@@ -2,13 +2,8 @@
 /**
  * scripts/seo-automation/3-generate-pages.js
  *
- * Usage: node scripts/seo-automation/3-generate-pages.js <service-id>
- * Example: node scripts/seo-automation/3-generate-pages.js seo-services
- *
- * Generates unique SEO page content for each cluster.
- * - Skips clusters that already have a page (duplicate prevention)
- * - Template-based: no AI API cost
- * - Output: data/seo-automation/pages/{cluster-slug}.json
+ * Usage:
+ *   node scripts/seo-automation/3-generate-pages.js <service-id> [--country uk|usa]
  */
 
 import fs from 'fs';
@@ -18,189 +13,248 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '../../');
 
-const { SERVICES } = await import('./config.js');
+const { SERVICES, COUNTRIES } = await import('./config.js');
 
-// ── CLI args ──
-const serviceId = process.argv[2];
+// ── CLI args ──────────────────────────────────────────────────────────────
+const args = process.argv.slice(2);
+const serviceId   = args[0];
+const countryFlag = args.indexOf('--country');
+const countryCode = countryFlag >= 0 ? args[countryFlag + 1] : 'usa';
+
 if (!serviceId) {
-  console.error('❌ Usage: node 3-generate-pages.js <service-id>');
+  console.error('❌ Usage: node 3-generate-pages.js <service-id> [--country uk|usa]');
   process.exit(1);
 }
 
-const service = SERVICES.find(s => s.id === serviceId);
-if (!service) {
-  console.error(`❌ Unknown service: ${serviceId}`);
+const country = COUNTRIES[countryCode];
+const service  = SERVICES.find(s => s.id === serviceId);
+if (!country || !service) { console.error('❌ Unknown service or country'); process.exit(1); }
+
+// ── Load cluster data ─────────────────────────────────────────────────────
+const CLUSTERS_FILE = path.join(
+  ROOT, 'data', 'seo-automation', 'clusters',
+  `${country.filePrefix}${service.slug}.json`
+);
+if (!fs.existsSync(CLUSTERS_FILE)) {
+  console.error(`❌ Clusters file not found. Run 2-cluster-keywords.js first.`);
   process.exit(1);
 }
 
-// ── Paths ──
-const CLUSTERS_FILE = path.join(ROOT, 'data', 'seo-automation', 'clusters', `${service.slug}.json`);
+const clustersData = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf-8'));
+const clusters = clustersData.clusters || [];
+
+// ── Paths ─────────────────────────────────────────────────────────────────
 const PAGES_DIR = path.join(ROOT, 'data', 'seo-automation', 'pages');
 fs.mkdirSync(PAGES_DIR, { recursive: true });
 
-if (!fs.existsSync(CLUSTERS_FILE)) {
-  console.error('❌ Clusters not found. Run 2-cluster-keywords.js first.');
-  process.exit(1);
-}
-
-const { clusters } = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf-8'));
-console.log(`\n📄 Generating pages for: ${service.title}`);
+console.log(`\n📄 Generating pages for: ${service.title} [${country.name}]`);
 console.log(`   Total clusters: ${clusters.length}\n`);
 
-// ── Content Templates ──
-function generatePageContent(cluster, service) {
-  const { location, keywords, topKeyword, locationCode } = cluster;
-  const sTitle = service.title;
-  const isNational = locationCode === 'USA';
-  const locationLabel = isNational ? 'the United States' : location;
-  const locationShort = isNational ? 'US' : location;
+// ── UK spelling fixer ─────────────────────────────────────────────────────
+function applySpelling(text, spellingMap) {
+  if (!spellingMap) return text;
+  let out = text;
+  for (const [us, uk] of Object.entries(spellingMap)) {
+    // Replace whole-word occurrences, case-insensitive
+    const re = new RegExp(`\\b${us}\\b`, 'gi');
+    out = out.replace(re, (match) => {
+      if (match[0] === match[0].toUpperCase()) return uk.charAt(0).toUpperCase() + uk.slice(1);
+      return uk;
+    });
+  }
+  return out;
+}
 
-  // Extract all keyword strings for natural use in content
-  const kwStrings = keywords.map(k => k.keyword);
-  const topKws = kwStrings.slice(0, 5);
+// ── Content templates ─────────────────────────────────────────────────────
+function generateContent(service, cluster, country) {
+  const loc        = cluster.location;
+  const isCity     = cluster.isCity;
+  const topKws     = cluster.keywords.slice(0, 5).map(k => k.keyword);
+  const topKw      = topKws[0] || `${service.title} ${loc}`;
+  const currSymbol = country.currency === 'GBP' ? '£' : '$';
+  const cc         = country.name;    // "United Kingdom" or "United States"
+  const ccShort    = country.code === 'uk' ? 'UK' : 'USA';
 
-  // Page title variations
-  const h1 = topKeyword.charAt(0).toUpperCase() + topKeyword.slice(1);
-  const h1Sub = `${sTitle} in ${locationLabel} — Rankston`;
+  const heroTitle = isCity
+    ? `${service.title} in ${loc}`
+    : `${service.title} | ${cc} Market`;
 
-  const metaTitle = `${h1} | Rankston Digital Agency`;
-  const metaDescription = `Looking for the ${sTitle.toLowerCase()} in ${locationLabel}? Rankston delivers proven results — higher rankings, more leads, and real ROI. Get a free audit today.`;
+  const heroSub = isCity
+    ? `Looking for expert ${service.title.toLowerCase()} in ${loc}? Rankston delivers proven results for businesses across ${loc} and the wider ${ccShort} market.`
+    : `Professional ${service.title.toLowerCase()} for businesses across the ${cc}. We help you rank higher, generate more leads, and grow faster.`;
 
-  // Benefits based on service
-  const serviceBenefits = {
-    'seo-services': ['Higher Google rankings in 90 days', 'AI Overview (AIO) visibility', 'Local and national keyword dominance', 'Monthly ranking reports'],
-    'web-development': ['Mobile-first, fast-loading websites', 'Core Web Vitals optimized', 'Built for SEO from day one', 'Conversion-focused design'],
-    'ppc-advertising': ['Lower cost-per-click (CPC)', 'Higher conversion rates', 'Real-time campaign optimization', 'Transparent monthly reporting'],
-    'social-media-marketing': ['Consistent brand presence', 'Engaged audience growth', 'Platform-specific strategies', 'Paid social campaign management'],
-    'gmb-optimization': ['Top 3 Google Maps ranking', 'More calls and direction requests', 'Review generation strategy', 'Multi-location management'],
-    'graphic-designing': ['Professional brand identity', 'Scroll-stopping creatives', 'Consistent brand visuals', 'Full brand style guide'],
-    'video-editing': ['High-retention video content', 'Optimized for YouTube and reels', 'Professional color grading', 'Motion graphics and animations'],
-    'content-marketing': ['SEO-optimized blog content', 'Pillar page strategy', 'Email marketing sequences', 'Content calendar management'],
-    'ai-automation': ['Automated lead capture 24/7', 'Instant follow-up sequences', 'CRM and pipeline automation', 'AI-powered workflow efficiency'],
-    'chatbot-development': ['24/7 lead qualification', 'WhatsApp and website chat', 'Appointment booking automation', 'Multi-language support'],
-  };
+  const whyPoints = [
+    `Specialists in ${ccShort} market dynamics and local search behaviour`,
+    `Transparent reporting — you always know what we're doing and why`,
+    `Dedicated account managers based in your timezone`,
+    `Proven results across 200+ ${ccShort} businesses`,
+    `No long-term lock-in — cancel anytime with 30 days' notice`,
+  ];
 
-  const benefits = serviceBenefits[service.id] || ['Proven results', 'Dedicated team', 'Transparent reporting', 'ROI focused'];
+  const included = [
+    `Full ${service.title} audit and competitor analysis`,
+    `Custom strategy tailored to ${isCity ? loc : ccShort} market`,
+    `Monthly performance reports with clear KPIs`,
+    `Dedicated support from certified specialists`,
+    `Regular strategy reviews and optimisation calls`,
+  ];
 
-  // FAQ based on service + location
-  const faqs = [
+  const process = [
+    { step: '01', title: 'Discovery & Audit', desc: `We analyse your current position in the ${isCity ? loc : ccShort} market, identify quick wins, and map out a roadmap.` },
+    { step: '02', title: 'Strategy Build',    desc: `Custom ${service.title.toLowerCase()} strategy designed specifically for ${isCity ? loc : ccShort} audience and competition.` },
+    { step: '03', title: 'Execution',         desc: `Our specialists implement every element: on-page, technical, content, and authority building.` },
+    { step: '04', title: 'Measure & Scale',   desc: `We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth.` },
+  ];
+
+  const faqs = isCity ? [
     {
-      question: `How much does ${sTitle.toLowerCase()} cost in ${locationShort}?`,
-      answer: `${sTitle} pricing in ${locationLabel} varies based on your business size and goals. At Rankston, we offer transparent, results-driven packages starting from competitive rates. We provide a free audit so you know exactly what you need and what it will cost — no hidden fees.`,
+      q: `How much do ${service.title.toLowerCase()} cost in ${loc}?`,
+      a: `${service.title} in ${loc} typically range from ${currSymbol}500–${currSymbol}3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote.`,
     },
     {
-      question: `How long does it take to see results from ${sTitle.toLowerCase()}?`,
-      answer: `Most clients see measurable results within 60–90 days. For SEO, rankings improve over 3–6 months. For paid campaigns and chatbots, results can appear immediately. We set clear milestones and report transparently so you're never in the dark.`,
+      q: `How long before I see results from ${service.title.toLowerCase()} in ${loc}?`,
+      a: `Most ${loc} businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements.`,
     },
     {
-      question: `Why choose Rankston for ${sTitle.toLowerCase()} in ${locationLabel}?`,
-      answer: `Rankston specializes in ${sTitle.toLowerCase()} for businesses in ${locationLabel} and across the USA. We combine data-driven strategy with hands-on execution — no outsourcing, no cookie-cutter campaigns. Our team is focused on one goal: your growth.`,
+      q: `Do you specialise in ${loc} businesses specifically?`,
+      a: `Yes. Our team understands the ${loc} market — local search patterns, competitor landscape, and consumer behaviour specific to ${loc} and the surrounding areas.`,
     },
     {
-      question: `Do you work with small businesses in ${locationShort}?`,
-      answer: `Absolutely. We work with local small businesses, growing startups, and established enterprises across ${locationLabel}. Our strategies scale with your budget — whether you're spending $500/month or $50,000/month, we deliver maximum ROI.`,
+      q: `Can you help a small business in ${loc} compete with larger brands?`,
+      a: `Absolutely. Local ${service.title.toLowerCase()} in ${loc} levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands.`,
     },
     {
-      question: `What makes your ${sTitle.toLowerCase()} different from other agencies?`,
-      answer: `Unlike agencies that overpromise and underdeliver, Rankston uses transparent reporting, dedicated account managers, and proven methodologies. We don't lock you into long contracts — we earn your business every month through results.`,
+      q: `Do I need a contract for ${service.title.toLowerCase()} in ${loc}?`,
+      a: `We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time.`,
+    },
+  ] : [
+    {
+      q: `How much do ${service.title.toLowerCase()} cost in the ${ccShort}?`,
+      a: `${service.title} in the ${ccShort} typically range from ${currSymbol}400–${currSymbol}4,000/month depending on scope and goals. We offer free audits to identify what your business specifically needs before any commitment.`,
+    },
+    {
+      q: `How long does it take to rank in ${ccShort} search results?`,
+      a: `Most ${ccShort} businesses see meaningful improvements within 3–6 months. The timeline depends on your current authority, competition level, and the keywords we're targeting.`,
+    },
+    {
+      q: `Is Rankston experienced with the ${ccShort} market?`,
+      a: `Yes. We have extensive experience with ${ccShort} search trends, local intent patterns, and the competitive landscape across multiple industries.`,
+    },
+    {
+      q: `Can ${service.title.toLowerCase()} work for small businesses in the ${ccShort}?`,
+      a: `Definitely. Small businesses are often better positioned to dominate local and niche search terms. Our strategies are scaled appropriately for businesses at every stage.`,
+    },
+    {
+      q: `Do you offer ${service.title.toLowerCase()} across all ${ccShort} regions?`,
+      a: `Yes — we work with businesses across all regions of the ${ccShort}, from London and Manchester to Edinburgh, Cardiff, and beyond.`,
     },
   ];
 
-  // Related keywords in natural prose (for SEO)
-  const relatedKwProse = topKws.length > 1
-    ? `Whether you're searching for <em>${topKws.slice(0, 3).join('</em>, <em>')}</em> — you've come to the right place.`
-    : `Whether you need <em>${topKeyword}</em> or a full-service digital strategy, we've got you covered.`;
+  // Apply UK spelling if needed
+  const sp = country.spellingMap;
+  const fix = (t) => sp ? applySpelling(t, sp) : t;
 
   return {
-    clusterId: cluster.clusterId,
-    clusterSlug: cluster.clusterSlug,
-    serviceId: service.id,
-    serviceSlug: service.slug,
-    serviceTitle: service.title,
-    location: location,
-    locationSlug: cluster.locationSlug,
-    generatedAt: new Date().toISOString(),
-    keywords: kwStrings,
-    topKeyword,
+    heroTitle:   fix(heroTitle),
+    heroSub:     fix(heroSub),
+    whyPoints:   whyPoints.map(fix),
+    included:    included.map(fix),
+    process:     process.map(p => ({ ...p, desc: fix(p.desc) })),
+    faqs:        faqs.map(f => ({ q: fix(f.q), a: fix(f.a) })),
+    topKeywords: topKws,
+  };
+}
 
-    seo: {
-      metaTitle,
-      metaDescription,
-      canonical: `https://rankston.com/${cluster.clusterSlug}`,
-      schema: {
-        '@context': 'https://schema.org',
-        '@type': 'ProfessionalService',
-        name: `Rankston — ${sTitle} in ${location}`,
-        description: metaDescription,
-        url: `https://rankston.com/${cluster.clusterSlug}`,
-        areaServed: location,
+// ── Schema generator ──────────────────────────────────────────────────────
+function generateSchema(service, cluster, country, content, slug) {
+  const loc  = cluster.location;
+  const ccShort = country.code === 'uk' ? 'UK' : 'USA';
+  const url  = `https://rankston.com/${service.slug}/${slug}`;
+
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Service',
+        name: content.heroTitle,
+        description: content.heroSub,
         provider: {
           '@type': 'Organization',
           name: 'Rankston',
           url: 'https://rankston.com',
         },
-        serviceType: sTitle,
+        areaServed: cluster.isCity
+          ? { '@type': 'City', name: loc }
+          : { '@type': 'Country', name: country.name },
+        serviceType: service.title,
+        url,
       },
-    },
-
-    content: {
-      h1,
-      h1Sub,
-      heroParagraph: `${locationLabel}'s businesses deserve ${sTitle.toLowerCase()} that actually works. Rankston is a results-driven digital marketing agency helping ${locationShort} companies grow with data-backed strategies, measurable ROI, and a dedicated team that treats your business like their own. ${relatedKwProse}`,
-
-      sections: [
-        {
-          h2: `Why ${locationLabel} Businesses Choose Rankston for ${sTitle}`,
-          body: `The ${sTitle.toLowerCase()} landscape in ${locationLabel} is competitive — and generic agencies won't cut it. Rankston brings deep expertise in the ${locationShort} market, understanding local search behavior, competitor dynamics, and the specific channels that drive leads in your industry.\n\nOur approach is built on three pillars: **strategy, execution, and transparency**. We don't just run campaigns — we build systems that generate predictable, compounding results month after month. From your first audit to your 12th monthly report, you'll always know exactly how your investment is performing.`,
-        },
-        {
-          h2: `What's Included in Our ${sTitle} Services`,
-          body: `When you partner with Rankston for ${sTitle.toLowerCase()} in ${locationLabel}, you get a comprehensive service package designed for maximum impact:\n\n${benefits.map(b => `• **${b}**`).join('\n')}\n\nEvery service is customized to your industry, budget, and competitive landscape. No two clients get the same strategy — because no two businesses are the same.`,
-        },
-        {
-          h2: `Our Proven Process for ${sTitle} in ${locationLabel}`,
-          body: `**Step 1: Free Audit & Strategy Call** — We analyze your current position, competitors, and opportunities in ${locationLabel}.\n\n**Step 2: Custom Strategy Development** — Your dedicated team builds a data-driven ${sTitle.toLowerCase()} roadmap tailored to your goals.\n\n**Step 3: Execution & Optimization** — We implement, monitor, and continuously optimize — adjusting weekly based on real performance data.\n\n**Step 4: Reporting & Scaling** — Monthly reports with clear KPIs. As results compound, we scale what works.`,
-        },
-        {
-          h2: `${sTitle} Results for ${locationLabel} Clients`,
-          body: `Rankston has delivered measurable results for businesses across ${locationLabel} and beyond. Our clients consistently see significant improvements in their core metrics — whether that's ranking positions, leads generated, conversion rates, or revenue directly attributable to their digital marketing.\n\nWe publish case studies and share real data because we're confident in the results we deliver. Ask us for examples from your specific industry in ${locationShort}.`,
-        },
-      ],
-
-      faqs,
-
-      cta: {
-        heading: `Ready to Dominate ${sTitle} in ${locationLabel}?`,
-        subheading: `Get a free ${sTitle.toLowerCase()} audit and custom strategy — no commitment required.`,
-        buttonText: 'Get Your Free Audit',
-        buttonLink: '/#contact',
-        secondaryText: 'Book a 30-min strategy call',
-        secondaryLink: 'https://calendly.com/rankston',
+      {
+        '@type': 'FAQPage',
+        mainEntity: content.faqs.map(f => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
       },
-    },
-
-    internalLinks: [], // Will be populated by the route component from sibling pages
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home',         item: 'https://rankston.com' },
+          { '@type': 'ListItem', position: 2, name: service.title,  item: `https://rankston.com/${service.slug}` },
+          { '@type': 'ListItem', position: 3, name: content.heroTitle, item: url },
+        ],
+      },
+    ],
   };
 }
 
-// ── Main Loop ──
-let generated = 0;
-let skipped = 0;
+// ── Generate pages ────────────────────────────────────────────────────────
+let generated = 0, skipped = 0;
 
 for (const cluster of clusters) {
-  // Normalize slug for file path
-  const safeSlug = cluster.clusterSlug.replace(/\//g, '--');
-  const outputFile = path.join(PAGES_DIR, `${safeSlug}.json`);
+  const slug     = cluster.slug;
+  // File: uk--seo-services--london.json  or  seo-services--usa-pricing.json
+  const fileName = `${country.filePrefix}${service.slug}--${slug}.json`;
+  const filePath = path.join(PAGES_DIR, fileName);
 
-  if (fs.existsSync(outputFile)) {
-    console.log(`⏭️  Skipping (already exists): ${cluster.clusterSlug}`);
+  if (fs.existsSync(filePath)) {
+    console.log(`⏭️  Skipped (exists): ${service.slug}/${slug}`);
     skipped++;
     continue;
   }
 
-  const pageContent = generatePageContent(cluster, service);
-  fs.writeFileSync(outputFile, JSON.stringify(pageContent, null, 2));
-  console.log(`✅ Generated: ${cluster.clusterSlug} (${cluster.keywords.length} keywords)`);
+  const content = generateContent(service, cluster, country);
+  const schema  = generateSchema(service, cluster, country, content, slug);
+
+  const page = {
+    // Meta
+    serviceSlug:   service.slug,
+    serviceTitle:  service.title,
+    clusterSlug:   `${service.slug}/${slug}`,
+    locationSlug:  slug,
+    location:      cluster.location,
+    country:       country.code,
+    countryName:   country.name,
+    isCity:        cluster.isCity,
+    generatedAt:   new Date().toISOString(),
+    keywordCount:  cluster.keywords.length,
+    topKeywords:   cluster.keywords.slice(0, 10),
+
+    // SEO
+    seo: {
+      metaTitle:       `${content.heroTitle} | Rankston`,
+      metaDescription: content.heroSub.slice(0, 160),
+      canonical:       `https://rankston.com/${service.slug}/${slug}`,
+      schema,
+    },
+
+    // Content
+    content,
+  };
+
+  fs.writeFileSync(filePath, JSON.stringify(page, null, 2));
+  console.log(`✅ Generated: ${service.slug}/${slug} (${cluster.keywords.length} keywords) [${country.code.toUpperCase()}]`);
   generated++;
 }
 

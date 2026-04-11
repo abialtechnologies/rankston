@@ -1,0 +1,231 @@
+{
+  "serviceSlug": "chatbot-development",
+  "serviceTitle": "Chatbot Development",
+  "clusterSlug": "chatbot-development/london",
+  "locationSlug": "london",
+  "location": "London",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "isCity": true,
+  "generatedAt": "2026-04-11T14:39:16.978Z",
+  "keywordCount": 6,
+  "topKeywords": [
+    {
+      "keyword": "chatbot development company in london",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency in london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services in london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Chatbot Development in London | Rankston",
+    "metaDescription": "Looking for expert chatbot development in London? Rankston delivers proven results for businesses across London and the wider UK market.",
+    "canonical": "https://rankston.com/chatbot-development/london",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Chatbot Development in London",
+          "description": "Looking for expert chatbot development in London? Rankston delivers proven results for businesses across London and the wider UK market.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Rankston",
+            "url": "https://rankston.com"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "London"
+          },
+          "serviceType": "Chatbot Development",
+          "url": "https://rankston.com/chatbot-development/london"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much do chatbot development cost in London?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chatbot Development in London typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long before I see results from chatbot development in London?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most London businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you specialise in London businesses specifically?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our team understands the London market — local search patterns, competitor landscape, and consumer behaviour specific to London and the surrounding areas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you help a small business in London compete with larger brands?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. Local chatbot development in London levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a contract for chatbot development in London?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rankston.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Chatbot Development",
+              "item": "https://rankston.com/chatbot-development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Chatbot Development in London",
+              "item": "https://rankston.com/chatbot-development/london"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "content": {
+    "heroTitle": "Chatbot Development in London",
+    "heroSub": "Looking for expert chatbot development in London? Rankston delivers proven results for businesses across London and the wider UK market.",
+    "whyPoints": [
+      "Specialists in UK market dynamics and local search behaviour",
+      "Transparent reporting — you always know what we're doing and why",
+      "Dedicated account managers based in your timezone",
+      "Proven results across 200+ UK businesses",
+      "No long-term lock-in — cancel anytime with 30 days' notice"
+    ],
+    "included": [
+      "Full Chatbot Development audit and competitor analysis",
+      "Custom strategy tailored to London market",
+      "Monthly performance reports with clear KPIs",
+      "Dedicated support from certified specialists",
+      "Regular strategy reviews and optimisation calls"
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Discovery & Audit",
+        "desc": "We analyse your current position in the London market, identify quick wins, and map out a roadmap."
+      },
+      {
+        "step": "02",
+        "title": "Strategy Build",
+        "desc": "Custom chatbot development strategy designed specifically for London audience and competition."
+      },
+      {
+        "step": "03",
+        "title": "Execution",
+        "desc": "Our specialists implement every element: on-page, technical, content, and authority building."
+      },
+      {
+        "step": "04",
+        "title": "Measure & Scale",
+        "desc": "We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much do chatbot development cost in London?",
+        "a": "Chatbot Development in London typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+      },
+      {
+        "q": "How long before I see results from chatbot development in London?",
+        "a": "Most London businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+      },
+      {
+        "q": "Do you specialise in London businesses specifically?",
+        "a": "Yes. Our team understands the London market — local search patterns, competitor landscape, and consumer behaviour specific to London and the surrounding areas."
+      },
+      {
+        "q": "Can you help a small business in London compete with larger brands?",
+        "a": "Absolutely. Local chatbot development in London levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
+      },
+      {
+        "q": "Do I need a contract for chatbot development in London?",
+        "a": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+      }
+    ],
+    "topKeywords": [
+      "chatbot development company in london",
+      "chatbot development company london",
+      "ai chatbot agency london",
+      "ai chatbot agency in london",
+      "chatbot services london"
+    ]
+  }
+}

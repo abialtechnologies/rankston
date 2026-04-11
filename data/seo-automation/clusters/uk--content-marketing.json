@@ -1,0 +1,975 @@
+{
+  "service": "content-marketing",
+  "serviceSlug": "content-marketing",
+  "serviceTitle": "Content Marketing",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:38:54.946Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "content marketing agency",
+          "searchVolume": 1000,
+          "cpc": 10.66,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services",
+          "searchVolume": 1000,
+          "cpc": 4.9,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency uk",
+          "searchVolume": 590,
+          "cpc": 8.5,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk content marketing agency",
+          "searchVolume": 590,
+          "cpc": 8.5,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency services",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services",
+          "searchVolume": 390,
+          "cpc": 7.11,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services agency",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services uk",
+          "searchVolume": 50,
+          "cpc": 7.99,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk content writing services",
+          "searchVolume": 50,
+          "cpc": 7.99,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services uk",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional content writing services",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "HIGH",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services company",
+          "searchVolume": 10,
+          "cpc": 7.74,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "blog writing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "blog writing agency uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "content marketing agency london",
+          "searchVolume": 720,
+          "cpc": 15.95,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency in london",
+          "searchVolume": 720,
+          "cpc": 15.95,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services london",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services in london",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services london",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best content marketing agency",
+          "searchVolume": 210,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top content marketing agency",
+          "searchVolume": 110,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best content writing services",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best content marketing services",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top content writing services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top content marketing services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best blog writing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "blog writing agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top blog writing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "blog writing agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "content marketing agency manchester",
+          "searchVolume": 140,
+          "cpc": 2.34,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services manchester",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "content marketing agency birmingham",
+          "searchVolume": 140,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "affordable content writing services",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable content marketing services",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable content marketing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "content marketing agency near me",
+          "searchVolume": 50,
+          "cpc": 8.99,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services near me",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services near me",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "hire content marketing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert content marketing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert content writing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content writing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert content marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "content marketing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire blog writing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "content-marketing",
+          "serviceSlug": "content-marketing",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

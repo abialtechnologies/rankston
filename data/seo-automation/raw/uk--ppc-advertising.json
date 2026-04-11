@@ -1,0 +1,831 @@
+{
+  "service": "ppc-advertising",
+  "serviceSlug": "ppc-advertising",
+  "serviceTitle": "PPC Advertising",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "fetchedAt": "2026-04-11T14:37:34.134Z",
+  "totalFetched": 100,
+  "totalHighIntent": 91,
+  "keywords": [
+    {
+      "keyword": "ppc agency",
+      "searchVolume": 2900,
+      "cpc": 47.95,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pay per click agency",
+      "searchVolume": 2900,
+      "cpc": 47.95,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency london",
+      "searchVolume": 1000,
+      "cpc": 32.13,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency in london",
+      "searchVolume": 1000,
+      "cpc": 32.13,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency near me",
+      "searchVolume": 720,
+      "cpc": 13.81,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services",
+      "searchVolume": 720,
+      "cpc": 57.4,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency uk",
+      "searchVolume": 590,
+      "cpc": 38.19,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk ppc agency",
+      "searchVolume": 590,
+      "cpc": 38.19,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency manchester",
+      "searchVolume": 590,
+      "cpc": 49.07,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency in manchester",
+      "searchVolume": 590,
+      "cpc": 49.07,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency birmingham",
+      "searchVolume": 590,
+      "cpc": 46.89,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency in birmingham",
+      "searchVolume": 590,
+      "cpc": 46.89,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "best ppc agency",
+      "searchVolume": 390,
+      "cpc": 27.45,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "top ppc agency",
+      "searchVolume": 390,
+      "cpc": 27.45,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "best pay per click agency",
+      "searchVolume": 390,
+      "cpc": 27.45,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management services",
+      "searchVolume": 260,
+      "cpc": 42.67,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services london",
+      "searchVolume": 260,
+      "cpc": 36.19,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency services",
+      "searchVolume": 170,
+      "cpc": 72.82,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services uk",
+      "searchVolume": 170,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management agency",
+      "searchVolume": 140,
+      "cpc": 24.97,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management company",
+      "searchVolume": 90,
+      "cpc": 40.3,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services pricing",
+      "searchVolume": 90,
+      "cpc": 35.71,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "best ppc management services",
+      "searchVolume": 70,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pay per click agency uk",
+      "searchVolume": 70,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management pricing",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable ppc management services",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "top pay per click agency",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management near me",
+      "searchVolume": 30,
+      "cpc": 48.71,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency pricing",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire ppc agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional ppc agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable ppc agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional google ads management",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "HIGH",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services company",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services near me",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional ppc management services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services in london",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services manchester",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "services ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "company ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert ppc agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc agency affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "best google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "top google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "services google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "company google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable google ads management",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "google ads management affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "top ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "services ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "company ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk ppc management services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "ppc management services in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pay per click agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "pay per click agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire pay per click agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "country": "uk"
+    }
+  ]
+}

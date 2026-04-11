@@ -1,0 +1,231 @@
+{
+  "serviceSlug": "web-development",
+  "serviceTitle": "Web Development",
+  "clusterSlug": "web-development/birmingham",
+  "locationSlug": "birmingham",
+  "location": "Birmingham",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "isCity": true,
+  "generatedAt": "2026-04-11T14:37:09.417Z",
+  "keywordCount": 6,
+  "topKeywords": [
+    {
+      "keyword": "web development company birmingham",
+      "searchVolume": 880,
+      "cpc": 11.77,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company in birmingham",
+      "searchVolume": 880,
+      "cpc": 11.77,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency birmingham",
+      "searchVolume": 720,
+      "cpc": 10.71,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency in birmingham",
+      "searchVolume": 720,
+      "cpc": 10.71,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Web Development in Birmingham | Rankston",
+    "metaDescription": "Looking for expert web development in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
+    "canonical": "https://rankston.com/web-development/birmingham",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Web Development in Birmingham",
+          "description": "Looking for expert web development in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Rankston",
+            "url": "https://rankston.com"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Birmingham"
+          },
+          "serviceType": "Web Development",
+          "url": "https://rankston.com/web-development/birmingham"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much do web development cost in Birmingham?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Web Development in Birmingham typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long before I see results from web development in Birmingham?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you specialise in Birmingham businesses specifically?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our team understands the Birmingham market — local search patterns, competitor landscape, and consumer behaviour specific to Birmingham and the surrounding areas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you help a small business in Birmingham compete with larger brands?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. Local web development in Birmingham levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a contract for web development in Birmingham?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rankston.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Web Development",
+              "item": "https://rankston.com/web-development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Web Development in Birmingham",
+              "item": "https://rankston.com/web-development/birmingham"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "content": {
+    "heroTitle": "Web Development in Birmingham",
+    "heroSub": "Looking for expert web development in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
+    "whyPoints": [
+      "Specialists in UK market dynamics and local search behaviour",
+      "Transparent reporting — you always know what we're doing and why",
+      "Dedicated account managers based in your timezone",
+      "Proven results across 200+ UK businesses",
+      "No long-term lock-in — cancel anytime with 30 days' notice"
+    ],
+    "included": [
+      "Full Web Development audit and competitor analysis",
+      "Custom strategy tailored to Birmingham market",
+      "Monthly performance reports with clear KPIs",
+      "Dedicated support from certified specialists",
+      "Regular strategy reviews and optimisation calls"
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Discovery & Audit",
+        "desc": "We analyse your current position in the Birmingham market, identify quick wins, and map out a roadmap."
+      },
+      {
+        "step": "02",
+        "title": "Strategy Build",
+        "desc": "Custom web development strategy designed specifically for Birmingham audience and competition."
+      },
+      {
+        "step": "03",
+        "title": "Execution",
+        "desc": "Our specialists implement every element: on-page, technical, content, and authority building."
+      },
+      {
+        "step": "04",
+        "title": "Measure & Scale",
+        "desc": "We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much do web development cost in Birmingham?",
+        "a": "Web Development in Birmingham typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+      },
+      {
+        "q": "How long before I see results from web development in Birmingham?",
+        "a": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+      },
+      {
+        "q": "Do you specialise in Birmingham businesses specifically?",
+        "a": "Yes. Our team understands the Birmingham market — local search patterns, competitor landscape, and consumer behaviour specific to Birmingham and the surrounding areas."
+      },
+      {
+        "q": "Can you help a small business in Birmingham compete with larger brands?",
+        "a": "Absolutely. Local web development in Birmingham levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
+      },
+      {
+        "q": "Do I need a contract for web development in Birmingham?",
+        "a": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+      }
+    ],
+    "topKeywords": [
+      "web development company birmingham",
+      "web development company in birmingham",
+      "web design agency birmingham",
+      "web design agency in birmingham",
+      "website development services birmingham"
+    ]
+  }
+}

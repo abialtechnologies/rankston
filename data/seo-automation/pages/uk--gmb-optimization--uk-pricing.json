@@ -1,0 +1,267 @@
+{
+  "serviceSlug": "gmb-optimization",
+  "serviceTitle": "GMB Optimization",
+  "clusterSlug": "gmb-optimization/uk-pricing",
+  "locationSlug": "uk-pricing",
+  "location": "Pricing United Kingdom",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "isCity": false,
+  "generatedAt": "2026-04-11T14:37:56.718Z",
+  "keywordCount": 12,
+  "topKeywords": [
+    {
+      "keyword": "pricing google business profile expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "google business profile expert pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable google business profile expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "google business profile expert affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing gmb optimization services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "gmb optimization services pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable gmb optimization services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "gmb optimization services affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing google my business agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    },
+    {
+      "keyword": "google my business agency pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "country": "uk"
+    }
+  ],
+  "seo": {
+    "metaTitle": "GMB Optimisation | United Kingdom Market | Rankston",
+    "metaDescription": "Professional gmb optimisation for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+    "canonical": "https://rankston.com/gmb-optimization/uk-pricing",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "GMB Optimisation | United Kingdom Market",
+          "description": "Professional gmb optimisation for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Rankston",
+            "url": "https://rankston.com"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          "serviceType": "GMB Optimization",
+          "url": "https://rankston.com/gmb-optimization/uk-pricing"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much do gmb optimisation cost in the UK?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "GMB Optimisation in the UK typically range from £400–£4,000/month depending on scope and goals. We offer free audits to identify what your business specifically needs before any commitment."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does it take to rank in UK search results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most UK businesses see meaningful improvements within 3–6 months. The timeline depends on your current authority, competition level, and the keywords we're targeting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Rankston experienced with the UK market?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We have extensive experience with UK search trends, local intent patterns, and the competitive landscape across multiple industries."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can gmb optimisation work for small businesses in the UK?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Definitely. Small businesses are often better positioned to dominate local and niche search terms. Our strategies are scaled appropriately for businesses at every stage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer gmb optimisation across all UK regions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — we work with businesses across all regions of the UK, from London and Manchester to Edinburgh, Cardiff, and beyond."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rankston.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "GMB Optimization",
+              "item": "https://rankston.com/gmb-optimization"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "GMB Optimisation | United Kingdom Market",
+              "item": "https://rankston.com/gmb-optimization/uk-pricing"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "content": {
+    "heroTitle": "GMB Optimisation | United Kingdom Market",
+    "heroSub": "Professional gmb optimisation for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+    "whyPoints": [
+      "Specialists in UK market dynamics and local search behaviour",
+      "Transparent reporting — you always know what we're doing and why",
+      "Dedicated account managers based in your timezone",
+      "Proven results across 200+ UK businesses",
+      "No long-term lock-in — cancel anytime with 30 days' notice"
+    ],
+    "included": [
+      "Full GMB Optimisation audit and competitor analysis",
+      "Custom strategy tailored to UK market",
+      "Monthly performance reports with clear KPIs",
+      "Dedicated support from certified specialists",
+      "Regular strategy reviews and optimisation calls"
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Discovery & Audit",
+        "desc": "We analyse your current position in the UK market, identify quick wins, and map out a roadmap."
+      },
+      {
+        "step": "02",
+        "title": "Strategy Build",
+        "desc": "Custom gmb optimisation strategy designed specifically for UK audience and competition."
+      },
+      {
+        "step": "03",
+        "title": "Execution",
+        "desc": "Our specialists implement every element: on-page, technical, content, and authority building."
+      },
+      {
+        "step": "04",
+        "title": "Measure & Scale",
+        "desc": "We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much do gmb optimisation cost in the UK?",
+        "a": "GMB Optimisation in the UK typically range from £400–£4,000/month depending on scope and goals. We offer free audits to identify what your business specifically needs before any commitment."
+      },
+      {
+        "q": "How long does it take to rank in UK search results?",
+        "a": "Most UK businesses see meaningful improvements within 3–6 months. The timeline depends on your current authority, competition level, and the keywords we're targeting."
+      },
+      {
+        "q": "Is Rankston experienced with the UK market?",
+        "a": "Yes. We have extensive experience with UK search trends, local intent patterns, and the competitive landscape across multiple industries."
+      },
+      {
+        "q": "Can gmb optimisation work for small businesses in the UK?",
+        "a": "Definitely. Small businesses are often better positioned to dominate local and niche search terms. Our strategies are scaled appropriately for businesses at every stage."
+      },
+      {
+        "q": "Do you offer gmb optimisation across all UK regions?",
+        "a": "Yes — we work with businesses across all regions of the UK, from London and Manchester to Edinburgh, Cardiff, and beyond."
+      }
+    ],
+    "topKeywords": [
+      "pricing google business profile expert",
+      "google business profile expert pricing",
+      "affordable google business profile expert",
+      "google business profile expert affordable",
+      "pricing gmb optimization services"
+    ]
+  }
+}

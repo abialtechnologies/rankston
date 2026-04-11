@@ -1,0 +1,957 @@
+{
+  "service": "video-editing",
+  "serviceSlug": "video-editing",
+  "serviceTitle": "Video Editing",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:38:27.892Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video production company",
+          "searchVolume": 1600,
+          "cpc": 10.26,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company video production company",
+          "searchVolume": 1600,
+          "cpc": 10.26,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company uk",
+          "searchVolume": 480,
+          "cpc": 5.3,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk video production company",
+          "searchVolume": 480,
+          "cpc": 5.3,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services",
+          "searchVolume": 390,
+          "cpc": 7.8,
+          "competition": "MEDIUM",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency",
+          "searchVolume": 210,
+          "cpc": 5.92,
+          "competition": "MEDIUM",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional video production company",
+          "searchVolume": 140,
+          "cpc": 6.58,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services uk",
+          "searchVolume": 30,
+          "cpc": 3.77,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional video editing services",
+          "searchVolume": 30,
+          "cpc": 8.89,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency uk",
+          "searchVolume": 20,
+          "cpc": 7.62,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video production company london",
+          "searchVolume": 1900,
+          "cpc": 15.5,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company in london",
+          "searchVolume": 1900,
+          "cpc": 15.5,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency london",
+          "searchVolume": 40,
+          "cpc": 9.42,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services london",
+          "searchVolume": 20,
+          "cpc": 1.95,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video production company manchester",
+          "searchVolume": 880,
+          "cpc": 11.78,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company in manchester",
+          "searchVolume": 880,
+          "cpc": 11.78,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video production company birmingham",
+          "searchVolume": 320,
+          "cpc": 5.45,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company in birmingham",
+          "searchVolume": 320,
+          "cpc": 5.45,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video production company near me",
+          "searchVolume": 110,
+          "cpc": 5.73,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services near me",
+          "searchVolume": 90,
+          "cpc": 2.32,
+          "competition": "MEDIUM",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency near me",
+          "searchVolume": 10,
+          "cpc": 13.12,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best video editing services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best video production company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top video production company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best video editing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top video editing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "commercial video production best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "commercial video production top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "video editing services pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "hire video production company",
+          "searchVolume": 10,
+          "cpc": 12.12,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video production company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "video editing agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

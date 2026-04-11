@@ -1,0 +1,975 @@
+{
+  "service": "ai-automation",
+  "serviceSlug": "ai-automation",
+  "serviceTitle": "AI Automation",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:39:05.237Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency",
+          "searchVolume": 880,
+          "cpc": 15.11,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency uk",
+          "searchVolume": 260,
+          "cpc": 13.43,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company",
+          "searchVolume": 110,
+          "cpc": 9.12,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation services",
+          "searchVolume": 90,
+          "cpc": 40.24,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services",
+          "searchVolume": 50,
+          "cpc": 13.99,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency services",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "services ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "company ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "services ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "company ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "services marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "company marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation services uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency london",
+          "searchVolume": 50,
+          "cpc": 6.48,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency near me",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best ai automation agency",
+          "searchVolume": 20,
+          "cpc": 8.13,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "top ai automation agency",
+          "searchVolume": 10,
+          "cpc": 6.8,
+          "competition": "HIGH",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "best ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "top ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "best marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "top marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "best ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "top ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency pricing",
+          "searchVolume": 10,
+          "cpc": 5.09,
+          "competition": "HIGH",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "hire ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "ai automation agency birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai automation agency in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "ai marketing services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        },
+        {
+          "keyword": "marketing automation company in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

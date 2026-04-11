@@ -1,0 +1,975 @@
+{
+  "service": "graphic-designing",
+  "serviceSlug": "graphic-designing",
+  "serviceTitle": "Graphic Designing",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:38:18.954Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "logo design company",
+          "searchVolume": 4400,
+          "cpc": 3.37,
+          "competition": "HIGH",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company logo design company",
+          "searchVolume": 4400,
+          "cpc": 3.37,
+          "competition": "HIGH",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency",
+          "searchVolume": 1300,
+          "cpc": 8.29,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services",
+          "searchVolume": 1000,
+          "cpc": 12.07,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "brand design agency",
+          "searchVolume": 1000,
+          "cpc": 12.56,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company uk",
+          "searchVolume": 590,
+          "cpc": 6.36,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk logo design company",
+          "searchVolume": 590,
+          "cpc": 6.36,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency uk",
+          "searchVolume": 390,
+          "cpc": 4.81,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk graphic design agency",
+          "searchVolume": 390,
+          "cpc": 4.81,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services uk",
+          "searchVolume": 90,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services company",
+          "searchVolume": 70,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency services",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "brand design agency uk",
+          "searchVolume": 30,
+          "cpc": 4.22,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional logo design company",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional graphic design agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "company graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "services logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "graphic design agency london",
+          "searchVolume": 590,
+          "cpc": 6.23,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency in london",
+          "searchVolume": 590,
+          "cpc": 6.23,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company london",
+          "searchVolume": 260,
+          "cpc": 7.13,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company in london",
+          "searchVolume": 260,
+          "cpc": 7.13,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services london",
+          "searchVolume": 90,
+          "cpc": 1.76,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services in london",
+          "searchVolume": 90,
+          "cpc": 1.76,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "graphic design agency near me",
+          "searchVolume": 720,
+          "cpc": 5.18,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company near me",
+          "searchVolume": 390,
+          "cpc": 6.17,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services near me",
+          "searchVolume": 40,
+          "cpc": 10.75,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best logo design company",
+          "searchVolume": 170,
+          "cpc": 7.96,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top logo design company",
+          "searchVolume": 170,
+          "cpc": 7.96,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best graphic design agency",
+          "searchVolume": 110,
+          "cpc": 5.3,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top graphic design agency",
+          "searchVolume": 110,
+          "cpc": 5.3,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "best brand design agency",
+          "searchVolume": 10,
+          "cpc": 6.61,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "brand design agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "top brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "brand design agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "graphic design agency manchester",
+          "searchVolume": 260,
+          "cpc": 6.22,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency in manchester",
+          "searchVolume": 260,
+          "cpc": 6.22,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services manchester",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "graphic design agency birmingham",
+          "searchVolume": 210,
+          "cpc": 4.51,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency in birmingham",
+          "searchVolume": 210,
+          "cpc": 4.51,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company birmingham",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "pricing graphic design services",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services pricing",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable logo design company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "hire graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "graphic design services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "logo design company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

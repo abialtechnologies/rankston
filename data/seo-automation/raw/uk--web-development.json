@@ -1,0 +1,894 @@
+{
+  "service": "web-development",
+  "serviceSlug": "web-development",
+  "serviceTitle": "Web Development",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "fetchedAt": "2026-04-11T14:37:09.238Z",
+  "totalFetched": 100,
+  "totalHighIntent": 98,
+  "keywords": [
+    {
+      "keyword": "web design agency",
+      "searchVolume": 4400,
+      "cpc": 13.22,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency london",
+      "searchVolume": 2900,
+      "cpc": 10.53,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency in london",
+      "searchVolume": 2900,
+      "cpc": 10.53,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company",
+      "searchVolume": 1900,
+      "cpc": 24.4,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services",
+      "searchVolume": 1600,
+      "cpc": 23.63,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company uk",
+      "searchVolume": 1000,
+      "cpc": 37.53,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk web development company",
+      "searchVolume": 1000,
+      "cpc": 37.53,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency uk",
+      "searchVolume": 1000,
+      "cpc": 11.81,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency near me",
+      "searchVolume": 1000,
+      "cpc": 15.98,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk web design agency",
+      "searchVolume": 1000,
+      "cpc": 11.81,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company birmingham",
+      "searchVolume": 880,
+      "cpc": 11.77,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company in birmingham",
+      "searchVolume": 880,
+      "cpc": 11.77,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency in manchester",
+      "searchVolume": 720,
+      "cpc": 22.19,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency birmingham",
+      "searchVolume": 720,
+      "cpc": 10.71,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency in birmingham",
+      "searchVolume": 720,
+      "cpc": 10.71,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency manchester",
+      "searchVolume": 480,
+      "cpc": 18.36,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company london",
+      "searchVolume": 320,
+      "cpc": 104.45,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company in london",
+      "searchVolume": 320,
+      "cpc": 104.45,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best web design agency",
+      "searchVolume": 320,
+      "cpc": 9.81,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire web developer",
+      "searchVolume": 320,
+      "cpc": 25.85,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top web development company",
+      "searchVolume": 260,
+      "cpc": 12.62,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top web design agency",
+      "searchVolume": 210,
+      "cpc": 19.66,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services uk",
+      "searchVolume": 210,
+      "cpc": 24.74,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company near me",
+      "searchVolume": 170,
+      "cpc": 14.07,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services company",
+      "searchVolume": 170,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services london",
+      "searchVolume": 170,
+      "cpc": 5.28,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company manchester",
+      "searchVolume": 140,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company in manchester",
+      "searchVolume": 140,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency services",
+      "searchVolume": 110,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best web developer",
+      "searchVolume": 90,
+      "cpc": 64.63,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional web design agency",
+      "searchVolume": 70,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services near me",
+      "searchVolume": 50,
+      "cpc": 7.62,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable website development services",
+      "searchVolume": 50,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best web development company",
+      "searchVolume": 40,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional website development services",
+      "searchVolume": 40,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional web development company",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable web design agency",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire web development company",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "MEDIUM",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable web development company",
+      "searchVolume": 20,
+      "cpc": 42.68,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency pricing",
+      "searchVolume": 20,
+      "cpc": 4.91,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services in london",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services manchester",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me web development company",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company pricing",
+      "searchVolume": 10,
+      "cpc": 2.45,
+      "competition": "HIGH",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire web design agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency affordable",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "HIGH",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best website development services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top website development services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top web developer",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web development company affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web design agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "website development services in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web developer best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "web developer top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development",
+      "country": "uk"
+    }
+  ]
+}

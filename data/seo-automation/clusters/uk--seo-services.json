@@ -1,0 +1,957 @@
+{
+  "service": "seo-services",
+  "serviceSlug": "seo-services",
+  "serviceTitle": "SEO Services",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:36:48.058Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "seo agency",
+          "searchVolume": 8100,
+          "cpc": 26.16,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services",
+          "searchVolume": 5400,
+          "cpc": 24.2,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "services seo services",
+          "searchVolume": 5400,
+          "cpc": 24.2,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services services",
+          "searchVolume": 5400,
+          "cpc": 24.2,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company",
+          "searchVolume": 5400,
+          "cpc": 36.83,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company company",
+          "searchVolume": 5400,
+          "cpc": 36.83,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency uk",
+          "searchVolume": 4400,
+          "cpc": 32.14,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk seo agency",
+          "searchVolume": 4400,
+          "cpc": 32.14,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company uk",
+          "searchVolume": 4400,
+          "cpc": 32.14,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk seo company",
+          "searchVolume": 4400,
+          "cpc": 32.14,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services uk",
+          "searchVolume": 2400,
+          "cpc": 14.26,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk seo services",
+          "searchVolume": 2400,
+          "cpc": 14.26,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional seo services",
+          "searchVolume": 1000,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services professional",
+          "searchVolume": 1000,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "company seo services",
+          "searchVolume": 720,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services company",
+          "searchVolume": 720,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "services seo company",
+          "searchVolume": 720,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company services",
+          "searchVolume": 720,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional seo company",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency services",
+          "searchVolume": 210,
+          "cpc": 47.32,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency seo services",
+          "searchVolume": 210,
+          "cpc": 47.32,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional seo agency",
+          "searchVolume": 170,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services agency",
+          "searchVolume": 110,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency company",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "services seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "company seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "company seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "seo agency london",
+          "searchVolume": 4400,
+          "cpc": 16.06,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency in london",
+          "searchVolume": 4400,
+          "cpc": 16.06,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company london",
+          "searchVolume": 2400,
+          "cpc": 14.43,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company in london",
+          "searchVolume": 2400,
+          "cpc": 14.43,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services london",
+          "searchVolume": 1000,
+          "cpc": 8.33,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services in london",
+          "searchVolume": 1000,
+          "cpc": 8.33,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "seo agency near me",
+          "searchVolume": 3600,
+          "cpc": 22.62,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me seo services",
+          "searchVolume": 3600,
+          "cpc": 22.62,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services near me",
+          "searchVolume": 3600,
+          "cpc": 22.62,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company near me",
+          "searchVolume": 1000,
+          "cpc": 41.88,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me seo company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best seo agency",
+          "searchVolume": 1900,
+          "cpc": 41.58,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency best",
+          "searchVolume": 1900,
+          "cpc": 41.58,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "best seo company",
+          "searchVolume": 1900,
+          "cpc": 41.58,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company best",
+          "searchVolume": 1900,
+          "cpc": 41.58,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "best seo services",
+          "searchVolume": 390,
+          "cpc": 12.05,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services best",
+          "searchVolume": 390,
+          "cpc": 12.05,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "top seo company",
+          "searchVolume": 320,
+          "cpc": 36.67,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "top seo agency",
+          "searchVolume": 210,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "best search engine optimization",
+          "searchVolume": 140,
+          "cpc": 12.9,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "search engine optimization best",
+          "searchVolume": 140,
+          "cpc": 12.9,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "top seo services",
+          "searchVolume": 110,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services top",
+          "searchVolume": 110,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency top",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "top search engine optimization",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "search engine optimization top",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company top",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "seo agency manchester",
+          "searchVolume": 1300,
+          "cpc": 15.13,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency in manchester",
+          "searchVolume": 1300,
+          "cpc": 15.13,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services in manchester",
+          "searchVolume": 1000,
+          "cpc": 2.74,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company manchester",
+          "searchVolume": 1000,
+          "cpc": 2.74,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company in manchester",
+          "searchVolume": 1000,
+          "cpc": 2.74,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services manchester",
+          "searchVolume": 480,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "seo agency birmingham",
+          "searchVolume": 1600,
+          "cpc": 19.21,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency in birmingham",
+          "searchVolume": 1600,
+          "cpc": 19.21,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services birmingham",
+          "searchVolume": 480,
+          "cpc": 18.73,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services in birmingham",
+          "searchVolume": 480,
+          "cpc": 18.73,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company birmingham",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company in birmingham",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "affordable seo services",
+          "searchVolume": 590,
+          "cpc": 4.31,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services affordable",
+          "searchVolume": 590,
+          "cpc": 4.31,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing seo services",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services pricing",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable seo company",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable seo agency",
+          "searchVolume": 210,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency pricing",
+          "searchVolume": 140,
+          "cpc": 9.22,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company pricing",
+          "searchVolume": 140,
+          "cpc": 9.22,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company affordable",
+          "searchVolume": 110,
+          "cpc": 84.8,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "expert seo services",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services expert",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert seo agency",
+          "searchVolume": 210,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company expert",
+          "searchVolume": 140,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert seo company",
+          "searchVolume": 110,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire seo company",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire seo agency",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire seo services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo services hire",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "seo company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire search engine optimization",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

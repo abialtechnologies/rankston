@@ -1,0 +1,267 @@
+{
+  "serviceSlug": "chatbot-development",
+  "serviceTitle": "Chatbot Development",
+  "clusterSlug": "chatbot-development/uk-agency-services",
+  "locationSlug": "uk-agency-services",
+  "location": "Agency Services United Kingdom",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "isCity": false,
+  "generatedAt": "2026-04-11T14:39:16.974Z",
+  "keywordCount": 35,
+  "topKeywords": [
+    {
+      "keyword": "chatbot services",
+      "searchVolume": 140,
+      "cpc": 56.39,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency",
+      "searchVolume": 70,
+      "cpc": 12.16,
+      "competition": "MEDIUM",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development services",
+      "searchVolume": 40,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    }
+  ],
+  "seo": {
+    "metaTitle": "Chatbot Development | United Kingdom Market | Rankston",
+    "metaDescription": "Professional chatbot development for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+    "canonical": "https://rankston.com/chatbot-development/uk-agency-services",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Chatbot Development | United Kingdom Market",
+          "description": "Professional chatbot development for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Rankston",
+            "url": "https://rankston.com"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
+          },
+          "serviceType": "Chatbot Development",
+          "url": "https://rankston.com/chatbot-development/uk-agency-services"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much do chatbot development cost in the UK?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chatbot Development in the UK typically range from £400–£4,000/month depending on scope and goals. We offer free audits to identify what your business specifically needs before any commitment."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does it take to rank in UK search results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most UK businesses see meaningful improvements within 3–6 months. The timeline depends on your current authority, competition level, and the keywords we're targeting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Rankston experienced with the UK market?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We have extensive experience with UK search trends, local intent patterns, and the competitive landscape across multiple industries."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can chatbot development work for small businesses in the UK?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Definitely. Small businesses are often better positioned to dominate local and niche search terms. Our strategies are scaled appropriately for businesses at every stage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer chatbot development across all UK regions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — we work with businesses across all regions of the UK, from London and Manchester to Edinburgh, Cardiff, and beyond."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rankston.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Chatbot Development",
+              "item": "https://rankston.com/chatbot-development"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Chatbot Development | United Kingdom Market",
+              "item": "https://rankston.com/chatbot-development/uk-agency-services"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "content": {
+    "heroTitle": "Chatbot Development | United Kingdom Market",
+    "heroSub": "Professional chatbot development for businesses across the United Kingdom. We help you rank higher, generate more leads, and grow faster.",
+    "whyPoints": [
+      "Specialists in UK market dynamics and local search behaviour",
+      "Transparent reporting — you always know what we're doing and why",
+      "Dedicated account managers based in your timezone",
+      "Proven results across 200+ UK businesses",
+      "No long-term lock-in — cancel anytime with 30 days' notice"
+    ],
+    "included": [
+      "Full Chatbot Development audit and competitor analysis",
+      "Custom strategy tailored to UK market",
+      "Monthly performance reports with clear KPIs",
+      "Dedicated support from certified specialists",
+      "Regular strategy reviews and optimisation calls"
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Discovery & Audit",
+        "desc": "We analyse your current position in the UK market, identify quick wins, and map out a roadmap."
+      },
+      {
+        "step": "02",
+        "title": "Strategy Build",
+        "desc": "Custom chatbot development strategy designed specifically for UK audience and competition."
+      },
+      {
+        "step": "03",
+        "title": "Execution",
+        "desc": "Our specialists implement every element: on-page, technical, content, and authority building."
+      },
+      {
+        "step": "04",
+        "title": "Measure & Scale",
+        "desc": "We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much do chatbot development cost in the UK?",
+        "a": "Chatbot Development in the UK typically range from £400–£4,000/month depending on scope and goals. We offer free audits to identify what your business specifically needs before any commitment."
+      },
+      {
+        "q": "How long does it take to rank in UK search results?",
+        "a": "Most UK businesses see meaningful improvements within 3–6 months. The timeline depends on your current authority, competition level, and the keywords we're targeting."
+      },
+      {
+        "q": "Is Rankston experienced with the UK market?",
+        "a": "Yes. We have extensive experience with UK search trends, local intent patterns, and the competitive landscape across multiple industries."
+      },
+      {
+        "q": "Can chatbot development work for small businesses in the UK?",
+        "a": "Definitely. Small businesses are often better positioned to dominate local and niche search terms. Our strategies are scaled appropriately for businesses at every stage."
+      },
+      {
+        "q": "Do you offer chatbot development across all UK regions?",
+        "a": "Yes — we work with businesses across all regions of the UK, from London and Manchester to Edinburgh, Cardiff, and beyond."
+      }
+    ],
+    "topKeywords": [
+      "chatbot services",
+      "ai chatbot agency",
+      "chatbot development services",
+      "chatbot development company",
+      "chatbot development company uk"
+    ]
+  }
+}

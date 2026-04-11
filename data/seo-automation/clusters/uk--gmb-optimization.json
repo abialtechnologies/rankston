@@ -1,0 +1,975 @@
+{
+  "service": "gmb-optimization",
+  "serviceSlug": "gmb-optimization",
+  "serviceTitle": "GMB Optimization",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "clusteredAt": "2026-04-11T14:37:56.642Z",
+  "totalClusters": 8,
+  "clusters": [
+    {
+      "slug": "uk-near-me",
+      "location": "Near Me United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "local seo services",
+          "searchVolume": 1900,
+          "cpc": 18.46,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "local seo services uk",
+          "searchVolume": 260,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert near me",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency near me",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire local seo services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "near me google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-best-top",
+      "location": "Best/Top United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "best local seo services",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "best google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "top google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "best gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "top gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "best google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "top google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "local seo services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "top local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "local seo services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-agency-services",
+      "location": "Agency Services United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "google my business agency",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services",
+          "searchVolume": 10,
+          "cpc": 41.83,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "services gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "company gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "services google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "company google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-hire-expert",
+      "location": "Hire Expert United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "google business profile expert",
+          "searchVolume": 20,
+          "cpc": 15.09,
+          "competition": "HIGH",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert uk",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "agency google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "services google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "company google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "professional google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "uk google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "hire google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "expert google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "uk-pricing",
+      "location": "Pricing United Kingdom",
+      "isCity": false,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "pricing google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "pricing google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "affordable google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency affordable",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "london",
+      "location": "London",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "google business profile expert london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency in london",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "manchester",
+      "location": "Manchester",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "google business profile expert manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency in manchester",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    },
+    {
+      "slug": "birmingham",
+      "location": "Birmingham",
+      "isCity": true,
+      "country": "uk",
+      "keywords": [
+        {
+          "keyword": "google business profile expert birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google business profile expert in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "gmb optimization services in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        },
+        {
+          "keyword": "google my business agency in birmingham",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization",
+          "country": "uk"
+        }
+      ]
+    }
+  ]
+}

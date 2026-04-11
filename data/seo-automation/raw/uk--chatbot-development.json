@@ -1,0 +1,912 @@
+{
+  "service": "chatbot-development",
+  "serviceSlug": "chatbot-development",
+  "serviceTitle": "Chatbot Development",
+  "country": "uk",
+  "countryName": "United Kingdom",
+  "fetchedAt": "2026-04-11T14:39:16.803Z",
+  "totalFetched": 100,
+  "totalHighIntent": 100,
+  "keywords": [
+    {
+      "keyword": "chatbot services",
+      "searchVolume": 140,
+      "cpc": 56.39,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency",
+      "searchVolume": 70,
+      "cpc": 12.16,
+      "competition": "MEDIUM",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development services",
+      "searchVolume": 40,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best chatbot development company",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top chatbot development company",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company in london",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best chatbot services",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company near me",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk chatbot development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development company in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency near me",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk ai chatbot agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency in london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "ai chatbot agency in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "agency chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "services chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "company chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "near me chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services near me",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "pricing chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "expert chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "professional chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "affordable chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services affordable",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "uk chatbot services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services in london",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services in manchester",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot services in birmingham",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development services uk",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "best chatbot development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "top chatbot development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "chatbot development services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    },
+    {
+      "keyword": "hire chatbot development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "country": "uk"
+    }
+  ]
+}
