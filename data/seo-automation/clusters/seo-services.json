@@ -1,0 +1,771 @@
+{
+  "service": "seo-services",
+  "serviceSlug": "seo-services",
+  "serviceTitle": "SEO Services",
+  "clusteredAt": "2026-04-11T04:10:39.201Z",
+  "totalClusters": 7,
+  "clusters": [
+    {
+      "clusterId": "seo-services-usa-agency-services",
+      "clusterSlug": "seo-services/usa-agency-services",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "seo services",
+          "searchVolume": 110000,
+          "cpc": 44.71,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "services seo services",
+          "searchVolume": 110000,
+          "cpc": 44.71,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services services",
+          "searchVolume": 110000,
+          "cpc": 44.71,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization services",
+          "searchVolume": 110000,
+          "cpc": 44.71,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency",
+          "searchVolume": 33100,
+          "cpc": 55.19,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization agency",
+          "searchVolume": 33100,
+          "cpc": 55.19,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company",
+          "searchVolume": 27100,
+          "cpc": 66.78,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization company",
+          "searchVolume": 27100,
+          "cpc": 66.78,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services company",
+          "searchVolume": 2900,
+          "cpc": 45.04,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "services seo company",
+          "searchVolume": 2900,
+          "cpc": 45.04,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "professional seo services",
+          "searchVolume": 1900,
+          "cpc": 51.29,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services professional",
+          "searchVolume": 1900,
+          "cpc": 51.29,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency services",
+          "searchVolume": 1300,
+          "cpc": 38.19,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "agency seo services",
+          "searchVolume": 1300,
+          "cpc": 38.19,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "professional seo company",
+          "searchVolume": 1000,
+          "cpc": 0.26,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services agency",
+          "searchVolume": 590,
+          "cpc": 29.19,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "professional seo agency",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency company",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "agency seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "services seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "agency seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "agency search engine optimization",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "services search engine optimization",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 22982,
+      "topKeyword": "seo services"
+    },
+    {
+      "clusterId": "seo-services-usa-near-me",
+      "clusterSlug": "seo-services/usa-near-me",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "seo agency near me",
+          "searchVolume": 27100,
+          "cpc": 43.13,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "near me seo services",
+          "searchVolume": 27100,
+          "cpc": 43.13,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services near me",
+          "searchVolume": 27100,
+          "cpc": 43.13,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization near me",
+          "searchVolume": 2900,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "near me seo company",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "near me seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "near me search engine optimization",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 12033,
+      "topKeyword": "seo agency near me"
+    },
+    {
+      "clusterId": "seo-services-new-york",
+      "clusterSlug": "seo-services/new-york",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "seo company company",
+          "searchVolume": 27100,
+          "cpc": 66.78,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company near me",
+          "searchVolume": 18100,
+          "cpc": 53.37,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company best",
+          "searchVolume": 6600,
+          "cpc": 82.85,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "company seo services",
+          "searchVolume": 2900,
+          "cpc": 45.04,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company services",
+          "searchVolume": 2900,
+          "cpc": 45.04,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company pricing",
+          "searchVolume": 720,
+          "cpc": 11.7,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "company search engine optimization",
+          "searchVolume": 590,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company expert",
+          "searchVolume": 480,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company top",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "company seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "company seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 4244,
+      "topKeyword": "seo company company"
+    },
+    {
+      "clusterId": "seo-services-usa-best-top",
+      "clusterSlug": "seo-services/usa-best-top",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best seo agency",
+          "searchVolume": 6600,
+          "cpc": 82.85,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency best",
+          "searchVolume": 6600,
+          "cpc": 82.85,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "best seo company",
+          "searchVolume": 6600,
+          "cpc": 82.85,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "best seo services",
+          "searchVolume": 1900,
+          "cpc": 54.41,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services best",
+          "searchVolume": 1900,
+          "cpc": 54.41,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "top seo company",
+          "searchVolume": 1300,
+          "cpc": 51.34,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "top seo agency",
+          "searchVolume": 720,
+          "cpc": 60.22,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "best search engine optimization",
+          "searchVolume": 720,
+          "cpc": 47.47,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization best",
+          "searchVolume": 720,
+          "cpc": 47.47,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "top seo services",
+          "searchVolume": 480,
+          "cpc": 44.55,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services top",
+          "searchVolume": 480,
+          "cpc": 44.55,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "top search engine optimization",
+          "searchVolume": 210,
+          "cpc": 42.52,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization top",
+          "searchVolume": 210,
+          "cpc": 42.52,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency top",
+          "searchVolume": 10,
+          "cpc": 43.14,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 2032,
+      "topKeyword": "best seo agency"
+    },
+    {
+      "clusterId": "seo-services-usa-pricing",
+      "clusterSlug": "seo-services/usa-pricing",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "search engine optimization pricing",
+          "searchVolume": 5400,
+          "cpc": 16.82,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "pricing seo services",
+          "searchVolume": 1900,
+          "cpc": 21.23,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services pricing",
+          "searchVolume": 1900,
+          "cpc": 21.23,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency pricing",
+          "searchVolume": 720,
+          "cpc": 11.7,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "pricing seo agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "pricing seo company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "pricing search engine optimization",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 1417,
+      "topKeyword": "search engine optimization pricing"
+    },
+    {
+      "clusterId": "seo-services-usa-hire-expert",
+      "clusterSlug": "seo-services/usa-hire-expert",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "search engine optimization expert",
+          "searchVolume": 6600,
+          "cpc": 47.52,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "expert seo services",
+          "searchVolume": 1900,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services expert",
+          "searchVolume": 1900,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "expert search engine optimization",
+          "searchVolume": 390,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "hire seo company",
+          "searchVolume": 320,
+          "cpc": 18.05,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "expert seo agency",
+          "searchVolume": 260,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "expert seo company",
+          "searchVolume": 210,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "hire seo agency",
+          "searchVolume": 170,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "hire seo services",
+          "searchVolume": 20,
+          "cpc": 14.45,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo services hire",
+          "searchVolume": 20,
+          "cpc": 14.45,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "hire search engine optimization",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "seo agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 843,
+      "topKeyword": "search engine optimization expert"
+    },
+    {
+      "clusterId": "seo-services-usa-other",
+      "clusterSlug": "seo-services/usa-other",
+      "serviceId": "seo-services",
+      "serviceSlug": "seo-services",
+      "serviceTitle": "SEO Services",
+      "location": "United States",
+      "locationSlug": "usa-other",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "professional search engine optimization",
+          "searchVolume": 480,
+          "cpc": 55.9,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        },
+        {
+          "keyword": "search engine optimization professional",
+          "searchVolume": 480,
+          "cpc": 55.9,
+          "competition": "LOW",
+          "service": "seo-services",
+          "serviceSlug": "seo-services"
+        }
+      ],
+      "avgVolume": 480,
+      "topKeyword": "professional search engine optimization"
+    }
+  ]
+}

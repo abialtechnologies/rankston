@@ -107,12 +107,6 @@ export default function AdminDashboard() {
           </div>
           <div className="flex items-center gap-3">
             <Link
-              href="/admin/dashboard/seo"
-              className="px-4 py-2 rounded-lg border border-emerald-500/30 text-emerald-400 text-sm font-semibold hover:bg-emerald-500/10 transition-colors"
-            >
-              🔍 SEO Intelligence
-            </Link>
-            <Link
               href="/admin/dashboard/create"
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-semibold hover:opacity-90 transition-opacity"
             >

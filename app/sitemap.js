@@ -18,13 +18,16 @@
  */
 
 import services from '../data/services.json';
+import fs from 'fs';
+import path from 'path';
 
 const BASE = 'https://rankston.com';
+const SEO_PAGES_DIR = path.join(process.cwd(), 'data', 'seo-automation', 'pages');
 
 export default function sitemap() {
   const now = new Date();
 
-  // ── Static pages (home, blog, about, contact) ──
+  // ── Static pages ──
   const staticPages = [
     { url: `${BASE}`,         lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
     { url: `${BASE}/blog`,    lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
@@ -32,7 +35,7 @@ export default function sitemap() {
     { url: `${BASE}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
   ];
 
-  // ── Service main pages — highest priority programmatic pages ──
+  // ── Service main pages ──
   const servicePages = services.map((svc) => ({
     url: `${BASE}/${svc.slug}`,
     lastModified: now,
@@ -40,15 +43,27 @@ export default function sitemap() {
     priority: 0.95,
   }));
 
-  // The rest of the URLs are in separate sitemaps for crawl budget control:
-  // /sitemap-services.xml → sub-services, niches, resources
-  // /sitemap-states.xml   → 500 state pages
-  // /sitemap-cities.xml   → 4,850 city pages
-  // /sitemap-content.xml  → blog + industry pages
-  // /sitemap-segments.xml → 8,300 segment sub-pages (lowest priority)
+  // ── Auto-generated SEO location pages ──
+  const seoLocationPages = [];
+  if (fs.existsSync(SEO_PAGES_DIR)) {
+    const files = fs.readdirSync(SEO_PAGES_DIR).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+      try {
+        const page = JSON.parse(fs.readFileSync(path.join(SEO_PAGES_DIR, file), 'utf-8'));
+        seoLocationPages.push({
+          url: page.seo?.canonical || `${BASE}/${page.clusterSlug}`,
+          lastModified: page.generatedAt ? new Date(page.generatedAt) : now,
+          changeFrequency: 'monthly',
+          priority: 0.85,
+        });
+      } catch { /* skip malformed */ }
+    }
+  }
 
   return [
     ...staticPages,
     ...servicePages,
+    ...seoLocationPages,
   ];
 }
+

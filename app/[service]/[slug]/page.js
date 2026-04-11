@@ -1,12 +1,31 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import fs from 'fs';
+import path from 'path';
 import services from '../../../data/services.json';
 import locations from '../../../data/locations.json';
 import subServices from '../../../data/sub-services.js';
 import SubServicePage from '../../../components/SubServicePage';
 import StateHubPage from '../../../components/state-pages/StateHubPage';
+import SEOLocationPage from '../../../components/seo/SEOLocationPage';
 import LeadForm from '../../../components/LeadForm';
 import { buildStateContent } from '../../../data/state-content-generator.js';
+
+const SEO_PAGES_DIR = path.join(process.cwd(), 'data', 'seo-automation', 'pages');
+
+function getSeoPage(serviceSlug, slug) {
+  const fileName = `${serviceSlug}--${slug}.json`;
+  const filePath = path.join(SEO_PAGES_DIR, fileName);
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+function getAllSeoPages() {
+  if (!fs.existsSync(SEO_PAGES_DIR)) return [];
+  return fs.readdirSync(SEO_PAGES_DIR)
+    .filter(f => f.endsWith('.json'))
+    .map(f => JSON.parse(fs.readFileSync(path.join(SEO_PAGES_DIR, f), 'utf-8')));
+}
 
 /* ------------------------------------------------------------------ */
 /*  generateStaticParams – emit BOTH state slugs AND sub-service slugs */
@@ -26,6 +45,12 @@ export async function generateStaticParams() {
     for (const sub of subs) {
       params.push({ service: serviceSlug, slug: sub.slug });
     }
+  }
+
+  // SEO automation pages: /[service]/[location-cluster-slug]
+  const seoPages = getAllSeoPages();
+  for (const p of seoPages) {
+    params.push({ service: p.serviceSlug, slug: p.locationSlug });
   }
 
   return params;
@@ -90,6 +115,21 @@ export async function generateMetadata({ params }) {
         title: `${sub.label} | Rankston`,
         description: sub.desc,
         url: `https://rankston.com/${service}/${slug}`,
+      },
+    };
+  }
+
+  // Try SEO automation page
+  const seoPage = getSeoPage(service, slug);
+  if (seoPage) {
+    return {
+      title: seoPage.seo.metaTitle,
+      description: seoPage.seo.metaDescription,
+      alternates: { canonical: seoPage.seo.canonical },
+      openGraph: {
+        title: seoPage.seo.metaTitle,
+        description: seoPage.seo.metaDescription,
+        url: seoPage.seo.canonical,
       },
     };
   }
@@ -179,17 +219,36 @@ export default async function ServiceSlugPage({ params }) {
 
   // ── Sub-service page ──────────────────────────────────────────────
   const subs = subServices[service];
-  if (!subs) notFound();
-  const sub = subs.find((s) => s.slug === slug);
-  if (!sub) notFound();
-  const related = subs.filter((s) => s.slug !== slug).slice(0, 4);
+  const sub2 = subs ? subs.find((s) => s.slug === slug) : null;
+  if (sub2) {
+    const related = subs.filter((s) => s.slug !== slug).slice(0, 4);
+    return (
+      <>
+        <SubServicePage sub={sub2} service={svc} related={related} />
+        <div id="contact"><LeadForm /></div>
+      </>
+    );
+  }
 
-  return (
-    <>
-      <SubServicePage sub={sub} service={svc} related={related} />
-      <div id="contact">
-        <LeadForm />
-      </div>
-    </>
-  );
+  // ── SEO Automation page ───────────────────────────────────────────
+  const seoPage = getSeoPage(service, slug);
+  if (seoPage) {
+    const allSeoPages = getAllSeoPages();
+    const relatedPages = allSeoPages
+      .filter(p => p.serviceSlug === service && p.locationSlug !== slug)
+      .slice(0, 6)
+      .map(p => ({
+        title: `${p.serviceTitle} in ${p.location}`,
+        url: `/${p.serviceSlug}/${p.locationSlug}`,
+        location: p.location,
+      }));
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(seoPage.seo.schema) }} />
+        <SEOLocationPage page={seoPage} relatedPages={relatedPages} />
+      </>
+    );
+  }
+
+  notFound();
 }
