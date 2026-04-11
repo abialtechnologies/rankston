@@ -1,0 +1,771 @@
+{
+  "service": "social-media-marketing",
+  "serviceSlug": "social-media-marketing",
+  "serviceTitle": "Social Media Marketing",
+  "clusteredAt": "2026-04-11T07:02:07.497Z",
+  "totalClusters": 7,
+  "clusters": [
+    {
+      "clusterId": "social-media-marketing-usa-agency-services",
+      "clusterSlug": "social-media-marketing/usa-agency-services",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "social media agency services",
+          "searchVolume": 14800,
+          "cpc": 19.46,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services",
+          "searchVolume": 14800,
+          "cpc": 19.46,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency",
+          "searchVolume": 8100,
+          "cpc": 16.69,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management company",
+          "searchVolume": 3600,
+          "cpc": 25.08,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management services",
+          "searchVolume": 2900,
+          "cpc": 15.63,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "agency social media management",
+          "searchVolume": 1900,
+          "cpc": 18.35,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management agency",
+          "searchVolume": 1900,
+          "cpc": 18.35,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services agency",
+          "searchVolume": 260,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency",
+          "searchVolume": 170,
+          "cpc": 15.16,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services company",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "professional social media agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "professional social media marketing services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "agency social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "services social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "agency social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "services social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "agency smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "services smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "professional smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "services social media management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 1672,
+      "topKeyword": "social media agency services"
+    },
+    {
+      "clusterId": "social-media-marketing-new-york",
+      "clusterSlug": "social-media-marketing/new-york",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company social media management",
+          "searchVolume": 3600,
+          "cpc": 25.08,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "company social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "company social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "company smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 900,
+      "topKeyword": "company social media management"
+    },
+    {
+      "clusterId": "social-media-marketing-usa-near-me",
+      "clusterSlug": "social-media-marketing/usa-near-me",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "social media management near me",
+          "searchVolume": 2900,
+          "cpc": 12.46,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency near me",
+          "searchVolume": 1300,
+          "cpc": 16.68,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services near me",
+          "searchVolume": 320,
+          "cpc": 16.05,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency near me",
+          "searchVolume": 10,
+          "cpc": 7.6,
+          "competition": "HIGH",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "near me social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "near me social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "near me smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "near me social media management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 566,
+      "topKeyword": "social media management near me"
+    },
+    {
+      "clusterId": "social-media-marketing-usa-pricing",
+      "clusterSlug": "social-media-marketing/usa-pricing",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "pricing social media management",
+          "searchVolume": 880,
+          "cpc": 6.81,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management pricing",
+          "searchVolume": 880,
+          "cpc": 6.81,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency pricing",
+          "searchVolume": 170,
+          "cpc": 5.02,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "pricing social media marketing services",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services pricing",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "pricing social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "pricing smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 255,
+      "topKeyword": "pricing social media management"
+    },
+    {
+      "clusterId": "social-media-marketing-usa-best-top",
+      "clusterSlug": "social-media-marketing/usa-best-top",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best social media agency",
+          "searchVolume": 170,
+          "cpc": 31.78,
+          "competition": "MEDIUM",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency best",
+          "searchVolume": 170,
+          "cpc": 31.78,
+          "competition": "MEDIUM",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "top social media agency",
+          "searchVolume": 170,
+          "cpc": 74,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "best social media management",
+          "searchVolume": 90,
+          "cpc": 15.58,
+          "competition": "MEDIUM",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "best social media marketing services",
+          "searchVolume": 40,
+          "cpc": 15.64,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "top social media management",
+          "searchVolume": 40,
+          "cpc": 9.8,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "top social media marketing services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "HIGH",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "best smm agency",
+          "searchVolume": 10,
+          "cpc": 11.49,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "top smm agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 44,
+      "topKeyword": "best social media agency"
+    },
+    {
+      "clusterId": "social-media-marketing-usa-other",
+      "clusterSlug": "social-media-marketing/usa-other",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-other",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "professional social media management",
+          "searchVolume": 50,
+          "cpc": 8.96,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 25,
+      "topKeyword": "professional social media management"
+    },
+    {
+      "clusterId": "social-media-marketing-usa-hire-expert",
+      "clusterSlug": "social-media-marketing/usa-hire-expert",
+      "serviceId": "social-media-marketing",
+      "serviceSlug": "social-media-marketing",
+      "serviceTitle": "Social Media Marketing",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire social media management",
+          "searchVolume": 30,
+          "cpc": 21.26,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "expert social media management",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management expert",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "hire social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "expert social media agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "hire social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "expert social media marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media marketing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "hire smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "expert smm agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "smm agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        },
+        {
+          "keyword": "social media management hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "social-media-marketing",
+          "serviceSlug": "social-media-marketing"
+        }
+      ],
+      "avgVolume": 3,
+      "topKeyword": "hire social media management"
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "service": "chatbot-development",
+  "serviceSlug": "chatbot-development",
+  "serviceTitle": "Chatbot Development",
+  "clusteredAt": "2026-04-11T07:02:37.792Z",
+  "totalClusters": 6,
+  "clusters": [
+    {
+      "clusterId": "chatbot-development-usa-agency-services",
+      "clusterSlug": "chatbot-development/usa-agency-services",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "chatbot services",
+          "searchVolume": 165000,
+          "cpc": 21.69,
+          "competition": "LOW",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services",
+          "searchVolume": 480,
+          "cpc": 12.84,
+          "competition": "LOW",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company",
+          "searchVolume": 320,
+          "cpc": 28.22,
+          "competition": "LOW",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency",
+          "searchVolume": 320,
+          "cpc": 19.56,
+          "competition": "MEDIUM",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "agency chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "services chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "professional chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "agency ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "services ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "professional ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "agency chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "services chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "professional chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "agency chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "services chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "professional chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 5933,
+      "topKeyword": "chatbot services"
+    },
+    {
+      "clusterId": "chatbot-development-usa-best-top",
+      "clusterSlug": "chatbot-development/usa-best-top",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best chatbot development company",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "best chatbot services",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "top chatbot development company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "best ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "top ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "top chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "best chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "top chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 4,
+      "topKeyword": "best chatbot development company"
+    },
+    {
+      "clusterId": "chatbot-development-new-york",
+      "clusterSlug": "chatbot-development/new-york",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "chatbot development company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "company chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "company ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "company chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "company chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "chatbot development company best"
+    },
+    {
+      "clusterId": "chatbot-development-usa-pricing",
+      "clusterSlug": "chatbot-development/usa-pricing",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "pricing chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "pricing ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "pricing chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "pricing chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "pricing chatbot development company"
+    },
+    {
+      "clusterId": "chatbot-development-usa-hire-expert",
+      "clusterSlug": "chatbot-development/usa-hire-expert",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "expert chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "hire ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "expert ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "hire chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "expert chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "hire chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "expert chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "hire chatbot development company"
+    },
+    {
+      "clusterId": "chatbot-development-usa-near-me",
+      "clusterSlug": "chatbot-development/usa-near-me",
+      "serviceId": "chatbot-development",
+      "serviceSlug": "chatbot-development",
+      "serviceTitle": "Chatbot Development",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "near me chatbot development company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "near me ai chatbot agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "ai chatbot agency near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "near me chatbot services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "near me chatbot development services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        },
+        {
+          "keyword": "chatbot development services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "chatbot-development",
+          "serviceSlug": "chatbot-development"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "near me chatbot development company"
+    }
+  ]
+}

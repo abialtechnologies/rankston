@@ -1,0 +1,765 @@
+{
+  "service": "graphic-designing",
+  "serviceSlug": "graphic-designing",
+  "serviceTitle": "Graphic Designing",
+  "clusteredAt": "2026-04-11T07:02:16.934Z",
+  "totalClusters": 6,
+  "clusters": [
+    {
+      "clusterId": "graphic-designing-usa-agency-services",
+      "clusterSlug": "graphic-designing/usa-agency-services",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "logo design company",
+          "searchVolume": 9900,
+          "cpc": 8.96,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency",
+          "searchVolume": 8100,
+          "cpc": 8.87,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services",
+          "searchVolume": 8100,
+          "cpc": 17.96,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency",
+          "searchVolume": 1000,
+          "cpc": 15.73,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services company",
+          "searchVolume": 90,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "professional graphic design services",
+          "searchVolume": 90,
+          "cpc": 30.49,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency services",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "professional logo design company",
+          "searchVolume": 50,
+          "cpc": 38.81,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "professional graphic design agency",
+          "searchVolume": 40,
+          "cpc": 30.35,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "agency graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "services graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "agency graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "services graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "agency logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "services logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "agency brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "services brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "professional brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 980,
+      "topKeyword": "logo design company"
+    },
+    {
+      "clusterId": "graphic-designing-new-york",
+      "clusterSlug": "graphic-designing/new-york",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company logo design company",
+          "searchVolume": 9900,
+          "cpc": 8.96,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company near me",
+          "searchVolume": 1900,
+          "cpc": 9.21,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company professional",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "company graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "company graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "logo design company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "company brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 844,
+      "topKeyword": "company logo design company"
+    },
+    {
+      "clusterId": "graphic-designing-usa-near-me",
+      "clusterSlug": "graphic-designing/usa-near-me",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "graphic design agency near me",
+          "searchVolume": 1600,
+          "cpc": 6.33,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services near me",
+          "searchVolume": 590,
+          "cpc": 8.1,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency near me",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "near me graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "near me graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "near me logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "near me brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 316,
+      "topKeyword": "graphic design agency near me"
+    },
+    {
+      "clusterId": "graphic-designing-usa-best-top",
+      "clusterSlug": "graphic-designing/usa-best-top",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best graphic design agency",
+          "searchVolume": 480,
+          "cpc": 6.93,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "top graphic design agency",
+          "searchVolume": 480,
+          "cpc": 6.93,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "best logo design company",
+          "searchVolume": 480,
+          "cpc": 15.41,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "top logo design company",
+          "searchVolume": 480,
+          "cpc": 15.41,
+          "competition": "MEDIUM",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "best graphic design services",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "best brand design agency",
+          "searchVolume": 30,
+          "cpc": 2.91,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "top graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "top brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 143,
+      "topKeyword": "best graphic design agency"
+    },
+    {
+      "clusterId": "graphic-designing-usa-pricing",
+      "clusterSlug": "graphic-designing/usa-pricing",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "pricing graphic design services",
+          "searchVolume": 50,
+          "cpc": 1.9,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services pricing",
+          "searchVolume": 50,
+          "cpc": 1.9,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "pricing graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "pricing logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "pricing brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 14,
+      "topKeyword": "pricing graphic design services"
+    },
+    {
+      "clusterId": "graphic-designing-usa-hire-expert",
+      "clusterSlug": "graphic-designing/usa-hire-expert",
+      "serviceId": "graphic-designing",
+      "serviceSlug": "graphic-designing",
+      "serviceTitle": "Graphic Designing",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire graphic design services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "hire graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "expert graphic design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "expert graphic design services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "graphic design services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "hire logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "expert logo design company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "hire brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "expert brand design agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        },
+        {
+          "keyword": "brand design agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "graphic-designing",
+          "serviceSlug": "graphic-designing"
+        }
+      ],
+      "avgVolume": 1,
+      "topKeyword": "hire graphic design services"
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "service": "web-development",
+  "serviceSlug": "web-development",
+  "serviceTitle": "Web Development",
+  "fetchedAt": "2026-04-11T07:01:59.390Z",
+  "totalFetched": 84,
+  "totalHighIntent": 83,
+  "keywords": [
+    {
+      "keyword": "web design agency",
+      "searchVolume": 12100,
+      "cpc": 20.06,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company",
+      "searchVolume": 6600,
+      "cpc": 29.24,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services",
+      "searchVolume": 6600,
+      "cpc": 30.59,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer company",
+      "searchVolume": 6600,
+      "cpc": 29.24,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer near me",
+      "searchVolume": 5400,
+      "cpc": 31.89,
+      "competition": "MEDIUM",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency near me",
+      "searchVolume": 2400,
+      "cpc": 16.07,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "top web development company",
+      "searchVolume": 1300,
+      "cpc": 30.73,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "hire web developer",
+      "searchVolume": 1000,
+      "cpc": 54.97,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer hire",
+      "searchVolume": 1000,
+      "cpc": 54.97,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "best web design agency",
+      "searchVolume": 880,
+      "cpc": 16.2,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services company",
+      "searchVolume": 880,
+      "cpc": 21.05,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company near me",
+      "searchVolume": 590,
+      "cpc": 21.37,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "top web design agency",
+      "searchVolume": 590,
+      "cpc": 19.82,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services near me",
+      "searchVolume": 480,
+      "cpc": 15.29,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "best web developer",
+      "searchVolume": 320,
+      "cpc": 42.35,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency services",
+      "searchVolume": 260,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "best web development company",
+      "searchVolume": 210,
+      "cpc": 138.8,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "top web developer",
+      "searchVolume": 210,
+      "cpc": 72.23,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "company web developer",
+      "searchVolume": 210,
+      "cpc": 267.5,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "services web developer",
+      "searchVolume": 170,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer services",
+      "searchVolume": 170,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "professional web development company",
+      "searchVolume": 140,
+      "cpc": 27.3,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "professional web developer",
+      "searchVolume": 140,
+      "cpc": 75.97,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "professional web design agency",
+      "searchVolume": 110,
+      "cpc": 58.91,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "best website development services",
+      "searchVolume": 90,
+      "cpc": 61.14,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer agency",
+      "searchVolume": 90,
+      "cpc": 17.24,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "expert web developer",
+      "searchVolume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer expert",
+      "searchVolume": 90,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer pricing",
+      "searchVolume": 50,
+      "cpc": 7.55,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency pricing",
+      "searchVolume": 40,
+      "cpc": 6.4,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "professional website development services",
+      "searchVolume": 40,
+      "cpc": 81.11,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "hire web development company",
+      "searchVolume": 30,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "top website development services",
+      "searchVolume": 20,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company pricing",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "hire web design agency",
+      "searchVolume": 10,
+      "cpc": 89.76,
+      "competition": "MEDIUM",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services agency",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "agency web developer",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer professional",
+      "searchVolume": 10,
+      "cpc": 0,
+      "competition": "LOW",
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "agency web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "services web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "company web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "near me web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "pricing web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "expert web development company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web development company professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "agency web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "services web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "company web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency company",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "near me web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "pricing web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "expert web design agency",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web design agency professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "hire website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services hire",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "agency website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "services website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "company website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "near me website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "pricing website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services pricing",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "expert website development services",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services expert",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "website development services professional",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer best",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "web developer top",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "near me web developer",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    },
+    {
+      "keyword": "pricing web developer",
+      "searchVolume": 0,
+      "cpc": 0,
+      "competition": 0,
+      "service": "web-development",
+      "serviceSlug": "web-development"
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "service": "ai-automation",
+  "serviceSlug": "ai-automation",
+  "serviceTitle": "AI Automation",
+  "clusteredAt": "2026-04-11T07:02:32.825Z",
+  "totalClusters": 6,
+  "clusters": [
+    {
+      "clusterId": "ai-automation-usa-agency-services",
+      "clusterSlug": "ai-automation/usa-agency-services",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ai automation agency",
+          "searchVolume": 2900,
+          "cpc": 14.46,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services",
+          "searchVolume": 590,
+          "cpc": 29.61,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services",
+          "searchVolume": 480,
+          "cpc": 25.07,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency services",
+          "searchVolume": 210,
+          "cpc": 17.02,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company",
+          "searchVolume": 210,
+          "cpc": 16.89,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "agency ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "services ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "professional ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "agency ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "services ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "professional ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "agency marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "services marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "professional marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "agency ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "services ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "professional ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 157,
+      "topKeyword": "ai automation agency"
+    },
+    {
+      "clusterId": "ai-automation-usa-near-me",
+      "clusterSlug": "ai-automation/usa-near-me",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ai automation agency near me",
+          "searchVolume": 50,
+          "cpc": 12.49,
+          "competition": "HIGH",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services near me",
+          "searchVolume": 10,
+          "cpc": 83.77,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "near me ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "near me ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "near me marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "near me ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 9,
+      "topKeyword": "ai automation agency near me"
+    },
+    {
+      "clusterId": "ai-automation-usa-pricing",
+      "clusterSlug": "ai-automation/usa-pricing",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ai automation agency pricing",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "pricing ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "pricing ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "pricing marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "pricing ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 4,
+      "topKeyword": "ai automation agency pricing"
+    },
+    {
+      "clusterId": "ai-automation-usa-best-top",
+      "clusterSlug": "ai-automation/usa-best-top",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best ai automation agency",
+          "searchVolume": 20,
+          "cpc": 12.13,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "top ai automation agency",
+          "searchVolume": 20,
+          "cpc": 19.91,
+          "competition": "MEDIUM",
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "best ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "top ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "best marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "top marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "best ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "top ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 3,
+      "topKeyword": "best ai automation agency"
+    },
+    {
+      "clusterId": "ai-automation-new-york",
+      "clusterSlug": "ai-automation/new-york",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "company ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "company marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "marketing automation company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "company ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "company ai automation agency"
+    },
+    {
+      "clusterId": "ai-automation-usa-hire-expert",
+      "clusterSlug": "ai-automation/usa-hire-expert",
+      "serviceId": "ai-automation",
+      "serviceSlug": "ai-automation",
+      "serviceTitle": "AI Automation",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "expert ai automation agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "hire ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "expert ai marketing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai marketing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "hire marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "expert marketing automation company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "hire ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "expert ai automation services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        },
+        {
+          "keyword": "ai automation services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ai-automation",
+          "serviceSlug": "ai-automation"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "hire ai automation agency"
+    }
+  ]
+}

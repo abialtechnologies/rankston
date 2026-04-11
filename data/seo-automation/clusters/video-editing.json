@@ -1,0 +1,771 @@
+{
+  "service": "video-editing",
+  "serviceSlug": "video-editing",
+  "serviceTitle": "Video Editing",
+  "clusteredAt": "2026-04-11T07:02:20.085Z",
+  "totalClusters": 7,
+  "clusters": [
+    {
+      "clusterId": "video-editing-new-york",
+      "clusterSlug": "video-editing/new-york",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company video production company",
+          "searchVolume": 5400,
+          "cpc": 14.17,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company near me",
+          "searchVolume": 3600,
+          "cpc": 12.39,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company services",
+          "searchVolume": 40,
+          "cpc": 13.19,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company pricing",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "company video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video production company professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "company video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "company commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 646,
+      "topKeyword": "company video production company"
+    },
+    {
+      "clusterId": "video-editing-usa-agency-services",
+      "clusterSlug": "video-editing/usa-agency-services",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "video production company",
+          "searchVolume": 5400,
+          "cpc": 14.17,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services",
+          "searchVolume": 2400,
+          "cpc": 17.97,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency",
+          "searchVolume": 720,
+          "cpc": 24.14,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production company",
+          "searchVolume": 480,
+          "cpc": 11.7,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "professional video production company",
+          "searchVolume": 260,
+          "cpc": 5.14,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production services",
+          "searchVolume": 210,
+          "cpc": 108.51,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "professional video editing services",
+          "searchVolume": 140,
+          "cpc": 17.15,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production agency",
+          "searchVolume": 30,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services company",
+          "searchVolume": 20,
+          "cpc": 19.27,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "agency video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "services video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "agency video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "services video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "agency video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "services video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "professional video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "agency commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "services commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 386,
+      "topKeyword": "video production company"
+    },
+    {
+      "clusterId": "video-editing-usa-near-me",
+      "clusterSlug": "video-editing/usa-near-me",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "video editing services near me",
+          "searchVolume": 720,
+          "cpc": 11.85,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production near me",
+          "searchVolume": 210,
+          "cpc": 9.89,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency near me",
+          "searchVolume": 20,
+          "cpc": 15.63,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "near me video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "near me video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "near me video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "near me commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 136,
+      "topKeyword": "video editing services near me"
+    },
+    {
+      "clusterId": "video-editing-usa-best-top",
+      "clusterSlug": "video-editing/usa-best-top",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best video production company",
+          "searchVolume": 170,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "best video editing services",
+          "searchVolume": 70,
+          "cpc": 19.86,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "top video production company",
+          "searchVolume": 20,
+          "cpc": 3.47,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "best video editing agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "top video editing agency",
+          "searchVolume": 10,
+          "cpc": 12.81,
+          "competition": "HIGH",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "top video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "best commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "top commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 20,
+      "topKeyword": "best video production company"
+    },
+    {
+      "clusterId": "video-editing-usa-hire-expert",
+      "clusterSlug": "video-editing/usa-hire-expert",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire video production company",
+          "searchVolume": 50,
+          "cpc": 7.32,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "hire video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "expert video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "expert video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "hire video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "expert video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "hire commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "expert commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 4,
+      "topKeyword": "hire video production company"
+    },
+    {
+      "clusterId": "video-editing-usa-pricing",
+      "clusterSlug": "video-editing/usa-pricing",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "video editing services pricing",
+          "searchVolume": 10,
+          "cpc": 4.19,
+          "competition": "LOW",
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "pricing video editing services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "pricing video production company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "pricing video editing agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "video editing agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "pricing commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 1,
+      "topKeyword": "video editing services pricing"
+    },
+    {
+      "clusterId": "video-editing-usa-other",
+      "clusterSlug": "video-editing/usa-other",
+      "serviceId": "video-editing",
+      "serviceSlug": "video-editing",
+      "serviceTitle": "Video Editing",
+      "location": "United States",
+      "locationSlug": "usa-other",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "professional commercial video production",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        },
+        {
+          "keyword": "commercial video production professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "video-editing",
+          "serviceSlug": "video-editing"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "professional commercial video production"
+    }
+  ]
+}

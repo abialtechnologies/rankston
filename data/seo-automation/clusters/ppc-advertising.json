@@ -1,0 +1,771 @@
+{
+  "service": "ppc-advertising",
+  "serviceSlug": "ppc-advertising",
+  "serviceTitle": "PPC Advertising",
+  "clusteredAt": "2026-04-11T07:02:03.578Z",
+  "totalClusters": 7,
+  "clusters": [
+    {
+      "clusterId": "ppc-advertising-usa-agency-services",
+      "clusterSlug": "ppc-advertising/usa-agency-services",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ppc agency",
+          "searchVolume": 5400,
+          "cpc": 102.1,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency",
+          "searchVolume": 5400,
+          "cpc": 102.1,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services",
+          "searchVolume": 1600,
+          "cpc": 112.65,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management services",
+          "searchVolume": 880,
+          "cpc": 74.86,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency services",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management company",
+          "searchVolume": 320,
+          "cpc": 56.01,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management agency",
+          "searchVolume": 260,
+          "cpc": 94.16,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "professional ppc agency",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services company",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "professional ppc management services",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "agency ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "services ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "agency google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "services google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "agency ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "services ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "agency pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "services pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "professional pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 492,
+      "topKeyword": "ppc agency"
+    },
+    {
+      "clusterId": "ppc-advertising-usa-near-me",
+      "clusterSlug": "ppc-advertising/usa-near-me",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ppc agency near me",
+          "searchVolume": 880,
+          "cpc": 73.72,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency near me",
+          "searchVolume": 880,
+          "cpc": 73.72,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management near me",
+          "searchVolume": 590,
+          "cpc": 7.72,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services near me",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "near me ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "near me google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "near me ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "near me pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 300,
+      "topKeyword": "ppc agency near me"
+    },
+    {
+      "clusterId": "ppc-advertising-usa-best-top",
+      "clusterSlug": "ppc-advertising/usa-best-top",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best ppc agency",
+          "searchVolume": 880,
+          "cpc": 202.92,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "top ppc agency",
+          "searchVolume": 880,
+          "cpc": 202.92,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "best pay per click agency",
+          "searchVolume": 880,
+          "cpc": 202.92,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "top pay per click agency",
+          "searchVolume": 140,
+          "cpc": 79.47,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "best ppc management services",
+          "searchVolume": 110,
+          "cpc": 99.41,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "best google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "top google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "top ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 181,
+      "topKeyword": "best ppc agency"
+    },
+    {
+      "clusterId": "ppc-advertising-usa-pricing",
+      "clusterSlug": "ppc-advertising/usa-pricing",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "ppc management services pricing",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management pricing",
+          "searchVolume": 140,
+          "cpc": 26.67,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency pricing",
+          "searchVolume": 50,
+          "cpc": 29.35,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pricing ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pricing google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pricing ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pricing pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 64,
+      "topKeyword": "ppc management services pricing"
+    },
+    {
+      "clusterId": "ppc-advertising-usa-other",
+      "clusterSlug": "ppc-advertising/usa-other",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-other",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "professional google ads management",
+          "searchVolume": 10,
+          "cpc": 165.38,
+          "competition": "LOW",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 5,
+      "topKeyword": "professional google ads management"
+    },
+    {
+      "clusterId": "ppc-advertising-usa-hire-expert",
+      "clusterSlug": "ppc-advertising/usa-hire-expert",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "hire ppc agency",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "expert ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "hire google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "expert google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "google ads management expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "hire ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "expert ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "ppc management services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "hire pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "expert pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "pay per click agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 1,
+      "topKeyword": "hire ppc agency"
+    },
+    {
+      "clusterId": "ppc-advertising-new-york",
+      "clusterSlug": "ppc-advertising/new-york",
+      "serviceId": "ppc-advertising",
+      "serviceSlug": "ppc-advertising",
+      "serviceTitle": "PPC Advertising",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company ppc agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "company google ads management",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "company ppc management services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        },
+        {
+          "keyword": "company pay per click agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "ppc-advertising",
+          "serviceSlug": "ppc-advertising"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "company ppc agency"
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "service": "gmb-optimization",
+  "serviceSlug": "gmb-optimization",
+  "serviceTitle": "GMB Optimization",
+  "clusteredAt": "2026-04-11T07:02:12.973Z",
+  "totalClusters": 6,
+  "clusters": [
+    {
+      "clusterId": "gmb-optimization-usa-near-me",
+      "clusterSlug": "gmb-optimization/usa-near-me",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "United States",
+      "locationSlug": "usa-near-me",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "local seo services",
+          "searchVolume": 9900,
+          "cpc": 35.91,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services near me",
+          "searchVolume": 3600,
+          "cpc": 35.38,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "best local seo services",
+          "searchVolume": 320,
+          "cpc": 71.07,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services company",
+          "searchVolume": 320,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "near me local seo services",
+          "searchVolume": 50,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "hire local seo services",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services agency",
+          "searchVolume": 40,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert near me",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services expert",
+          "searchVolume": 20,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency near me",
+          "searchVolume": 10,
+          "cpc": 0,
+          "competition": "MEDIUM",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "near me google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "near me gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services near me",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "near me google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "top local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "agency local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "services local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "expert local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "professional local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "local seo services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 597,
+      "topKeyword": "local seo services"
+    },
+    {
+      "clusterId": "gmb-optimization-usa-pricing",
+      "clusterSlug": "gmb-optimization/usa-pricing",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "United States",
+      "locationSlug": "usa-pricing",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "local seo services pricing",
+          "searchVolume": 170,
+          "cpc": 0,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "pricing google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "pricing gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "pricing google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency pricing",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "pricing local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 21,
+      "topKeyword": "local seo services pricing"
+    },
+    {
+      "clusterId": "gmb-optimization-usa-agency-services",
+      "clusterSlug": "gmb-optimization/usa-agency-services",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "United States",
+      "locationSlug": "usa-agency-services",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "gmb optimization services",
+          "searchVolume": 170,
+          "cpc": 25.9,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency",
+          "searchVolume": 70,
+          "cpc": 19.08,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "agency gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "services gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "professional gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "agency google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "services google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "professional google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 15,
+      "topKeyword": "gmb optimization services"
+    },
+    {
+      "clusterId": "gmb-optimization-usa-hire-expert",
+      "clusterSlug": "gmb-optimization/usa-hire-expert",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "United States",
+      "locationSlug": "usa-hire-expert",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "google business profile expert",
+          "searchVolume": 170,
+          "cpc": 31.15,
+          "competition": "LOW",
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "best google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "top google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "hire google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "agency google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "services google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert company",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "expert google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "professional google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google business profile expert professional",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "hire gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "expert gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "hire google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency hire",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "expert google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 7,
+      "topKeyword": "google business profile expert"
+    },
+    {
+      "clusterId": "gmb-optimization-new-york",
+      "clusterSlug": "gmb-optimization/new-york",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "New York",
+      "locationSlug": "new-york",
+      "locationCode": "NY",
+      "keywords": [
+        {
+          "keyword": "company google business profile expert",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "company gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "company google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "company local seo services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "company google business profile expert"
+    },
+    {
+      "clusterId": "gmb-optimization-usa-best-top",
+      "clusterSlug": "gmb-optimization/usa-best-top",
+      "serviceId": "gmb-optimization",
+      "serviceSlug": "gmb-optimization",
+      "serviceTitle": "GMB Optimization",
+      "location": "United States",
+      "locationSlug": "usa-best-top",
+      "locationCode": "USA",
+      "keywords": [
+        {
+          "keyword": "best gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "top gmb optimization services",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "gmb optimization services top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "best google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency best",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "top google my business agency",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        },
+        {
+          "keyword": "google my business agency top",
+          "searchVolume": 0,
+          "cpc": 0,
+          "competition": 0,
+          "service": "gmb-optimization",
+          "serviceSlug": "gmb-optimization"
+        }
+      ],
+      "avgVolume": 0,
+      "topKeyword": "best gmb optimization services"
+    }
+  ]
+}
