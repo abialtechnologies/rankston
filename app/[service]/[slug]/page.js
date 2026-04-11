@@ -14,10 +14,23 @@ import { buildStateContent } from '../../../data/state-content-generator.js';
 const SEO_PAGES_DIR = path.join(process.cwd(), 'data', 'seo-automation', 'pages');
 
 function getSeoPage(serviceSlug, slug) {
-  const fileName = `${serviceSlug}--${slug}.json`;
-  const filePath = path.join(SEO_PAGES_DIR, fileName);
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  // Try exact match first (USA legacy)
+  const legacyFileName = `${serviceSlug}--${slug}.json`;
+  const legacyFilePath = path.join(SEO_PAGES_DIR, legacyFileName);
+  if (fs.existsSync(legacyFilePath)) {
+    return JSON.parse(fs.readFileSync(legacyFilePath, 'utf-8'));
+  }
+
+  // Try country-prefixed files (e.g. uk--seo-services--london.json)
+  if (fs.existsSync(SEO_PAGES_DIR)) {
+    const files = fs.readdirSync(SEO_PAGES_DIR);
+    const matchingFile = files.find(f => f.endsWith(`--${serviceSlug}--${slug}.json`));
+    if (matchingFile) {
+      return JSON.parse(fs.readFileSync(path.join(SEO_PAGES_DIR, matchingFile), 'utf-8'));
+    }
+  }
+
+  return null;
 }
 
 function getAllSeoPages() {
