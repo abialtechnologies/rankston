@@ -7,7 +7,7 @@
   "country": "uk",
   "countryName": "United Kingdom",
   "isCity": true,
-  "generatedAt": "2026-04-11T14:37:56.721Z",
+  "generatedAt": "2026-04-11T15:04:07.706Z",
   "keywordCount": 6,
   "topKeywords": [
     {
@@ -66,16 +66,16 @@
     }
   ],
   "seo": {
-    "metaTitle": "GMB Optimisation in Birmingham | Rankston",
-    "metaDescription": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
+    "metaTitle": "Google business profile expert birmingham | Rankston",
+    "metaDescription": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market. Whether you're sea",
     "canonical": "https://rankston.com/gmb-optimization/birmingham",
     "schema": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Service",
-          "name": "GMB Optimisation in Birmingham",
-          "description": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
+          "name": "Google business profile expert birmingham",
+          "description": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market. Whether you're sea",
           "provider": {
             "@type": "Organization",
             "name": "Rankston",
@@ -96,7 +96,7 @@
               "name": "How much do gmb optimisation cost in Birmingham?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "GMB Optimisation in Birmingham typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+                "text": "GMB Optimisation in Birmingham typically range from £500–£3,000/month depending on competition. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
               }
             },
             {
@@ -104,7 +104,7 @@
               "name": "How long before I see results from gmb optimisation in Birmingham?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+                "text": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, it may take 4–6 months to see significant improvements."
               }
             },
             {
@@ -112,15 +112,7 @@
               "name": "Do you specialise in Birmingham businesses specifically?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Our team understands the Birmingham market — local search patterns, competitor landscape, and consumer behaviour specific to Birmingham and the surrounding areas."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can you help a small business in Birmingham compete with larger brands?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. Local gmb optimisation in Birmingham levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
+                "text": "Yes. Our team understands the Birmingham market — search patterns, competitor landscape, and consumer behaviour specific to your region."
               }
             },
             {
@@ -128,7 +120,7 @@
               "name": "Do I need a contract for gmb optimisation in Birmingham?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+                "text": "We work on rolling monthly agreements. Cancel with 30 days' notice at any time — we retain clients through results, not contracts."
               }
             }
           ]
@@ -151,7 +143,7 @@
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "GMB Optimisation in Birmingham",
+              "name": "Google business profile expert birmingham",
               "item": "https://rankston.com/gmb-optimization/birmingham"
             }
           ]
@@ -160,72 +152,48 @@
     }
   },
   "content": {
-    "heroTitle": "GMB Optimisation in Birmingham",
-    "heroSub": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market.",
-    "whyPoints": [
-      "Specialists in UK market dynamics and local search behaviour",
-      "Transparent reporting — you always know what we're doing and why",
-      "Dedicated account managers based in your timezone",
-      "Proven results across 200+ UK businesses",
-      "No long-term lock-in — cancel anytime with 30 days' notice"
-    ],
-    "included": [
-      "Full GMB Optimisation audit and competitor analysis",
-      "Custom strategy tailored to Birmingham market",
-      "Monthly performance reports with clear KPIs",
-      "Dedicated support from certified specialists",
-      "Regular strategy reviews and optimisation calls"
-    ],
-    "process": [
+    "h1": "Google business profile expert birmingham",
+    "h1Sub": "GMB Optimisation in Birmingham — Rankston",
+    "heroParagraph": "Looking for expert gmb optimisation in Birmingham? Rankston delivers proven results for businesses across Birmingham and the wider UK market. Whether you're searching for <em>google business profile expert birmingham</em>, <em>google business profile expert in birmingham</em>, <em>gmb optimisation services birmingham</em> — you've come to the right place. We combine data-backed strategies with measurable ROI.",
+    "sections": [
       {
-        "step": "01",
-        "title": "Discovery & Audit",
-        "desc": "We analyse your current position in the Birmingham market, identify quick wins, and map out a roadmap."
+        "h2": "Why Birmingham Businesses Choose Rankston for GMB Optimisation",
+        "body": "The gmb optimisation landscape in Birmingham is competitive, and you need specialists who understand UK market dynamics and local search behaviour.\n\nOur approach is built on transparent reporting, dedicated account managers, and proven strategies that have worked for 200+ businesses. We don't just run campaigns — we build systems that generate predictable, compounding results month after month."
       },
       {
-        "step": "02",
-        "title": "Strategy Build",
-        "desc": "Custom gmb optimisation strategy designed specifically for Birmingham audience and competition."
+        "h2": "What's Included in Our GMB Optimisation",
+        "body": "We provide a comprehensive strategy tailored specifically to the Birmingham market:\n\n• **Full audit and competitor analysis**\n• **Custom strategy for high-intent keywords**\n• **Monthly performance reports with clear KPIs**\n• **Dedicated support from certified specialists**\n\nNo two clients get the same strategy, because every business requires a customised approach to dominate search performance."
       },
       {
-        "step": "03",
-        "title": "Execution",
-        "desc": "Our specialists implement every element: on-page, technical, content, and authority building."
-      },
-      {
-        "step": "04",
-        "title": "Measure & Scale",
-        "desc": "We track rankings, traffic, and leads. Monthly reviews ensure continuous improvement and growth."
+        "h2": "Our Proven Process for GMB Optimisation",
+        "body": "**Step 1: Discovery & Audit** — We analyse your current position in the Birmingham market and identify quick wins.\n\n**Step 2: Strategy Build** — We design a custom gmb optimisation roadmap tailored to your specific audience and competitive landscape.\n\n**Step 3: Execution** — Our specialists implement technical, content, and authority-building optimisations.\n\n**Step 4: Measure & Scale** — We track rankings, traffic, and leads, optimising continuously for better ROI."
       }
     ],
     "faqs": [
       {
-        "q": "How much do gmb optimisation cost in Birmingham?",
-        "a": "GMB Optimisation in Birmingham typically range from £500–£3,000/month depending on competition and scope. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
+        "question": "How much do gmb optimisation cost in Birmingham?",
+        "answer": "GMB Optimisation in Birmingham typically range from £500–£3,000/month depending on competition. We offer transparent pricing with no hidden fees — contact us for a free custom quote."
       },
       {
-        "q": "How long before I see results from gmb optimisation in Birmingham?",
-        "a": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, allow 4–6 months for significant ranking improvements."
+        "question": "How long before I see results from gmb optimisation in Birmingham?",
+        "answer": "Most Birmingham businesses see measurable improvements within 60–90 days. For highly competitive niches, it may take 4–6 months to see significant improvements."
       },
       {
-        "q": "Do you specialise in Birmingham businesses specifically?",
-        "a": "Yes. Our team understands the Birmingham market — local search patterns, competitor landscape, and consumer behaviour specific to Birmingham and the surrounding areas."
+        "question": "Do you specialise in Birmingham businesses specifically?",
+        "answer": "Yes. Our team understands the Birmingham market — search patterns, competitor landscape, and consumer behaviour specific to your region."
       },
       {
-        "q": "Can you help a small business in Birmingham compete with larger brands?",
-        "a": "Absolutely. Local gmb optimisation in Birmingham levels the playing field. We focus on high-intent local searches where small businesses consistently outperform larger national brands."
-      },
-      {
-        "q": "Do I need a contract for gmb optimisation in Birmingham?",
-        "a": "We work on rolling monthly agreements. Most clients stay because of results, not contracts. Cancel with 30 days' notice at any time."
+        "question": "Do I need a contract for gmb optimisation in Birmingham?",
+        "answer": "We work on rolling monthly agreements. Cancel with 30 days' notice at any time — we retain clients through results, not contracts."
       }
     ],
-    "topKeywords": [
-      "google business profile expert birmingham",
-      "google business profile expert in birmingham",
-      "gmb optimization services birmingham",
-      "gmb optimization services in birmingham",
-      "google my business agency birmingham"
-    ]
+    "cta": {
+      "heading": "Ready to Dominate GMB Optimisation in Birmingham?",
+      "subheading": "Get a free gmb optimisation audit and custom strategy — no commitment required.",
+      "buttonText": "Get Your Free Audit",
+      "buttonLink": "/#contact",
+      "secondaryText": "Book a Call",
+      "secondaryLink": "https://calendly.com/rankston"
+    }
   }
 }
