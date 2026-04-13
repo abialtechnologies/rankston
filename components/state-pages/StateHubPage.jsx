@@ -5,6 +5,7 @@ import LeadForm from '../LeadForm';
 import GoogleReviews from '../GoogleReviews';
 import services from '../../data/services.json';
 import locations from '../../data/locations.json';
+import ukLocations from '../../data/uk-locations.json';
 
 /* ─── Helpers ────────────────────────────────────────────────── */
 function Stars({ n = 5 }) {
@@ -49,6 +50,7 @@ export default function StateHubPage({ svc, stateData, content }) {
   const AC = svc.accentColor || '#10B981';
   const cities = stateData.cities || [];
   const hasFallback = !content;
+  const isUK = stateData.country === 'uk';
 
   if (hasFallback) {
     return (
@@ -84,7 +86,9 @@ export default function StateHubPage({ svc, stateData, content }) {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border text-xs font-bold uppercase tracking-widest mb-5"
             style={{ color: AC, borderColor: `${AC}40`, background: `${AC}10` }}>
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: AC }} />
-            Now Serving {cities.length}+ Cities in {stateData.stateAbbr}
+            {isUK
+              ? `Now Serving ${cities.length}+ Areas in ${stateData.stateAbbr}`
+              : `Now Serving ${cities.length}+ Cities in ${stateData.stateAbbr}`}
           </div>
 
           {/* H1 — keyword-first to match title tag: "Service in State | Rankston" */}
@@ -129,7 +133,9 @@ export default function StateHubPage({ svc, stateData, content }) {
           <div className="flex flex-wrap gap-4 justify-center mb-14">
             <a href="#contact" className="inline-flex items-center gap-2 px-8 py-4 text-white font-bold rounded-xl text-sm hover:opacity-90 transition-opacity"
               style={{ background: `linear-gradient(135deg, ${AC}, #3B82F6)`, boxShadow: `0 8px 32px ${AC}35` }}>
-              Get Free {stateData.stateAbbr} Strategy Call →
+              {isUK
+                ? `Get Free UK Strategy Call →`
+                : `Get Free ${stateData.stateAbbr} Strategy Call →`}
             </a>
             <a href="#process" className="inline-flex items-center gap-2 px-8 py-4 border border-white/15 text-gray-300 hover:text-white hover:border-white/30 rounded-xl text-sm transition-all">
               See How It Works ↓
@@ -488,9 +494,13 @@ export default function StateHubPage({ svc, stateData, content }) {
               <span className="w-4 h-px" style={{ background: AC }} /> Coverage
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-poppins text-white">
-              {cities.length} Cities Across {stateData.state} — We Serve Them All
+              {isUK
+                ? `${cities.length} Areas Across ${stateData.state} — We Serve Them All`
+                : `${cities.length} Cities Across ${stateData.state} — We Serve Them All`}
             </h2>
-            <p className="text-gray-500 mt-2">Click your city for a dedicated local strategy page.</p>
+            <p className="text-gray-500 mt-2">
+              {isUK ? 'Click your area for a dedicated local strategy page.' : 'Click your city for a dedicated local strategy page.'}
+            </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {cities.map((c) => (
@@ -500,7 +510,10 @@ export default function StateHubPage({ svc, stateData, content }) {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm font-bold text-white group-hover:text-white/90">{svc.title} in {c.city}</p>
-                    <p className="text-xs text-gray-600 mt-0.5">{c.zipcodes.slice(0, 3).join(' · ')}{c.zipcodes.length > 3 ? ' …' : ''}</p>
+                    <p className="text-xs text-gray-600 mt-0.5">
+                      {(c.postcodes || c.zipcodes || []).slice(0, 3).join(' · ')}
+                      {((c.postcodes || c.zipcodes || []).length > 3) ? ' …' : ''}
+                    </p>
                   </div>
                   <span className="text-gray-600 group-hover:text-gray-300 transition-colors text-lg">→</span>
                 </div>
@@ -568,7 +581,7 @@ export default function StateHubPage({ svc, stateData, content }) {
             <p className="text-gray-500 text-sm mb-6 relative">{content.finalCtaLine}</p>
             <a href="#contact" className="inline-flex items-center gap-2 px-8 py-4 text-white font-bold rounded-xl text-sm hover:opacity-90 transition-opacity relative"
               style={{ background: `linear-gradient(135deg, ${AC}, #3B82F6)` }}>
-              Book My Free {stateData.stateAbbr} Strategy Call →
+              {isUK ? `Book My Free UK Strategy Call →` : `Book My Free ${stateData.stateAbbr} Strategy Call →`}
             </a>
             <p className="text-xs text-gray-700 mt-3 relative">No obligation. No credit card. Just honest advice.</p>
           </div>
@@ -602,20 +615,32 @@ export default function StateHubPage({ svc, stateData, content }) {
       <section className="py-8 pb-14">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <h2 className="text-lg font-extrabold font-poppins text-white mb-4">
-            {svc.title} in Nearby States
+            {isUK ? `${svc.title} in Other UK Regions` : `${svc.title} in Nearby States`}
           </h2>
           <div className="flex flex-wrap gap-2">
-            {locations
-              .filter((s) => s.stateSlug !== stateData.stateSlug)
-              .slice(0, 12)
-              .map((s) => (
-                <Link key={s.stateSlug}
-                  href={`/${svc.slug}/${s.stateSlug}`}
-                  className="px-4 py-2 text-xs font-medium rounded-full border border-white/8 text-gray-400 hover:text-white hover:border-white/20 transition-all"
-                  style={{ background: 'rgba(17,24,39,0.85)' }}>
-                  {s.state} →
-                </Link>
-              ))}
+            {isUK
+              ? ukLocations
+                  .filter((r) => r.stateSlug !== stateData.stateSlug)
+                  .slice(0, 12)
+                  .map((r) => (
+                    <Link key={r.stateSlug}
+                      href={`/${svc.slug}/${r.stateSlug}`}
+                      className="px-4 py-2 text-xs font-medium rounded-full border border-white/8 text-gray-400 hover:text-white hover:border-white/20 transition-all"
+                      style={{ background: 'rgba(17,24,39,0.85)' }}>
+                      {r.state} →
+                    </Link>
+                  ))
+              : locations
+                  .filter((s) => s.stateSlug !== stateData.stateSlug)
+                  .slice(0, 12)
+                  .map((s) => (
+                    <Link key={s.stateSlug}
+                      href={`/${svc.slug}/${s.stateSlug}`}
+                      className="px-4 py-2 text-xs font-medium rounded-full border border-white/8 text-gray-400 hover:text-white hover:border-white/20 transition-all"
+                      style={{ background: 'rgba(17,24,39,0.85)' }}>
+                      {s.state} →
+                    </Link>
+                  ))}
           </div>
         </div>
       </section>

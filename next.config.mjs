@@ -62,6 +62,48 @@ const nextConfig = {
     ];
   },
 
+  // ── 301 Redirects — fixes Search Console 404 errors ─
+  async redirects() {
+    return [
+      // /ppc-advertising/google-ads → service main page
+      {
+        source: '/ppc-advertising/google-ads',
+        destination: '/ppc-advertising',
+        permanent: true,
+      },
+      // /web-development/shopify → service main page
+      {
+        source: '/web-development/shopify',
+        destination: '/web-development',
+        permanent: true,
+      },
+      // /web-development/industry/pet-care → closest valid industry
+      {
+        source: '/web-development/industry/pet-care',
+        destination: '/web-development/industry/ecommerce',
+        permanent: true,
+      },
+      // /ar (Arabic locale) → home
+      {
+        source: '/ar',
+        destination: '/',
+        permanent: true,
+      },
+      // /de (German locale) → home
+      {
+        source: '/de',
+        destination: '/',
+        permanent: true,
+      },
+      // Catch-all for any other locale codes that may appear
+      {
+        source: '/:locale(ar|de|fr|es|zh|ja|ko|pt|it|nl|ru|tr|pl|sv|da|fi|no)',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
+
   // ── Experimental ─────────────────────────────────────
   experimental: {
     optimizePackageImports: [

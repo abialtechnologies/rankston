@@ -1,0 +1,248 @@
+[
+  {
+    "state": "United Kingdom",
+    "stateSlug": "united-kingdom",
+    "stateAbbr": "UK",
+    "country": "uk",
+    "cities": [
+      { "city": "London", "citySlug": "london", "zipcodes": ["EC1A 1BB", "W1A 1AA", "SW1A 2AA"] },
+      { "city": "Manchester", "citySlug": "manchester", "zipcodes": ["M1 1AE", "M2 3GQ", "M60 2LA"] },
+      { "city": "Birmingham", "citySlug": "birmingham", "zipcodes": ["B1 1BB", "B2 4QA", "B3 2HH"] },
+      { "city": "Leeds", "citySlug": "leeds", "zipcodes": ["LS1 1BA", "LS2 7HY", "LS3 1AB"] },
+      { "city": "Liverpool", "citySlug": "liverpool", "zipcodes": ["L1 1JH", "L2 0QD", "L3 9PG"] },
+      { "city": "Bristol", "citySlug": "bristol", "zipcodes": ["BS1 1AA", "BS2 0AJ", "BS3 1AB"] },
+      { "city": "Sheffield", "citySlug": "sheffield", "zipcodes": ["S1 1AB", "S2 4SU", "S3 7AB"] },
+      { "city": "Edinburgh", "citySlug": "edinburgh", "zipcodes": ["EH1 1AA", "EH2 2AB", "EH3 6AT"] },
+      { "city": "Glasgow", "citySlug": "glasgow", "zipcodes": ["G1 1AA", "G2 1AB", "G3 6UQ"] },
+      { "city": "Cardiff", "citySlug": "cardiff", "zipcodes": ["CF10 1AA", "CF24 0AB", "CF5 2YQ"] },
+      { "city": "Nottingham", "citySlug": "nottingham", "zipcodes": ["NG1 1AA", "NG2 1AB", "NG7 2RD"] },
+      { "city": "Leicester", "citySlug": "leicester", "zipcodes": ["LE1 1AB", "LE2 7AB", "LE3 5AF"] }
+    ]
+  },
+  {
+    "state": "London",
+    "stateSlug": "london",
+    "stateAbbr": "LON",
+    "country": "uk",
+    "cities": [
+      { "city": "Central London", "citySlug": "central-london", "zipcodes": ["WC1A 1AB", "WC2N 5DU", "EC1A 1BB"] },
+      { "city": "East London", "citySlug": "east-london", "zipcodes": ["E1 6RF", "E2 0AB", "E14 5HP"] },
+      { "city": "West London", "citySlug": "west-london", "zipcodes": ["W1A 1AA", "W2 1LQ", "W6 9AB"] },
+      { "city": "North London", "citySlug": "north-london", "zipcodes": ["N1 1AB", "N4 2AB", "N8 0AB"] },
+      { "city": "South London", "citySlug": "south-london", "zipcodes": ["SE1 1AB", "SE5 8AB", "SW2 1AB"] },
+      { "city": "Canary Wharf", "citySlug": "canary-wharf", "zipcodes": ["E14 5AB", "E14 9AB"] },
+      { "city": "Shoreditch", "citySlug": "shoreditch", "zipcodes": ["EC2A 4AB", "E1 6RF"] },
+      { "city": "Croydon", "citySlug": "croydon", "zipcodes": ["CR0 1AA", "CR0 6AB"] },
+      { "city": "Hackney", "citySlug": "hackney", "zipcodes": ["E8 1AB", "E9 5AB"] },
+      { "city": "Islington", "citySlug": "islington", "zipcodes": ["N1 1AB", "N7 8AB"] }
+    ]
+  },
+  {
+    "state": "Manchester",
+    "stateSlug": "manchester",
+    "stateAbbr": "MCR",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-manchester", "zipcodes": ["M1 1AE", "M2 3GQ"] },
+      { "city": "Salford", "citySlug": "salford", "zipcodes": ["M5 4AB", "M6 7AB"] },
+      { "city": "Trafford", "citySlug": "trafford", "zipcodes": ["M16 0AB", "M41 7AB"] },
+      { "city": "Stockport", "citySlug": "stockport", "zipcodes": ["SK1 1AB", "SK3 8AB"] },
+      { "city": "Bolton", "citySlug": "bolton", "zipcodes": ["BL1 1AB", "BL3 5AB"] },
+      { "city": "Oldham", "citySlug": "oldham", "zipcodes": ["OL1 1AB", "OL2 5AB"] },
+      { "city": "Rochdale", "citySlug": "rochdale", "zipcodes": ["OL11 1AB", "OL16 5AB"] },
+      { "city": "Wigan", "citySlug": "wigan", "zipcodes": ["WN1 1AB", "WN3 4AB"] }
+    ]
+  },
+  {
+    "state": "Birmingham",
+    "stateSlug": "birmingham",
+    "stateAbbr": "BHM",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-birmingham", "zipcodes": ["B1 1AB", "B2 4QA"] },
+      { "city": "Solihull", "citySlug": "solihull", "zipcodes": ["B91 1AB", "B92 7AB"] },
+      { "city": "Wolverhampton", "citySlug": "wolverhampton", "zipcodes": ["WV1 1AB", "WV3 9AB"] },
+      { "city": "Coventry", "citySlug": "coventry", "zipcodes": ["CV1 1AB", "CV5 6AB"] },
+      { "city": "Walsall", "citySlug": "walsall", "zipcodes": ["WS1 1AB", "WS3 4AB"] },
+      { "city": "Dudley", "citySlug": "dudley", "zipcodes": ["DY1 1AB", "DY2 8AB"] },
+      { "city": "West Bromwich", "citySlug": "west-bromwich", "zipcodes": ["B70 6AB", "B71 3AB"] },
+      { "city": "Sutton Coldfield", "citySlug": "sutton-coldfield", "zipcodes": ["B72 1AB", "B73 5AB"] }
+    ]
+  },
+  {
+    "state": "Leeds",
+    "stateSlug": "leeds",
+    "stateAbbr": "LDS",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-leeds", "zipcodes": ["LS1 1BA", "LS2 7HY"] },
+      { "city": "Bradford", "citySlug": "bradford", "zipcodes": ["BD1 1AB", "BD3 7AB"] },
+      { "city": "Harrogate", "citySlug": "harrogate", "zipcodes": ["HG1 1AB", "HG2 8AB"] },
+      { "city": "York", "citySlug": "york", "zipcodes": ["YO1 1AB", "YO10 4AB"] },
+      { "city": "Wakefield", "citySlug": "wakefield", "zipcodes": ["WF1 1AB", "WF2 7AB"] },
+      { "city": "Huddersfield", "citySlug": "huddersfield", "zipcodes": ["HD1 1AB", "HD3 3AB"] },
+      { "city": "Shipley", "citySlug": "shipley", "zipcodes": ["BD17 7AB", "BD18 3AB"] },
+      { "city": "Morley", "citySlug": "morley", "zipcodes": ["LS27 8AB", "LS27 9AB"] }
+    ]
+  },
+  {
+    "state": "Liverpool",
+    "stateSlug": "liverpool",
+    "stateAbbr": "LIV",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-liverpool", "zipcodes": ["L1 1JH", "L2 0QD"] },
+      { "city": "Birkenhead", "citySlug": "birkenhead", "zipcodes": ["CH41 1AB", "CH42 4AB"] },
+      { "city": "Southport", "citySlug": "southport", "zipcodes": ["PR8 1AB", "PR9 0AB"] },
+      { "city": "St Helens", "citySlug": "st-helens", "zipcodes": ["WA10 1AB", "WA11 0AB"] },
+      { "city": "Warrington", "citySlug": "warrington", "zipcodes": ["WA1 1AB", "WA2 7AB"] },
+      { "city": "Widnes", "citySlug": "widnes", "zipcodes": ["WA8 1AB", "WA8 6AB"] },
+      { "city": "Runcorn", "citySlug": "runcorn", "zipcodes": ["WA7 1AB", "WA7 4AB"] },
+      { "city": "Bootle", "citySlug": "bootle", "zipcodes": ["L20 1AB", "L20 3AB"] }
+    ]
+  },
+  {
+    "state": "Bristol",
+    "stateSlug": "bristol",
+    "stateAbbr": "BST",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-bristol", "zipcodes": ["BS1 1AA", "BS2 0AJ"] },
+      { "city": "Bath", "citySlug": "bath", "zipcodes": ["BA1 1AB", "BA2 6AB"] },
+      { "city": "Swindon", "citySlug": "swindon", "zipcodes": ["SN1 1AB", "SN3 4AB"] },
+      { "city": "Cheltenham", "citySlug": "cheltenham", "zipcodes": ["GL50 1AB", "GL51 8AB"] },
+      { "city": "Gloucester", "citySlug": "gloucester", "zipcodes": ["GL1 1AB", "GL2 0AB"] },
+      { "city": "Weston-super-Mare", "citySlug": "weston-super-mare", "zipcodes": ["BS22 1AB", "BS23 0AB"] },
+      { "city": "Clifton", "citySlug": "clifton-bristol", "zipcodes": ["BS8 1AB", "BS8 4AB"] },
+      { "city": "Southmead", "citySlug": "southmead", "zipcodes": ["BS10 5AB", "BS34 7AB"] }
+    ]
+  },
+  {
+    "state": "Sheffield",
+    "stateSlug": "sheffield",
+    "stateAbbr": "SHF",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-sheffield", "zipcodes": ["S1 1AB", "S2 4SU"] },
+      { "city": "Rotherham", "citySlug": "rotherham", "zipcodes": ["S60 1AB", "S65 1AB"] },
+      { "city": "Doncaster", "citySlug": "doncaster", "zipcodes": ["DN1 1AB", "DN4 5AB"] },
+      { "city": "Barnsley", "citySlug": "barnsley", "zipcodes": ["S70 1AB", "S75 2AB"] },
+      { "city": "Chesterfield", "citySlug": "chesterfield", "zipcodes": ["S40 1AB", "S41 0AB"] },
+      { "city": "Hillsborough", "citySlug": "hillsborough-sheffield", "zipcodes": ["S6 1AB", "S6 4AB"] },
+      { "city": "Meadowhall", "citySlug": "meadowhall", "zipcodes": ["S9 1AB", "S9 2AB"] },
+      { "city": "Mosborough", "citySlug": "mosborough", "zipcodes": ["S20 5AB", "S20 6AB"] }
+    ]
+  },
+  {
+    "state": "Edinburgh",
+    "stateSlug": "edinburgh",
+    "stateAbbr": "EDI",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-edinburgh", "zipcodes": ["EH1 1AA", "EH2 2AB"] },
+      { "city": "Leith", "citySlug": "leith", "zipcodes": ["EH6 6AB", "EH6 8AB"] },
+      { "city": "Morningside", "citySlug": "morningside-edinburgh", "zipcodes": ["EH10 4AB", "EH10 5AB"] },
+      { "city": "Portobello", "citySlug": "portobello-edinburgh", "zipcodes": ["EH15 1AB", "EH15 2AB"] },
+      { "city": "Musselburgh", "citySlug": "musselburgh", "zipcodes": ["EH21 6AB", "EH21 7AB"] },
+      { "city": "Dalkeith", "citySlug": "dalkeith", "zipcodes": ["EH22 1AB", "EH22 3AB"] },
+      { "city": "Livingston", "citySlug": "livingston", "zipcodes": ["EH54 5AB", "EH54 6AB"] },
+      { "city": "Dunfermline", "citySlug": "dunfermline", "zipcodes": ["KY11 4AB", "KY12 0AB"] }
+    ]
+  },
+  {
+    "state": "Glasgow",
+    "stateSlug": "glasgow",
+    "stateAbbr": "GLA",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-glasgow", "zipcodes": ["G1 1AA", "G2 1AB"] },
+      { "city": "West End Glasgow", "citySlug": "west-end-glasgow", "zipcodes": ["G12 8AB", "G11 5AB"] },
+      { "city": "East Kilbride", "citySlug": "east-kilbride", "zipcodes": ["G74 1AB", "G75 0AB"] },
+      { "city": "Paisley", "citySlug": "paisley", "zipcodes": ["PA1 1AB", "PA2 6AB"] },
+      { "city": "Clydebank", "citySlug": "clydebank", "zipcodes": ["G81 1AB", "G81 5AB"] },
+      { "city": "Hamilton", "citySlug": "hamilton-scotland", "zipcodes": ["ML3 0AB", "ML3 6AB"] },
+      { "city": "Motherwell", "citySlug": "motherwell", "zipcodes": ["ML1 1AB", "ML1 4AB"] },
+      { "city": "Dumbarton", "citySlug": "dumbarton", "zipcodes": ["G82 1AB", "G82 3AB"] }
+    ]
+  },
+  {
+    "state": "Cardiff",
+    "stateSlug": "cardiff",
+    "stateAbbr": "CDF",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-cardiff", "zipcodes": ["CF10 1AA", "CF10 3AB"] },
+      { "city": "Newport", "citySlug": "newport-wales", "zipcodes": ["NP20 1AB", "NP19 4AB"] },
+      { "city": "Swansea", "citySlug": "swansea", "zipcodes": ["SA1 1AB", "SA2 0AB"] },
+      { "city": "Penarth", "citySlug": "penarth", "zipcodes": ["CF64 1AB", "CF64 3AB"] },
+      { "city": "Barry", "citySlug": "barry-wales", "zipcodes": ["CF62 7AB", "CF63 1AB"] },
+      { "city": "Pontypridd", "citySlug": "pontypridd", "zipcodes": ["CF37 1AB", "CF38 2AB"] },
+      { "city": "Bridgend", "citySlug": "bridgend", "zipcodes": ["CF31 1AB", "CF31 4AB"] },
+      { "city": "Caerphilly", "citySlug": "caerphilly", "zipcodes": ["CF83 1AB", "CF83 3AB"] }
+    ]
+  },
+  {
+    "state": "Nottingham",
+    "stateSlug": "nottingham",
+    "stateAbbr": "NGM",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-nottingham", "zipcodes": ["NG1 1AA", "NG2 1AB"] },
+      { "city": "Derby", "citySlug": "derby", "zipcodes": ["DE1 1AB", "DE22 3AB"] },
+      { "city": "Mansfield", "citySlug": "mansfield", "zipcodes": ["NG18 1AB", "NG19 6AB"] },
+      { "city": "Newark", "citySlug": "newark-on-trent", "zipcodes": ["NG24 1AB", "NG24 2AB"] },
+      { "city": "Hucknall", "citySlug": "hucknall", "zipcodes": ["NG15 6AB", "NG15 7AB"] },
+      { "city": "Beeston", "citySlug": "beeston", "zipcodes": ["NG9 1AB", "NG9 2AB"] },
+      { "city": "Arnold", "citySlug": "arnold-nottingham", "zipcodes": ["NG5 6AB", "NG5 8AB"] },
+      { "city": "Long Eaton", "citySlug": "long-eaton", "zipcodes": ["NG10 1AB", "NG10 4AB"] }
+    ]
+  },
+  {
+    "state": "Leicester",
+    "stateSlug": "leicester",
+    "stateAbbr": "LCE",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-leicester", "zipcodes": ["LE1 1AB", "LE1 6AB"] },
+      { "city": "Loughborough", "citySlug": "loughborough", "zipcodes": ["LE11 1AB", "LE12 5AB"] },
+      { "city": "Hinckley", "citySlug": "hinckley", "zipcodes": ["LE10 0AB", "LE10 1AB"] },
+      { "city": "Melton Mowbray", "citySlug": "melton-mowbray", "zipcodes": ["LE13 0AB", "LE13 1AB"] },
+      { "city": "Oadby", "citySlug": "oadby", "zipcodes": ["LE2 4AB", "LE2 5AB"] },
+      { "city": "Wigston", "citySlug": "wigston", "zipcodes": ["LE18 1AB", "LE18 2AB"] },
+      { "city": "Coalville", "citySlug": "coalville", "zipcodes": ["LE67 3AB", "LE67 4AB"] },
+      { "city": "Blaby", "citySlug": "blaby", "zipcodes": ["LE8 4AB", "LE8 5AB"] }
+    ]
+  },
+  {
+    "state": "Newcastle",
+    "stateSlug": "newcastle",
+    "stateAbbr": "NCL",
+    "country": "uk",
+    "cities": [
+      { "city": "City Centre", "citySlug": "city-centre-newcastle", "zipcodes": ["NE1 1AA", "NE2 1AB"] },
+      { "city": "Sunderland", "citySlug": "sunderland", "zipcodes": ["SR1 1AB", "SR2 7AB"] },
+      { "city": "Gateshead", "citySlug": "gateshead", "zipcodes": ["NE8 1AB", "NE10 0AB"] },
+      { "city": "Durham", "citySlug": "durham", "zipcodes": ["DH1 1AB", "DH1 3AB"] },
+      { "city": "Middlesbrough", "citySlug": "middlesbrough", "zipcodes": ["TS1 1AB", "TS3 6AB"] },
+      { "city": "South Shields", "citySlug": "south-shields", "zipcodes": ["NE33 1AB", "NE34 0AB"] },
+      { "city": "Hexham", "citySlug": "hexham", "zipcodes": ["NE46 1AB", "NE46 3AB"] },
+      { "city": "Morpeth", "citySlug": "morpeth", "zipcodes": ["NE61 1AB", "NE61 2AB"] }
+    ]
+  },
+  {
+    "state": "Brighton",
+    "stateSlug": "brighton",
+    "stateAbbr": "BTN",
+    "country": "uk",
+    "cities": [
+      { "city": "Brighton", "citySlug": "brighton-city", "zipcodes": ["BN1 1AB", "BN2 0AB"] },
+      { "city": "Hove", "citySlug": "hove", "zipcodes": ["BN3 1AB", "BN3 4AB"] },
+      { "city": "Worthing", "citySlug": "worthing", "zipcodes": ["BN11 1AB", "BN12 4AB"] },
+      { "city": "Eastbourne", "citySlug": "eastbourne", "zipcodes": ["BN20 7AB", "BN21 1AB"] },
+      { "city": "Crawley", "citySlug": "crawley", "zipcodes": ["RH10 1AB", "RH11 7AB"] },
+      { "city": "Horsham", "citySlug": "horsham", "zipcodes": ["RH12 1AB", "RH13 5AB"] },
+      { "city": "Lewes", "citySlug": "lewes", "zipcodes": ["BN7 1AB", "BN7 2AB"] },
+      { "city": "Shoreham-by-Sea", "citySlug": "shoreham-by-sea", "zipcodes": ["BN43 5AB", "BN43 6AB"] }
+    ]
+  }
+]

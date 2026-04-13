@@ -4,12 +4,14 @@ import fs from 'fs';
 import path from 'path';
 import services from '../../../data/services.json';
 import locations from '../../../data/locations.json';
+import ukLocations from '../../../data/uk-locations.json';
 import subServices from '../../../data/sub-services.js';
 import SubServicePage from '../../../components/SubServicePage';
 import StateHubPage from '../../../components/state-pages/StateHubPage';
 import SEOLocationPage from '../../../components/seo/SEOLocationPage';
 import LeadForm from '../../../components/LeadForm';
 import { buildStateContent } from '../../../data/state-content-generator.js';
+import { buildUKContent } from '../../../data/uk-content-generator.js';
 
 const SEO_PAGES_DIR = path.join(process.cwd(), 'data', 'seo-automation', 'pages');
 
@@ -46,10 +48,17 @@ function getAllSeoPages() {
 export async function generateStaticParams() {
   const params = [];
 
-  // State pages: /[service]/[stateSlug]
+  // USA State pages: /[service]/[stateSlug]
   services.forEach((svc) => {
     locations.forEach((stateData) => {
       params.push({ service: svc.slug, slug: stateData.stateSlug });
+    });
+  });
+
+  // UK Region pages: /[service]/[ukRegionSlug]
+  services.forEach((svc) => {
+    ukLocations.forEach((regionData) => {
+      params.push({ service: svc.slug, slug: regionData.stateSlug });
     });
   });
 
@@ -76,6 +85,11 @@ function findState(slug) {
   return locations.find((s) => s.stateSlug === slug);
 }
 
+// ── UK region lookup ───────────────────────────────────────────────
+function findUKRegion(slug) {
+  return ukLocations.find((r) => r.stateSlug === slug) || null;
+}
+
 function findSubService(serviceSlug, slug) {
   const subs = subServices[serviceSlug];
   if (!subs) return null;
@@ -90,7 +104,7 @@ export async function generateMetadata({ params }) {
   const svc = services.find((s) => s.slug === service);
   if (!svc) return { title: 'Not Found' };
 
-  // Try state page first
+  // Try USA state page first
   const stateData = findState(slug);
   if (stateData) {
     const title = `${svc.title} in ${stateData.state} | Rankston`;
@@ -116,6 +130,31 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  // Try UK region page
+  const ukRegion = findUKRegion(slug);
+  if (ukRegion) {
+    const title = `${svc.title} in ${ukRegion.state} | Rankston UK`;
+    const desc  = `Looking for ${svc.title.toLowerCase()} in ${ukRegion.state}? Rankston helps businesses across ${ukRegion.state} — from ${ukRegion.cities[0]?.city || 'major cities'} to smaller markets — grow with proven UK digital marketing strategies. Get a free audit today.`;
+    const url   = `https://rankston.com/${svc.slug}/${ukRegion.stateSlug}`;
+    return {
+      title,
+      description: desc,
+      alternates: { canonical: url },
+      openGraph: {
+        title,
+        description: desc,
+        url,
+        siteName: 'Rankston',
+        type: 'website',
+        images: [{ url: `https://rankston.com/og/${svc.slug}-${ukRegion.stateSlug}.jpg`, width: 1200, height: 630, alt: title }],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description: desc,
+      },
+    };
+  }
 
   // Try sub-service page
   const sub = findSubService(service, slug);
@@ -160,7 +199,7 @@ export default async function ServiceSlugPage({ params }) {
 
   const AC = svc.accentColor || '#10B981';
 
-  // ── State page ────────────────────────────────────────────────────
+  // ── USA State page ─────────────────────────────────────────────────
   const stateData = findState(slug);
   if (stateData) {
     const content = buildStateContent(service, stateData);
@@ -225,6 +264,75 @@ export default async function ServiceSlugPage({ params }) {
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         )}
         <StateHubPage svc={svc} stateData={stateData} content={content} />
+      </>
+    );
+  }
+
+  // ── UK Region page ─────────────────────────────────────────────────
+  const ukRegion = findUKRegion(slug);
+  if (ukRegion) {
+    const content = buildUKContent(service, ukRegion);
+
+    /* ── Breadcrumb schema ── */
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home',        item: 'https://rankston.com' },
+        { '@type': 'ListItem', position: 2, name: svc.title,     item: `https://rankston.com/${svc.slug}` },
+        { '@type': 'ListItem', position: 3, name: ukRegion.state, item: `https://rankston.com/${svc.slug}/${ukRegion.stateSlug}` },
+      ],
+    };
+
+    /* ── Service schema ── */
+    const serviceSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: `${svc.title} in ${ukRegion.state}`,
+      description: content?.heroSub || `Professional ${svc.title.toLowerCase()} services for businesses across ${ukRegion.state}.`,
+      provider: {
+        '@type': 'Organization',
+        name: 'Rankston',
+        url: 'https://rankston.com',
+        logo: 'https://rankston.com/logo.png',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'sales',
+          availableLanguage: 'en-GB',
+        },
+      },
+      areaServed: {
+        '@type': 'Country',
+        name: ukRegion.country === 'uk' ? 'United Kingdom' : ukRegion.state,
+        containsPlace: (ukRegion.cities || []).slice(0, 5).map(c => ({
+          '@type': 'City',
+          name: c.city,
+        })),
+      },
+      serviceType: svc.title,
+      url: `https://rankston.com/${svc.slug}/${ukRegion.stateSlug}`,
+    };
+
+    /* ── FAQ schema ── */
+    const faqItems = (content?.faqs || []).map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    }));
+    const faqSchema = faqItems.length > 0 ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems,
+    } : null;
+
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+        {faqSchema && (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        )}
+        <StateHubPage svc={svc} stateData={ukRegion} content={content} />
       </>
     );
   }

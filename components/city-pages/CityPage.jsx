@@ -47,11 +47,17 @@ const WHY_US = [
   { icon: '🔒', title: 'No Long-Term Contracts', desc: 'We earn your business every month. If results aren\'t there, you can pause or cancel without penalty. We stay on retainer because we perform.' },
 ];
 
-const STATS = [
+const STATS_USA = [
   { val: '4.9★', label: 'Average client rating across 200+ businesses' },
   { val: '340%', label: 'Average increase in qualified leads after 6 months' },
   { val: '94%',  label: 'Client retention rate after the first year' },
   { val: '6yr',  label: 'Years helping US businesses grow online' },
+];
+const STATS_UK = [
+  { val: '4.9★', label: 'Average client rating across 200+ businesses' },
+  { val: '340%', label: 'Average increase in qualified leads after 6 months' },
+  { val: '94%',  label: 'Client retention rate after the first year' },
+  { val: '6yr',  label: 'Years helping UK businesses grow online' },
 ];
 
 const MISTAKES = [
@@ -67,6 +73,8 @@ export default function CityPage({ svc, stateData, cityData, content, stateConte
   const state    = stateData.state;
   const abbr     = stateData.stateAbbr;
   const { vars, meta } = content;
+  const isUK     = content.isUK === true || stateData.country === 'uk';
+  const STATS     = isUK ? STATS_UK : STATS_USA;
 
   const industries = meta.industries || ['Healthcare', 'Real Estate', 'Professional Services', 'Retail', 'Construction', 'Technology'];
   const IND_ICONS  = { Healthcare: '🏥', 'Real Estate': '🏠', Technology: '💻', 'Technology & SaaS': '💻', 'Financial Services': '🏦', Manufacturing: '🏭', 'Oil & Energy': '⛽', 'Restaurants': '🍕', 'Education': '📚', 'Construction': '🏗️', 'Retail': '🛍️', 'Law Firms': '⚖️', default: '🏢' };
@@ -459,11 +467,19 @@ export default function CityPage({ svc, stateData, cityData, content, stateConte
                 Budget-friendly {svc.title.toLowerCase()} doesn't mean cheap — it means transparent pricing, clear deliverables, and ROI you can measure. Many {city} businesses overpay for agencies that report on impressions and rankings but can't connect their work to actual leads. We price fairly for work that performs.
               </p>
               <div className="space-y-3">
-                {[
-                  { label: 'Starter — Local Focus', price: 'From $499/mo', desc: 'Essential work, measurable results' },
-                  { label: 'Growth — Compete & Win', price: 'From $999/mo', desc: 'Full execution for competitive markets' },
-                  { label: 'Authority — Market Leader', price: 'From $1,999/mo', desc: 'Scale dominance across all channels' },
-                ].map((tier, i) => (
+                {(
+                  content.pricingTiers || (
+                    isUK ? [
+                      { label: 'Starter — Local Focus',    price: 'From £399/mo', desc: 'Essential work, measurable results' },
+                      { label: 'Growth — Compete & Win',  price: 'From £799/mo', desc: 'Full execution for competitive markets' },
+                      { label: 'Authority — Market Leader', price: 'From £1,499/mo', desc: 'Scale dominance across all channels' },
+                    ] : [
+                      { label: 'Starter — Local Focus',    price: 'From $499/mo',   desc: 'Essential work, measurable results' },
+                      { label: 'Growth — Compete & Win',  price: 'From $999/mo',   desc: 'Full execution for competitive markets' },
+                      { label: 'Authority — Market Leader', price: 'From $1,999/mo', desc: 'Scale dominance across all channels' },
+                    ]
+                  )
+                ).map((tier, i) => (
                   <div key={i} className="flex items-center justify-between rounded-xl px-4 py-3 border border-white/6" style={{ background: 'rgba(3,7,18,0.5)' }}>
                     <div>
                       <p className="text-xs font-bold text-gray-200">{tier.label}</p>
